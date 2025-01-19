@@ -5,8 +5,9 @@ Currently in development.
 
 **Datapack version:** 0.0.1a
 
-## Setup
+<img src="/src/thumbnail.png" alt="Image"/>
 
+## Setup
 <ins>Requires:</ins> **Minecraft 1.21.4**
 > - Locate your .minecraft installation directory
 > - To add the data pack to an existing world : drop the "Magical Addons Data Pack" folder into the “datapacks” directory of your world
