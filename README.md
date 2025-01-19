@@ -23,8 +23,8 @@ Currently in development.
 > - Custom effect tabs do not appear in inventory
 > -- Item models do not support language-based conditions
 > - Certain blockstates set with commands show custom block textures and remain silent until the next chunk update or block placement : **Chiseled Bookshelf, **Potted Fern** (use the command below to remove a specific chunk):
- ```bash
-/data remove storage maddons.dimension:() data.chunks[{x:*,y:*,z:*}]
+ ```mcfunction
+data remove storage maddons.dimension:() data.chunks[{x:*,y:*,z:*}]
 ```
 > - Looking just above an area of custom blocks with a high **minecraft:block_interaction** attribute will cause
 TPS to rise
