@@ -1,0 +1,6 @@
+{
+  "parent": "magical_addons:block/cube_all",
+  "textures": {
+    "all": "magical_addons:block/quartz_ore"
+  }
+}

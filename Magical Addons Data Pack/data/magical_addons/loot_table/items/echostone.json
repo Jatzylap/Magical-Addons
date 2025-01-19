@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:echostone",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.echostone\"}",
+                "minecraft:custom_data": "{\"magical_addons\":{\"generated\":0b,\"id\":\"echostone\",\"sound_id\":\"block.amethyst.step\",\"sound_pitch\":0.6}}",
+                "minecraft:block_state": {"facing":"north","slot_0_occupied":"false","slot_1_occupied":"false","slot_2_occupied":"false","slot_3_occupied":"true","slot_4_occupied":"true","slot_5_occupied":"true"},
+                "minecraft:block_entity_data": "{\"last_interacted_slot\":-1, \"id\": \"minecraft:chiseled_bookshelf\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

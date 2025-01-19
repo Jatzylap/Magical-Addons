@@ -1,0 +1,14 @@
+{
+	"values":[
+		"#magical_addons:air_like",
+		"#minecraft:fire",
+		"minecraft:water",
+		"minecraft:lava",
+		"minecraft:command_block",
+		"minecraft:repeating_command_block",
+		"minecraft:chain_command_block",
+		"minecraft:structure_void",
+		"minecraft:barrier",
+		"minecraft:bedrock"
+	]
+}

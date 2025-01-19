@@ -1,0 +1,551 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+
+
+
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[off]}",
+        "location": {
+          "block": {
+            "nbt": "{Items:[{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_orb\"}}}}]}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[on]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:0b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:1b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:5b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:6b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:7b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:8b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:9b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:10b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:14b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:15b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:16b,components:{\"minecraft:custom_data\":{magical_addons:{result:1}}}},{Slot:17b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:18b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:19b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:23b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:24b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:25b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:26b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_rb]}"
+            }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:3b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:4b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:11b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:12b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:13b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:20b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:21b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}},{Slot:22b,components:{\"minecraft:custom_data\":{magical_addons:{gui:1}}}}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+
+
+
+
+
+
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot2]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:2b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot3]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot4]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:4b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot11]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot12]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:12b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot13]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:13b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot20]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:20b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot21]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:21b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{Tags:[maddons.wt_slot22]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "block": {
+                "nbt": "{Items:[{Slot:22b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+
+
+
+
+
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot2]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:2b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot3]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:3b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot4]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:4b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot11]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:11b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot12]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:12b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot13]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:13b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot20]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:20b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot21]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:21b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{Tags:[maddons.wt_slot22]}"
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b}]}"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

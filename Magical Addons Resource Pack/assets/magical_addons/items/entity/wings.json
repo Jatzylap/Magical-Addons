@@ -1,0 +1,155 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "extend_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/extend",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "extend_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/hurt/extend",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "extend_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/death/extend",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "extended_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/extended",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "extended_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/hurt/extended",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "extended_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/death/extended",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retract_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/retract",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retract_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/hurt/retract",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retract_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/death/retract",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retracted_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/retracted",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retracted_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/hurt/retracted",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "retracted_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/wings/death/retracted",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

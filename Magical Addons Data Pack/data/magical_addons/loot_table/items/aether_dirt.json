@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chiseled_bookshelf",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:aether_dirt",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.aether_dirt\"}",
+                "minecraft:custom_data": "{magical_addons:{generated:0b,id:aether_dirt,sound_id:block.dirt.step}}",
+                "minecraft:block_state": {"facing":"north","slot_0_occupied":"false","slot_1_occupied":"false","slot_2_occupied":"false","slot_3_occupied":"false","slot_4_occupied":"false","slot_5_occupied":"true"},
+                "minecraft:block_entity_data": "{\"last_interacted_slot\":-1, \"id\": \"minecraft:chiseled_bookshelf\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

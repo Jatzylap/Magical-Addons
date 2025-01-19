@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:written_book_content": {
+                  "title": {
+                    "raw": ""
+                  },
+                  "author": "Unknown"
+                },
+                "minecraft:item_model": "magical_addons:grimoire",
+                "minecraft:custom_data": "{magical_addons:{id:\"grimoire\"}}",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.grimoire\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

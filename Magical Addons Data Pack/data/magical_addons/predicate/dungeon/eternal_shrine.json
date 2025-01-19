@@ -1,0 +1,102 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:player_head"
+          ],
+          "nbt": "{SkullOwner:{}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:iron_block"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:netherrack"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -3,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:soul_sand",
+            "minecraft:soul_soil"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:soul_fire"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -2,
+      "offsetY": -2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:soul_fire"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -2,
+      "offsetZ": -2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:soul_fire"
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 2,
+      "offsetY": -2,
+      "offsetZ": 2,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:soul_fire"
+          ]
+        }
+      }
+    }
+  ]
+}

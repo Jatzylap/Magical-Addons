@@ -1,0 +1,291 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 10,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": 10,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": 10,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 9,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 9,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 8,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 8,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 7,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 7,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 6,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 6,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 5,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 5,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 4,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 4,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 3,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 3,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 2,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 2,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": -1,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 3,
+            "offsetY": 0,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 1,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 2,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        }
+    ]
+}

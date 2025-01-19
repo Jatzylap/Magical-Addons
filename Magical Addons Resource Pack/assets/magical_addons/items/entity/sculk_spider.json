@@ -1,0 +1,179 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "head_idle_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/head_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/hurt/head_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_death_ground",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/head_ground",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_death_ceiling",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/head_ceiling",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_death_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/head_side_left",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_death_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/head_side_right",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/body_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/hurt/body_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_death_ground",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/body_ground",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_death_ceiling",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/body_ceiling",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_death_left",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/body_side_left",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_death_right",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/death/body_side_right",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_crawl_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/body_crawl",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_crawl_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/sculk_spider/hurt/body_crawl",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

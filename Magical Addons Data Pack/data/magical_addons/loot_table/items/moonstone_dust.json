@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{magical_addons:{id:\"moonstone_dust\"}}",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.moonstone_dust\"}",
+                "minecraft:item_model": "magical_addons:moonstone_dust"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

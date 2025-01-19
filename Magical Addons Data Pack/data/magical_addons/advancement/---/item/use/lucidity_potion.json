@@ -1,0 +1,20 @@
+{
+  "parent": "magical_addons:---/item/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": {"magical_addons":{"id":"lucidity_potion"}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/lucidity_potion/drink"
+  }
+}

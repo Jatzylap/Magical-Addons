@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dragon_breath",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {"custom_name":"soul_bottle"},
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_model": "magical_addons:soul_bottle",
+                "minecraft:custom_data": "{\"magical_addons\":{\"id\":\"soul_bottle\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

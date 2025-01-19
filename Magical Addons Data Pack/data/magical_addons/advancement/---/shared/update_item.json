@@ -1,0 +1,20 @@
+{
+  "parent": "magical_addons:---/shared/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:custom_data": { "maddons.item_update": "1" }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:shared/update_item"
+  }
+}

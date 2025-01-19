@@ -1,0 +1,701 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 3,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 4,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 5,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 6,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 8,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 9,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 18,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 18,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 17,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 17,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 16,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 16,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 15,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 15,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 14,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 14,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 13,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 13,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 12,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 12,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 11,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 11,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 10,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 10,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 9,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 9,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 8,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 8,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 7,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 7,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 6,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 6,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 5,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 5,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 4,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 4,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 3,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 3,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 2,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 2,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 10,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 3,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 4,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 5,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 6,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 8,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 9,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:chiseled_bookshelf",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone\"}}}}"
+                }
+            }
+        }
+    ]
+}

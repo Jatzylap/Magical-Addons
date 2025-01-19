@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "default": {
+      "feature": "magical_addons:skyroot",
+      "placement": []
+    },
+    "features": [
+      {
+        "chance": 0.33333334,
+        "feature": {
+          "feature": "magical_addons:fancy_skyroot",
+          "placement": []
+        }
+      }
+    ]
+  }
+}

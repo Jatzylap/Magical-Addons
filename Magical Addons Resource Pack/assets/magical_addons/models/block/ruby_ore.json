@@ -1,0 +1,7 @@
+{
+  "parent": "magical_addons:block/template_ore",
+  "textures": {
+    "base": "magical_addons:block/ruby_ore",
+    "overlay": "magical_addons:block/ruby_ore_overlay"
+  }
+}

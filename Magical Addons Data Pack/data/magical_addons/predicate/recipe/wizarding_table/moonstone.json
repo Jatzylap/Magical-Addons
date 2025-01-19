@@ -1,0 +1,277 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:2b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:3b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:11b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:12b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}}]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:4b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:13b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:20b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:21b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:22b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:3b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:4b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:12b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:13b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}}]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:2b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:20b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:21b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:22b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:11b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:12b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:20b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:21b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}}]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:2b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:4b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:13b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:22b}]}"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "nbt": "{Items:[{Slot:12b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:13b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:21b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}},{Slot:22b,components:{\"minecraft:custom_data\":{maddons.id:\"moonstone_dust\"}}}]}"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:2b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:3b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:4b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:11b}]}"
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{Items:[{Slot:20b}]}"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
