@@ -3,7 +3,7 @@ A Data Pack for Minecraft Java
 
 Currently in development.
 
-**Datapack version:** 0.0.1a
+**Version:** 0.0.1a
 
 <img src="/src/thumbnail.png" alt="Image"/>
 
