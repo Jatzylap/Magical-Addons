@@ -28,4 +28,4 @@ fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:bl
 fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/group/vanilla/diamond_ores/place {id:\"deepslate_diamond_ore\"}"} replace deepslate_diamond_ore
 
 ## Quartz ore
-fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/quartz_ore/place"} replace light[level=0]
+fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/quartz_ore/tick"} replace light[level=0]
