@@ -1,4 +1,4 @@
-<img src="/src/thumbnail.png" alt="Image"/>
+![Banner image](src/thumbnail.png)
 # Magical Addons
 
 A data pack for Minecraft: Java Edition that adds an expansive magic system to the survival experience in the most seamless way possible.
