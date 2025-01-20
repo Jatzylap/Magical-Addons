@@ -1,9 +1,11 @@
 # Magical Addons
+
 A Data Pack for Minecraft Java
 
-Currently in development.
+[![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=pre-release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases/tag/alpha)
+[![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
 
-**Version:** 0.0.1a
+Currently in development.
 
 <img src="/src/thumbnail.png" alt="Image"/>
 
