@@ -1,3 +1,4 @@
+<img src="/src/thumbnail.png" alt="Image"/>
 # Magical Addons
 
 A data pack for Minecraft: Java Edition that adds an expansive magic system to the survival experience in the most seamless way possible.
@@ -6,8 +7,6 @@ A data pack for Minecraft: Java Edition that adds an expansive magic system to t
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
 
 Currently in development.
-
-<img src="/src/thumbnail.png" alt="Image"/>
 
 ## Setup
 > **<ins>Requires:</ins> Minecraft 1.21.4**
