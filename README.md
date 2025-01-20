@@ -1,7 +1,7 @@
 ![Banner image](src/thumbnail.png)
 # Magical Addons
 
-Magical Addons is a data pack for Minecraft: Java Edition that introduces a new magic system in order to enhance its discoverability and accompany progression in the most seamless way possible with regards to the survival experience. 
+Magical Addons is a data pack for Minecraft: Java Edition which introduces a new magic system in order to enhance its discoverability and accompany progression in the most seamless way possible with regards to the survival experience. 
 
 [![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=pre-release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases/tag/alpha)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
