@@ -1,1 +1,0 @@
-playsound ui.advancement.magical_charge master @s ~ ~ ~ 1000000

@@ -1,4 +1,0 @@
-# block:custom/gravitite_ore/tick
-# called by: block:tick
-
-setblock ~ ~ ~ chiseled_bookshelf[facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=false,slot_4_occupied=false,slot_5_occupied=false]{components:{item_name:'{"translate":"item.minecraft.quartz_ore"}',block_state:{"facing":"north","slot_0_occupied":"false","slot_1_occupied":"false","slot_2_occupied":"true","slot_3_occupied":"false","slot_4_occupied":"false","slot_5_occupied":"false"},custom_model_data:85,custom_data:{magical_addons:{generated:1b,sound:1b,sound_id:"block.stone.step",id:"quartz_ore",properties:{"facing":"north","slot_0_occupied":"false","slot_1_occupied":"false","slot_2_occupied":"true","slot_3_occupied":"false","slot_4_occupied":"false","slot_5_occupied":"false"}}}}}

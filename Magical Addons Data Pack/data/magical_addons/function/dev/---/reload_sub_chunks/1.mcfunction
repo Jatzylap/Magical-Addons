@@ -1,1 +1,0 @@
-$execute positioned $(x) $(y) $(z) run function magical_addons:dimension/$(dimension)/worldgen/set_blocks
