@@ -1,6 +1,0 @@
-{
-  "parent": "magical_addons:block/leaves",
-  "textures": {
-    "all": "magical_addons:block/golden_oak_leaves"
-  }
-}
