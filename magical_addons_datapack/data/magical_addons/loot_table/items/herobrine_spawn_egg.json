@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sheep_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:herobrine_spawn_egg",
+                "minecraft:custom_data": "{magical_addons:{id:\"herobrine_spawn_egg\"}}",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.herobrine_spawn_egg\"}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+    "values": [
+        "magical_addons:main/init",
+        "gu:zzz/load",
+        "iris:setup/load"
+    ]
+}

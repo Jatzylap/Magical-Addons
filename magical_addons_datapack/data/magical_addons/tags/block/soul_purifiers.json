@@ -1,0 +1,11 @@
+{
+  "values": [
+	"minecraft:light",
+	"minecraft:nether_portal",
+	"minecraft:campfire",
+	"minecraft:fire",
+	"minecraft:lantern",
+	"minecraft:torch",
+	"minecraft:wall_torch"
+  ]
+}

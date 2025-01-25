@@ -1,0 +1,30 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387313,
+    "separation": 8,
+    "spacing": 34
+  },
+  "structures": [
+    {
+      "structure": "magical_addons:witchdoctor_hut_plains",
+      "weight": 1
+    },
+    {
+      "structure": "magical_addons:witchdoctor_hut_desert",
+      "weight": 1
+    },
+    {
+      "structure": "magical_addons:witchdoctor_hut_savanna",
+      "weight": 1
+    },
+    {
+      "structure": "magical_addons:witchdoctor_hut_snowy",
+      "weight": 1
+    },
+    {
+      "structure": "magical_addons:witchdoctor_hut_taiga",
+      "weight": 1
+    }
+  ]
+}

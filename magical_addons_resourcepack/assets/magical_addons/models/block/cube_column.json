@@ -1,0 +1,12 @@
+{
+    "parent": "magical_addons:block/cube",
+    "textures": {
+        "particle": "#side",
+        "north": "#side",
+        "south": "#side",
+        "west": "#side",
+        "east": "#side",
+        "up": "#end",
+        "down": "#end"
+    }
+}

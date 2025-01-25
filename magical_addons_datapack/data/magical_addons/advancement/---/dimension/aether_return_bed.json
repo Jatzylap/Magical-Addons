@@ -1,0 +1,30 @@
+{
+  "parent": "magical_addons:---/dimension/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "nbt": "{SleepTimer:99s,Tags:[maddons.dreaming]}",
+                  "location": {
+                    "dimension": "minecraft:the_aether"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:dimension/the_aether/return"
+  }
+}

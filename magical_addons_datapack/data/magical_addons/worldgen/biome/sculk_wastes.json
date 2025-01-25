@@ -1,0 +1,117 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 2920025,
+    "fog_color": 2920025,
+    "water_color": 4157295,
+    "water_fog_color": 329011,
+    "grass_color": 23636,
+    "foliage_color": 3624792,
+    "mood_sound": {
+      "sound": {
+        "sound_id": "minecraft:ambient.achlys.mood"
+      },
+      "tick_delay": 990,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": {
+        "sound_id": "minecraft:ambient.achlys.additions"
+      },
+      "tick_chance": 0.0001
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "magical_addons:music.achlys"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ],
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.118093334
+    }
+  },
+  "spawners": {
+    "ambient": [],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [],
+    "underground_water_creature": [],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "magical_addons:sparkstone_cave"
+  ],
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper_large",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "minecraft:sculk_vein",
+      "minecraft:sculk_patch_deep_dark"
+    ],
+    [],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:trees_swamp",
+      "minecraft:flower_plains",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane",
+      "minecraft:patch_pumpkin"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

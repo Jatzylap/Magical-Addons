@@ -1,0 +1,7 @@
+{
+	"parent":"magical_addons:block/template_ore",
+	"textures":{
+		"base":"block/diamond_ore",
+		"overlay":"magical_addons:block/diamond_ore_overlay"
+	}
+}

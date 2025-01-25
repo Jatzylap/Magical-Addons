@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:knowledge_book",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:misc/empty",
+                "minecraft:custom_data": "{magical_addons:{empty:1}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

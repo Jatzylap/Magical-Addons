@@ -1,0 +1,7 @@
+{
+  "parent": "magical_addons:block/tinted_cross_ud",
+  "textures": {
+    "cross1": "magical_addons:block/short_grass_cross_1",
+    "cross2": "magical_addons:block/short_grass_cross_2"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "maddons.walk": {
+          "min": 1
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "maddons.sprint": {
+          "min": 1
+        }
+      }
+    }
+  ]
+}

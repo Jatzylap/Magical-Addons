@@ -1,0 +1,155 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "head_idle_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/head_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/hurt/head_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "head_idle_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/death/head_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/body_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/hurt/body_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_idle_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/death/body_idle",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_walk_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/body_walk",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_walk_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/hurt/body_walk",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_walk_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/death/body_walk",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_sprint_normal",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/body_sprint",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_sprint_hurt",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/hurt/body_sprint",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      },
+      {
+        "when": "body_sprint_death",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:entity/flying_cow/death/body_sprint",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data", "default": 0
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

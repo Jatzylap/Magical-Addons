@@ -1,0 +1,23 @@
+{
+  "parent": "magical_addons:---/block/interact",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:chiseled_bookshelf"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:block/interact_start"
+  }
+}

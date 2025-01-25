@@ -1,0 +1,37 @@
+{
+  "block.chiseled_bookshelf.place": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.chiseled_bookshelf.break": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.chiseled_bookshelf.hit": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.chiseled_bookshelf.step": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.chiseled_bookshelf.fall": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "item.armor.equip_generic": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  }
+}

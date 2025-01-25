@@ -1,0 +1,621 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 3,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 4,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 5,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 21,
+            "offsetZ": 6,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 20,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 20,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 19,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 18,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 18,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 17,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 17,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 16,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 16,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 15,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 15,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 14,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 14,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 13,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 13,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 12,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 12,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 11,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 11,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 10,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 10,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 9,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 9,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 8,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 8,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 7,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 7,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 6,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 6,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 5,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 5,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 4,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 4,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 3,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 3,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 2,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 2,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": -1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 0,
+            "offsetZ": 7,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 0,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 1,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 2,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 3,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 4,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 5,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": -1,
+            "offsetZ": 6,
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:reinforced_deepslate"
+                }
+            }
+        }
+    ]
+}

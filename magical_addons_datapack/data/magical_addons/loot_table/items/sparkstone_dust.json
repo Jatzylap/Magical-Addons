@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:sparkstone_dust",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.sparkstone_dust\"}",
+                "minecraft:custom_data": "{\"magical_addons\":{\"id\":\"sparkstone_dust\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

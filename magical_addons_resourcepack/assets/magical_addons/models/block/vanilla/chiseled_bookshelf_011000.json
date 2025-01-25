@@ -1,0 +1,7 @@
+{
+	"parent":"block/chiseled_bookshelf_inventory",
+	"textures":{
+		"overlay1":"magical_addons:block/vanilla/chiseled_bookshelf_overlay_slot_1",
+		"overlay2":"magical_addons:block/vanilla/chiseled_bookshelf_overlay_slot_2"
+	}
+}

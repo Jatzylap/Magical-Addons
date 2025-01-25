@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chiseled_bookshelf",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_name": "{'translate':'item.magical_addons.wizarding_table'}",
+                "minecraft:item_model": "magical_addons:wizarding_table",
+                "minecraft:custom_data": "{magical_addons:{generated:0b,id:wizarding_table}}",
+                "minecraft:block_state": {"facing":"north","slot_0_occupied":"false","slot_1_occupied":"false","slot_2_occupied":"true","slot_3_occupied":"true","slot_4_occupied":"true","slot_5_occupied":"true"}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

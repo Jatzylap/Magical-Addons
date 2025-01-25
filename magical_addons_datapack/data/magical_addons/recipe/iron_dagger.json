@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#",
+    "/"
+  ],
+  "key": {
+    "#": "minecraft:iron_ingot",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:snowball",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "magical_addons:iron_dagger",
+      "minecraft:max_damage": 250,
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": 0,
+      "minecraft:item_name": "{\"translate\":\"item.minecraft.iron_dagger\"}",
+      "minecraft:attribute_modifiers": {
+        "modifiers": [
+          {
+            "type": "minecraft:attack_damage",
+            "id": "maddons.attack_damage",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "minecraft:attack_speed",
+            "id": "maddons.attack_speed",
+            "amount": 0.8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ],
+        "show_in_tooltip": true
+      },
+      "minecraft:custom_data": "{magical_addons:{dagger:1,id:iron_dagger}}",
+      "minecraft:enchantable": {
+        "value": 14
+      }
+    }
+  }
+}
