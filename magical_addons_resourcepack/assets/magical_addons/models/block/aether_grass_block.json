@@ -1,5 +1,5 @@
 {
-  "parent": "magical_addons:block/cube",
+  "parent": "block/cube",
   "textures": {
     "down": "magical_addons:block/aether_dirt",
     "east": "magical_addons:block/aether_grass_block_side",

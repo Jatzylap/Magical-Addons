@@ -19,10 +19,10 @@ in float vertexDistance;
 in vec4 vertexColor;
 in vec4 lightColor;
 in vec4 overlayColor;
+in vec3 tintColor;
 in vec2 texCoord;
 in vec2 texCoord2;
 in vec3 Pos;
-in vec3 tintColor;
 in float transition;
 
 flat in int isMarker;

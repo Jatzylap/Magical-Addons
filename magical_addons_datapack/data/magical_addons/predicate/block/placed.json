@@ -329,7 +329,7 @@
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "nbt": "{Tags:[maddons.achlys_portal]}",
+        "nbt": "{Tags:[maddons.ancient_portal]}",
         "location": {
           "block": {
             "blocks": "minecraft:light"

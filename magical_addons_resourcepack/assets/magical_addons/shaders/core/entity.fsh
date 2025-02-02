@@ -19,20 +19,21 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-    //if (int(color.a * 255) == 255) {
-    //    color.g = 255.0;
-    //}
-#ifdef ALPHA_CUTOUT
-    if (color.a < ALPHA_CUTOUT) {
-        discard;
-    }
-#endif
-    color *= vertexColor * ColorModulator;
-#ifndef NO_OVERLAY
-    color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
-#endif
-#ifndef EMISSIVE
-    color *= lightMapColor;
-#endif
+    vec3 tintColor = texture(Sampler0, texCoord0).rgb;
+    int alpha = int(texture(Sampler0, texCoord0).a * 255);
+    #ifdef ALPHA_CUTOUT
+        if (color.a < ALPHA_CUTOUT) {
+            discard;
+        }
+    #endif
+        color *= vertexColor * ColorModulator;
+    #ifndef NO_OVERLAY
+        color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+    #endif
+    #ifndef EMISSIVE
+        color *= lightMapColor;
+    #endif
+    #define ENTITY
+    #moj_import <magical_addons:light.glsl>
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

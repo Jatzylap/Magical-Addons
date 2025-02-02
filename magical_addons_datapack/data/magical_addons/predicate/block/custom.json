@@ -101,22 +101,6 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"cloud_block\"}}}}"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
-          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"gravitite_ore\"}}}}"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "predicate": {
-        "block": {
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"???\"}}}}"
         }
       }

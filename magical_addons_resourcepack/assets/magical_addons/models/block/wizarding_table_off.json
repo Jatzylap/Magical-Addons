@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "block/cube",
   "textures": {
     "down": "minecraft:block/dark_oak_planks",
     "east": "magical_addons:block/wizarding_table_side_off",

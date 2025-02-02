@@ -1,7 +1,7 @@
 # item:dagger/diamond_dagger/break
 # called by: item:dagger/diamond_dagger/loop
 
-execute if entity @s[tag=!maddons.no_break] run loot spawn ~ ~ ~ loot magical_addons:items/diamond_dagger
+execute if entity @s[tag=!maddons.no_break] run loot spawn ~ ~ ~ loot magical_addons:diamond_dagger
 execute if entity @s[tag=!maddons.no_break] run item replace entity @n[type=item,dy=1,nbt={Age:0s}] contents from entity @s contents magical_addons:item/damage/diamond_dagger
 playsound magical_addons:item.dagger.hit player @a[distance=...9] ~ ~ ~ 1
 playsound magical_addons:item.dagger.hit player @a[distance=1..2.99] ~ ~ ~ .9

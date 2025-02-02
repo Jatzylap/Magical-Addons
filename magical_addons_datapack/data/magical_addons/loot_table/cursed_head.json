@@ -1,0 +1,32 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.cursed_head\"}",
+                "minecraft:custom_data": "{magical_addons:{generated:0b,id:\"cursed_head\"}}",
+                "minecraft:profile": {
+                  "id": [-2119933032,378293500,-1915157911,243251682],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY2Y2NkMDEzOWUxZjllZDI3NTU0YTBjMzlhNGVmZmM3MzYxMGI4NmFhMDU3OWU0MDVmNjQxY2QxZDY3OGM0NSJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

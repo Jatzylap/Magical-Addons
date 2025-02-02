@@ -1,7 +1,8 @@
 # entity:sculk_spider/moves/crawl
-# called by: entity:sculk_spider/check
+# called by: entity:sculk_spider/loop
 
-execute as @s[tag=!maddons.damage,tag=!maddons.death] on vehicle on passengers run data modify entity @s[tag=maddons.body] item.components."minecraft:custom_model_data".strings[0] set value "body_crawl_normal"
-execute as @s[tag=maddons.damage,tag=!maddons.death] on vehicle on passengers run data modify entity @s[tag=maddons.body] item.components."minecraft:custom_model_data".strings[0] set value "body_crawl_hurt"
 tag @s add maddons.crawl
 tag @s remove maddons.idle
+scoreboard players add @s maddons.animation 1
+execute store result entity @s item.components."minecraft:custom_model_data".floats[0] float 1 run scoreboard players get @s maddons.animation
+scoreboard players set @s[scores={maddons.animation=19..}] maddons.animation -1

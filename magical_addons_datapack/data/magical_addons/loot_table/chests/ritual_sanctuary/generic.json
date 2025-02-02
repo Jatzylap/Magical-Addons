@@ -8,7 +8,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "magical_addons:items/grimoire"
+          "value": "magical_addons:grimoire"
         }
       ]
     },

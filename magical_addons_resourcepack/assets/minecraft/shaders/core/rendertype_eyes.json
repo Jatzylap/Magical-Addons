@@ -1,6 +1,6 @@
 {
     "vertex": "minecraft:core/entity",
-    "fragment": "minecraft:core/entity",
+    "fragment": "magical_addons:core/entity_eyes",
     "defines": {
         "flags": [
             "EMISSIVE",

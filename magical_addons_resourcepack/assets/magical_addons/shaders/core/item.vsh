@@ -28,8 +28,8 @@ out vec4 lightColor;
 out vec4 overlayColor;
 out vec2 texCoord;
 out vec2 texCoord2;
-out vec3 Pos;
 out vec3 tintColor;
+out vec3 Pos;
 out float transition;
 
 flat out int isMarker;
@@ -44,8 +44,8 @@ flat out int noshadow;
 
 void main() {
     Pos = Position;
-    texCoord = UV0;
     tintColor = Color.rgb;
+    texCoord = UV0;
     overlayColor = vec4(1.0);
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);

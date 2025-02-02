@@ -126,7 +126,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "magical_addons:items/sparkstone_dust",
+          "value": "magical_addons:sparkstone_dust",
           "functions": [
             {
               "add": false,

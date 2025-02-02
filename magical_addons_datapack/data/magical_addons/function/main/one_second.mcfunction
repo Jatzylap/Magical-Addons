@@ -25,8 +25,7 @@ scoreboard players reset @a maddons.successCount
 execute as @a[tag=maddons.effect.lucidity] at @s run function magical_addons:effect/lucidity
 
 # mob
-execute as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity,tag=!maddons.death] at @s run function magical_addons:entity/sculk_spider/check
-execute as @e[type=item_display,tag=maddons.flying_cow,tag=maddons.entity,tag=!maddons.death] at @s run function magical_addons:entity/flying_cow/check
+execute as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity,tag=!maddons.death] at @s run function magical_addons:entity/sculk_spider/one_second
 tag @e[type=drowned] add maddons.drowned
 tag @e[type=#magical_addons:boss] add maddons.boss
 

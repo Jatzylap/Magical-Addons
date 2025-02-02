@@ -5,18 +5,21 @@ tag @s add maddons.death
 execute on vehicle run data merge entity @s {NoGravity:0b}
 
 ## Set angle
-execute if entity @s[tag=maddons.ground] run function magical_addons:entity/sculk_spider/moves/death_angles/ground
-execute if entity @s[tag=maddons.ceiling] run function magical_addons:entity/sculk_spider/moves/death_angles/ceiling
-execute if entity @s[tag=maddons.side_left] run function magical_addons:entity/sculk_spider/moves/death_angles/side_left
-execute if entity @s[tag=maddons.side_right] run function magical_addons:entity/sculk_spider/moves/death_angles/side_right
-execute if entity @s[tag=maddons.side_up] run function magical_addons:entity/sculk_spider/moves/death_angles/side_up
-execute if entity @s[tag=maddons.side_down] run function magical_addons:entity/sculk_spider/moves/death_angles/side_down
+execute if entity @s[tag=maddons.ground] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[.707f,-.3f,.0f],left_rotation:[0f,0f,-.707f,.707f]}}
+execute if entity @s[tag=maddons.ceiling] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[.707f,-.3f,.0f],left_rotation:[0f,0f,0.707f,0.707f]}}
+execute if entity @s[tag=maddons.side_left] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[0f,0.5f,0f],left_rotation:[0f,0f,0f,1f]}}
+execute if entity @s[tag=maddons.side_right] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[0f,-1f,0f],left_rotation:[0f,0f,1f,0f]}}
+### not done
+execute if entity @s[tag=maddons.side_up] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{left_rotation:[.0,.0,-1.,.0]}}
+execute if entity @s[tag=maddons.side_down] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:6.5,transformation:{left_rotation:[.0,.0,-1.,.0]}}
 
-## Set animation frame
-execute store result score @s maddons.animation run time query gametime
-scoreboard players operation @s maddons.animation %= #24000 maddons.constant
-scoreboard players remove @s maddons.animation 1
-execute store result entity @s[tag=maddons.body] item.components."minecraft:custom_model_data".colors[0] int 1 on passengers store result entity @s[tag=maddons.head] item.components."minecraft:custom_model_data".colors[0] int 1 on vehicle as @s[tag=maddons.entity] run scoreboard players operation @s maddons.animation %= #20 maddons.constant
+execute if entity @s[tag=maddons.ground] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[.707f,-.3f,.0f],left_rotation:[0f,0f,-.707f,.707f]}}
+execute if entity @s[tag=maddons.ceiling] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[.707f,-.3f,.0f],left_rotation:[0f,0f,0.707f,0.707f]}}
+execute if entity @s[tag=maddons.side_left] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[0f,0.5f,0f],left_rotation:[0f,0f,0f,1f]}}
+execute if entity @s[tag=maddons.side_right] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{translation:[0f,-1f,0f],left_rotation:[0f,0f,1f,0f]}}
+### not done
+execute if entity @s[tag=maddons.side_up] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{left_rotation:[.0,.0,-1.,.0]}}
+execute if entity @s[tag=maddons.side_down] on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:6.5,transformation:{left_rotation:[.0,.0,-1.,.0]}}
 
 ## Set animation duration
 scoreboard players set @s maddons.death 0

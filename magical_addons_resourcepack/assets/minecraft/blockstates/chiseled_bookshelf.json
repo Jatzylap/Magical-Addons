@@ -28,28 +28,28 @@
       "model": "magical_addons:block/ruby_ore"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=false,slot_4_occupied=true,slot_5_occupied=false": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=false,slot_4_occupied=true,slot_5_occupied=true": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=true,slot_4_occupied=false,slot_5_occupied=false": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=true,slot_4_occupied=false,slot_5_occupied=true": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=true,slot_4_occupied=true,slot_5_occupied=false": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=false,slot_2_occupied=true,slot_3_occupied=true,slot_4_occupied=true,slot_5_occupied=true": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=true,slot_2_occupied=false,slot_3_occupied=false,slot_4_occupied=false,slot_5_occupied=false": {
       "model": "magical_addons:block/skyroot_leaves"
     },
     "facing=north,slot_0_occupied=false,slot_1_occupied=true,slot_2_occupied=false,slot_3_occupied=false,slot_4_occupied=false,slot_5_occupied=true": {
-      "model": "magical_addons:misc/empty"
+      "model": "minecraft:item/air"
     }
   }
 }

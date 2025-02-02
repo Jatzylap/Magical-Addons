@@ -1,5 +1,5 @@
 {
-  "parent": "magical_addons:block/cube_column",
+  "parent": "block/cube_column",
   "textures": {
     "end": "magical_addons:block/skyroot_log_top",
     "side": "magical_addons:block/skyroot_log"

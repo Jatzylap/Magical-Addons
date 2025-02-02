@@ -1,0 +1,246 @@
+{
+    "textures": {
+        "0": "magical_addons:entity/sculk_spider",
+        "1": "magical_addons:entity/sculk_spider_bioluminescent_layer",
+        "2": "magical_addons:entity/sculk_spider_hurt"
+    },
+    "elements": [
+        {
+            "from": [
+                1.22076,
+                5.88149,
+                8
+            ],
+            "to": [
+                14.77924,
+                10.11851,
+                8
+            ],
+            "light_emission": 0,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        12.5,
+                        16,
+                        15
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3.5,
+                        10,
+                        6
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                1.22076,
+                5.88149,
+                8
+            ],
+            "to": [
+                14.77924,
+                10.11851,
+                8
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        12.5,
+                        16,
+                        15
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3.5,
+                        10,
+                        6
+                    ],
+                    "texture": "#1"
+                }
+            }
+        },
+        {
+            "from": [
+                1.22076,
+                5.88149,
+                8
+            ],
+            "to": [
+                14.77924,
+                10.11851,
+                8
+            ],
+            "light_emission": 0,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        12.5,
+                        16,
+                        15
+                    ],
+                    "texture": "#2"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3.5,
+                        10,
+                        6
+                    ],
+                    "texture": "#2"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "ground": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "gui": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "head": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18007,
+                1.18007,
+                1.18007
+            ]
+        }
+    }
+}
