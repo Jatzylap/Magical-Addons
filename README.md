@@ -1,4 +1,4 @@
-![Banner image](src/thumbnail.png, width=100px)
+![Banner image](src/thumbnail.png)
 # Magical Addons
 
 Magical Addons is a data pack for Minecraft: Java Edition which allows you to craft magic items, fight new mobs and explore new dimensions. Designed to blend in with the base game progression and aesthetics.
