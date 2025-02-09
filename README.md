@@ -16,12 +16,11 @@ Currently in development.
 - Select the "magical_addons_resourcepack" from your resource pack list
 
 ## Credits [A-Z]
-- [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design)
-- Jatzylap (Project Lead, Programming, Game Design, SFX)
+- [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
+- Jatzylap (Project Lead, Programming, Game Design, SFX, Testing)
 - Kotew (Project Creation, Programming, Game Design, Game Art)
 - [NachoToast](https://github.com/NachoToast) (Programming)
+- Netrovek (Testing)
 - Odedbir (Programming)
 - [Oisann](https://github.com/samsa12) (Narrative Design)
-- [SammygoodTunes](https://github.com/SammygoodTunes) (Original Soundtrack)
-
-**Testers:** [GhostAdmiral](https://github.com/GhostAdmiral), Jatzylap
+- [SammygoodTunes](https://github.com/SammygoodTunes) (Original Soundtrack, Testing)
