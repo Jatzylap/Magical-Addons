@@ -20,7 +20,6 @@ Currently in development.
 - Jatzylap (Project Lead, Programming, Game Design, SFX, Testing)
 - Kotew (Project Creation, Programming, Game Design, Game Art)
 - [NachoToast](https://github.com/NachoToast) (Programming)
-- Netrovek (Testing)
 - Odedbir (Programming)
 - [Oisann](https://github.com/samsa12) (Narrative Design)
 - [SammygoodTunes](https://github.com/SammygoodTunes) (Original Soundtrack, Testing)
