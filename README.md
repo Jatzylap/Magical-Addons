@@ -14,3 +14,14 @@ Currently in development.
 - To add the data pack to a new world : select the "More" tab in the new world settings, click "Data Packs", then drag the "magical_addons_datapack" into the Minecraft window
 - Drop the "magical_addons_resourcepack" folder into the “resourcepacks” directory
 - Select the "magical_addons_resourcepack" from your resource pack list
+
+## Credits [A-Z]
+- [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design)
+- Jatzylap (Project Lead, Programming, Game Design, SFX)
+- Kotew (Project Creation, Programming, Game Design, Game Art)
+- [NachoToast](https://github.com/NachoToast) (Programming)
+- Odedbir (Programming)
+- [Oisann](https://github.com/samsa12) (Narrative Design)
+- [SammygoodTunes](https://github.com/SammygoodTunes) (Original Soundtrack)
+
+**Testers:** [GhostAdmiral](https://github.com/GhostAdmiral), Jatzylap
