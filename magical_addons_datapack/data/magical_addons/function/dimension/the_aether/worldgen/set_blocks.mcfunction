@@ -9,6 +9,3 @@ fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:bl
 
 ## Water spring
 fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"setblock ~ ~ ~ water[level=0]"} replace water[level=0]
-
-## Entities
-execute if predicate magical_addons:shared/5_percent summon breeze run spreadplayers ~ ~ 0 32 false @s
