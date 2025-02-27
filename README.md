@@ -8,9 +8,6 @@ Magical Addons is a data pack for Minecraft: Java Edition which allows you to cr
 
 Currently in development.
 
-## Warning
-This is a standalone data pack and is not guaranteed to work with any complementary mods or shader packs.
-
 ## Setup
 - Locate your .minecraft installation directory
 - To add the data pack to an existing world : drop the "magical_addons_datapack" folder into the “datapacks” directory of your world
