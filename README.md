@@ -9,7 +9,7 @@ Magical Addons is an experimental data pack for Minecraft: Java Edition which al
 Currently in development.
 
 ## ⚠️ Warning ⚠️
-This is a standalone data pack that does not support any complementary mods or shader packs.
+This is a standalone data pack that is not guaranteed to work with any complementary mods or shader packs.
 
 ## Setup
 - Locate your .minecraft installation directory
