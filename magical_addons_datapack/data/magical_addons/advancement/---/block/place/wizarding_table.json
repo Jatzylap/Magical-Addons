@@ -9,7 +9,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:chiseled_bookshelf",
+                "blocks": "minecraft:spawner",
                 "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"wizarding_table\"}}}}"
               }
             }
@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:block/place_start"
+    "function": "magical_addons:block/custom/wizarding_table/raycast"
   }
 }

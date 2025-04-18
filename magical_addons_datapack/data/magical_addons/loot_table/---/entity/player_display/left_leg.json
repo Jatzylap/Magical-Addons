@@ -1,0 +1,31 @@
+{
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:player_head",
+                  "functions": [
+                      {
+                          "function": "minecraft:set_components",
+                          "components": {
+                              "minecraft:item_model": "magical_addons:entity/player_display",
+                              "minecraft:custom_model_data": {
+                                  "strings": [
+                                      "default",
+                                      "left_leg"
+                                  ]
+                              }
+                          }
+                      },
+                      {
+                          "function": "minecraft:fill_player_head",
+                          "entity": "this"
+                      }
+                  ]
+              }
+          ]
+      }
+  ]
+}

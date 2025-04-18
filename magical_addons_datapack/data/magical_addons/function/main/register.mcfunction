@@ -1,32 +1,18 @@
 # main:register
 # called by: main:two_seconds
 
-### Player
+## Player
 execute at @s[type=player] run return run function magical_addons:dev/register_entity {id:"player",cmd:"function magical_addons:player/loop"}
 
-## Angry chicken
-execute at @s[tag=maddons.angry_chicken] run return run function magical_addons:dev/register_entity {id:"angry_chicken",cmd:"function magical_addons:entity/behaviours/angry_chicken/loop"}
-
-## Screaming goat
-execute at @s[tag=maddons.screaming_goat] run return run function magical_addons:dev/register_entity {id:"screaming_goat",cmd:"function magical_addons:entity/behaviours/screaming_goat/loop"}
-
-## Soul
-execute at @s[tag=maddons.soul] run return run function magical_addons:dev/register_entity {id:"soul",cmd:"function magical_addons:entity/soul/loop"}
-
-## Sculk spider
+## Mobs
+execute at @s[tag=maddons.angry_chicken] run return run function magical_addons:dev/register_entity {id:"angry_chicken",cmd:"function magical_addons:entity/angry_chicken/loop"}
+#execute at @s[tag=maddons.screaming_goat] run return run function magical_addons:dev/register_entity {id:"screaming_goat",cmd:"function magical_addons:entity/screaming_goat/loop"}
+execute at @s[tag=maddons.player_display] run return run function magical_addons:dev/register_entity {id:"player_display",cmd:"function magical_addons:entity/player_display/loop"}
 execute at @s[tag=maddons.sculk_spider] run return run function magical_addons:dev/register_entity {id:"sculk_spider",cmd:"function magical_addons:entity/sculk_spider/loop"}
 
-## Flying cow
-execute at @s[tag=maddons.flying_cow] run return run function magical_addons:dev/register_entity {id:"flying_cow",cmd:"function magical_addons:entity/flying_cow/loop"}
+## Blocks
+execute at @s[tag=maddons.wizarding_table] run return run function magical_addons:dev/register_entity {id:"wizarding_table",cmd:"function magical_addons:block/custom/wizarding_table/tick"}
+execute at @s[tag=maddons.brewing_stand] run return run function magical_addons:dev/register_entity {id:"wizarding_table",cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}
 
-## Dragon
-#execute at @s[tag=maddons.dragon] run return run function magical_addons:dev/register_entity {id:"dragon",cmd:"function magical_addons:entity/dragon/loop"}
-
-## Echoman
-#execute at @s[tag=maddons.echoman] run return run function magical_addons:dev/register_entity {id:"echoman",cmd:"function magical_addons:entity/echoman/loop"}
-
-## Automaton
-#execute at @s[tag=maddons.automaton,tag=ai] run return run function magical_addons:dev/register_entity {id:"automaton",cmd:"function magical_addons:entity/automaton/loop"}
-
-## Herobrine
-#execute at @s[tag=maddons.herobrine,tag=ai] run return run function magical_addons:dev/register_entity {id:"herobrine",cmd:"function magical_addons:entity/herobrine/loop"}
+## Spells
+execute at @s[tag=maddons.sparkstone_blast] run return run function magical_addons:dev/register_entity {id:"sparkstone_blast",cmd:"function magical_addons:item/dagger/sparkstone_orb/explosion_effects/3"}

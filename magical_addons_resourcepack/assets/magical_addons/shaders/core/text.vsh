@@ -44,23 +44,15 @@ void main() {
           ys = tan((position.y/PI) * fast_scroll);         // fast scroll
           zs = tan((position.z/PI) * fast_scroll);         // flicker
           break;
-      case 3:
-          xs = 148.0;
-          ys = -5.0;
-          break;
       case 4:             // HUD effect icon
           position.xy = setCoords(vec2(3.5), 19., gl_VertexID % 4, vec2(16.));
           break;
       case 5:             // HUD effect background
           position.xy = setCoords(vec2(1.), 24., gl_VertexID % 4, vec2(24.));
           break;
-      case 130:
-          xs = -0.2;
-          ws = 0.05;
-          break;
     }
 
-    gl_Position = ProjMat * ModelViewMat * vec4(position+vec3(xs,ys,zs), 1.0);
+    gl_Position = ProjMat * ModelViewMat * vec4(position, 1.0) + vec4(xs,ys,zs,ws);
 
     depthLevel = position.z;
     vertexDistance = fog_distance(position, FogShape);

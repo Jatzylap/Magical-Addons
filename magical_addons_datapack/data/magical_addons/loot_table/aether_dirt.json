@@ -18,7 +18,7 @@
                   "magical_addons": {
                     "generated": false,
                     "id": "aether_dirt",
-                    "sound_id": "block.dirt.step",
+                    "sound_id": "block.gravel.step",
                     "sound_pitch": 1.0,
                     "break_speed": 4.0,
                     "properties": {

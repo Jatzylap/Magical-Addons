@@ -1,6 +1,6 @@
 [
     {
-        "section": "Magical Addons Datapack",
+        "section": "Magical Addons Data Pack",
         "disciplines": [
             {
                 "discipline": "",
@@ -15,10 +15,10 @@
                 ]
             },
             {
-                "discipline": "Datapack Design",
+                "discipline": "Design",
                 "titles": [
                     {
-                        "title": "Item Designers",
+                        "title": "Pixel Art",
                         "names": [
                             "Kotew",
                             "Jatzylap",
@@ -28,36 +28,34 @@
                         ]
                     },
                     {
-                        "title": "Entity & Boss Designers",
+                        "title": "Modelling & Rigging",
                         "names": [
-                            "Jatzylap",
-                            "Oisann"
+                            "Jatzylap"
                         ]
                     },
                     {
-                        "title": "Narrative Designers",
+                        "title": "Narrative",
                         "names": [
                             "GhostAdmiral",
                             "Jatzylap",
-                            "Kotew",
                             "Oisann"
                         ]
                     }
                 ]
             },
             {
-                "discipline": "Datapack Audio",
+                "discipline": "Audio",
                 "titles": [
                     {
-                        "title": "SFX Designers",
+                        "title": "Original Soundtrack",
                         "names": [
-                            "Jatzylap",
                             "SammygoodTunes"
                         ]
                     },
                     {
-                        "title": "Original Soundtrack",
+                        "title": "Original SFX",
                         "names": [
+                            "Jatzylap",
                             "SammygoodTunes"
                         ]
                     },
@@ -70,7 +68,7 @@
                 ]
             },
             {
-                "discipline": "Datapack Programming",
+                "discipline": "Programming",
                 "titles": [
                     {
                         "title": "Chief Development Supervisor",
@@ -79,13 +77,7 @@
                         ]
                     },
                     {
-                        "title": "Original Pack Creator",
-                        "names": [
-                            "Kotew"
-                        ]
-                    },
-                                {
-                        "title": "Resourcepack Engineer",
+                        "title": "Entity Programming",
                         "names": [
                             "Jatzylap"
                         ]
@@ -103,36 +95,42 @@
                 ]
             },
             {
-                "discipline": "Special Thanks (without whom these would not exist)",
+                "discipline": "Testing",
                 "titles": [
                     {
-                        "title": "Sparkstone Pickaxe",
+                        "title": "Beta testers",
                         "names": [
-                            "NOPEname | The Legend of Zelda (Map)"
+                            "Jatzylap",
+                            "Netrovek",
+                            "SerpentLord77",
+                            "Crusher919",
+                            "Bazoo27",
+                            "Gilt",
+                            "Ianthekitten",
+                            "Scarpionfighter"
+
+                        ]
+                    }
+                ]
+            },
+            {
+
+                "discipline": "Special Thanks",
+                "titles": [
+                    {
+                        "title": "Shaders",
+                        "names": [
+                            "Godlander | OBJMC",
+                            "PuckiSilver | MC Charcoal",
+                            "bradleyq | Light Painter"
                         ]
                     },
                     {
-                        "title": "Rod of Commanding",
+                        "title": "Data Packs",
                         "names": [
-                            "Netrovek | PickupEntities (Datapack)"
-                        ]
-                    },
-                    {
-                        "title": "Glowing ores",
-                        "names": [
-                            "bradleyq | Light Painter (Datapack)"
-                        ]
-                    },
-                    {
-                        "title": "UUID selectors",
-                        "names": [
-                            "gibbsly | Simple UUID Converter (Datapack)"
-                        ]
-                    },
-                    {
-                        "title": "Raycasting",
-                        "names": [
-                            "Aeldrion | Iris (Datapack)"
+                            "Netrovek | PickupEntities",
+                            "gibbsly | Simple UUID Converter (Data Pack)",
+                            "Aeldrion | Iris (Data Pack)"
                         ]
                     }
                 ]

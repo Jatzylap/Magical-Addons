@@ -8,10 +8,7 @@
       "bold": false
     },
     "icon": {
-      "id": "minecraft:warped_fungus_on_a_stick",
-      "components": {
-        "minecraft:item_model": "magical_addons:wand"
-      }
+      "id": "minecraft:stick"
     },
     "frame": "task",
     "show_toast": true,

@@ -133,78 +133,88 @@
 		}]
 	},
 
-	"block.amethyst_cluster.place": {
+	"block.spawner.place": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/amethyst_cluster/place1",
+		"name":"block/spawner/break1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/place2",
+		"name":"block/spawner/break2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/place3",
+		"name":"block/spawner/break3",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/place4",
+		"name":"block/spawner/break4",
 		"preload": true,
 		"pitch": 0.8
 		}],
 	"subtitle": "subtitles.block.generic.place"
 	},
 
-	"block.amethyst_cluster.break": {
+	"block.spawner.break": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/amethyst_cluster/break1",
+		"name":"block/spawner/break1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/break2",
+		"name":"block/spawner/break2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/break3",
+		"name":"block/spawner/break3",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/amethyst_cluster/break4",
+		"name":"block/spawner/break4",
 		"preload": true,
 		"pitch": 0.8
 		}],
 	"subtitle": "subtitles.block.generic.break"
 	},
 
-	"block.vault.eject_item": {
-		"category": "block",
-		"sounds": [
-			{
-			"name":"block/vault/eject1",
-			"preload": true,
-			"pitch": 0.8
-			},
-			{
-			"name":"block/vault/eject2",
-			"preload": true,
-			"pitch": 0.8
-			},
-			{
-			"name":"block/vault/eject3",
-			"preload": true,
-			"pitch": 0.8
-			}],
-		"subtitle": "subtitles.block.vault.eject_item"
+	"block.spawner.step": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/step1",
+		"preload": true,
+		"pitch": 0.8
 		},
+		{
+		"name":"block/spawner/step2",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step4",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step5",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.footsteps"
+	},
 	
 	"ui.pack.title": {
 	"category": "master",
@@ -511,10 +521,10 @@
 	"subtitle": "subtitles.advancement.magical_charge"
 	},
 
-	"ambient.achlys.loop": {
+	"ambient.echo.loop": {
 	"category": "ambient",
 	"sounds": [{
-		"name":"magical_addons:ambient/achlys",
+		"name":"magical_addons:ambient/echo",
 		"preload": true
 		}]
 	},
@@ -536,31 +546,23 @@
 	"subtitle": "subtitles.ambient.aether.dream"
 	},
 
-	"music.achlys": {
+	"music.echo": {
 	"category": "music",
 	"sounds": [
 			{
-			"name":"magical_addons:music/achlys1",
+			"name":"magical_addons:music/echo1",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/achlys2",
+			"name":"magical_addons:music/echo2",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/achlys3",
+			"name":"magical_addons:music/echo3",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/achlys4",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/achlys5",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/achlys6",
+			"name":"magical_addons:music/echo4",
 			"stream": true
 			}
 		]
@@ -592,24 +594,20 @@
 			{
 			"name":"magical_addons:music/aether6",
 			"stream": true
-			},
-			{
-			"name":"magical_addons:music/aether7",
-			"stream": true
 			}
 		]
 	},
 
-	"ambient.achlys.additions": {
+	"ambient.echo.additions": {
 	"category": "ambient",
 	"sounds": [{
 		"name":"magical_addons:ambient/gravity1",
 		"preload": true
 		}],
-	"subtitle": "subtitles.ambient.achlys.gravity"
+	"subtitle": "subtitles.ambient.echo.gravity"
 	},
 
-	"ambient.achlys.mood": {
+	"ambient.echo.mood": {
 	"category": "ambient",
 	"sounds": [{
 		"name":"magical_addons:ambient/gravity2",
@@ -627,10 +625,10 @@
 		"name":"magical_addons:ambient/gravity5",
 		"preload": true
 		}],
-	"subtitle": "subtitles.ambient.achlys.mood"
+	"subtitle": "subtitles.ambient.echo.mood"
 	},
 
-	"ambient.achlys.loop.quake": {
+	"ambient.quake": {
 	"category": "ambient",
 	"sounds": [{
 		"name":"magical_addons:ambient/quake",
@@ -638,7 +636,7 @@
 		}]
 	},
 
-	"ambient.achlys.loop.rage": {
+	"ambient.echo.loop.rage": {
 	"category": "ambient",
 	"sounds": [{
 		"name":"magical_addons:ambient/rage",
@@ -646,7 +644,7 @@
 		}]
 	},
 
-	"ambient.achlys.loop.glitch": {
+	"ambient.echo.loop.glitch": {
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:ambient/glitch1",
@@ -733,5 +731,69 @@
 		"preload": true
 		}],
 	"subtitle": "subtitles.item.dagger.hit"
+	},
+
+	"block.portal.ambient": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 0.8
+				},
+				{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.0
+				},
+				{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.2
+		}],
+	"subtitle": "subtitles.block.portal.ambient"
+	},
+
+	"block.portal.travel": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.0
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.1
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.2
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.3
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.4
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.5
+		}],
+	"subtitle": "subtitles.block.portal.travel"
 	}
 }

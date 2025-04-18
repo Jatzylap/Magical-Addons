@@ -12,7 +12,7 @@
               "components": {
                 "minecraft:item_model": "magical_addons:sparkstone_dust",
                 "minecraft:item_name": "{\"translate\":\"item.magical_addons.sparkstone_dust\"}",
-                "minecraft:custom_data": "{\"magical_addons\":{\"id\":\"sparkstone_dust\"}}"
+                "minecraft:custom_data": "{magical_addons:{id:\"sparkstone_dust\",brewable:1b}}"
               }
             }
           ]

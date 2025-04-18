@@ -1,0 +1,40 @@
+{
+  "parent": "magical_addons:---/block/place",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:spawner"
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:location_check",
+                  "predicate": {
+                    "block": {
+                      "blocks": "minecraft:spawner",
+                      "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{}}}}"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:block/vanilla/spawner/raycast"
+  }
+}

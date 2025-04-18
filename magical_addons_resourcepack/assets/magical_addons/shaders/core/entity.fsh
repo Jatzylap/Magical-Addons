@@ -19,8 +19,7 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-    vec3 tintColor = texture(Sampler0, texCoord0).rgb;
-    int alpha = int(texture(Sampler0, texCoord0).a * 255);
+    vec2 texCoord = texCoord0;
     #ifdef ALPHA_CUTOUT
         if (color.a < ALPHA_CUTOUT) {
             discard;

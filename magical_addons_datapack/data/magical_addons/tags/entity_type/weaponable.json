@@ -1,8 +1,6 @@
 {
     "values":[
-        "minecraft:skeleton",
-        "minecraft:stray",
-        "minecraft:wither_skeleton",
+        "#minecraft:skeletons",
         "minecraft:zombie",
         "minecraft:zombie_villager",
         "minecraft:piglin",

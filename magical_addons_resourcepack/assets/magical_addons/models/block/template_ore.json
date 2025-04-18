@@ -19,7 +19,7 @@
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
-			"light_emission":15,
+			"light_emission":4,
 			"faces":{
 				"north":{"texture":"#overlay", "cullface": "north"},
 				"east":	{"texture":"#overlay", "cullface": "east"},

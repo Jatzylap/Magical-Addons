@@ -20,8 +20,8 @@ This is a standalone data pack that is not guaranteed to work with any complemen
 
 ## Credits [A-Z]
 - [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
-- Jatzylap (Project Lead, Programming, Game Design, SFX, Testing)
-- Kotew (Project Creation, Programming, Game Design, Game Art)
+- Jatzylap (Project Lead, Programming, Game Design, Game Art, SFX, Testing)
+- Kotew (Original concept, Programming, Game Design, Game Art)
 - [NachoToast](https://github.com/NachoToast) (Programming)
 - Odedbir (Programming)
 - [Oisann](https://github.com/samsa12) (Narrative Design)

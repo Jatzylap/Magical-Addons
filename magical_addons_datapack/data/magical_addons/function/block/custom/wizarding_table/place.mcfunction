@@ -1,5 +1,5 @@
 # block:custom/wizarding_table/place
-# called by: block:place_end
+# called by: block:custom/wizarding_table/scan
 
 ## Sound
 execute if entity @s[advancements={magical_addons:---/block/place/wizarding_table=true}] run playsound block.wood.place block @a ~ ~ ~ 1 .8

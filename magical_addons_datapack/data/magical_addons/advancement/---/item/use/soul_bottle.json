@@ -1,0 +1,20 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:rabbit_foot",
+          "count": 1,
+          "components": {
+            "minecraft:custom_data": {"magical_addons":{"id":"soul_bottle"}}
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/soul_bottle/drink"
+  }
+}

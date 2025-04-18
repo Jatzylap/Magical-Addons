@@ -1,0 +1,24 @@
+{
+  "parent": "magical_addons:---/block/place",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:spawner",
+                "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_cluster\"}}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:block/custom/sparkstone_cluster/raycast"
+  }
+}

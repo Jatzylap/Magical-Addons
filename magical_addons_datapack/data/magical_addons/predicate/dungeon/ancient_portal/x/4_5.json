@@ -8,7 +8,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -19,7 +19,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -30,7 +30,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -41,7 +41,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -52,7 +52,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -63,7 +63,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -74,7 +74,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -85,7 +85,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -96,7 +96,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         },
@@ -107,7 +107,7 @@
             "offsetZ": 0,
             "predicate": {
                 "block": {
-                    "blocks": "minecraft:reinforced_deepslate"
+                    "blocks": "minecraft:obsidian"
                 }
             }
         }

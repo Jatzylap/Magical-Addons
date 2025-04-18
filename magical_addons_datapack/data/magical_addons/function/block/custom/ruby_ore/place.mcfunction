@@ -1,5 +1,5 @@
 # block:custom/ruby_ore/place
-# called by: block:place_end
+# called by: block:custom/ruby_ore/scan
 
 ## Sound
 execute if entity @s[advancements={magical_addons:---/block/place/ruby_ore=true}] run playsound block.stone.place block @a ~ ~ ~ 1 .6

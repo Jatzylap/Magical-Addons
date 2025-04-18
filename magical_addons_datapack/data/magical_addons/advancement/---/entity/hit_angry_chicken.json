@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:entity/behaviours/angry_chicken/anger"
+    "function": "magical_addons:entity/angry_chicken/anger"
   }
 }

@@ -17,7 +17,7 @@
       "minecraft:max_damage": 132,
       "minecraft:max_stack_size": 1,
       "minecraft:damage": 0,
-      "minecraft:item_name": "{\"translate\":\"item.minecraft.stone_dagger\"}",
+      "minecraft:item_name": "{\"translate\":\"item.magical_addons.stone_dagger\"}",
       "minecraft:attribute_modifiers": {
         "modifiers": [
           {

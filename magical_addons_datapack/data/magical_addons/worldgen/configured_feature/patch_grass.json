@@ -11,12 +11,22 @@
           "to_place": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "minecraft:potted_fern"
+              "Name": "minecraft:light",
+              "Properties": {
+                "level": "0"
+              }
             }
           }
         }
       },
       "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        },
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
@@ -27,13 +37,6 @@
               0
             ],
             "blocks": "minecraft:chiseled_bookshelf"
-          }
-        },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
           }
         }
       ]

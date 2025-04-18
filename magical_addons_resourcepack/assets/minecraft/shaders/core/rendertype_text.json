@@ -1,6 +1,6 @@
 {
     "vertex": "magical_addons:core/text",
-    "fragment": "magical_addons:core/text",
+    "fragment": "minecraft:core/rendertype_text",
     "samplers": [
         { "name": "Sampler0" },
         { "name": "Sampler2" }

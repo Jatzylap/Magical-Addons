@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:block/place_start"
+    "function": "magical_addons:block/group/vanilla/gold_ores/raycast"
   }
 }

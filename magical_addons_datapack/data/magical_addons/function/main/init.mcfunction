@@ -9,8 +9,6 @@ gamerule commandBlockOutput false
 gamerule maxCommandChainLength 2147483647
 gamerule maxCommandForkCount 2147483647
 gamerule commandModificationBlockLimit 2147483647
-bossbar add magical_addons:effect/lucidity "\uE463"
-bossbar set magical_addons:effect/lucidity name "\uE463"
 bossbar add magical_addons:entity/automaton "Ancient Automaton"
 bossbar set magical_addons:entity/automaton name "Ancient Automaton"
 bossbar set magical_addons:entity/automaton color yellow
@@ -21,7 +19,6 @@ bossbar add magical_addons:entity/sparkstone_king "Sparkstone King"
 bossbar set magical_addons:entity/sparkstone_king name "Sparkstone King"
 bossbar set magical_addons:entity/sparkstone_king color blue
 execute in magical_addons:---/void run forceload add 0 0
-execute in magical_addons:---/void run fill 0 0 0 0 1 0 shulker_box keep
 
 ## Objectives
 scoreboard objectives add maddons.leave_game custom:leave_game
@@ -68,6 +65,7 @@ scoreboard objectives add maddons.zigzag_amplitude_x dummy
 scoreboard objectives add maddons.zigzag_amplitude_y dummy
 scoreboard objectives add maddons.move dummy
 scoreboard objectives add maddons.damage dummy
+scoreboard objectives add maddons.max_damage dummy
 scoreboard objectives add maddons.death dummy
 scoreboard objectives add maddons.scale dummy
 scoreboard objectives add maddons.animation dummy
@@ -89,6 +87,7 @@ scoreboard objectives add maddons.portal_overlay dummy
 scoreboard objectives add maddons.reload_sub_chunks dummy
 scoreboard objectives add maddons.step dummy
 scoreboard objectives add maddons.stepping dummy
+scoreboard objectives add maddons.lucidity dummy
 
 #scoreboard objectives add maddons.wandSpell dummy
 #scoreboard objectives add maddons.wandMax dummy
@@ -193,10 +192,21 @@ scoreboard players set #-1 maddons.constant -1
 scoreboard players set #0 maddons.constant 0
 scoreboard players set #1 maddons.constant 1
 scoreboard players set #2 maddons.constant 2
+scoreboard players set #3 maddons.constant 3
 scoreboard players set #4 maddons.constant 4
+scoreboard players set #5 maddons.constant 5
+scoreboard players set #6 maddons.constant 6
+scoreboard players set #7 maddons.constant 7
+scoreboard players set #8 maddons.constant 8
+scoreboard players set #9 maddons.constant 9
 scoreboard players set #10 maddons.constant 10
 scoreboard players set #16 maddons.constant 16
 scoreboard players set #20 maddons.constant 20
+scoreboard players set #21 maddons.constant 21
+scoreboard players set #22 maddons.constant 22
+scoreboard players set #23 maddons.constant 23
+scoreboard players set #24 maddons.constant 24
+scoreboard players set #25 maddons.constant 25
 scoreboard players set #32 maddons.constant 32
 scoreboard players set #45 maddons.constant 45
 scoreboard players set #48 maddons.constant 48
@@ -208,6 +218,7 @@ scoreboard players set #200 maddons.constant 200
 scoreboard players set #220 maddons.constant 220
 scoreboard players set #240 maddons.constant 240
 scoreboard players set #250 maddons.constant 250
+scoreboard players set #255 maddons.constant 255
 scoreboard players set #256 maddons.constant 256
 scoreboard players set #500 maddons.constant 500
 scoreboard players set #1000 maddons.constant 1000

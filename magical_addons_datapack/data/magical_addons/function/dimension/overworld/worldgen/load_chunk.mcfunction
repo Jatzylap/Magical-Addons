@@ -1,12 +1,5 @@
 # dimension:overworld/worldgen/load_chunk
-# called by: dimension:overworld/worldgen/new_chunks
+# called by: dimension:overworld/worldgen/load_chunk/*
 
-scoreboard players operation @s maddons.chunk.x_ = @s maddons.chunk.x
-scoreboard players operation @s maddons.chunk.y_ = @s maddons.chunk.y
-scoreboard players operation @s maddons.chunk.z_ = @s maddons.chunk.z
-
-$execute store result storage maddons.dimension:overworld data.player.new_chunk.x int 1 run scoreboard players operation @s maddons.chunk.x_ += #$(x) maddons.constant
-$execute store result storage maddons.dimension:overworld data.player.new_chunk.y int 1 run scoreboard players operation @s maddons.chunk.y_ += #$(y) maddons.constant
-$execute store result storage maddons.dimension:overworld data.player.new_chunk.z int 1 run scoreboard players operation @s maddons.chunk.z_ += #$(z) maddons.constant
-
-function magical_addons:dimension/overworld/worldgen/set_chunk with storage maddons.dimension:overworld data.player.new_chunk
+$execute unless data storage maddons.dimension:overworld {data:{chunks:[{x:$(x),y:$(y),z:$(z)}]}} run function magical_addons:dimension/overworld/worldgen/set_blocks
+$execute unless data storage maddons.dimension:overworld {data:{chunks:[{x:$(x),y:$(y),z:$(z)}]}} run data modify storage maddons.dimension:overworld data.chunks append value {x:$(x),y:$(y),z:$(z)}

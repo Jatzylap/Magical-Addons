@@ -166,8 +166,7 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "magical_addons:misc/empty"
+      "type": "minecraft:empty"
     }
   }
 }

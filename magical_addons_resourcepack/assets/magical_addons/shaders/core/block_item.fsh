@@ -19,7 +19,7 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-    int alpha = int(color.a * 255);
+    vec2 texCoord = texCoord0;
 
     if (color.a < 0.1) discard;
     color *= vertexColor * ColorModulator;

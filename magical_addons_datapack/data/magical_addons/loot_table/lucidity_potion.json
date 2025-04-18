@@ -14,7 +14,7 @@
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:lore":["{\"text\":\"Lucidity (01:00)\",\"color\":\"blue\",\"italic\":false}"],
                 "minecraft:use_remainder": {"id":"minecraft:glass_bottle","count":1},
-                "minecraft:custom_data": "{\"magical_addons\":{\"id\":\"lucidity_potion\"}}"
+                "minecraft:custom_data": "{magical_addons:{id:\"lucidity_potion\"}}"
               }
             }
           ]

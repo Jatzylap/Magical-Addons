@@ -15,20 +15,26 @@
     "sky_color": 16777215,
     "fog_color": 16777215,
     "water_color": 11498212,
-    "water_fog_color": 329011
+    "water_fog_color": 9584352,
+    "foliage_color": 8883574,
+    "grass_color": 7832178
   },
   "carvers": [
-    "magical_addons:sparkstone_cave"
+    "magical_addons:cave"
   ],
   "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
     [
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain",
-
-      "magical_addons:no_leaf_tree",
-      "magical_addons:no_leaf_fancy_tree"
+      "magical_addons:patch_grass_plain",
+      "magical_addons:leafless_pale_oak"
     ]
   ],
   "spawners": {

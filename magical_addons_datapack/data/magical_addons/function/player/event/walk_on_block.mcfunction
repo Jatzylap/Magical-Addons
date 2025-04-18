@@ -1,6 +1,9 @@
 # player:event/walk_on_block
 # called by: player:loop
 
+## Set ID
+execute positioned ~ ~-1 ~ if block ~ ~ ~ #magical_addons:in_scan unless entity @n[type=item_display,tag=maddons.block,distance=...5] run function magical_addons:block/set_id
+
 ## Set threshold
 scoreboard players set @s maddons.step 160
 

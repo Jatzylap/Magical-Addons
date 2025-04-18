@@ -273,6 +273,10 @@
             "required": false
         },
         {
+            "id": "minecraft:chiseled_resin_bricks",
+            "required": false
+        },
+        {
             "id": "minecraft:chiseled_sandstone",
             "required": false
         },
@@ -366,6 +370,10 @@
         },
         {
             "id": "minecraft:crafting_table",
+            "required": false
+        },
+        {
+            "id": "minecraft:creaking_heart",
             "required": false
         },
         {
@@ -1089,6 +1097,26 @@
             "required": false
         },
         {
+            "id": "minecraft:pale_moss_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_leaves",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_log",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_planks",
+            "required": false
+        },
+        {
+            "id": "minecraft:pale_oak_wood",
+            "required": false
+        },
+        {
             "id": "minecraft:pearlescent_froglight",
             "required": false
         },
@@ -1305,6 +1333,14 @@
             "required": false
         },
         {
+            "id": "minecraft:resin_block",
+            "required": false
+        },
+        {
+            "id": "minecraft:resin_bricks",
+            "required": false
+        },
+        {
             "id": "minecraft:respawn_anchor",
             "required": false
         },
@@ -1490,6 +1526,14 @@
         },
         {
             "id": "minecraft:stripped_oak_wood",
+            "required": false
+        },
+        {
+            "id": "minecraft:stripped_pale_oak_log",
+            "required": false
+        },
+        {
+            "id": "minecraft:stripped_pale_oak_wood",
             "required": false
         },
         {

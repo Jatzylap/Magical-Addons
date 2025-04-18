@@ -1,5 +1,5 @@
 # block:custom/aether_dirt/place
-# called by: block:place_end
+# called by: block:custom/aether_dirt/place
 
 ## Sound
 execute if entity @s[advancements={magical_addons:---/block/place/aether_dirt=true}] run playsound block.gravel.place block @a ~ ~ ~ 1 .8

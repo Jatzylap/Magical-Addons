@@ -5,7 +5,7 @@
 execute if dimension minecraft:overworld run function magical_addons:dimension/overworld/loop
 execute if dimension minecraft:the_nether run function magical_addons:dimension/the_nether/loop
 execute if dimension minecraft:the_end run function magical_addons:dimension/the_end/loop
-execute if dimension minecraft:the_achlys run function magical_addons:dimension/the_achlys/loop
+execute if dimension minecraft:the_echo run function magical_addons:dimension/the_echo/loop
 execute if dimension minecraft:the_aether run function magical_addons:dimension/the_aether/loop
 
 ## armour
@@ -23,7 +23,7 @@ execute if entity @s[tag=maddons.aa,scores={maddons.mana=400..}] run tag @s add 
 ## self
 tag @s[gamemode=!survival,gamemode=!adventure] add maddons.invul
 tag @s[gamemode=!creative,gamemode=!spectator] remove maddons.invul
-#execute if score @s maddons.drop_item matches 1 as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{maddons.mana_item:1}}}}] at @s run function magical_addons:shared/tag_item_drop
+execute if score @s[tag=!maddons.aa] maddons.mana matches 201.. run function magical_addons:effect/hyper_mode
 
 ## wand
 #execute if score @s maddons.windrodSpell matches 0.. run function magical_addons:item/wind_rod/twister/caster
@@ -44,7 +44,7 @@ tag @s[gamemode=!creative,gamemode=!spectator] remove maddons.invul
 #execute if entity @s[tag=kt.s3tup_ft] run tp @s @e[type=marker,tag=kt.s3tup_f,sort=nearest,limit=1,dy=1]
 
 ## portal
-execute if score @s maddons.portal_time_check matches 1 if entity @n[type=item_display,tag=maddons.aether_portal,distance=..1.6] run function magical_addons:player/event/overlay_aether_portal
+execute if score @s maddons.portal_time_check matches 1 if entity @n[type=item_display,tag=maddons.ancient_portal,distance=..1.6] run function magical_addons:player/event/overlay_ancient_portal
 
 #tag @s remove kt.player_dream_i
 #execute if entity @s[tag=kt.player_dream,nbt=!{Dimension:"minecraft:the_aether"}] run playsound ambient.aether.mood ambient @s ~ ~ ~ 1
@@ -67,7 +67,8 @@ execute if score @s maddons.portal_time_check matches 1 if entity @n[type=item_d
 ## block
 execute if entity @s[scores={maddons.walk1=1..}] run function magical_addons:player/event/walk_on_block
 execute if entity @s[scores={maddons.sprint1=1..}] run function magical_addons:player/event/sprint_on_block
-execute as @e[type=!#magical_addons:invulnerable,type=!player,nbt=!{Motion:[0.0d,0.0d,0.0d]},distance=..16] at @s run function magical_addons:entity/step
+execute as @e[type=#magical_addons:uses_tile_step_sound,type=!player,tag=!maddons.custom_step_sound,nbt=!{Motion:[0.0d,0.0d,0.0d]},distance=..16] at @s run function magical_addons:entity/tile_step
+execute as @e[type=!#magical_addons:invulnerable,tag=maddons.vehicle,tag=maddons.custom_step_sound,nbt=!{Motion:[0.0d,0.0d,0.0d]},distance=..16] at @s run function magical_addons:entity/step
 execute store result storage maddons.player:temp data.target_block.x int 1 run scoreboard players get @s maddons.ray.x
 execute store result storage maddons.player:temp data.target_block.y int 1 run scoreboard players get @s maddons.ray.y
 execute store result storage maddons.player:temp data.target_block.z int 1 run scoreboard players get @s maddons.ray.z
@@ -81,5 +82,5 @@ function magical_addons:block/break_start with storage maddons.player:temp data.
 clear @s *[custom_data~{magical_addons:{gui:1}}]
 
 ## dev
-tellraw @s[tag=maddons.dev] ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------\n"},{"text":"Custom Blocks: ","color":"green"},{"score":{"name":"#maddons.block","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill Blocks]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.block]"}},{"text":"\n"},{"text":"Custom Entities: ","color":"green"},{"score":{"name":"#maddons.entity","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @e[tag=maddons.entity] at @s run function magical_addons:entity/kill"}},{"text":"\n"},{"text":"Custom Spells: ","color":"green"},{"score":{"name":"#maddons.magic","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.magic,type=!player]"}},{"text":"\n\n"},{"text":"Total Items: ","color":"aqua"},{"score":{"name":"#maddons.item","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[type=item]"}},{"text":"\n"},{"text":"Registered Mobs: ","color":"aqua"},{"score":{"name":"#maddons.entity_spawn","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.spawn]"}},{"text":"\n"},{"text":"Total Entities: ","color":"aqua"},{"score":{"name":"#maddons.global","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[type=!player]"}},{"text":"\n-------------------------------"}]
+tellraw @s[tag=maddons.dev] ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------\n"},{"text":"Custom Blocks: ","color":"green"},{"score":{"name":"#maddons.block","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill Blocks]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.block]"}},{"text":"\n"},{"text":"Custom Entities: ","color":"green"},{"score":{"name":"#maddons.entity","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/execute as @e[tag=maddons.entity] at @s run function magical_addons:entity/kill"}},{"text":"\n"},{"text":"Custom Spells: ","color":"green"},{"score":{"name":"#maddons.magic","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.magic]"}},{"text":"\n"},{"text":"Custom Items: ","color":"green"},{"score":{"name":"#maddons.projectile","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.item]"}},{"text":"\n\n"},{"text":"Total Items: ","color":"aqua"},{"score":{"name":"#maddons.item","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[type=item]"}},{"text":"\n"},{"text":"Registered Entities: ","color":"aqua"},{"score":{"name":"#maddons.registered","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[tag=maddons.registered,type=!player]"}},{"text":"\n"},{"text":"Total Entities: ","color":"aqua"},{"score":{"name":"#maddons.global","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","clickEvent":{"action":"run_command","value":"/kill @e[type=!player]"}},{"text":"\n-------------------------------"}]
 execute if score @s maddons.developer_mode matches 1.. run function magical_addons:dev/toggle_dev_mode

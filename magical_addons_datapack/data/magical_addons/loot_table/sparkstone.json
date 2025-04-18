@@ -18,7 +18,7 @@
                   "magical_addons": {
                     "generated": false,
                     "id": "sparkstone",
-                    "sound_id": "block.amethyst.step",
+                    "sound_id": "block.amethyst_block.step",
                     "sound_pitch": 0.6,
                     "properties": {
                       "marker": {

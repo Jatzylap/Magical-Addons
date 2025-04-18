@@ -11,7 +11,7 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "items": "minecraft:recovery_compass",
+                  "items": "minecraft:snowball",
                   "components": {
                     "minecraft:custom_data": {"magical_addons":{"id":"sparkstone_orb"}}
                   }

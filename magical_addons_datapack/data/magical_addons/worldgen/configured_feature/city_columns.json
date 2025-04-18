@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.33,
+        "feature": "magical_addons:city_column_oak",
+        "placement": []
+      },
+      {
+        "chance": 0.33,
+        "feature": "magical_addons:city_column_pale_oak",
+        "placement": []
+      },
+      {
+        "chance": 0.6,
+        "feature": "magical_addons:city_column_acacia",
+        "placement": []
+      }
+    ],
+    "default": "magical_addons:city_column_pale_oak"
+  }
+}

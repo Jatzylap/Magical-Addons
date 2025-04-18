@@ -17,7 +17,6 @@
 	],
 	"display": {
 		"head": {
-			"rotation": [-90, 0, 0],
 			"scale": [0, 0, 0]
 		}
 	}

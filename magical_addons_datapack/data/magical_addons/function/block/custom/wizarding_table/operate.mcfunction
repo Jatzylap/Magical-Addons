@@ -1,24 +1,10 @@
 # block:custom/wizarding_table/operate
-# called by: block:custom/wizarding_table/check_state, block:custom/wizarding_table/engage
+# called by: block:custom/wizarding_table/tick
 
 ## Set light
-execute if entity @s[tag=on] run setblock ~1 ~ ~ light[level=9] keep
-execute if entity @s[tag=on] run setblock ~-1 ~ ~ light[level=9] keep
-execute if entity @s[tag=on] run setblock ~ ~ ~1 light[level=9] keep
-execute if entity @s[tag=on] run setblock ~ ~ ~-1 light[level=9] keep
-execute if entity @s[tag=on] run setblock ~ ~1 ~ light[level=9] keep
-execute if entity @s[tag=on] run setblock ~ ~-1 ~ light[level=9] keep
-
-## Add Sparkstone Orb (Player)
-execute if entity @s[tag=on,tag=off] run data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value 1
-execute if entity @s[tag=on,tag=off] run data remove block ~ ~ ~ lock
-execute if entity @s[tag=on,tag=off] run scoreboard players set @s maddons.damage 0
-execute if entity @s[tag=on,tag=off] run playsound block.respawn_anchor.charge block @a ~ ~ ~ 1 1.3
-execute if entity @s[tag=on,tag=off] run particle firework ~.5 ~ ~ 0 0 0 .1 2
-execute if entity @s[tag=on,tag=off] run particle firework ~-.5 ~ ~ 0 0 0 .1 2
-execute if entity @s[tag=on,tag=off] run particle firework ~ ~ ~.5 0 0 0 .1 2
-execute if entity @s[tag=on,tag=off] run particle firework ~ ~ ~-.5 0 0 0 .1 2
-execute if entity @s[tag=on,tag=off] run function magical_addons:block/custom/wizarding_table/gui/clear
+execute if entity @s[tag=on] run fill ~1 ~ ~ ~-1 ~ ~ light[level=9] keep
+execute if entity @s[tag=on] run fill ~ ~ ~1 ~ ~ ~-1 light[level=9] keep
+execute if entity @s[tag=on] run fill ~ ~1 ~ ~ ~-1 ~ light[level=9] keep
 
 ## Check GUI
 execute if data block ~ ~ ~ Items[{Slot:2b}] run tag @s add maddons.wt_slot2
@@ -43,5 +29,3 @@ execute if score @s maddons.craft matches 1 unless data block ~ ~ ~ Items[{Slot:
 
 ## Update GUI
 function magical_addons:block/custom/wizarding_table/gui
-
-tag @s[tag=on,tag=off] remove off

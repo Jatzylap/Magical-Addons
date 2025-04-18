@@ -8,6 +8,7 @@
 #define NEAR 0.05
 #define FAR 1024.0
 #define DSCALE 10.0
+#define HALFMARKER 7.0 / 32.0
 
 bool isColourMatch(vec3 colour) {
     return (colour == vec3(1.0, 1.0, 1.0)  || // White
@@ -35,7 +36,7 @@ float lineariseDepth(float depth) {
     float z = depth * 2.0 - 1.0;
     return (2.0 * NEAR * FAR) / (FAR + NEAR - z * (FAR - NEAR));
     #ifdef FABULOUS_LIGHT
-        return (2.0 * NEAR * FAR) / (FAR + NEAR - z * (FAR - NEAR)) * DSCALE;
+        return 2.0 * (NEAR * FAR) / (FAR + NEAR - z * (FAR - NEAR)) * DSCALE;
     #endif
 }
 

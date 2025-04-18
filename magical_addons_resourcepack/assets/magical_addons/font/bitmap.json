@@ -3257,6 +3257,20 @@
         },
         {
             "type": "bitmap",
+            "file": "magical_addons:mob_effect/lucidity_flash.png",
+            "ascent": 9,
+            "height": 24,
+            "chars": ["\uE465"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/sparkstone_bar_progress_max_out.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE466"]
+        },
+        {
+            "type": "bitmap",
             "file": "magical_addons:font/space.png",
             "ascent": -30,
             "height": 1,

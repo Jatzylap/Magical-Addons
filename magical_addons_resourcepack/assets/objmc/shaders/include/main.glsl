@@ -190,11 +190,15 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
         }
         if (isHand + isGUI == 0) {
             if (any(greaterThan(autorotate,vec2(0)))) {
+
                 //normal estimated rotation calculation from The Der Discohund
                 float yaw = -atan(Normal.x, Normal.z);
                 float pitch = -atan(Normal.y, length(Normal.xz));
+
                 posoffset = rotate(vec3(vec2(pitch,yaw)*autorotate,0) + rotation) * posoffset;
             }
+
+
             //pure color rotation
             else {
                 posoffset = rotate(rotation) * posoffset;

@@ -4,12 +4,12 @@
         "top": "block/chiseled_bookshelf_top",
         "side": "block/chiseled_bookshelf_side",
         "front": "block/chiseled_bookshelf_empty",
-        "overlay0": "magical_addons:misc/empty",
-        "overlay1": "magical_addons:misc/empty",
-        "overlay2": "magical_addons:misc/empty",
-        "overlay3": "magical_addons:misc/empty",
-        "overlay4": "magical_addons:misc/empty",
-        "overlay5": "magical_addons:misc/empty",
+        "overlay0": "magical_addons:font/space",
+        "overlay1": "magical_addons:font/space",
+        "overlay2": "magical_addons:font/space",
+        "overlay3": "magical_addons:font/space",
+        "overlay4": "magical_addons:font/space",
+        "overlay5": "magical_addons:font/space",
         "particle": "#top"
     },
     "elements": [

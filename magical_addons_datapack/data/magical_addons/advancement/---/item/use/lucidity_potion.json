@@ -15,6 +15,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:item/lucidity_potion/drink"
+    "function": "magical_addons:item/potion/lucidity_potion/drink"
   }
 }

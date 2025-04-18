@@ -1,0 +1,40 @@
+{
+  "description": {
+    "translate": "enchantment.magical_addons.test"
+  },
+  "supported_items": "minecraft:diamond_sword",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:hit_block": [
+      {
+        "requirements": {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:chiseled_bookshelf",
+          "properties": {
+            "slot_3_occupied": "true",
+            "slot_4_occupied": "true"
+          }
+        },
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:block.amethyst_block.hit",
+          "volume": 1,
+          "pitch": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 # entity:sculk_spider/hurt
 # called by: entity:sculk_spider/loop
 
-tag @s add maddons.damage
-execute on vehicle run data merge entity @s {NoGravity:0b}
-execute on vehicle on passengers on passengers run data modify entity @s[tag=maddons.head] item.components."minecraft:custom_model_data".strings[0] set value "hurt"
-execute on vehicle on passengers run data modify entity @s[tag=maddons.body] item.components."minecraft:custom_model_data".strings[0] set value "hurt"
-execute on vehicle run data merge entity @s {HurtByTimestamp:0,HurtTime:0s}
-scoreboard players set @s maddons.damage 0
+execute on vehicle store result score @s maddons.damage if data entity @s {HurtTime:0s} run return 0
+
+execute on vehicle if score @s maddons.damage matches 0 store success score @s maddons.damage if entity @s[tag=!maddons.death,tag=!maddons.baby] on passengers as @s[tag=maddons.entity] unless data entity @s {item:{components:{"minecraft:custom_model_data":{floats:[2f]}}}} on vehicle run playsound entity.spider.hurt hostile @a ~ ~ ~ 1
+execute on vehicle if score @s maddons.damage matches 0 store success score @s maddons.damage if entity @s[tag=!maddons.death,tag=maddons.baby] on passengers as @s[tag=maddons.entity] unless data entity @s {item:{components:{"minecraft:custom_model_data":{floats:[2f]}}}} on vehicle run playsound entity.spider.hurt hostile @a ~ ~ ~ 1 1.3
+
+return 1

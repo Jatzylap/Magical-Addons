@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:block_entity_data": {
+                  "id": "minecraft:command_block",
+                  "Command": "function magical_addons:dev/force_custom_block {id:sparkstone}",
+                  "auto": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

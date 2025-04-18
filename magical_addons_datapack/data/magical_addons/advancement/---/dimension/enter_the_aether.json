@@ -9,15 +9,11 @@
             "condition": "minecraft:all_of",
             "terms": [
               {
-                "condition": "minecraft:random_chance",
-                "chance": 0.25
-              },
-              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "type": "minecraft:player",
-                  "nbt": "{SleepTimer:99s}",
+                  "nbt": "{SleepTimer:99s,Tags:[\"maddons.effect.lucidity\"]}",
                   "location": {
                     "dimension": "minecraft:overworld"
                   }

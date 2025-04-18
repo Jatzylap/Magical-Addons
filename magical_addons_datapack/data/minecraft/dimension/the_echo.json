@@ -1,0 +1,60 @@
+{
+  "type": "magical_addons:the_echo",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "magical_addons:the_echo",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "magical_addons:hallow_lands",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "magical_addons:cities",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 1,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "magical_addons:old_pale_garden",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.2,
+            "continentalness": 0,
+            "erosion": 0.3,
+            "weirdness": 0,
+            "depth": -0.05,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "magical_addons:silent_grove",
+          "parameters": {
+            "temperature": 0.05,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.2,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

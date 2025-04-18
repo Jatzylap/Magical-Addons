@@ -1,0 +1,54 @@
+{
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "music": [],
+    "music_volume": 0.0,
+    "sky_color": 16777215,
+    "fog_color": 16777215,
+    "water_color": 11498212,
+    "water_fog_color": 9584352,
+    "foliage_color": 8883574,
+    "grass_color": 7832178
+  },
+  "carvers": [
+    "magical_addons:cave"
+  ],
+  "features": [
+    [
+      "magical_addons:patch_sparkstone"
+    ],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "magical_addons:patch_sparkstone_small",
+      "magical_addons:pale_garden_vegetation",
+      "magical_addons:patch_grass_plain"
+    ]
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 0.7,
+  "downfall": 0.8,
+  "category": "overworld"
+}

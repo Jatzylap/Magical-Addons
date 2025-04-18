@@ -26,11 +26,13 @@ out float vertexDistance;
 out vec4 vertexColor;
 out vec4 lightColor;
 out vec4 overlayColor;
+out vec4 pos;
 out vec2 texCoord;
 out vec2 texCoord2;
-out vec3 tintColor;
+out vec2 texCoord3;
 out vec3 Pos;
 out float transition;
+out float scale;
 
 flat out int isMarker;
 flat out int isCustom;
@@ -40,28 +42,39 @@ flat out int noshadow;
 
 #moj_import <objmc:tools.glsl>
 
-#define LIGHT_MARKER_SCALE 0.002
-
 void main() {
     Pos = Position;
-    tintColor = Color.rgb;
     texCoord = UV0;
     overlayColor = vec4(1.0);
     lightColor = minecraft_sample_lightmap(Sampler2, UV2);
     vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
-    isMarker = int(isLightMarker(vec4(tintColor, texture(Sampler0, texCoord).a)));  // Color = Not shaded ; vertexColor = Shaded
-    vec4 pos = ModelViewMat * vec4(Pos, 1.0);
+    isMarker = int(isLightMarker(vec4(Color.rgb,texture(Sampler0, texCoord).a)));
+
+    pos = ModelViewMat * vec4(Pos, 1.0);
 
     if (isMarker == 1) {
+        if (gl_VertexID % 4 == 0) {
+            pos.xy += vec2(-HALFMARKER, HALFMARKER);
+            texCoord3 = vec2(0.0, 0.0);
+        }
+        else if (gl_VertexID % 4 == 1) {
+            pos.xy += vec2(-HALFMARKER, -HALFMARKER);
+            texCoord3 = vec2(0.0, 1.0);
+        }
+        else if (gl_VertexID % 4 == 2) {
+            pos.xy += vec2(HALFMARKER, -HALFMARKER);
+            texCoord3 = vec2(1.0, 1.0);
+        }
+        else {
+            pos.xy += vec2(HALFMARKER, HALFMARKER);
+            texCoord3 = vec2(1.0, 0.0);
+        }
+    }
 
-        float scalar = (LIGHT_MARKER_SCALE) * (pos.z - pos.w);
+    scale = abs(HALFMARKER * ProjMat[1][1] / pos.z);
+    pos = ProjMat * pos;
 
-        if (gl_VertexID % 4 == 0) pos.xy += vec2(-scalar, -scalar);         // Top-left corner
-        else if (gl_VertexID % 4 == 1) pos.xy += vec2(scalar, -scalar);     // Bottom-left corner
-        else if (gl_VertexID % 4 == 2) pos.xy += vec2(scalar, scalar);      // Bottom-right corner
-        else pos.xy += vec2(-scalar, scalar);                               // Top-right corner
-
-        pos = ProjMat * pos;
+    if (isMarker == 1) {
         vec4 distProbe = inverse(ProjMat) * vec4(0.0, 0.0, 1.0, 1.0);
         float far = round(length(distProbe.xyz / distProbe.w) / 64.0) * 64.0;
         float near = 0.05;

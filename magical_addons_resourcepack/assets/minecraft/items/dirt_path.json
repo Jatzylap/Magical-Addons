@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:context_dimension",
+    "cases": [
+      {
+        "when": "minecraft:the_aether",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:block/aether_dirt_path"
+        }
+      },
+      {
+        "when": "minecraft:the_echo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:block/echo_dirt_path"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:block/dirt_path"
+    }
+  }
+}

@@ -14,9 +14,10 @@ out vec4 outColor;
 
 void main() {
     outColor = vec4(0.0);
-    vec4 candidate = getLightMarker(vec4(texture(InSampler, texCoord).rgb, 1.0));
+    vec4 candidate = getLightMarker(vec4(texture(InSampler, texCoord)));
 
-    if (candidate.rgb != vec3(0.0)) {
+    if (candidate != vec4(0.0)) {
+        candidate.a = 1.0;
         float depth = lineariseDepth(texture(InDepthSampler, texCoord).r);
         if (depth < Range) {
             outColor = candidate;

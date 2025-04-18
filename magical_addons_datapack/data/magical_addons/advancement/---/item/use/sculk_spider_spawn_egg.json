@@ -1,0 +1,11 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:entity/sculk_spider/spawn_egg"
+  }
+}

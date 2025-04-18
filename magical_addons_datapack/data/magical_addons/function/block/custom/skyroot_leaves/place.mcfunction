@@ -1,5 +1,5 @@
 # block:custom/skyroot_leaves/place
-# called by: block:place_end
+# called by: block:custom/skyroot_leaves/place
 
 ## Sound
 execute if entity @s[advancements={magical_addons:---/block/place/skyroot_leaves=true}] run playsound block.grass.place block @a ~ ~ ~ 1 .8

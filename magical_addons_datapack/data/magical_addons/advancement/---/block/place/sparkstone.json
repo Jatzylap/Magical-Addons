@@ -19,6 +19,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:block/place_start"
+    "function": "magical_addons:block/custom/sparkstone/raycast"
   }
 }

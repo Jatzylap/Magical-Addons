@@ -1,16 +1,15 @@
 # entity:sculk_spider/loop
-# called by: <dev>
+# called by: main:tick_entity
 
 ## Death
-execute on vehicle unless entity @s[nbt={DeathTime:0s}] on passengers at @s[tag=maddons.entity,tag=!maddons.death] run function magical_addons:entity/sculk_spider/death
-execute if score @s[tag=maddons.death] maddons.death matches 0.. run function magical_addons:entity/sculk_spider/death_loop
+execute on vehicle unless data entity @s {DeathTime:0s} on passengers as @s[tag=maddons.entity] run return run function magical_addons:entity/sculk_spider/death
 
 ## Hurt
-execute on vehicle if entity @s[nbt=!{HurtTime:0s}] on passengers unless score @s[tag=maddons.entity] maddons.damage matches 0.. run function magical_addons:entity/sculk_spider/hurt
-execute if score @s[tag=!maddons.death] maddons.damage matches 0.. run function magical_addons:entity/sculk_spider/hurt_loop
+execute store result entity @s item.components."minecraft:custom_model_data".floats[0] float 1 on passengers as @s[tag=maddons.head] store result entity @s item.components."minecraft:custom_model_data".floats[0] float 1 on vehicle run function magical_addons:entity/sculk_spider/hurt
 
-## Moves
-execute store success score @s maddons.move run data modify entity @s item.components."minecraft:custom_data".pos set from entity @s Pos
-execute if score @s[tag=!maddons.death] maddons.move matches 0 run function magical_addons:entity/sculk_spider/moves/idle
-execute if score @s[tag=!maddons.death] maddons.move matches 1 run function magical_addons:entity/sculk_spider/moves/crawl
-execute as @s[tag=!maddons.death] run function magical_addons:entity/sculk_spider/facing
+## Move
+execute store success entity @s[tag=!maddons.flip] item.components."minecraft:custom_model_data".floats[1] float 1 run data modify entity @s item.components."minecraft:custom_data".pos set from entity @s Pos
+
+## Rotate
+execute if predicate magical_addons:shared/15_percent on vehicle at @s on passengers run rotate @s[tag=maddons.body] ~ 0
+execute on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] ~ 0

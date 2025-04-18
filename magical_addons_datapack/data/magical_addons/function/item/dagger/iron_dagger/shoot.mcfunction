@@ -5,4 +5,4 @@ execute summon item_display run data merge entity @s {Tags:[maddons.item,maddons
 ride @n[tag=maddons.iron_dagger] mount @s
 execute as @n[tag=maddons.iron_dagger] run function magical_addons:dev/register_entity {id:"iron_dagger",cmd:"function magical_addons:item/dagger/iron_dagger/loop"}
 data modify entity @n[tag=maddons.iron_dagger] item set from entity @s Item
-data merge entity @s {Tags:[maddons.invul,maddons.dagger],Item:{id:"stick",components:{"minecraft:item_model":"magical_addons:empty"}}}
+data merge entity @s {Tags:[maddons.invul,maddons.dagger],Item:{id:"stick",components:{"minecraft:item_model":"magical_addons:font/space"}}}
