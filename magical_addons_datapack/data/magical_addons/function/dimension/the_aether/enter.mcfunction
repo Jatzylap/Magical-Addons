@@ -6,9 +6,9 @@ stopsound @s music
 tag @s add maddons.dreaming
 function magical_addons:effect/clear_lucidity
 effect clear
-function magical_addons:dev/store_inventory {slot:"outAether"}
-clear
-function magical_addons:dev/restore_inventory {slot:"inAether"}
+#function magical_addons:dev/store_inventory {slot:"outAether"}
+#clear
+#function magical_addons:dev/restore_inventory {slot:"inAether"}
 spawnpoint
 
 execute if entity @s[tag=!maddons.skin.slim] if block ~ ~ ~ #beds[facing=south] positioned ~ ~-0.25 ~ rotated 180 0 run function magical_addons:entity/player_display/summon {variant:"default",text_view_range:1}

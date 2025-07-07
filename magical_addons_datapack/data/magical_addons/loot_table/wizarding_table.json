@@ -13,11 +13,18 @@
                 "minecraft:item_model": "magical_addons:wizarding_table",
                 "minecraft:item_name": "{\"translate\":\"item.magical_addons.wizarding_table\"}",
                 "minecraft:hide_additional_tooltip": {},
-                "minecraft:block_entity_data": "{MaxNearbyEntities:0s,RequiredPlayerRange:0s,SpawnCount:0s,MaxSpawnDelay:800s,id:\"minecraft:mob_spawner\",SpawnRange:4s,Delay:0s,MinSpawnDelay:200s,SpawnPotentials:[]}",
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    false
+                  ]
+                },
                 "minecraft:custom_data": {
                   "magical_addons": {
                     "generated": false,
-                    "id": "wizarding_table"
+                    "id": "wizarding_table",
+                    "break_speed": 0,
+                    "damage": 0,
+                    "max_damage": 50
                   }
                 }
               }

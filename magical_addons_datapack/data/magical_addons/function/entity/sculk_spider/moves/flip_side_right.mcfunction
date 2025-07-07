@@ -1,9 +1,7 @@
 # entity:sculk_spider/moves/flip_side_right
-# called by: entity:sculk_spider/check_local
+# called by: entity:sculk_spider/check_global
 
-execute on vehicle run data merge entity @s {NoGravity:0b}
-execute on vehicle run attribute @s minecraft:movement_speed base reset
-
+execute if entity @s[tag=!maddons.side_right] on vehicle run data merge entity @s {NoGravity:1b}
 execute if entity @s[tag=!maddons.side_right] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f]}}
 execute if entity @s[tag=!maddons.side_right] run execute on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f]}}
 
@@ -31,8 +29,8 @@ execute store result entity @s item.components."minecraft:custom_data".magical_a
 execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_model_data".colors set from entity @s item.components."minecraft:custom_data".magical_addons.colors
 data modify entity @s item.components."minecraft:custom_model_data".colors set from entity @s item.components."minecraft:custom_data".magical_addons.colors
 
-data modify entity @s item.components."minecraft:custom_data".angle set value "side_right"
-execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_data".angle set value "side_right"
+data modify entity @s item.components."minecraft:custom_data".magical_addons.angle set value "side_right"
+execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_data".magical_addons.angle set value "side_right"
 
 tag @s add maddons.side_right
 tag @s remove maddons.ground

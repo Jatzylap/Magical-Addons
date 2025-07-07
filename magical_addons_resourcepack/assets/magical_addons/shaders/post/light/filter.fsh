@@ -2,25 +2,23 @@
 
 #moj_import <magical_addons:utils.glsl>
 
-uniform sampler2D InSampler;
-uniform sampler2D InDepthSampler;
+uniform sampler2D DiffuseSampler;
+uniform sampler2D DiffuseDepthSampler;
 uniform float Range;
 
 in vec2 texCoord;
 
 out vec4 outColor;
 
-#define FABULOUS_LIGHT
-
 void main() {
     outColor = vec4(0.0);
-    vec4 candidate = getLightMarker(vec4(texture(InSampler, texCoord)));
+    float depth = texture(DiffuseDepthSampler, texCoord).r;
 
-    if (candidate != vec4(0.0)) {
-        candidate.a = 1.0;
-        float depth = lineariseDepth(texture(InDepthSampler, texCoord).r);
+    if (depth < LIGHTDEPTH) {
+        depth = LinearizeDepth(depth / LIGHTDEPTH);
         if (depth < Range) {
-            outColor = candidate;
+            outColor = texture(DiffuseSampler, texCoord);
+            outColor *= 255.0 / 24.0;
         }
     }
 }

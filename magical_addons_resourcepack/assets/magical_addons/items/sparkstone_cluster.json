@@ -4,24 +4,10 @@
     "property": "minecraft:custom_model_data",
     "cases": [
       {
-        "when": "up_down",
+        "when": "block",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:block/sparkstone_cluster_ud"
-        }
-      },
-      {
-        "when": "west_east",
-        "model": {
-          "type": "minecraft:model",
-          "model": "magical_addons:block/sparkstone_cluster_we"
-        }
-      },
-      {
-        "when": "north_south",
-        "model": {
-          "type": "minecraft:model",
-          "model": "magical_addons:block/sparkstone_cluster_ns"
+          "model": "magical_addons:block/sparkstone_cluster"
         }
       }
     ],

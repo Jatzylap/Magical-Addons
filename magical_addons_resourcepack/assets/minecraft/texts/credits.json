@@ -120,8 +120,6 @@
                     {
                         "title": "Shaders",
                         "names": [
-                            "Godlander | OBJMC",
-                            "PuckiSilver | MC Charcoal",
                             "bradleyq | Light Painter"
                         ]
                     },
@@ -130,6 +128,7 @@
                         "names": [
                             "Netrovek | PickupEntities",
                             "gibbsly | Simple UUID Converter (Data Pack)",
+                            "MulverineX | Player Motion",
                             "Aeldrion | Iris (Data Pack)"
                         ]
                     }

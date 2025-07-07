@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "magical_addons:sparkstone"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "#minecraft:pickaxes"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "random_sequence": "magical_addons:blocks/sparkstone"
+}

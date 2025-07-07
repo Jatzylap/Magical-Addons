@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "magical_addons:golden_oak_sapling"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "magical_addons:blocks/golden_oak_sapling"
+}

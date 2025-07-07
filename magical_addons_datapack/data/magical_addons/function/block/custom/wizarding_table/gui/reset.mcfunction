@@ -62,11 +62,9 @@ execute if entity @s[tag=maddons.wt_rb_cg5] if score @s maddons.wizarding_table_
 execute if entity @s[tag=maddons.wt_rb_cg6] if score @s maddons.wizarding_table_page matches 3 run data modify block ~ ~ ~ Items[{Slot:0b}].components."minecraft:custom_model_data".strings[0] set value "wt_rb_cg6_s1"
 
 ## Damage
-execute if entity @s[tag=!maddons.wt_rb] store result block ~ ~ ~ Items[{Slot:10b}].components."minecraft:damage" int 1 run scoreboard players get @s maddons.temp
-execute if entity @s[tag=!maddons.wt_rb] store result block ~ ~ ~ Items[{Slot:10b}].components."minecraft:max_damage" int 1 run scoreboard players get @s maddons.max_damage
+execute if entity @s[tag=!maddons.wt_rb] store result block ~ ~ ~ Items[{Slot:10b}].components."minecraft:damage" int 1 run data get block ~ ~ ~ components."minecraft:custom_data".magical_addons.damage
+execute if entity @s[tag=!maddons.wt_rb] store result block ~ ~ ~ Items[{Slot:10b}].components."minecraft:max_damage" int 1 run data get block ~ ~ ~ components."minecraft:custom_data".magical_addons.max_damage
 execute if entity @s[tag=!maddons.wt_rb] run data modify block ~ ~ ~ Items[{Slot:10b}].components."minecraft:item_name" set value '{"translate":"item.magical_addons.sparkstone_orb"}'
-execute if entity @s[tag=maddons.wt_rb_page0] store result block ~ ~ ~ Items[{Slot:17b}].components."minecraft:damage" int 1 run scoreboard players get @s maddons.temp
-execute if entity @s[tag=maddons.wt_rb_page0] store result block ~ ~ ~ Items[{Slot:17b}].components."minecraft:max_damage" int 1 run scoreboard players get @s maddons.max_damage
 execute if score @s maddons.damage matches ..0 run function magical_addons:block/custom/wizarding_table/disengage
 
 ## Debug

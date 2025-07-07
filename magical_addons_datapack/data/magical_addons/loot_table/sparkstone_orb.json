@@ -5,15 +5,24 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:snowball",
+          "name": "minecraft:recovery_compass",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none"
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
                 "minecraft:item_model": "magical_addons:sparkstone_orb",
                 "minecraft:rarity": "uncommon",
                 "minecraft:item_name": "{\"translate\":\"item.magical_addons.sparkstone_orb\"}",
-                "minecraft:custom_data": "{\"magical_addons\":{\"id\":\"sparkstone_orb\"}}",
+                "minecraft:custom_data": "{magical_addons:{id:sparkstone_orb}}",
                 "minecraft:max_damage": 50,
                 "minecraft:damage": 0,
                 "minecraft:tool": {

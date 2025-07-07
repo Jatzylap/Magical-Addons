@@ -5,10 +5,8 @@
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
-          "items": "minecraft:rabbit_foot",
-          "count": 1,
           "components": {
-            "minecraft:custom_data": {"magical_addons":{"id":"soul_bottle"}}
+            "minecraft:custom_data": "{magical_addons:{brewable:1b,id:\"soul_bottle\"}}"
           }
         }
       }

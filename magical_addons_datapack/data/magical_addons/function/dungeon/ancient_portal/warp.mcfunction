@@ -6,10 +6,15 @@ scoreboard players add @s maddons.portal_time 1
 #execute if dimension overworld if entity @n[type=item_display,tag=maddons.ancient_portal,tag=x,distance=..1.6] run tag @s add maddons.ancient_portal_x
 #execute if dimension overworld if entity @n[type=item_display,tag=maddons.ancient_portal,tag=z,distance=..1.6] run tag @s add maddons.ancient_portal_z
 
+## Save coords
+execute store result score @s maddons.echo.x run data get entity @s Pos[0]
+execute store result score @s maddons.echo.y run data get entity @s Pos[1]
+execute store result score @s maddons.echo.z run data get entity @s Pos[2]
+
 ## Teleport
 #execute in the_echo store success score @s maddons.portal_travel if entity @e[type=item_display,tag=maddons.ancient_portal,distance=..199]
 #execute if score @s maddons.portal_travel matches 0 in the_echo positioned over motion_blocking_no_leaves run tp @s ~ ~1 ~
-execute in the_echo positioned over motion_blocking_no_leaves run tp @s ~ ~ ~
+execute in the_echo run spreadplayers ~ ~ 0 99 under -30 false @s
 
 ## DEBUG
 #execute if score @s maddons.portal_travel matches 1 run say yes!

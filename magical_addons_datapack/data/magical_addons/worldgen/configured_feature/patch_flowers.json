@@ -14,30 +14,9 @@
               {
                 "weight": 1,
                 "data": {
-                  "Name": "minecraft:barrier"
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:structure_void"
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
                   "Name": "minecraft:light",
                   "Properties": {
                     "level": "0"
-                  }
-                }
-              },
-              {
-                "weight": 1,
-                "data": {
-                  "Name": "minecraft:light",
-                  "Properties": {
-                    "level": "1"
                   }
                 }
               }
@@ -49,20 +28,13 @@
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:matching_blocks",
-            "offset": [
-              0,
-              -1,
-              0
-            ],
-            "blocks": "minecraft:note_block"
-          }
-        },
-        {
-          "type": "minecraft:block_predicate_filter",
-          "predicate": {
-            "type": "minecraft:matching_blocks",
-            "blocks": "minecraft:air"
+            "type": "minecraft:would_survive",
+            "state": {
+              "Name": "minecraft:oak_sapling",
+              "Properties": {
+                "stage": "0"
+              }
+            }
           }
         }
       ]

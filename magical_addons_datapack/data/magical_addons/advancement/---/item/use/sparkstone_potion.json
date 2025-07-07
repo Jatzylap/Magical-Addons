@@ -8,13 +8,17 @@
           "items": "minecraft:potion",
           "count": 1,
           "components": {
-            "minecraft:custom_data": {"magical_addons":{"id":"sparkstone_potion"}}
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id":"sparkstone_potion"
+              }
+            }
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "magical_addons:item/potion/sparkstone_potion/drink"
+    "function": "magical_addons:item/sparkstone_potion/drink"
   }
 }

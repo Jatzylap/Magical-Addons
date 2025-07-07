@@ -2,6 +2,6 @@
 	"parent":"magical_addons:block/template_ore",
 	"textures":{
 		"base":"block/redstone_ore",
-		"overlay":"magical_addons:block/redstone_ore_overlay"
+		"glow":"magical_addons:block/redstone_ore_overlay"
 	}
 }

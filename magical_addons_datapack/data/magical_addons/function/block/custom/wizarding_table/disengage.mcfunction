@@ -9,8 +9,13 @@ particle firework ~ ~ ~.5 0 0 0 .1 2
 particle firework ~ ~ ~-.5 0 0 0 .1 2
 scoreboard players reset @s maddons.damage
 scoreboard players reset @s maddons.wizarding_table_page
+fill ~1 ~ ~ ~-1 ~ ~ air replace light[level=9]
+fill ~ ~ ~1 ~ ~ ~-1 air replace light[level=9]
+fill ~ ~-1 ~ ~ ~1 ~ air replace light[level=9]
 tag @s remove on
 tag @s add off
+data remove entity @s brightness
 data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value 0
+data modify block ~ ~ ~ components."minecraft:custom_model_data".flags[0] set value 0
 function magical_addons:dev/unregister_entity with block ~ ~ ~ components."minecraft:custom_data"
-setblock ~ ~ ~ brown_shulker_box{components:{custom_data:{magical_addons:{generated:1b,id:"wizarding_table"}}},lock:{components:{item_name:"§maddons.wizarding_table"}},CustomName:'{"translate":"item.minecraft.wizarding_table"}'}
+function magical_addons:block/custom/wizarding_table/set_state with block ~ ~ ~

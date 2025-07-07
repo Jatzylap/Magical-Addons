@@ -60,9 +60,9 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
     } else {
 #endif
 #ifdef ENTITY
-    isGUI = int(isgui(ProjMat));
-    isHand = int(ishand(FogStart, ProjMat));
-    if (((isGUI + isHand == 0) && visibility.x) || (bool(isHand) && visibility.y) || (bool(isGUI) && visibility.z)) {
+    isGUI_ = int(isgui(ProjMat));
+    isHand_ = int(ishand(FogStart, ProjMat));
+    if (((isGUI_ + isHand_ == 0) && visibility.x) || (bool(isHand_) && visibility.y) || (bool(isGUI_) && visibility.z)) {
         //colorbehavior
         overlayColor = vec4(1);
         if (colorbehavior == 219) { //animation frames 0-8388607
@@ -179,26 +179,22 @@ if (marker == ivec4(12,34,56,78) || marker == ivec4(12,34,56,79)) {
 //custom entity rotation
 #ifdef ENTITY
         posoffset *= scale;
-        if (isGUI == 1) {
+        if (isGUI_ == 1) {
             posoffset *= 16;
             posoffset.zy *= -1;
             posoffset = rotate(rotation + vec3(0,1,0)) * posoffset;
         }
-        if (isHand == 1) {
+        if (isHand_ == 1) {
             posoffset.zx *= -1;
             posoffset = (vec4(posoffset,0) * ModelViewMat).xyz;
         }
-        if (isHand + isGUI == 0) {
+        if (isHand_ + isGUI_ == 0) {
             if (any(greaterThan(autorotate,vec2(0)))) {
-
                 //normal estimated rotation calculation from The Der Discohund
                 float yaw = -atan(Normal.x, Normal.z);
                 float pitch = -atan(Normal.y, length(Normal.xz));
-
                 posoffset = rotate(vec3(vec2(pitch,yaw)*autorotate,0) + rotation) * posoffset;
             }
-
-
             //pure color rotation
             else {
                 posoffset = rotate(rotation) * posoffset;

@@ -18,8 +18,8 @@ if (textureSize(Sampler0, 0) == vec2(64) && (marker == ivec4(12,34,56,78) || mar
     float scale = metad.g;
     noshadow = metad.r;
 
-    isGUI = int(isgui(ProjMat));
-    isHand = int(ishand(FogStart, ProjMat));
+    isGUI_ = int(isgui(ProjMat));
+    isHand_ = int(ishand(FogStart, ProjMat));
 
     Pos = Position;
     ivec3 p = ivec3(Pos + 1250)/500;

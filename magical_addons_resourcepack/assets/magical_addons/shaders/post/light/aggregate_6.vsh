@@ -3,7 +3,7 @@
 in vec4 Position;
 
 uniform mat4 ProjMat;
-uniform vec2 InSize;
+uniform vec2 DiffuseSize;
 uniform vec2 OutSize;
 uniform float FOV;
 
@@ -22,8 +22,8 @@ void main(){
         y = 1.0;
     }
 
-    inAspectRatio = InSize.x / InSize.y;
-    inOneTexel = 1.0 / InSize;
+    inAspectRatio = DiffuseSize.x / DiffuseSize.y;
+    inOneTexel = 1.0 / DiffuseSize;
     texCoord = Position.xy / OutSize;
     conversionK = tan(FOV / 360.0 * 3.14159265358979) * 2.0;
 

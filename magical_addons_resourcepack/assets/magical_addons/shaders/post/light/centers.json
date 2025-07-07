@@ -1,11 +1,11 @@
 {
-    "vertex": "magical_addons:post/light/aggregate",
+    "vertex": "magical_addons:post/light/centers",
     "fragment": "magical_addons:post/light/centers",
     "samplers": [
-        { "name": "InSampler" }
+        { "name": "DiffuseSampler" }
     ],
     "uniforms": [
-        { "name": "ProjMat", "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
-        { "name": "InSize",  "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] }
+        { "name": "ProjMat",        "type": "matrix4x4", "count": 16, "values": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0 ] },
+        { "name": "DiffuseSize",    "type": "float",     "count": 2,  "values": [ 1.0, 1.0 ] }
     ]
 }

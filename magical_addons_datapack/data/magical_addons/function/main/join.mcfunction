@@ -29,4 +29,4 @@ scoreboard players reset @s maddons.leave_game
 
 ## Register
 tag @s add maddons.player
-function magical_addons:dev/register_entity {id:"player",cmd:"function magical_addons:player/loop"}
+function magical_addons:dev/register_entity {cmd:"function magical_addons:player/loop"}

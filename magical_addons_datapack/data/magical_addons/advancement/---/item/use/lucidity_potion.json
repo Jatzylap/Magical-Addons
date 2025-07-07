@@ -6,15 +6,18 @@
       "conditions": {
         "item": {
           "items": "minecraft:potion",
-          "count": 1,
           "components": {
-            "minecraft:custom_data": {"magical_addons":{"id":"lucidity_potion"}}
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id":"lucidity_potion"
+              }
+            }
           }
         }
       }
     }
   },
   "rewards": {
-    "function": "magical_addons:item/potion/lucidity_potion/drink"
+    "function": "magical_addons:item/lucidity_potion/drink"
   }
 }

@@ -1,43 +1,32 @@
 {
   "effects": {
     "mood_sound": {
-      "sound": "minecraft:ambient.cave",
+      "sound": {
+        "sound_id": "magical_addons:ambient.aether.mood"
+      },
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "music": [
-      {
-        "data": {
-          "max_delay": 24000,
-          "min_delay": 12000,
-          "replace_current_music": false,
-          "sound": {
-            "sound_id": "magical_addons:music.echo"
-          }
-        },
-        "weight": 1
-      }
-    ],
-    "music_volume": 1.0,
+    "music_volume": 0.0,
     "additions_sound": {
       "sound": {
-        "sound_id": "minecraft:ambient.echo.additions"
+        "sound_id": "magical_addons:ambient.aether.additions"
       },
       "tick_chance": 0.0001
     },
     "particle": {
       "options": {
-        "type": "minecraft:white_ash"
+        "type": "minecraft:mycelium"
       },
       "probability": 0.118093334
     },
-    "foliage_color": 8883574,
-    "grass_color": 7832178,
-    "sky_color": 16777215,
-    "fog_color": 16777215,
-    "water_color": 11498212,
-    "water_fog_color": 9584352
+    "sky_color": 9275608,
+    "fog_color": 9671612,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 11665355,
+    "foliage_color": 14417827
   },
   "carvers": [
     "magical_addons:cave"
@@ -51,11 +40,27 @@
       "magical_addons:city_columns"
     ],
     [],
-    [],
+    [
+      "magical_addons:ore_gravitite",
+      "magical_addons:ore_coal",
+      "magical_addons:ore_iron",
+      "magical_addons:ore_quartz",
+      "magical_addons:ore_dirt",
+      "magical_addons:ore_gravel",
+      "magical_addons:ore_emerald",
+      "magical_addons:ore_granite",
+      "magical_addons:ore_diorite",
+      "magical_addons:spring_water_sky"
+    ],
     [],
     [],
     [
-      "magical_addons:patch_grass_plain"
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "magical_addons:flower_plains_sky"
+    ],
+    [
+      "minecraft:freeze_top_layer"
     ]
   ],
   "spawners": {
@@ -71,6 +76,5 @@
   "spawn_costs": {},
   "has_precipitation": false,
   "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether"
+  "downfall": 0.0
 }

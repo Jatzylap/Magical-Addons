@@ -6,12 +6,20 @@ scoreboard players add @s maddons.portal_time 1
 #execute if dimension the_echo if entity @n[type=item_display,tag=maddons.ancient_portal,tag=x,distance=..1.6] run tag @s add maddons.ancient_portal_x
 #execute if dimension the_echo if entity @n[type=item_display,tag=maddons.ancient_portal,tag=z,distance=..1.6] run tag @s add maddons.ancient_portal_z
 
+## Debug
+execute unless score @s maddons.echo.x matches ..0 unless score @s maddons.echo.x matches 1.. unless score @s maddons.echo.y matches ..0 unless score @s maddons.echo.y matches 1.. unless score @s maddons.echo.z matches ..0 unless score @s maddons.echo.z matches 1.. run kill
+
+## Restore coords
+execute store result storage magical_addons:temp data.portal.x double 1 run scoreboard players get @s maddons.echo.x
+execute store result storage magical_addons:temp data.portal.y double 1 run scoreboard players get @s maddons.echo.y
+execute store result storage magical_addons:temp data.portal.z double 1 run scoreboard players get @s maddons.echo.z
+
 ## Teleport
 #execute in overworld store success score @s maddons.portal_travel if entity @e[type=item_display,tag=maddons.ancient_portal,distance=..199]
 #execute if score @s maddons.portal_travel matches 0 in overworld positioned over motion_blocking_no_leaves run tp @s ~ ~1 ~
-execute in overworld positioned over motion_blocking_no_leaves run tp @s ~ ~ ~
+execute in overworld run function magical_addons:dungeon/ancient_portal/teleport with storage magical_addons:temp data.portal
 
-## DEBUG
+## TEST
 #execute if score @s[tag=maddons.ancient_portal_x] maddons.portal_travel matches 0 run say yes!
 #execute if score @s[tag=maddons.ancient_portal_x] maddons.portal_travel matches 1 run say no!
 

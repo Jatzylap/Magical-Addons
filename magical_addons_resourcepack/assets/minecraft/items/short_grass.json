@@ -1,0 +1,32 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:context_dimension",
+    "cases": [
+      {
+        "when": "minecraft:the_echo",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/short_grass",
+          "tints": [
+            {
+              "type": "minecraft:custom_model_data",
+              "default": 16579836
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/short_grass",
+      "tints": [
+        {
+          "type": "minecraft:grass",
+          "downfall": 1,
+          "temperature": 0.5
+        }
+      ]
+    }
+  }
+}

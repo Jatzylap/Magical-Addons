@@ -1,1 +1,0 @@
-$particle entity_effect{color:[.$(id),.36,.15,.98]} $(args)

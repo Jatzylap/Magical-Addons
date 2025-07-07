@@ -1,1 +1,1 @@
-playsound ui.advancement.magical_charge master @s ~ ~ ~ 1000000
+playsound magical_addons:ui.advancement.magical_charge master @s ~ ~ ~ 1000

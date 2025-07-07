@@ -6,6 +6,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:entity/sculk_spider/spawn_egg"
+    "function": "magical_addons:item/sculk_spider_spawn_egg/use"
   }
 }

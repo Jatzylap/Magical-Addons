@@ -5,11 +5,10 @@
 	"#minecraft:lapis_ores",
 	"#minecraft:diamond_ores",
 	"#minecraft:emerald_ores",
-	"minecraft:player_head",
-	"minecraft:player_wall_head",
 	"minecraft:brewing_stand",
 	"minecraft:barrel",
 	"minecraft:brown_shulker_box",
-	"minecraft:chiseled_bookshelf"
+	"#minecraft:slabs",
+	"minecraft:spawner"
 	]
 }

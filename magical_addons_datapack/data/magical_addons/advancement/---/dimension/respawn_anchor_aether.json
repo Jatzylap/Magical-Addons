@@ -1,0 +1,24 @@
+{
+  "parent": "magical_addons:---/dimension/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:any_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "the_aether",
+              "block": {
+                "blocks": "minecraft:respawn_anchor"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:dimension/the_aether/set_respawn"
+  }
+}

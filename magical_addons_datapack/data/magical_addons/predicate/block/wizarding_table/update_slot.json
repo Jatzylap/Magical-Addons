@@ -1,21 +1,6 @@
 {
   "condition": "minecraft:any_of",
   "terms": [
-
-
-
-    {
-      "condition": "minecraft:entity_properties",
-      "entity": "this",
-      "predicate": {
-        "nbt": "{Tags:[off]}",
-        "location": {
-          "block": {
-            "nbt": "{Items:[{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_orb\"}}}}]}"
-          }
-        }
-      }
-    },
     {
       "condition": "minecraft:all_of",
       "terms": [

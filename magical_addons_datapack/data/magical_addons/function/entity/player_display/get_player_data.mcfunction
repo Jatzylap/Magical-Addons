@@ -12,6 +12,6 @@ execute if entity @s[tag=maddons.skin.slim] run loot replace entity @n[tag=!madd
 execute if entity @s[tag=maddons.skin.slim] run loot replace entity @n[tag=!maddons.summoned,tag=maddons.player_display,tag=maddons.left_arm] hotbar.0 loot magical_addons:---/entity/player_display/left_arm_slim
 
 ## Get name
-execute as @n[tag=!maddons.summoned,tag=maddons.entity,tag=maddons.player_display] at @s run data modify entity @s item.components."minecraft:custom_data".magical_addons.player_name set from entity @s Passengers[{}].item.components."minecraft:profile".name
-data modify entity @n[tag=!maddons.summoned,tag=maddons.text,tag=maddons.player_display] text set from entity @n[tag=!maddons.summoned,tag=maddons.entity,tag=maddons.player_display] item.components."minecraft:custom_data".magical_addons.player_name
+data modify entity @n[tag=!maddons.summoned,tag=maddons.data,tag=maddons.player_display] data.magical_addons.player_name set from entity @n[tag=!maddons.summoned,tag=maddons.entity,tag=maddons.player_display] Passengers[{}].item.components."minecraft:profile".name
+data modify entity @n[tag=!maddons.summoned,tag=maddons.text,tag=maddons.player_display] text set from entity @n[tag=!maddons.summoned,tag=maddons.entity,tag=maddons.player_display] data.magical_addons.player_name
 data merge entity @n[tag=!maddons.summoned,tag=maddons.text,tag=maddons.player_display] {transformation:{translation:[.0,.5,.0]}}

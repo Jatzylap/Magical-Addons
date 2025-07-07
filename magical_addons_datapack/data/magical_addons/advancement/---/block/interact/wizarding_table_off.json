@@ -4,22 +4,6 @@
     "requirement": {
       "trigger": "minecraft:default_block_use",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "items": "minecraft:snowball",
-                  "components": {
-                    "minecraft:custom_data": {"magical_addons":{"id":"sparkstone_orb"}}
-                  }
-                }
-              }
-            }
-          }
-        ],
         "location": [
           {
             "condition": "minecraft:location_check",

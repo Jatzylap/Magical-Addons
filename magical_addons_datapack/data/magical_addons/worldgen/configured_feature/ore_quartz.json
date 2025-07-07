@@ -6,11 +6,11 @@
     "targets": [
       {
         "state": {
-        "Name": "minecraft:light",
-        "Properties": {
-          "level":"0"
-        }
-      },
+          "Name": "minecraft:cobblestone_slab",
+          "Properties": {
+            "type": "double"
+          }
+        },
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "minecraft:stone_ore_replaceables"

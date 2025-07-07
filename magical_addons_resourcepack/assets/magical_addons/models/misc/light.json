@@ -1,23 +1,38 @@
 {
 	"ambientocclusion": false,
-	"textures": {
-		"0": "magical_addons:misc/light",
-		"particle": "magical_addons:misc/light"
+	"textures":
+	{
+		"0":"magical_addons:misc/light",
+		"particle":"magical_addons:misc/light"
 	},
-	"elements": [
-		{
-			"from": [4, 8, 4],
-			"to": [12, 8, 12],
-			"shade": false,
-			"rotation": {"angle": 0, "axis": "y", "origin": [10, 10, 10]},
-			"faces": {
-				"up": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#0", "tintindex": 0 }
+	"elements":
+		[
+			{
+				"from": [8,8,8],
+				"to": [8,8,8],
+				"rotation":
+					{
+						"angle": 0,
+						"axis": "y",
+						"origin": [10,10,10]
+					},
+					"faces":
+					{
+						"up":
+						{
+							"uv": [0.5,0.5,0.5,0.5],
+							"rotation": 90,
+							"texture": "#0",
+							"tintindex": 0
+						}
+					}
 			}
-		}
-	],
-	"display": {
-		"head": {
-			"scale": [0, 0, 0]
+		],
+	"display":
+	{
+		"head":
+		{
+			"scale":[0.0,0.0,0.0]
 		}
 	}
 }

@@ -1,0 +1,212 @@
+{
+    "textures": {
+        "0": "magical_addons:entity/sculk_spider",
+        "1": "magical_addons:entity/sculk_spider_bioluminescent_layer"
+    },
+    "elements": [
+        {
+            "from": [
+                1.22526,
+                5.88289,
+                8
+            ],
+            "to": [
+                14.77474,
+                10.11711,
+                8
+            ],
+            "light_emission": 0,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        12.5,
+                        16,
+                        15
+                    ],
+                    "texture": "#0"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3.5,
+                        10,
+                        6
+                    ],
+                    "texture": "#0"
+                }
+            }
+        },
+        {
+            "from": [
+                1.22526,
+                5.88289,
+                8
+            ],
+            "to": [
+                14.77474,
+                10.11711,
+                8
+            ],
+            "light_emission": 15,
+            "faces": {
+                "north": {
+                    "uv": [
+                        12,
+                        12.5,
+                        16,
+                        15
+                    ],
+                    "texture": "#1"
+                },
+                "south": {
+                    "uv": [
+                        6,
+                        3.5,
+                        10,
+                        6
+                    ],
+                    "texture": "#1"
+                }
+            }
+        }
+    ],
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "ground": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "gui": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "head": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                -11.5,
+                15
+            ],
+            "scale": [
+                1.18086,
+                1.18086,
+                1.18086
+            ]
+        }
+    }
+}

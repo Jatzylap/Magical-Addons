@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "magical_addons:block/aether_dirt"
-  }
-}

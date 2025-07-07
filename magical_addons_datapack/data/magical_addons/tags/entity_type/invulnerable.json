@@ -1,7 +1,8 @@
 {
 	"values": [
 	"#minecraft:impact_projectiles",
-	"#magical_addons:frames",
+	"minecraft:item_frame",
+	"minecraft:glow_item_frame",
 	"minecraft:item_display",
 	"minecraft:text_display",
 	"minecraft:block_display",

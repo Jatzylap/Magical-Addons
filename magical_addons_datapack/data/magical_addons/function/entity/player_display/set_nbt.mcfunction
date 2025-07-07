@@ -11,7 +11,7 @@ execute on passengers run data merge entity @s[tag=maddons.torso] {transformatio
 tp @s ~ ~ ~ ~ 0
 execute at @s on passengers run rotate @s ~ 0
 
-function magical_addons:dev/register_entity {id:"player_display",cmd:"function magical_addons:entity/player_display/loop"}
+function magical_addons:dev/register_entity {cmd:"function magical_addons:entity/player_display/loop"}
 
 execute on passengers run tag @s add maddons.summoned
 tag @s add maddons.summoned

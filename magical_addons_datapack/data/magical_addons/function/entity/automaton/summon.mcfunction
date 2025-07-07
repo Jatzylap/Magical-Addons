@@ -1,0 +1,12 @@
+# entity:automaton/summon
+# called by: entity:automaton/spawn
+
+## Errors
+execute store result score #maddons.shared.difficulty maddons.temp run difficulty
+execute if score #maddons.shared.difficulty maddons.temp matches 0 run return run tellraw @s ["",{"text":"This entity cannot be summoned in peaceful difficulty!","color":"red"}]
+
+## Summon
+summon iron_golem ~ ~ ~ {AngerTime:999999s,Health:900.0,Silent:1,CustomName:'{"translate":"entity.magical_addons.automaton"}',DeathLootTable:"magical_addons:entities/automaton",attributes:[{id:knockback_resistance,base:1.0d},{id:movement_speed,base:0.25d},{id:fall_damage_multiplier,base:0.0},{id:max_health,base:900.0},{id:scale,base:2.5d},{id:burning_time,base:0.0}],active_effects:[{id:"invisibility",amplifier:-1,duration:-1,show_particles:0b},{id:"fire_resistance",amplifier:-1,duration:-1,show_particles:0b},{id:"weakness",amplifier:-1,duration:-1,show_particles:0b}],Tags:["maddons.automaton","maddons.custom_step_sound","maddons.vehicle"],                                                                            Passengers:[{id:"marker",Tags:[maddons.automaton,maddons.step_sound],data:{sound_id:"magical_addons:entity.automaton.step"}},                                                                            {id:"item_display",item_display:"head",teleport_duration:3,shadow_strength:1.5,shadow_radius:1.0,item:{id:"potion",components:{item_model:"magical_addons:entity/automaton",custom_data:{magical_addons:{attack:""}},custom_model_data:{strings:["body"],colors:[[0.,0.251,0.]],floats:[0f,0f]}}},view_range:300f,Tags:["maddons.entity","maddons.automaton","maddons.body","maddons.part","maddons.phase1"],                                                                            Passengers:[{id:"item_display",item_display:"head",item:{id:"potion",components:{item_model:"magical_addons:entity/automaton",custom_model_data:{strings:["head"],colors:[[0.,0.251,0.]],floats:[0f,0f]}}},view_range:300f,teleport_duration:3,Tags:["maddons.automaton","maddons.head","maddons.part"]}]}]}
+
+## NBT
+$execute as @n[type=iron_golem,tag=maddons.vehicle,tag=maddons.automaton,tag=!maddons.summoned] at @s run function magical_addons:entity/automaton/set_nbt {nbt:$(nbt)}

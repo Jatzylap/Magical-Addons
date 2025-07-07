@@ -18,3 +18,7 @@ execute at @s[scores={maddons.glitch=8}] run title @s title ["\uE025"]
 execute at @s[scores={maddons.glitch=9}] run title @s title ["\uE026"]
 scoreboard players reset @s maddons.glitch
 playsound magical_addons:ambient.echo.loop.glitch ambient @s ~ ~ ~ 1000
+execute if biome ~ ~ ~ magical_addons:silent_grove run fillbiome ~-5 ~-5 ~-5 ~5 ~5 ~5 magical_addons:silent_grove_red_sky
+execute if biome ~ ~ ~ magical_addons:hallow_lands run fillbiome ~-5 ~-5 ~-5 ~5 ~5 ~5 magical_addons:hallow_lands_red_sky
+execute if biome ~ ~ ~ magical_addons:old_pale_garden run fillbiome ~-5 ~-5 ~-5 ~5 ~5 ~5 magical_addons:old_pale_garden_red_sky
+effect give @s night_vision 1 0 true

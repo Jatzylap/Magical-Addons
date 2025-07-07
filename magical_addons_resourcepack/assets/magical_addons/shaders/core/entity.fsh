@@ -25,6 +25,7 @@ void main() {
             discard;
         }
     #endif
+    if (texture(Sampler0, texCoord).a != 254.0 / 255.0) {    // Spider eyes
         color *= vertexColor * ColorModulator;
     #ifndef NO_OVERLAY
         color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
@@ -32,7 +33,6 @@ void main() {
     #ifndef EMISSIVE
         color *= lightMapColor;
     #endif
-    #define ENTITY
-    #moj_import <magical_addons:light.glsl>
+    }
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

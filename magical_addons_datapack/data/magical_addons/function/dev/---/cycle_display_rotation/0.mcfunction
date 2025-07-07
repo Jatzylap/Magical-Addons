@@ -7,9 +7,9 @@ execute store result score #maddons.dev.cdr.z maddons.cycle_display_rot run data
 function magical_addons:dev/---/cycle_display_rotation/1
 
 ## i + n
-execute if data storage maddons.dev:cycle_display_rotation {axis:"x"} store result score #maddons.dev.cdr.x^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.x maddons.cycle_display_rot += @s maddons.cycle_display_rot
-execute if data storage maddons.dev:cycle_display_rotation {axis:"y"} store result score #maddons.dev.cdr.y^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.y maddons.cycle_display_rot += @s maddons.cycle_display_rot
-execute if data storage maddons.dev:cycle_display_rotation {axis:"z"} store result score #maddons.dev.cdr.z^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.z maddons.cycle_display_rot += @s maddons.cycle_display_rot
+execute if data storage magical_addons:dev {data:{cycle_display_rotation:{axis:"x"}}} store result score #maddons.dev.cdr.x^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.x maddons.cycle_display_rot += @s maddons.cycle_display_rot
+execute if data storage magical_addons:dev {data:{cycle_display_rotation:{axis:"y"}}} store result score #maddons.dev.cdr.y^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.y maddons.cycle_display_rot += @s maddons.cycle_display_rot
+execute if data storage magical_addons:dev {data:{cycle_display_rotation:{axis:"z"}}} store result score #maddons.dev.cdr.z^2 maddons.cycle_display_rot run scoreboard players operation #maddons.dev.cdr.z maddons.cycle_display_rot += @s maddons.cycle_display_rot
 
 ## sm = x^2 + y^2 + z^2
 scoreboard players operation #maddons.dev.cdr.x^2 maddons.cycle_display_rot *= #maddons.dev.cdr.x maddons.cycle_display_rot

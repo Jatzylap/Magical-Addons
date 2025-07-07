@@ -5,16 +5,7 @@
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:chiseled_bookshelf",
-        "Properties": {
-          "facing":"north",
-          "slot_0_occupied":"false",
-          "slot_1_occupied":"false",
-          "slot_2_occupied":"false",
-          "slot_3_occupied":"false",
-          "slot_4_occupied":"false",
-          "slot_5_occupied":"true"
-        }
+        "Name": "minecraft:dirt"
       }
     },
     "foliage_placer": {
@@ -26,15 +17,10 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:chiseled_bookshelf",
+        "Name": "minecraft:spruce_slab",
         "Properties": {
-          "facing":"north",
-          "slot_0_occupied":"false",
-          "slot_1_occupied":"false",
-          "slot_2_occupied":"false",
-          "slot_3_occupied":"false",
-          "slot_4_occupied":"true",
-          "slot_5_occupied":"true"
+          "waterlogged": "true",
+          "type": "double"
         }
       }
     },
@@ -55,16 +41,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:chiseled_bookshelf",
-        "Properties": {
-          "facing":"north",
-          "slot_0_occupied":"false",
-          "slot_1_occupied":"false",
-          "slot_2_occupied":"false",
-          "slot_3_occupied":"true",
-          "slot_4_occupied":"false",
-          "slot_5_occupied":"false"
-        }
+        "Name": "minecraft:oak_log"
       }
     }
   }

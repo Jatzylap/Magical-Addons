@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "magical_addons:font/space"
+    "layer0": "magical_addons:misc/empty"
   }
 }

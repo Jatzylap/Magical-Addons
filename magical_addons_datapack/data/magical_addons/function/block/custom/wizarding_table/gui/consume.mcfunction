@@ -32,5 +32,5 @@ execute if items block ~ ~ ~ container.21 #magical_addons:bottles run item repla
 execute if items block ~ ~ ~ container.22 #magical_addons:bottles run item replace block ~ ~ ~ container.22 with glass_bottle
 
 scoreboard players reset @s maddons.craft
-scoreboard players remove @s maddons.damage 1
+execute store result block ~ ~ ~ components."minecraft:custom_data".magical_addons.damage int 1 run scoreboard players remove @s maddons.damage 1
 scoreboard players add @s maddons.temp 1

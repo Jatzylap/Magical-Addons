@@ -33,7 +33,7 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:chiseled_bookshelf",
+                "blocks": "minecraft:grass_block",
                 "offset": [
                   0,
                   -1,

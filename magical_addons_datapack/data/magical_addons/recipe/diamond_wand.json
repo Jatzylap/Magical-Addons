@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  #",
+    " / ",
+    "/  "
+  ],
+  "key": {
+    "#": "minecraft:diamond",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "minecraft:warped_fungus_on_a_stick",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "magical_addons:diamond_wand",
+      "minecraft:item_name": "{\"translate\":\"item.magical_addons.diamond_wand\"}",
+      "minecraft:max_damage": 1561,
+      "minecraft:damage": 0,
+      "minecraft:custom_data": "{magical_addons:{wand:1,id:diamond_wand,max_damage:1561,mana_item:1,min_mana:10}}"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:block_break_speed",
+      "id": "maddons.item",
+      "amount": 0.0,
+      "operation": "add_value",
+      "slot": "mainhand"
+    }
+  ],
+  "replace": true
+}

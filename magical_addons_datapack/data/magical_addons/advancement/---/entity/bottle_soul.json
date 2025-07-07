@@ -143,6 +143,26 @@
                   },
                   "periodic_tick": 20
                 }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "location": {},
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:glass_bottle"
+                    }
+                  },
+                  "stepping_on": {
+                    "block": {
+                      "blocks": "minecraft:sculk_catalyst",
+                      "state": {
+                        "bloom": "true"
+                      }
+                    }
+                  }
+                }
               }
             ]
           }

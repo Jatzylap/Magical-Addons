@@ -1,9 +1,8 @@
 # entity:sculk_spider/moves/flip_ceiling
-# called by: entity:sculk_spider/check_local
+# called by: entity:sculk_spider/check_global
 
-execute on vehicle run data merge entity @s {NoGravity:0b}
-execute on vehicle run attribute @s minecraft:movement_speed base set 0.8
-
+execute if entity @s[tag=!maddons.ceiling] on vehicle run data merge entity @s {NoGravity:1b}
+execute if entity @s[tag=!maddons.ceiling] on vehicle run attribute @s minecraft:movement_speed base set 0.8
 execute if entity @s[tag=!maddons.ceiling] run data merge entity @s[tag=maddons.body] {start_interpolation:-1,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f]}}
 execute if entity @s[tag=!maddons.ceiling] run execute on passengers run data merge entity @s[tag=maddons.head] {start_interpolation:-1,interpolation_duration:20,transformation:{left_rotation:[0f,0f,0f,1f]}}
 
@@ -31,8 +30,8 @@ execute if entity @s[tag=maddons.flip] store result entity @s item.components."m
 execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_model_data".colors set from entity @s item.components."minecraft:custom_data".magical_addons.colors
 data modify entity @s item.components."minecraft:custom_model_data".colors set from entity @s item.components."minecraft:custom_data".magical_addons.colors
 
-data modify entity @s item.components."minecraft:custom_data".angle set value "ceiling"
-execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_data".angle set value "ceiling"
+data modify entity @s item.components."minecraft:custom_data".magical_addons.angle set value "ceiling"
+execute on passengers as @s[tag=maddons.head] run data modify entity @s item.components."minecraft:custom_data".magical_addons.angle set value "ceiling"
 
 tag @s add maddons.ceiling
 tag @s remove maddons.ground

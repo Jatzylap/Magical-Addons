@@ -5,16 +5,7 @@
   "ore_veins_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "minecraft:chiseled_bookshelf",
-    "Properties": {
-      "facing":"north",
-      "slot_0_occupied":"false",
-      "slot_1_occupied":"false",
-      "slot_2_occupied":"false",
-      "slot_3_occupied":"true",
-      "slot_4_occupied":"false",
-      "slot_5_occupied":"true"
-    }
+    "Name": "minecraft:stone"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -141,15 +132,9 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:chiseled_bookshelf",
+                  "Name": "minecraft:grass_block",
                   "Properties": {
-                    "facing": "north",
-                    "slot_0_occupied": "false",
-                    "slot_1_occupied": "false",
-                    "slot_2_occupied": "false",
-                    "slot_3_occupied": "false",
-                    "slot_4_occupied": "true",
-                    "slot_5_occupied": "false"
+                    "snowy": "false"
                   }
                 }
               }
@@ -169,16 +154,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:chiseled_bookshelf",
-            "Properties": {
-              "facing": "north",
-              "slot_0_occupied": "false",
-              "slot_1_occupied": "false",
-              "slot_2_occupied": "false",
-              "slot_3_occupied": "false",
-              "slot_4_occupied": "false",
-              "slot_5_occupied": "true"
-            }
+            "Name": "minecraft:dirt"
           }
         }
       }

@@ -1,8 +1,11 @@
 # main:tick
 # called by: #minecraft:tick
 
-execute store result score #maddons.entities maddons.registry run data get storage maddons.main:registry data.entities
+## Get total
+execute store result storage magical_addons:temp data.registry.register_count int 1 store result score #maddons.entities maddons.registry run data get storage magical_addons:registry data.entities
 
-execute store result storage maddons.main:registry data.temp.count int 1 run scoreboard players operation #maddons.entities maddons.registry -= #1 maddons.constant
+## Subtract 1 (prevents main/tick_cycle from running 1 extra time)
+execute store result storage magical_addons:temp data.registry.register_count int 1 run scoreboard players operation #maddons.entities maddons.registry -= #1 maddons.constant
 
-execute if score #maddons.entities maddons.registry matches 0.. run function magical_addons:main/tick_cycle with storage maddons.main:registry data.temp
+## Run tick (use temp storage as its list stays fixed unlike registry storage)
+execute if score #maddons.entities maddons.registry matches 0.. run function magical_addons:main/tick_cycle with storage magical_addons:temp data.registry

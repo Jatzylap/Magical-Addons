@@ -1,0 +1,1 @@
+$execute summon marker run function magical_addons:dev/---/reload_sub_chunk/0 {dimension:"$(dimension)"}

@@ -1,3 +1,4 @@
-$execute unless data storage maddons.main:registry data.entities[{UUID:$(out)}] run data modify storage maddons.main:registry data.entities append value {UUID:$(out)}
-$execute unless data block ~ ~ ~ components."minecraft:custom_data".UUID run data modify block ~ ~ ~ components."minecraft:custom_data".UUID set value '$(out)'
-$execute at @s[tag=maddons.$(id)] run return run data modify storage maddons.main:registry data.entities[{UUID:$(out)}].cmd set value "$(cmd)"
+$execute unless data storage magical_addons:registry data.entities[{UUID:$(out)}] run data modify storage magical_addons:registry data.entities append value {UUID:$(out)}
+$data modify block ~ ~ ~ components."minecraft:custom_data".UUID set value '$(out)'
+$data modify entity @s item.components."minecraft:custom_data".UUID set value '$(out)'
+$execute at @s run data modify storage magical_addons:registry data.entities[{UUID:$(out)}].cmd set value "$(cmd)"

@@ -19,15 +19,19 @@ out vec4 fragColor;
 
 void main() {
     vec4 color = texture(Sampler0, texCoord0);
-    vec2 texCoord = texCoord0;
-
-    if (color.a < 0.1) discard;
+#ifdef ALPHA_CUTOUT
+    if (color.a < ALPHA_CUTOUT) {
+        discard;
+    }
+#endif
+if (color.a * 255 != 254) {
     color *= vertexColor * ColorModulator;
+}
+#ifndef NO_OVERLAY
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
+#endif
+#ifndef EMISSIVE
     color *= lightMapColor;
-    
-    #define BLOCK_ITEM
-    #moj_import <magical_addons:light.glsl>
-
+#endif
     fragColor = linear_fog(color, vertexDistance, FogStart, FogEnd, FogColor);
 }

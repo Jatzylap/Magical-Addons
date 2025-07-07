@@ -1,6 +1,10 @@
 {
-  "feature": "magical_addons:spring_water",
+  "feature": "minecraft:spring_water",
   "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 25
+    },
     {
       "type": "minecraft:in_square"
     },

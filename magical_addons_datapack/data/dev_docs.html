@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Datapack documentation for developers </title>
+<title> Magical Addons documentation for developers </title>
 </head>
 <body>
 
@@ -47,6 +47,8 @@
 (blocks that light blocks can replace when generated [e.g. 'sparkstone clusters'])<br>
 #magical_addons:light_replaceable<br>
 <br>
+(block entities that have their own custom counterpart)<br>
+#magical_addons:block_entity_placeholders<br>
 <br>
 ###################<br>
 &nbspSTRUCTURE TAGS &nbsp &nbsp &nbsp (/locate structure)<br>
@@ -75,31 +77,27 @@
 &nbspENTITY TYPE TAGS<br>
 ####################<br>
 <br>
-(entities vulnerable to sunlight)<br>
-#magical_addons:undead<br>
-<br>
-(entities that use the transformation data tag)<br>
-#magical_addons:transformable<br>
-<br>
-(item frames)<br>
-#magical_addons:frames<br>
-<br>
-(entities vulnerable to wind and water spells)<br>
+(entities resistant to fire [e.g. vulnerable to wind and water spells])<br>
 #magical_addons:fire_resistant<br>
 <br>
-(entities invulnerable to spells)<br>
+(entities invulnerable to damage)<br>
 #magical_addons:invulnerable<br>
 <br>
-(wand-wielding entities)<br>
+(entities tracked for wand-wielding)<br>
 #magical_addons:weaponable<br>
 <br>
+(entities that use the step sound of a block when moving)<br>
+#magical_addons:uses_tile_step_sound<br>
 <br>
 ####################<br>
 &nbspITEM TAGS<br>
 ####################<br>
 <br>
-(items which aren't fully consumed by wizarding table)<br>
-#magical_addons:semi_consumable{}<br>
+(items which aren't fully consumed [e.g. 'wizarding table'])<br>
+#magical_addons:semi_consumable<br>
+<br>
+(items which get modified on the mainhand when looking at custom blocks)<br>
+#magical_addons:mining_tools<br>
 <br>
 <br>
 </p></h1>

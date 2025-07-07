@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "magical_addons:cursed_head"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "magical_addons:blocks/cursed_head"
+}

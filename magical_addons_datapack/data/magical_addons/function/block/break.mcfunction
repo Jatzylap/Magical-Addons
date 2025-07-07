@@ -1,4 +1,4 @@
 # block:break
-# called by: block:break_start
+# called by: block:break_start, block:update_end, main:two_seconds
 
-$execute at @s[tag=maddons.$(id)] unless block ~ ~ ~ $(block) run $(cmd)
+$$(cmd)

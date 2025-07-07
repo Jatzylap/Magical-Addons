@@ -1,5 +1,5 @@
 {
-  "feature": "magical_addons:skyroot_trees_plains",
+  "feature": "magical_addons:skyroot_trees",
   "placement": [
     {
       "type": "minecraft:count",
@@ -27,6 +27,18 @@
     {
       "type": "minecraft:heightmap",
       "heightmap": "OCEAN_FLOOR"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
+        }
+      }
     },
     {
       "type": "minecraft:biome"

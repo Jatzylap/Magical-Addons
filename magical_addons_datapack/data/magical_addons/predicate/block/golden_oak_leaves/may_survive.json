@@ -1,0 +1,69 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": "spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "magical_addons:block/golden_oak_leaves/will_survive_on_log"
+    }
+  ]
+}

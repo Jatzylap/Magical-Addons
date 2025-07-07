@@ -2,6 +2,6 @@
 	"parent":"magical_addons:block/template_ore",
 	"textures":{
 		"base":"block/gilded_blackstone",
-		"overlay":"magical_addons:block/gilded_blackstone_overlay"
+		"glow":"magical_addons:block/gilded_blackstone_overlay"
 	}
 }

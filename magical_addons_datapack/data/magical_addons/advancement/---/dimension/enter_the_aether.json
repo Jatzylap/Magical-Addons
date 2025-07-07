@@ -9,11 +9,22 @@
             "condition": "minecraft:all_of",
             "terms": [
               {
+                "condition": "minecraft:inverted",
+                "term": {
+                  "condition": "minecraft:time_check",
+                  "value": {
+                    "min": 12500,
+                    "max": 24000
+                  },
+                  "period": 24000
+                }
+              },
+              {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
                   "type": "minecraft:player",
-                  "nbt": "{SleepTimer:99s,Tags:[\"maddons.effect.lucidity\"]}",
+                  "nbt": "{SleepTimer:100s,Tags:[\"maddons.effect.lucidity\"]}",
                   "location": {
                     "dimension": "minecraft:overworld"
                   }

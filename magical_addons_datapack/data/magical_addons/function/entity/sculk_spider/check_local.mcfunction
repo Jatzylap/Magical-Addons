@@ -14,17 +14,12 @@ effect give @a[distance=..16,gamemode=!creative,gamemode=!spectator] darkness 6
 execute on vehicle if entity @s[tag=maddons.baby,tag=!maddons.silent] if predicate magical_addons:shared/5_percent run playsound entity.spider.ambient hostile @a ~ ~ ~ 1 1.3
 execute on vehicle if entity @s[tag=!maddons.baby,tag=!maddons.silent] if predicate magical_addons:shared/5_percent run playsound entity.spider.ambient hostile @a ~ ~ ~ 1
 
-## Reset flip
-execute if entity @s[tag=maddons.flip] run function magical_addons:entity/sculk_spider/flip
-
 ## Damage
-execute on vehicle as @s[nbt=!{NoAI:1b},nbt={DeathTime:0s}] anchored eyes positioned ^ ^ ^ run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,distance=..2.5] 2.5 mob_attack by @s
+execute on vehicle as @s[nbt=!{NoAI:1b},nbt={DeathTime:0s}] anchored eyes positioned ^ ^ ^0.25 run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,distance=..1.5] 2.5 mob_attack by @s
 
-## Flip
-execute on vehicle if entity @a[dy=-15] on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_ground
-execute on vehicle unless block ~ ~.5 ~ #magical_addons:non_collidable if block ~ ~-.5 ~ #magical_addons:non_collidable on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_ceiling
-execute on vehicle unless block ^.6 ^ ^ #magical_addons:non_collidable if block ^-.6 ^ ^ #magical_addons:non_collidable if block ^ ^ ^1 #magical_addons:non_collidable if block ^ ^ ^-1 #magical_addons:non_collidable on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_side_left
-execute on vehicle unless block ^-.6 ^ ^ #magical_addons:non_collidable if block ^.6 ^ ^ #magical_addons:non_collidable if block ^ ^ ^1 #magical_addons:non_collidable if block ^ ^ ^-1 #magical_addons:non_collidable on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_side_right
-execute on vehicle if block ~ ~.5 ~ #magical_addons:non_collidable if block ~ ~-.5 ~ #magical_addons:non_collidable unless block ^ ^ ^1 #magical_addons:non_collidable if block ^ ^ ^-1 #magical_addons:non_collidable on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_side_up
-execute on vehicle if block ~ ~.5 ~ #magical_addons:non_collidable if block ~ ~-.5 ~ #magical_addons:non_collidable unless block ^ ^ ^-1 #magical_addons:non_collidable if block ^ ^ ^1 #magical_addons:non_collidable on passengers as @s[tag=maddons.entity] at @s run return run function magical_addons:entity/sculk_spider/moves/flip_side_down
-function magical_addons:entity/sculk_spider/moves/flip_ground
+## Rotate Body
+execute on vehicle at @s on passengers run rotate @s[tag=maddons.body] ~ 0
+
+## Rotate head
+execute on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] ~ 0
+execute as @s[tag=!maddons.side_up,tag=!maddons.side_down,tag=!maddons.side_right,tag=!maddons.side_left] if predicate magical_addons:shared/50_percent on passengers as @s[tag=maddons.head] at @s run rotate @s facing entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_spider,tag=!maddons.invul,distance=..7] eyes

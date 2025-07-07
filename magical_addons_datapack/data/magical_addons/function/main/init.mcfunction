@@ -9,12 +9,9 @@ gamerule commandBlockOutput false
 gamerule maxCommandChainLength 2147483647
 gamerule maxCommandForkCount 2147483647
 gamerule commandModificationBlockLimit 2147483647
-bossbar add magical_addons:entity/automaton "Ancient Automaton"
-bossbar set magical_addons:entity/automaton name "Ancient Automaton"
+bossbar add magical_addons:entity/automaton "Automaton"
+bossbar set magical_addons:entity/automaton name "Automaton"
 bossbar set magical_addons:entity/automaton color yellow
-bossbar add magical_addons:entity/herobrine "Herobrine"
-bossbar set magical_addons:entity/herobrine name "Herobrine"
-bossbar set magical_addons:entity/herobrine color white
 bossbar add magical_addons:entity/sparkstone_king "Sparkstone King"
 bossbar set magical_addons:entity/sparkstone_king name "Sparkstone King"
 bossbar set magical_addons:entity/sparkstone_king color blue
@@ -23,10 +20,6 @@ execute in magical_addons:---/void run forceload add 0 0
 ## Objectives
 scoreboard objectives add maddons.leave_game custom:leave_game
 scoreboard objectives add maddons.play_time custom:play_time
-scoreboard objectives add maddons.drop_item custom:drop
-scoreboard objectives add maddons.horn used:goat_horn
-scoreboard objectives add maddons.snowball used:snowball
-scoreboard objectives add maddons.wfoas used:warped_fungus_on_a_stick
 scoreboard objectives add maddons.walk1 custom:walk_one_cm
 scoreboard objectives add maddons.walk2 custom:walk_one_cm
 scoreboard objectives add maddons.sprint1 custom:sprint_one_cm
@@ -51,16 +44,17 @@ scoreboard objectives add maddons.chunk.z_ dummy
 scoreboard objectives add maddons.dream.x dummy
 scoreboard objectives add maddons.dream.y dummy
 scoreboard objectives add maddons.dream.z dummy
+scoreboard objectives add maddons.echo.x dummy
+scoreboard objectives add maddons.echo.y dummy
+scoreboard objectives add maddons.echo.z dummy
 scoreboard objectives add maddons.constant dummy
 scoreboard objectives add maddons.temp dummy
 scoreboard objectives add maddons.developer_mode trigger
-scoreboard objectives add maddons.get_items trigger
-scoreboard objectives add maddons.horn_cooldown dummy
 scoreboard objectives add maddons.successCount dummy
 scoreboard objectives add maddons.glitch dummy
 scoreboard objectives add maddons.soul_bottle dummy
 scoreboard objectives add maddons.wizarding_table_page dummy
-scoreboard objectives add maddons.angry_chicken dummy
+scoreboard objectives add maddons.chicken.anger dummy
 scoreboard objectives add maddons.zigzag_amplitude_x dummy
 scoreboard objectives add maddons.zigzag_amplitude_y dummy
 scoreboard objectives add maddons.move dummy
@@ -84,10 +78,13 @@ scoreboard objectives add maddons.portal_time dummy
 scoreboard objectives add maddons.portal_time_check dummy
 scoreboard objectives add maddons.portal_travel dummy
 scoreboard objectives add maddons.portal_overlay dummy
-scoreboard objectives add maddons.reload_sub_chunks dummy
+scoreboard objectives add maddons.reload_sub_chunk dummy
 scoreboard objectives add maddons.step dummy
 scoreboard objectives add maddons.stepping dummy
 scoreboard objectives add maddons.lucidity dummy
+scoreboard objectives add maddons.cooldown dummy
+scoreboard objectives add maddons.efficiency dummy
+scoreboard objectives add maddons.nefficiency dummy
 
 #scoreboard objectives add maddons.wandSpell dummy
 #scoreboard objectives add maddons.wandMax dummy
@@ -247,7 +244,7 @@ advancement revoke @a from magical_addons:---/dimension/root
 advancement revoke @a from magical_addons:---/item/root
 advancement revoke @a from magical_addons:---/player/root
 advancement revoke @a from magical_addons:---/recipe/root
-data modify storage maddons.player:temp data set value {}
+data modify storage magical_addons:temp data set value {}
 team modify maddons.player seeFriendlyInvisibles false
 execute as @a run scoreboard players add @s maddons.mana 0
 execute as @a run scoreboard players enable @a maddons.developer_mode
@@ -255,4 +252,4 @@ execute as @a run scoreboard players enable @a maddons.get_items
 
 ## Register players
 tag @a add maddons.player
-execute as @a run function magical_addons:dev/register_entity {id:"player",cmd:"function magical_addons:player/loop"}
+execute as @a run function magical_addons:dev/register_entity {cmd:"function magical_addons:player/loop"}

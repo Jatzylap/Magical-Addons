@@ -1,0 +1,36 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "blocks": "minecraft:spawner",
+            "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_cluster\"}}}}"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#magical_addons:non_collidable"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "minecraft:spawner",
+          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_cluster\"}}}}"
+        }
+      }
+    }
+  ]
+}

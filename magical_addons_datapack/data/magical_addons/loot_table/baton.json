@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 999999,
+              "animation": "none"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:item_model": "magical_addons:baton",
+            "minecraft:item_name": "{\"translate\":\"item.magical_addons.baton\"}",
+            "minecraft:max_damage": 101,
+            "minecraft:damage": 0,
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": "{magical_addons:{id:baton,max_damage:101,mana_item:1,min_mana:10}}"
+          }
+        }
+      ]
+    }
+  ]
+}

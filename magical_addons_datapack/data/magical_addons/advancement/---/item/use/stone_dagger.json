@@ -1,0 +1,18 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": "{magical_addons:{max_damage:132,id:\"stone_dagger\"}}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/stone_dagger/use"
+  }
+}

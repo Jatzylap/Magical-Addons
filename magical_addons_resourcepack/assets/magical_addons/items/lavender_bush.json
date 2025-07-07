@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "block",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:block/lavender_bush"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "magical_addons:item/lavender_bush"
+    }
+  }
+}

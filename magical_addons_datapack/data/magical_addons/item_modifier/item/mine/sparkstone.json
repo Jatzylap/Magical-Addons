@@ -1,0 +1,39 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:item",
+        "amount": 0,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:enchantment.efficiency",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "maddons.efficiency"
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "#magical_addons:mining_tools"
+            }
+          }
+        }
+      }
+    ]
+  }
+]

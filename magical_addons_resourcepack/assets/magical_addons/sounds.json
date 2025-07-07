@@ -521,14 +521,6 @@
 	"subtitle": "subtitles.advancement.magical_charge"
 	},
 
-	"ambient.echo.loop": {
-	"category": "ambient",
-	"sounds": [{
-		"name":"magical_addons:ambient/echo",
-		"preload": true
-		}]
-	},
-
 	"ambient.aether.mood": {
 	"category": "ambient",
 	"sounds": [{
@@ -546,70 +538,39 @@
 	"subtitle": "subtitles.ambient.aether.dream"
 	},
 
-	"music.echo": {
-	"category": "music",
-	"sounds": [
-			{
-			"name":"magical_addons:music/echo1",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/echo2",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/echo3",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/echo4",
-			"stream": true
-			}
-		]
-	},
-
 	"music.aether": {
 	"category": "music",
 	"sounds": [
 			{
-			"name":"magical_addons:music/aether1",
+			"name":"magical_addons:music/game/aether/beginning",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/aether2",
+			"name":"magical_addons:music/game/aether/chris",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/aether3",
+			"name":"magical_addons:music/game/aether/equinoxe",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/aether4",
+			"name":"magical_addons:music/game/aether/flake",
 			"stream": true
 			},
 			{
-			"name":"magical_addons:music/aether5",
-			"stream": true
-			},
-			{
-			"name":"magical_addons:music/aether6",
+			"name":"magical_addons:music/game/aether/kyoto",
 			"stream": true
 			}
 		]
 	},
 
-	"ambient.echo.additions": {
+	"ambient.aether.additions": {
 	"category": "ambient",
 	"sounds": [{
 		"name":"magical_addons:ambient/gravity1",
 		"preload": true
-		}],
-	"subtitle": "subtitles.ambient.echo.gravity"
-	},
-
-	"ambient.echo.mood": {
-	"category": "ambient",
-	"sounds": [{
+				},
+				{
 		"name":"magical_addons:ambient/gravity2",
 		"preload": true
 				},
@@ -625,7 +586,7 @@
 		"name":"magical_addons:ambient/gravity5",
 		"preload": true
 		}],
-	"subtitle": "subtitles.ambient.echo.mood"
+	"subtitle": "subtitles.ambient.aether.additions"
 	},
 
 	"ambient.quake": {
@@ -636,15 +597,7 @@
 		}]
 	},
 
-	"ambient.echo.loop.rage": {
-	"category": "ambient",
-	"sounds": [{
-		"name":"magical_addons:ambient/rage",
-		"preload": true
-		}]
-	},
-
-	"ambient.echo.loop.glitch": {
+	"ambient.glitch": {
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:ambient/glitch1",
@@ -722,6 +675,89 @@
 		"preload": true
 		}],
 	"subtitle": "subtitles.entity.chicken.angry"
+	},
+
+	"entity.automaton.ambient": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/ambient1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient4",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient5",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient6",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient7",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient8",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient9",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient10",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient11",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient12",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.ambient"
+	},
+
+	"entity.automaton.step": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/step1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step4",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.step"
+	},
+
+	"entity.automaton.death": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/death",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.death"
 	},
 
 	"item.dagger.hit": {

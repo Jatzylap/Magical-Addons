@@ -3,133 +3,151 @@
         "swap1": {},
         "swap2": {},
         "swap3": {},
-        "temporal1": {},
-        "temporal2": {},
-        "lights": { "width": 1024, "height": 4, "bilinear": false }
+        "swap4": {},
+        "lights": {"width": 1024, "height": 4, "bilinear": false }
     },
     "passes": [
         {
             "program": "magical_addons:post/light/filter",
-            "output": "swap1",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "minecraft:item_entity"
                 },
                 {
-                    "sampler_name": "InDepth",
+                    "sampler_name": "DiffuseDepth",
                     "target": "minecraft:item_entity",
                     "use_depth_buffer": true
                 }
             ],
+            "output": "swap1",
             "uniforms": [
                 {
                     "name":"Range",
-                    "values": [ 16.0 ]
+                    "values": [ 32.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/centers",
-            "output": "swap3",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap1"
                 }
-            ]
+            ],
+            "output": "swap3"
         },
         {
             "program": "magical_addons:post/light/aggregate_1",
-            "output": "swap1",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap3"
                 }
             ],
+            "output": "swap1",
             "uniforms": [
                 {
                     "name":"Step",
                     "values": [ 8.0 ]
+                },
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/aggregate_2",
-            "output": "swap2",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap1"
                 }
             ],
+            "output": "swap2",
             "uniforms": [
                 {
                     "name":"Step",
                     "values": [ 8.0 ]
+                },
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/aggregate_3",
-            "output": "swap1",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap2"
                 }
             ],
+            "output": "swap1",
             "uniforms": [
                 {
                     "name":"Step",
                     "values": [ 8.0 ]
+                },
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/aggregate_4",
-            "output": "swap2",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap1"
                 }
             ],
+            "output": "swap2",
             "uniforms": [
                 {
                     "name":"Step",
                     "values": [ 8.0 ]
+                },
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/aggregate_5",
-            "output": "swap1",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap2"
                 }
             ],
+            "output": "swap1",
             "uniforms": [
                 {
                     "name":"Step",
                     "values": [ 8.0 ]
+                },
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
                 }
             ]
         },
         {
             "program": "magical_addons:post/light/aggregate_6",
-            "output": "lights",
             "inputs": [
                 {
-                    "sampler_name": "In",
+                    "sampler_name": "Diffuse",
                     "target": "swap1"
                 },
                 {
                     "sampler_name": "ItemEntityDepth",
-                    "target": "item_entity",
+                    "target": "minecraft:item_entity",
                     "use_depth_buffer": true
                 },
                 {
@@ -137,6 +155,7 @@
                     "target": "swap3"
                 }
             ],
+            "output": "lights",
             "uniforms": [
                 {
                     "name":"Step",
@@ -145,37 +164,111 @@
                 {
                     "name":"FOV",
                     "values": [ 70.0 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/copy",
-            "output": "temporal1",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "swap1"
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/apply",
-            "output": "swap1",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "temporal1"
                 },
                 {
-                    "sampler_name": "InDepth",
+                    "name":"Test",
+                    "values": [ 0.0 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:main"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": [
+                {
+                    "name": "Radius",
+                    "values": [ 0.01 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap3",
+            "uniforms": [
+                {
+                    "name": "Radius",
+                    "values": [ 0.015 ]
+                },
+                {
+                    "name": "Offset",
+                    "values": [ 7.0 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "swap3"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": [
+                {
+                    "name": "Radius",
+                    "values": [ 0.02 ]
+                },
+                {
+                    "name": "Offset",
+                    "values": [ 21.0 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap3",
+            "uniforms": [
+                {
+                    "name": "Radius",
+                    "values": [ 0.02 ]
+                },
+                {
+                    "name": "Offset",
+                    "values": [ 45.0 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/light_apply",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 },
                 {
                     "sampler_name": "Lights",
                     "target": "lights"
+                },
+                {
+                    "sampler_name": "Blur",
+                    "target": "swap3"
                 }
             ],
+            "output": "swap1",
             "uniforms": [
                 {
                     "name":"FOV",
@@ -183,30 +276,23 @@
                 },
                 {
                     "name":"Range",
-                    "values": [ 16.0 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/copy",
-            "output": "temporal2",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "swap1"
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/apply_t",
-            "output": "temporal1",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "temporal2"
+                    "values": [ 32.0 ]
                 },
                 {
-                    "sampler_name": "InDepth",
+                    "name":"Intensity",
+                    "values": [ 1.0 ]
+                }
+            ]
+        },
+        {
+            "program": "magical_addons:post/light/light_apply_t",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:translucent"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
                     "target": "minecraft:translucent",
                     "use_depth_buffer": true
                 },
@@ -220,6 +306,7 @@
                     "use_depth_buffer": true
                 }
             ],
+            "output": "swap2",
             "uniforms": [
                 {
                     "name":"FOV",
@@ -227,140 +314,65 @@
                 },
                 {
                     "name":"Range",
-                    "values": [ 16.0 ]
+                    "values": [ 32.0 ]
+                },
+                {
+                    "name":"IntensityT",
+                    "values": [ 0.5 ]
                 }
             ]
         },
         {
-            "program": "magical_addons:post/light/blur",
-            "output": "swap1",
+            "program": "magical_addons:post/light/light_apply_i",
             "inputs": [
                 {
-                    "sampler_name": "In",
-                    "target": "minecraft:main"
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:item_entity"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Lights",
+                    "target": "lights"
+                },
+                {
+                    "sampler_name": "CompareDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
                 }
             ],
-            "uniforms": [
-                {
-                    "name": "Radius",
-                    "values": [ 0.01 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/blur",
             "output": "swap3",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "swap1"
-                }
-            ],
             "uniforms": [
                 {
-                    "name": "Radius",
-                    "values": [ 0.015 ]
+                    "name":"FOV",
+                    "values": [ 70.0 ]
                 },
                 {
-                    "name": "Offset",
-                    "values": [ 7.0 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/blur",
-            "output": "swap1",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "swap3"
-                }
-            ],
-            "uniforms": [
-                {
-                    "name": "Radius",
-                    "values": [ 0.02 ]
+                    "name":"Range",
+                    "values": [ 32.0 ]
                 },
                 {
-                    "name": "Offset",
-                    "values": [ 21.0 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/blur",
-            "output": "swap3",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "swap1"
-                }
-            ],
-            "uniforms": [
-                {
-                    "name": "Radius",
-                    "values": [ 0.02 ]
+                    "name":"IntensityT",
+                    "values": [ 0.5 ]
                 },
-                {
-                    "name": "Offset",
-                    "values": [ 45.0 ]
-                }
-            ]
-        },
-        {
-            "program": "magical_addons:post/light/mix",
-            "output": "swap1",
-            "inputs": [
-                {
-                    "sampler_name": "In",
-                    "target": "minecraft:main"
-                },
-                {
-                    "sampler_name": "LightMap",
-                    "target": "temporal2"
-                },
-                {
-                    "sampler_name": "Blur",
-                    "target": "swap3"
-                }
-            ],
-            "uniforms": [
                 {
                     "name":"Intensity",
-                    "values": [ 1.5 ]
+                    "values": [ 1.0 ]
                 }
             ]
         },
         {
-            "program": "magical_addons:post/light/mix_t",
-            "output": "swap2",
+            "program": "magical_addons:post/light/transparency",
             "inputs": [
                 {
-                    "sampler_name": "In",
-                    "target": "minecraft:translucent"
-                },
-                {
-                    "sampler_name": "LightMap",
-                    "target": "temporal1"
-                }
-            ],
-            "uniforms": [
-                {
-                    "name":"Intensity",
-                    "values": [ 1.5 ]
-                }
-            ]
-        },
-        {
-            "program": "minecraft:post/transparency",
-            "output": "swap3",
-            "inputs": [
-                {
-                    "sampler_name": "Main",
+                    "sampler_name": "Diffuse",
                     "target": "swap1"
                 },
                 {
-                    "sampler_name": "MainDepth",
+                    "sampler_name": "DiffuseDepth",
                     "target": "minecraft:main",
                     "use_depth_buffer": true
                 },
@@ -375,7 +387,7 @@
                 },
                 {
                     "sampler_name": "ItemEntity",
-                    "target": "minecraft:item_entity"
+                    "target": "swap3"
                 },
                 {
                     "sampler_name": "ItemEntityDepth",
@@ -409,17 +421,24 @@
                     "target": "minecraft:weather",
                     "use_depth_buffer": true
                 }
+            ],
+            "output": "swap4",
+            "uniforms": [
+                {
+                    "name":"Test",
+                    "values": [ 0.0 ]
+                }
             ]
         },
         {
             "program": "minecraft:post/blit",
-            "output": "minecraft:main",
             "inputs": [
                 {
                     "sampler_name": "In",
-                    "target": "swap3"
+                    "target": "swap4"
                 }
-            ]
+            ],
+            "output": "minecraft:main"
         }
     ]
 }

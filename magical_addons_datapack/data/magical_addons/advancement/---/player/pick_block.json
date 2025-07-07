@@ -1,0 +1,19 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {}
+          }
+        },
+        "items": []
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:player/event/pick_block"
+  }
+}

@@ -1,22 +1,17 @@
 {
   "display": {
-    "title": {
-      "text": "Magical Addons",
-      "bold": false,
-      "italic": false,
-      "strikethrough": false,
-      "obfuscated": false
-    },
-    "description": {
-      "translate": "advancements.magical_addons.root.description",
-      "underlined": false,
-      "bold": false
-    },
     "icon": {
-      "id": "minecraft:written_book",
+      "id": "minecraft:glowstone",
       "components": {
         "minecraft:item_model": "magical_addons:grimoire"
       }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.root.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.root.description",
+      "bold": false
     },
     "frame": "task",
     "show_toast": false,

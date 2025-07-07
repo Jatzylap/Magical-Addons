@@ -1,24 +1,48 @@
 {
-	"type":"magical_addons:the_aether",
-	"generator":{
-		"type":"minecraft:noise",
-		"settings":"magical_addons:the_aether",
-	    "biome_source": {
-	      "type": "minecraft:multi_noise",
-	      "biomes": [
-	        {
-	          "biome": "magical_addons:sky_plains",
-	          "parameters": {
-	            "temperature": 0,
-	            "humidity": 0,
-	            "continentalness": 0,
-	            "erosion": 0,
-	            "weirdness": 0,
-	            "depth": 0,
-	            "offset": 0
-	          }
-	        }
-	      ]
-	    }
-	}
+  "type": "magical_addons:the_aether",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "magical_addons:the_aether",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "magical_addons:sky_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "magical_addons:cities",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0.5,
+            "continentalness": 0,
+            "erosion": 0.5,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "magical_addons:sparkstone_grove",
+          "parameters": {
+            "temperature": 0.05,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": -0.2,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
 }

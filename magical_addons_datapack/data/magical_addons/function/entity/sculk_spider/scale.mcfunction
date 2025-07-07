@@ -1,5 +1,11 @@
 # entity:sculk_spider/scale
-# called by: entity:sculk_spider/check_local
+# called by: entity:sculk_spider/moves/flip_*
+
+## Rotate Body
+execute on vehicle at @s on passengers run rotate @s[tag=maddons.body] ~ 0
+
+## Rotate Head
+execute on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] ~ 0
 
 ## Scale
 execute on passengers store result entity @s[tag=maddons.head] item.components."minecraft:custom_data".magical_addons.colors[0][1] double .0000625 on vehicle store result entity @s[tag=maddons.body] item.components."minecraft:custom_data".magical_addons.colors[0][1] double .0000625 on vehicle run data get entity @s[tag=maddons.vehicle] attributes[{id:"minecraft:scale"}].base 1000

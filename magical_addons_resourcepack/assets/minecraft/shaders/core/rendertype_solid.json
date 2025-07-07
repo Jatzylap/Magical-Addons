@@ -1,9 +1,9 @@
 {
     "vertex": "minecraft:core/terrain",
     "fragment": "minecraft:core/terrain",
-    "defines":{
-        "values":{
-            "ALPHA_CUTOUT":"0.1"
+    "defines": {
+        "values": {
+            "ALPHA_CUTOUT": "0.1"
         }
     },
     "samplers": [

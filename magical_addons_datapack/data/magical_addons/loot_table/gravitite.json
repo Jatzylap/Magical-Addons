@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:gravitite",
+                "minecraft:rarity": "common",
+                "minecraft:item_name": "{\"translate\":\"item.magical_addons.gravitite\"}",
+                "minecraft:custom_data": "{magical_addons:{id:\"gravitite\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "parent": "magical_addons:---/block/interact",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:any_block_use",
       "conditions": {
         "location": [
           {

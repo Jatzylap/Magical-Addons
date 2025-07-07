@@ -35,15 +35,21 @@
     "monster": [
       {
         "type": "minecraft:breeze",
-        "weight": 1,
+        "weight": 2,
         "minCount": 1,
         "maxCount": 1
       },
       {
-        "type": "minecraft:empty",
-        "weight": 10,
+        "type": "minecraft:enderman",
+        "maxCount": 1,
         "minCount": 1,
-        "maxCount": 1
+        "weight": 1
+      },
+      {
+        "type": "minecraft:empty",
+        "weight": 1000,
+        "minCount": 1000,
+        "maxCount": 1000
       }
     ],
     "ambient": [],
@@ -63,16 +69,28 @@
     [],
     [],
     [
-      "magical_addons:ore_ruby",
+      "magical_addons:ore_gravitite",
+      "magical_addons:ore_coal",
+      "magical_addons:ore_iron",
+      "magical_addons:ore_quartz",
+      "magical_addons:ore_dirt",
+      "magical_addons:ore_gravel",
+      "magical_addons:ore_emerald",
+      "magical_addons:ore_granite",
+      "magical_addons:ore_diorite",
       "magical_addons:spring_water_sky"
     ],
     [],
     [],
     [
-      "magical_addons:patch_grass_plain",
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "magical_addons:flower_plains_sky",
       "magical_addons:skyroot_trees_plains",
       "magical_addons:golden_trees_plains"
     ],
-    []
+    [
+      "minecraft:freeze_top_layer"
+    ]
   ]
 }

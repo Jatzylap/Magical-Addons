@@ -177,6 +177,16 @@
         },
         {
           "type": "item",
+          "name": "minecraft:smooth_stone_slab",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:cobblestone_slab",
+          "weight": 1
+        },
+        {
+          "type": "item",
           "name": "minecraft:gold_nugget",
           "weight": 1
         },

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "value": "magical_addons:wizarding_table"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "magical_addons:blocks/wizarding_table"
+}

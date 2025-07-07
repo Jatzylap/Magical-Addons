@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 46,
     "description": [
-      {"text":"Magical Addons v0.0.3a","color":"#AAAAAA"}
+      {"translate":"resourcePack.magical_addons.description","color":"#AAAAAA"}
     ]
   }
 }
