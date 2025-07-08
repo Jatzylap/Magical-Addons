@@ -5,7 +5,6 @@
 execute if dimension minecraft:overworld run function magical_addons:dimension/overworld/loop
 execute if dimension minecraft:the_nether run function magical_addons:dimension/the_nether/loop
 execute if dimension minecraft:the_end run function magical_addons:dimension/the_end/loop
-execute if dimension minecraft:the_echo run function magical_addons:dimension/the_echo/loop
 execute if dimension minecraft:the_aether run function magical_addons:dimension/the_aether/loop
 
 ## armour

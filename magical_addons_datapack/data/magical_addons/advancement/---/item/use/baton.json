@@ -5,8 +5,12 @@
       "trigger": "minecraft:using_item",
       "conditions": {
         "item": {
-          "components": {
-            "minecraft:custom_data": "{magical_addons:{max_damage:101,min_mana:10,id:\"baton\",mana_item:1}}"
+          "predicates": {
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "baton"
+              }
+            }
           }
         }
       }

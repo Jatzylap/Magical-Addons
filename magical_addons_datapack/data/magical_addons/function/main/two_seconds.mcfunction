@@ -9,14 +9,12 @@ execute at @a run execute as @e[tag=maddons.registered] at @s run function magic
 
 ## player
 execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{magical_addons:{mana_item:1}}}}]},scores={maddons.mana=199}] at @s run playsound magical_addons:ui.mana.recharge player @s ~ ~ ~ 10000
-execute as @a[tag=maddons.aa,nbt={Inventory:[{components:{"minecraft:custom_data":{magical_addons:{mana_item:1}}}}]},scores={maddons.mana=399}] at @s run playsound magical_addons:ui.mana.recharge player @s ~ ~ ~ 10000
-execute as @a[tag=!maddons.aa,scores={maddons.mana=..199}] at @s if dimension the_echo run scoreboard players add @s maddons.mana 1
-execute as @a[tag=maddons.aa,scores={maddons.mana=..399}] at @s if dimension the_echo run scoreboard players add @s maddons.mana 1
-execute as @a[tag=maddons.aa,scores={maddons.mana=401..}] at @s run scoreboard players set @s maddons.mana 400
+execute as @a[scores={maddons.mana=..199},gamemode=!creative] at @s if data entity @s Inventory[{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_orb"}}}}] run function magical_addons:item/sparkstone_orb/share_mana
+execute as @a[scores={maddons.mana=401..}] at @s run scoreboard players set @s maddons.mana 400
 #execute if predicate magical_addons:shared/10_percent as @a at @s if biome ~ ~ ~ #magical_addons:has_glitch run function magical_addons:player/event/glitch
 
 ## wand
-execute as @a[tag=!maddons.fullmana,gamemode=!creative,predicate=magical_addons:shared/wielding_mana_item] at @s run function magical_addons:player/event/mana_meter
+#execute as @a[tag=!maddons.fullmana,gamemode=!creative,predicate=magical_addons:shared/wielding_mana_item] at @s run function magical_addons:player/event/mana_meter
 
 ## block
 execute as @e[type=item_display,tag=maddons.brewing_stand,tag=!maddons.registered] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run function magical_addons:dev/register_entity {cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}

@@ -1,5 +1,5 @@
 # player:event/mana_meter
-# called by: main:two_seconds, item:*/use
+# called by: item:sparkstone_orb/share_mana, item:*/use
 
 execute if score @s maddons.mana matches ..0 run title @s actionbar ["",{"text":"   \uE038                                                                                                          ","shadow_color":0}]
 

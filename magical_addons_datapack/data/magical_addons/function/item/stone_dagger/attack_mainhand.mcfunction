@@ -7,4 +7,4 @@ $execute if entity @s[gamemode=!creative] if items entity @s weapon.mainhand *[d
 $execute if entity @s[gamemode=!creative] if items entity @s weapon.mainhand *[damage=$(max_damage)] run item replace entity @s weapon.mainhand with air
 
 ## Damage
-item modify entity @s weapon.mainhand magical_addons:item/damage/stone_dagger
+item modify entity @s[gamemode=!creative] weapon.mainhand magical_addons:item/damage/stone_dagger

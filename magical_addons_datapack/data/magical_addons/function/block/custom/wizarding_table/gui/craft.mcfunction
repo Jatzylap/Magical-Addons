@@ -4,7 +4,6 @@
 scoreboard players reset @s maddons.craft
 
 ## Recipes
-execute store success score @s maddons.craft if items block ~ ~ ~ container.* minecraft:stick run loot replace block ~ ~ ~ container.16 loot magical_addons:baton
 execute store success score @s maddons.craft if items block ~ ~ ~ container.2 *[custom_data~{magical_addons:{id:sparkstone_shard}}] \
 											 if items block ~ ~ ~ container.3 *[custom_data~{magical_addons:{id:sparkstone_shard}}] \
 											 if items block ~ ~ ~ container.4 *[custom_data~{magical_addons:{id:sparkstone_shard}}] \

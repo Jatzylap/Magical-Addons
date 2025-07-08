@@ -11,8 +11,8 @@
             "predicate": {
               "equipment": {
                 "mainhand": {
-                  "components": {
-                    "minecraft:custom_data": "{magical_addons:{max_damage:59,id:\"wooden_dagger\"}}"
+                  "predicates": {
+                    "minecraft:custom_data": "{magical_addons:{id:\"wooden_dagger\"}}"
                   }
                 }
               }

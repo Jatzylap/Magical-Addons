@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:rabbit_foot",
+          "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -13,7 +13,11 @@
                 "minecraft:item_name": "{\"translate\":\"item.magical_addons.soul_bottle\"}",
                 "minecraft:hide_additional_tooltip": {},
                 "minecraft:item_model": "magical_addons:soul_bottle",
-                "minecraft:custom_data": "{magical_addons:{id:\"soul_bottle\",brewable:1b}}",
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "id": "soul_bottle"
+                  }
+                },
                 "minecraft:consumable": {
                   "animation": "drink",
                   "sound": "minecraft:item.honey_bottle.drink",

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:recovery_compass",
+          "name": "minecraft:golden_sword",
           "functions": [
             {
               "function": "minecraft:set_components",

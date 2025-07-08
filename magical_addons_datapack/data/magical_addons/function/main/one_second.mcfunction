@@ -18,7 +18,6 @@ execute as @r[tag=!maddons.dev] at @s run execute as @e[tag=maddons.force_custom
 
 ## player
 stopsound @a[nbt={Dimension:"minecraft:the_aether"}] music music.creative
-stopsound @a[nbt={Dimension:"minecraft:the_echo"}] music music.creative
 scoreboard players reset @a maddons.successCount
 
 ## effect
