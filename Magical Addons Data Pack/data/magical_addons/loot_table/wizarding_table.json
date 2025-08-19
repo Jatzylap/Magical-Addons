@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:wizarding_table",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.wizarding_table"
+                },
+                "minecraft:custom_model_data": {
+                  "flags": [
+                    false
+                  ]
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "wizarding_table",
+                    "break_speed": 0,
+                    "damage": 0,
+                    "max_damage": 50,
+                    "groups": [
+                      "explodable"
+                    ],
+                    "base_block": "spawner"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

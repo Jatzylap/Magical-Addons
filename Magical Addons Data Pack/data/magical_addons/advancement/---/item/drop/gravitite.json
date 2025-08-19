@@ -1,0 +1,11 @@
+{
+  "parent": "magical_addons:---/item/drop",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/gravitite/drop"
+  }
+}

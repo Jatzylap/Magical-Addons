@@ -1,0 +1,47 @@
+{
+  "description": {
+    "translate": "enchantment.magical_addons.wind_spell"
+  },
+  "exclusive_set": "#magical_addons:wand_spell",
+  "supported_items": "#magical_addons:enchantable/wand",
+  "weight": 100,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:entity_effect",
+            "color": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {},
+          "vertical_velocity": {}
+        }
+      }
+    ]
+  }
+}

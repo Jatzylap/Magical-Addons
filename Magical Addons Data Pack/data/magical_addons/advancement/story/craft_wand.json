@@ -1,0 +1,72 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "minecraft:item_model": "magical_addons:wooden_wand"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.story.craft_wand.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.story.craft_wand.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "wooden_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:wooden_wand"
+      }
+    },
+    "stone_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:stone_wand"
+      }
+    },
+    "iron_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:iron_wand"
+      }
+    },
+    "golden_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:golden_wand"
+      }
+    },
+    "diamond_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:diamond_wand"
+      }
+    },
+    "netherite_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:netherite_wand_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wooden_wand",
+      "stone_wand",
+      "iron_wand",
+      "golden_wand",
+      "diamond_wand",
+      "netherite_wand"
+    ]
+  ],
+  "rewards": {
+    "experience": 2
+  }
+}

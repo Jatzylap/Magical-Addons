@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:gravitite_ore",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.gravitite_ore"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "gravitite_ore",
+                    "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
+                    "break_speed": -0.87,
+                    "properties": {
+                      "light": true
+                    },
+                    "groups": [
+                      "explodable",
+                      "gravitite"
+                    ]
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

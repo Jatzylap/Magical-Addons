@@ -1,0 +1,25 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "wooden_wand"
+              }
+            },
+            "minecraft:enchantments": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/wooden_wand/use"
+  }
+}

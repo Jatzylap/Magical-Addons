@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:glowstone",
+      "components": {
+        "minecraft:item_model": "magical_addons:aether_portal"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.root.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.aether.root.description",
+      "bold": false
+    },
+    "background": "magical_addons:block/sparkstone",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "the_aether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "minecraft:the_aether"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2
+  }
+}

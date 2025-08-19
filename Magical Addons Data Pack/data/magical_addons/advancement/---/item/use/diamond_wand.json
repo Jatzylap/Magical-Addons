@@ -1,0 +1,25 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "diamond_wand"
+              }
+            },
+            "minecraft:enchantments": [
+              {}
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/diamond_wand/use"
+  }
+}

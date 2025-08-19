@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": {
+    "layer0": "magical_addons:item/ancient_staff",
+    "layer1": "magical_addons:item/ancient_staff_overlay"
+  }
+}

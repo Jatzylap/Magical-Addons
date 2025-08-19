@@ -1,0 +1,55 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "!minecraft:enchantment_glint_override": {},
+            "minecraft:consumable": {
+              "consume_seconds": 999999,
+              "animation": "none"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_model": "magical_addons:ancient_staff",
+            "minecraft:item_name": {
+              "translate": "item.magical_addons.ancient_staff"
+            },
+            "minecraft:max_damage": 8062,
+            "minecraft:damage": 0,
+            "minecraft:max_stack_size": 1,
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "ancient_staff",
+                "max_damage": 8062,
+                "mana_item": true,
+                "min_mana": 0
+              }
+            },
+            "minecraft:attribute_modifiers": [
+              {
+                "type": "minecraft:knockback_resistance",
+                "id": "magical_addons:knockback",
+                "amount": 99,
+                "operation": "add_value",
+                "slot": "hand"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

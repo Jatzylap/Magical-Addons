@@ -1,0 +1,48 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:recovery_compass"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 999999,
+              "animation": "none"
+            },
+            "minecraft:food": {
+              "nutrition": 0,
+              "saturation": 0,
+              "can_always_eat": true
+            },
+            "minecraft:item_model": "magical_addons:stone_wand",
+            "minecraft:item_name": {
+              "translate": "item.magical_addons.stone_wand"
+            },
+            "minecraft:max_damage": 132,
+            "minecraft:damage": 0,
+            "minecraft:rarity": "common",
+            "minecraft:max_stack_size": 1,
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "stone_wand",
+                "max_damage": 132,
+                "mana_item": true,
+                "min_mana": 1
+              }
+            },
+            "minecraft:enchantable": {
+              "value": 5
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

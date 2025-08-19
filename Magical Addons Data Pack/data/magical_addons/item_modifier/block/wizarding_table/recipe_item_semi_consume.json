@@ -1,0 +1,50 @@
+[
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:bucket",
+    "conditions": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "predicates": {
+              "minecraft:container": {
+                "items": {
+                  "contains": [
+                    {
+                      "items": "#magical_addons:buckets"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_item",
+    "item": "minecraft:glass_bottle",
+    "conditions": [
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "block": {
+            "predicates": {
+              "minecraft:container": {
+                "items": {
+                  "contains": [
+                    {
+                      "items": "#magical_addons:bottles"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+]

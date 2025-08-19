@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.cursed_head"
+                },
+                "minecraft:item_model": "magical_addons:cursed_head",
+                "minecraft:rarity": "uncommon",
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "cursed_head",
+                    "break_speed": 15.0,
+                    "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
+                    "groups": [ "explodable" ]
+                  }
+                },
+                "minecraft:equippable": {
+                  "slot": "head",
+                  "equip_on_interact": true
+                }
+              },
+              "minecraft:tooltip_display": {
+                "hidden_components": [
+                  "minecraft:block_entity_data"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

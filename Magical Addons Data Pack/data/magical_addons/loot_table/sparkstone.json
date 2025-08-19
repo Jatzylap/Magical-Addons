@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:sparkstone",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.sparkstone"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "sparkstone",
+                    "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 0.6",
+                    "break_speed": 2,
+                    "groups": [
+                      "explodable"
+                    ],
+                    "base_block": "smooth_stone_slab[type=double]"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

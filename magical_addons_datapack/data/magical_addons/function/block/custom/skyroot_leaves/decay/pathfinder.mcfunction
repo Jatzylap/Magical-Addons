@@ -1,4 +1,0 @@
-# block:custom/skyroot_leaves/decay/pathfinder
-# called by: block:custom/skyroot_leaves/decay
-
-$execute positioned $(path1) if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{properties:{tree:"skyroot"}}}}} positioned $(path2) if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{properties:{tree:"skyroot"}}}}} positioned $(path3) if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{properties:{tree:"skyroot"}}}}} positioned $(path4) if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{properties:{tree:"skyroot"}}}}} positioned $(path5) if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{properties:{tree:"skyroot"}}}}} if predicate magical_addons:block/skyroot_leaves/will_survive_on_log run scoreboard players set @s maddons.temp 1

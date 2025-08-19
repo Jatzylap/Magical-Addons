@@ -1,0 +1,26 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:warden"
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:player/event/absorb_sonic_boom"
+  }
+}

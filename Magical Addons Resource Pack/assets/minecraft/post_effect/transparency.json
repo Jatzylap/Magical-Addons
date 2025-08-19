@@ -1,0 +1,455 @@
+{
+    "targets": {
+        "swap1": {},
+        "swap2": {},
+        "swap3": {},
+        "swap4": {},
+        "lights": {"width": 1024, "height": 4, "bilinear": false },
+        "volume": {"width": 1024, "height": 512, "bilinear": false }
+    },
+    "passes": [
+        {
+            "vertex_shader": "light_painter:post/filter",
+            "fragment_shader": "light_painter:post/filter",
+            "inputs": [
+                {
+                    "sampler_name": "ItemEntity",
+                    "target": "minecraft:item_entity"
+                },
+                {
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "swap1"
+        },
+        {
+            "vertex_shader": "light_painter:post/centers",
+            "fragment_shader": "light_painter:post/centers",
+            "inputs": [
+                {
+                    "sampler_name": "ApproxCenters",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap3"
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate",
+            "fragment_shader": "light_painter:post/aggregate_1",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap3"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate",
+            "fragment_shader": "light_painter:post/aggregate_2",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap2",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate",
+            "fragment_shader": "light_painter:post/aggregate_3",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap2"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate",
+            "fragment_shader": "light_painter:post/aggregate_4",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap2",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate",
+            "fragment_shader": "light_painter:post/aggregate_5",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap2"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/aggregate_6",
+            "fragment_shader": "light_painter:post/aggregate_6",
+            "inputs": [
+                {
+                    "sampler_name": "SearchLayer",
+                    "target": "swap1"
+                },
+                {
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "ColoredCenters",
+                    "target": "swap3"
+                }
+            ],
+            "output": "lights",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name":"Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/zone_calc",
+            "fragment_shader": "light_painter:post/zone_calc",
+            "inputs": [
+                {
+                    "sampler_name": "Lights",
+                    "target": "lights"
+                }
+            ],
+            "output": "volume"
+        },
+        {
+            "vertex_shader": "light_painter:post/blur_custom",
+            "fragment_shader": "light_painter:post/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "minecraft:main"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "Radius",
+                        "type":"float",
+                        "value": 0.01
+                    },
+                    {
+                        "name": "Offset",
+                        "type":"float",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/blur_custom",
+            "fragment_shader": "light_painter:post/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap3",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "Radius",
+                        "type":"float",
+                        "value": 0.015
+                    },
+                    {
+                        "name": "Offset",
+                        "type":"float",
+                        "value": 7.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/blur_custom",
+            "fragment_shader": "light_painter:post/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap3"
+                }
+            ],
+            "output": "swap1",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "Radius",
+                        "type":"float",
+                        "value": 0.02
+                    },
+                    {
+                        "name": "Offset",
+                        "type":"float",
+                        "value": 21.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/blur_custom",
+            "fragment_shader": "light_painter:post/blur_custom",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap1"
+                }
+            ],
+            "output": "swap3",
+            "uniforms": {
+                "BlurConfig": [
+                    {
+                        "name": "Radius",
+                        "type":"float",
+                        "value": 0.02
+                    },
+                    {
+                        "name": "Offset",
+                        "type":"float",
+                        "value": 45.0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "light_painter:post/light_apply",
+            "fragment_shader": "light_painter:post/light_apply",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:main"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Lights",
+                    "target": "lights"
+                },
+                {
+                    "sampler_name": "Volume",
+                    "target": "volume"
+                },
+                {
+                    "sampler_name": "Blur",
+                    "target": "swap3"
+                }
+            ],
+            "output": "swap1"
+        },
+        {
+            "vertex_shader": "light_painter:post/light_apply",
+            "fragment_shader": "light_painter:post/light_apply_t",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:translucent"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
+                    "target": "minecraft:translucent",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Lights",
+                    "target": "lights"
+                },
+                {
+                    "sampler_name": "Volume",
+                    "target": "volume"
+                },
+                {
+                    "sampler_name": "CompareDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "swap2"
+        },
+        {
+            "vertex_shader": "light_painter:post/light_apply",
+            "fragment_shader": "light_painter:post/light_apply_i",
+            "inputs": [
+                {
+                    "sampler_name": "Diffuse",
+                    "target": "minecraft:item_entity"
+                },
+                {
+                    "sampler_name": "DiffuseDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Lights",
+                    "target": "lights"
+                },
+                {
+                    "sampler_name": "Volume",
+                    "target": "volume"
+                },
+                {
+                    "sampler_name": "CompareDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "swap3"
+        },
+        {
+            "vertex_shader": "light_painter:post/transparency",
+            "fragment_shader": "light_painter:post/transparency",
+            "inputs": [
+                {
+                    "sampler_name": "Main",
+                    "target": "swap1"
+                },
+                {
+                    "sampler_name": "MainDepth",
+                    "target": "minecraft:main",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Translucent",
+                    "target": "swap2"
+                },
+                {
+                    "sampler_name": "TranslucentDepth",
+                    "target": "minecraft:translucent",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "ItemEntity",
+                    "target": "swap3"
+                },
+                {
+                    "sampler_name": "ItemEntityDepth",
+                    "target": "minecraft:item_entity",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Particles",
+                    "target": "minecraft:particles"
+                },
+                {
+                    "sampler_name": "ParticlesDepth",
+                    "target": "minecraft:particles",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Clouds",
+                    "target": "minecraft:clouds"
+                },
+                {
+                    "sampler_name": "CloudsDepth",
+                    "target": "minecraft:clouds",
+                    "use_depth_buffer": true
+                },
+                {
+                    "sampler_name": "Weather",
+                    "target": "minecraft:weather"
+                },
+                {
+                    "sampler_name": "WeatherDepth",
+                    "target": "minecraft:weather",
+                    "use_depth_buffer": true
+                }
+            ],
+            "output": "swap4",
+            "uniforms": {
+                "TestConfig": [
+                    {
+                        "name": "Test",
+                        "type":"int",
+                        "value": 0
+                    }
+                ]
+            }
+        },
+        {
+            "vertex_shader": "minecraft:post/blit",
+            "fragment_shader": "minecraft:post/blit",
+            "inputs": [
+                {
+                    "sampler_name": "In",
+                    "target": "swap4"
+                }
+            ],
+            "output": "minecraft:main",
+            "uniforms": {
+                "BlitConfig": [
+                    {
+                        "name": "ColorModulate",
+                        "type": "vec4",
+                        "value": [ 1.0, 1.0, 1.0, 1.0 ]
+                    }
+                ]
+            }
+        }
+    ]
+}

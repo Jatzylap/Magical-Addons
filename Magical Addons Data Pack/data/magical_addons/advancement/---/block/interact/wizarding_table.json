@@ -1,0 +1,23 @@
+{
+  "parent": "magical_addons:---/block/interact",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:default_block_use",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"wizarding_table\"}}}}"
+                }
+              }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:block/custom/wizarding_table/iraycast"
+  }
+}

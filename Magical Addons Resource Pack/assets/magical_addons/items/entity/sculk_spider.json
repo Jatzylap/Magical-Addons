@@ -1,0 +1,3023 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 0,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "body",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "head",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 1,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "body",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/crawl",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 4,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "head",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ceiling/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ceiling/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ceiling/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ceiling/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ground/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ground/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ground/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ground/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_left/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_left/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_left/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_left/flip_side_right",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_right/idle",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 1,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_right/flip_ceiling",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 2,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_right/flip_ground",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "threshold": 3,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_right/flip_side_left",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:custom_model_data",
+          "index": 0,
+          "cases": [
+            {
+              "when": "body",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/body/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/body/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/body/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "when": "head",
+              "model": {
+                "type": "minecraft:select",
+                "property": "minecraft:custom_model_data",
+                "index": 1,
+                "cases": [
+                  {
+                    "when": "ceiling",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ceiling/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "ground",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/ground/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_left",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_left/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "when": "side_right",
+                    "model": {
+                      "type": "minecraft:range_dispatch",
+                      "property": "minecraft:custom_model_data",
+                      "index": 1,
+                      "entries": [
+                        {
+                          "threshold": 0,
+                          "model": {
+                            "type": "minecraft:composite",
+                            "models": [
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/normal/head/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/glow/head/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "minecraft:model",
+                                "model": "magical_addons:entity/sculk_spider/hurt/head/side_right/death",
+                                "tints": [
+                                  {
+                                    "type": "minecraft:custom_model_data",
+                                    "default": 0
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:empty"
+    }
+  }
+}

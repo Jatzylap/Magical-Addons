@@ -1,0 +1,11 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:player/event/pick_up_gui_result"
+  }
+}

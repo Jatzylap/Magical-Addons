@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld_rod",
-  "textures": {
-    "layer0": "magical_addons:item/trident_of_poseidon"
-  }
-}

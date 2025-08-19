@@ -1,0 +1,31 @@
+{ 
+  "block.spawner.place": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.spawner.break": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.spawner.hit": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.spawner.step": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.spawner.fall": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  }
+}

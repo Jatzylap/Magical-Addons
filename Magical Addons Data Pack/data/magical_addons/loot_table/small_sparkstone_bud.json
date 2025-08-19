@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:small_sparkstone_bud",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.small_sparkstone_bud"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "small_sparkstone_bud",
+                    "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 1.1",
+                    "break_speed": 8,
+                    "groups": [
+                      "explodable"
+                    ]
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

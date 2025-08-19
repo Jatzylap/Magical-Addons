@@ -1,0 +1,41 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:quartz_ore",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.quartz_ore"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "quartz_ore",
+                    "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
+                    "break_speed": 1,
+                    "groups": [
+                      "explodable"
+                    ],
+                    "base_block": "cobblestone_slab[type=double]"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

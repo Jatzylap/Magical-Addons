@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:set_custom_data",
+  "tag": {
+    "magical_addons": {
+      "result": 0
+    }
+  }
+}

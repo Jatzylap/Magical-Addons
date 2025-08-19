@@ -1,0 +1,45 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spawner",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:golden_oak_leaves",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.golden_oak_leaves"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "generated": false,
+                    "id": "golden_oak_leaves",
+                    "properties": {
+                      "persistent": true
+                    },
+                    "sound": "playsound block.grass.step block @a ~ ~ ~ 0.15",
+                    "break_speed": 75,
+                    "groups": [
+                      "leaves",
+                      "explodable"
+                    ],
+                    "base_block": "spruce_slab[type=double]"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

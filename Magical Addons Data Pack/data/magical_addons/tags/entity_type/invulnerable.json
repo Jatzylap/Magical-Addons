@@ -1,0 +1,18 @@
+{
+	"values": [
+	"#minecraft:impact_projectiles",
+	"minecraft:item_frame",
+	"minecraft:glow_item_frame",
+	"minecraft:item_display",
+	"minecraft:text_display",
+	"minecraft:block_display",
+	"minecraft:item",
+	"minecraft:area_effect_cloud",
+	"minecraft:marker",
+	"minecraft:interaction",
+	"minecraft:armor_stand",
+	"minecraft:falling_block",
+	"minecraft:splash_potion",
+	"minecraft:lingering_potion"
+	]
+}

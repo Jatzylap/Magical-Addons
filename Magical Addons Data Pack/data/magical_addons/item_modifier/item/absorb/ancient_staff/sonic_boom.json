@@ -1,0 +1,29 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "sonic"
+      ],
+      "mode": "replace_all"
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "translate": "enchantment.magical_addons.sonic_boom",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "mode": "append"
+  }
+]

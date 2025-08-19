@@ -1,0 +1,886 @@
+{
+	"item.armour.equip_gravitite": {
+	"category": "player",
+	"sounds": [
+		{
+		"name":"item/armor/equip_gold1",
+		"preload": true
+		},
+		{
+		"name":"item/armor/equip_gold2",
+		"preload": true
+		},
+		{
+		"name":"item/armor/equip_gold3",
+		"preload": true
+		},
+		{
+		"name":"item/armor/equip_gold4",
+		"preload": true
+		},
+		{
+		"name":"item/armor/equip_gold5",
+		"preload": true
+		},
+		{
+		"name":"item/armor/equip_gold6",
+		"preload": true
+		}],
+	"subtitle": "subtitles.item.armour.equip_gravitite"
+	},
+
+	"block.spawner.place": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/break1",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break2",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break4",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.place"
+	},
+
+	"block.spawner.break": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/break1",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break2",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break4",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.break"
+	},
+
+	"block.spawner.step": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/step1",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step2",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step4",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/step5",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.footsteps"
+	},
+	
+	"ui.pack.title": {
+	"category": "master",
+	"sounds": [{
+		"name":"magical_addons:event/title1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:event/title2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:event/title3",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:event/title4",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:event/title5",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:event/title6",
+		"preload": true
+			}]
+	},
+
+	"ui.mana.recharge": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:event/mana",
+		"preload": true
+			}],
+	"subtitle": "subtitles.mana.recharge"
+	},
+
+	"block.sparkstone.chime": {
+	"category": "block",
+	"sounds": [{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.1
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.13
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.15
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.17
+			},		
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.2
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.23
+			},
+			{
+		"name":"magical_addons:block/sparkstone",
+		"preload": true,
+		"pitch": 1.25
+		  }],
+	"subtitle": "subtitles.block.sparkstone.chime"
+	},
+
+	"item.goat_horn.sound.8": {
+	"category": "record",
+	"sounds": [{
+		"name":"magical_addons:item/goat_horn/call8",
+		"preload": true
+			}
+		],
+	"subtitle": "subtitles.item.goat_horn.play"
+	},
+
+	"item.generic.spell.fizzle": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/fizzle1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/fizzle2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/fizzle3",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.wand.fizzle"
+	},
+
+	"item.generic.spell.resonate": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true,
+		"pitch": 1.1
+			},
+			{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true,
+		"pitch": 1.15
+			},
+			{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true,
+		"pitch": 1.2
+			},
+			{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true,
+		"pitch": 1.25
+			},
+			{
+		"name":"magical_addons:item/spell_resonate",
+		"preload": true,
+		"pitch": 1.3
+		  }],
+	"subtitle": "subtitles.item.wand.fizzle"
+	},
+
+	"item.generic.spell.burst": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/spell_burst1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/spell_burst2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/spell_burst3",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.spell.burst"
+	},
+
+	"item.generic.spell.dispel": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/spell_dispel",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.spell.dispel"
+	},
+
+	"item.generic.spell.absorb": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/spell_absorb",
+		"preload": true,
+		"pitch": 1.2
+			},
+			{
+		"name":"magical_addons:item/spell_absorb",
+		"preload": true,
+		"pitch": 1.1
+			},
+			{
+		"name":"magical_addons:item/spell_absorb",
+		"preload": true,
+		"pitch": 1
+			},
+			{
+		"name":"magical_addons:item/spell_absorb",
+		"preload": true,
+		"pitch": 0.9
+		  }],
+	"subtitle": "subtitles.item.spell.absorb"
+	},
+
+	"item.generic.spell.cast": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/spell_cast1",
+		"preload": true,
+		"pitch": 1.25
+			},
+			{
+		"name":"magical_addons:item/spell_cast2",
+		"preload": true,
+		"pitch": 1.2
+			},
+			{
+		"name":"magical_addons:item/spell_cast2",
+		"preload": true,
+		"pitch": 1.15
+			},
+			{
+		"name":"magical_addons:item/spell_cast2",
+		"preload": true,
+		"pitch": 1.1
+			},
+			{
+		"name":"magical_addons:item/spell_cast2",
+		"preload": true,
+		"pitch": 1.05
+			},
+			{
+		"name":"magical_addons:item/spell_cast2",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.spell.cast"
+	},
+
+	"item.orb.use": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/artifact1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/artifact2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/artifact3",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.orb.use"
+	},
+
+	"item.orb.sparkstone.use": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/sparkstone_orb",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.orb.use"
+	},
+
+	"item.orb.throw": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/orb_shoot",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.orb.throw"
+	},
+
+	"item.orb.break": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/orb_smash1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/orb_smash2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/orb_smash3",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.orb.break"
+	},       
+
+	"item.ring.use": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/artifact1",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/artifact2",
+		"preload": true
+			},
+			{
+		"name":"magical_addons:item/artifact3",
+		"preload": true
+		  }],
+	"subtitle": "subtitles.item.ring.use"
+	},
+
+	"ui.advancement.magical_charge": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:event/magical_charge",
+		"preload": true
+		}],
+	"subtitle": "subtitles.advancement.magical_charge"
+	},
+
+	"ambient.aether.mood": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"magical_addons:ambient/aether/dream1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/dream2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/dream3",
+		"preload": true
+				}],
+	"subtitle": "subtitles.ambient.aether.dream"
+	},
+
+	"ambient.aether.cities.loop": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"magical_addons:ambient/aether/cities",
+		"stream": true
+				}]
+	},
+
+	"music.aether": {
+	"category": "music",
+	"sounds": [
+			{
+			"name":"magical_addons:music/game/aether/nullverse1",
+			"stream": true
+			},
+			{
+			"name":"magical_addons:music/game/aether/nullverse2",
+			"stream": true
+			}
+		]
+	},
+
+	"music.boss.intro": {
+	"category": "music",
+	"sounds": [
+			{
+			"name":"magical_addons:music/game/boss/intro",
+			"stream": true,
+			"volume": 0.4,
+			"attenuation_distance": 32
+		}]
+	},
+
+	"music.boss.phase1": {
+	"category": "music",
+	"sounds": [
+			{
+			"name":"magical_addons:music/game/boss/phase1",
+			"stream": true,
+			"volume": 0.4,
+			"attenuation_distance": 32
+		}]
+	},
+
+	"music.boss.phase2": {
+	"category": "music",
+	"sounds": [
+			{
+			"name":"magical_addons:music/game/boss/phase2",
+			"stream": true,
+			"volume": 0.4,
+			"attenuation_distance": 32
+		}]
+	},
+
+	"music.boss.phase3": {
+	"category": "music",
+	"sounds": [
+			{
+			"name":"magical_addons:music/game/boss/phase3",
+			"stream": true,
+			"volume": 0.4,
+			"attenuation_distance": 32
+		}]
+	},
+
+	"ambient.aether.additions": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"magical_addons:ambient/aether/gravity1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/gravity2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/gravity3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/gravity4",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:ambient/aether/gravity5",
+		"preload": true
+		}],
+	"subtitle": "subtitles.ambient.aether.additions"
+	},
+
+	"ambient.quake": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"magical_addons:ambient/quake",
+		"preload": true
+		}]
+	},
+
+	"item.soul_bottle.open": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/soul1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:item/soul2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:item/soul3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:item/soul4",
+		"preload": true
+		}],
+	"subtitle": "subtitles.item.soul_bottle.open"
+	},
+
+	"entity.chicken.angry": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/chicken/rage",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.chicken.angry"
+	},
+
+	"entity.automaton.ambient": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/ambient1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient4",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient5",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient6",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient7",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient8",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient9",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient10",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient11",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/ambient12",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.ambient"
+	},
+
+	"entity.automaton.step": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/step1",
+		"attenuation_distance": 16,
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step2",
+		"attenuation_distance": 16,
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step3",
+		"attenuation_distance": 16,
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step4",
+		"attenuation_distance": 16,
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/step5",
+		"attenuation_distance": 16,
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.step"
+	},
+
+	"entity.automaton.death": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/death",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.death"
+	},
+
+	"entity.automaton.slam": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/slam",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.slam"
+	},
+
+	"entity.automaton.shoot": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"mob/warden/heartbeat_1",
+		"preload": true,
+		"pitch": 2.0
+				},
+				{
+		"name":"mob/warden/heartbeat_2",
+		"preload": true,
+		"pitch": 2.0
+				},
+				{
+		"name":"mob/warden/heartbeat_3",
+		"preload": true,
+		"pitch": 2.0
+				},
+				{
+		"name":"mob/warden/heartbeat_4",
+		"preload": true,
+		"pitch": 2.0
+		}],
+	"subtitle": "subtitles.entity.automaton.shoot"
+	},
+
+	"entity.automaton.attack": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/attack1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/attack2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/attack3",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"entity.automaton.strike": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/strike1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike4",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike5",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike6",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike7",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike8",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike9",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike10",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike11",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/strike12",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"entity.automaton.angry": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/angry1",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/angry2",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/angry3",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/angry4",
+		"preload": true
+				},
+				{
+		"name":"magical_addons:entity/automaton/angry5",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"entity.automaton.short_punch": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/short_punch",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"entity.automaton.punch": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/punch",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"entity.automaton.kick": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"magical_addons:entity/automaton/kick",
+		"preload": true
+		}],
+	"subtitle": "subtitles.entity.automaton.attack"
+	},
+
+	"item.dagger.hit": {
+	"category": "player",
+	"sounds": [{
+		"name":"magical_addons:item/dagger_hit",
+		"preload": true
+		}],
+	"subtitle": "subtitles.item.dagger.hit"
+	},
+
+	"block.portal.ambient": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 0.8
+				},
+				{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.0
+				},
+				{
+		"name":"portal/portal",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.2
+		}],
+	"subtitle": "subtitles.block.portal.ambient"
+	},
+
+	"block.portal.travel": {
+	"category": "ambient",
+	"sounds": [{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.0
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.1
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.2
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.3
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.4
+				},
+				{
+		"name":"portal/travel",
+		"preload": true,
+		"attenuation_distance": 16,
+		"pitch": 1.5
+		}],
+	"subtitle": "subtitles.block.portal.travel"
+	}
+}

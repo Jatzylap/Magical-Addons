@@ -1,0 +1,22 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "sparkstone_lingering_potion"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/sparkstone_lingering_potion/use"
+  }
+}

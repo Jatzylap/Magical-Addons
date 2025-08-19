@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick",
+          "custom_color": 47871,
+          "custom_name": "sparkstone"
+        }
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.brew_sparkstone_potion.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.aether.brew_sparkstone_potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magical_addons:aether/get_sparkstone",
+  "criteria": {
+    "brew_sparkstone_potion": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "brew_sparkstone_potion"
+    ]
+  ],
+  "rewards": {
+    "experience": 2
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:potion_contents": {
+                  "potion": "thick",
+                  "custom_color": 47871,
+                  "custom_name": "sparkstone"
+                },
+                "minecraft:lore": [
+                  {
+                    "translate": "item.magical_addons.sparkstone_potion.lore",
+                    "extra": [
+                      {
+                        "text": " +50"
+                      }
+                    ],
+                    "color": "blue",
+                    "italic": false
+                  }
+                ],
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle",
+                  "count": 1
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "id": "sparkstone_potion"
+                  }
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:potion_contents"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

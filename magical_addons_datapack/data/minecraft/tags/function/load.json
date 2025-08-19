@@ -1,8 +1,0 @@
-{
-    "values": [
-        "magical_addons:main/init",
-        "gu:zzz/load",
-        "iris:setup/load",
-        "player_motion:internal/technical/load"
-    ]
-}

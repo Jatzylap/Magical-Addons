@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "minecraft:item_model": "magical_addons:ancient_staff"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.get_ancient_staff.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.aether.get_ancient_staff.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "magical_addons:aether/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "ancient_staff"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6
+  }
+}

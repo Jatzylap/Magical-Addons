@@ -1,0 +1,66 @@
+{
+  "language.name": "English",
+  "language.region": "United States",
+  "language.code": "en_us",
+
+  "resourcePack.magical_addons.description": "Resource Pack for Magical Addons v1.0",
+
+  "item.minecraft.quartz": "Quartz",
+  "item.magical_addons.wizarding_table": "Wizarding Bench",
+  "item.magical_addons.grimoire": "Grimoire",
+  "item.magical_addons.wooden_dagger": "Wooden Dagger",
+  "item.magical_addons.stone_dagger": "Stone Dagger",
+  "item.magical_addons.iron_dagger": "Iron Dagger",
+  "item.magical_addons.golden_dagger": "Golden Dagger",
+  "item.magical_addons.diamond_dagger": "Diamond Dagger",
+  "item.magical_addons.netherite_dagger": "Netherite Dagger",
+  "item.magical_addons.sparkstone_orb": "Sparkstone Orb",
+
+  "container.wizarding_table.isLocked": "%s needs a %s!",
+
+  "advancements.magical_addons.nether.obtain_quartz.title": "It\'s Quartz",
+  "advancements.magical_addons.nether.place_wizarding_table.title": "Yet Another Custom Crafter",
+  "advancements.magical_addons.story.craft_wand.title": "Wand-maker",
+  "advancements.magical_addons.aether.root.title": "Aether",
+  "advancements.magical_addons.aether.brew_sparkstone_potion.title": "Magic mead",
+  "advancements.magical_addons.aether.get_ancient_staff.title": "Elder Wand",
+  "advancements.magical_addons.aether.kill_automaton.title": "I\'ll Be Back",
+  "advancements.magical_addons.aether.get_sparkstone.title": "Magic ore",
+
+  "advancements.magical_addons.nether.obtain_quartz.description": "Mine Quartz.",
+  "advancements.magical_addons.nether.place_wizarding_table.description": "Place a Wizarding Bench.",
+  "advancements.magical_addons.story.craft_wand.description": "Craft a wand.",
+  "advancements.magical_addons.aether.get_sparkstone.description": "Mine a Sparkstone Cluster.",
+  "advancements.magical_addons.aether.brew_sparkstone_potion.description": "Brew a Potion of Sparkstone.",
+  "advancements.magical_addons.aether.root.description": "Heaven?",
+  "advancements.magical_addons.aether.kill_automaton.description": "Defeat an Automaton.",
+
+  "subtitles.magical_addons.ambient.aether.additions": "Other-worldly noise",
+  "subtitles.magical_addons.ambient.aether.mood": "Dreamy vibrations",
+  "subtitles.magical_addons.ambient.soul": "Souls mumble",
+
+  "subtitles.magical_addons.advancement.magical_charge": "You feel heroic",
+  "subtitles.magical_addons.mana.recharge": "You feel recharged",
+  "subtitles.magical_addons.block.sparkstone.chime": "Sparkstone chimes loudly",
+
+  "subtitles.magical_addons.entity.automaton.ambient": "Automaton whines",
+  "subtitles.magical_addons.entity.automaton.hurt": "Automaton hurts",
+  "subtitles.magical_addons.entity.automaton.heartbeat": "Automaton's heart beats",
+  "subtitles.magical_addons.entity.automaton.attack": "Automaton attacks",
+  "subtitles.magical_addons.entity.automaton.step": "Automaton steps",
+  "subtitles.magical_addons.entity.automaton.angry": "Automaton angers",
+  "subtitles.magical_addons.entity.automaton.death": "Automaton dies",
+  "subtitles.magical_addons.entity.soul.ambient": "Soul mourns",
+  "subtitles.magical_addons.entity.chicken.angry": "Chicken angers",
+
+  "subtitles.magical_addons.item.spell.cast": "Spell whizzes",
+  "subtitles.magical_addons.item.spell.absorb": "Spell absorbs",
+  "subtitles.magical_addons.item.spell.burst": "Spell bursts",
+  "subtitles.magical_addons.item.spell.dispel": "Spell dissipates",
+  "subtitles.magical_addons.item.soul_bottle.open": "Soul escapes",
+  "subtitles.magical_addons.item.wand.fizzle": "Wand fizzles",
+  "subtitles.magical_addons.item.orb.throw": "Orb flies",
+  "subtitles.magical_addons.item.orb.break": "Orb smashes",
+  "subtitles.magical_addons.item.dagger.hit": "Dagger hits"
+
+}

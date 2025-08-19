@@ -1,0 +1,61 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "maddons.automaton.music_track": {
+                "min": 1
+              }
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "maddons.automaton.music": {
+              "min": 1324
+            }
+          }
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "maddons.automaton.music_track": 1,
+        "maddons.automaton.music": {
+          "min": 1059
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "maddons.automaton.music_track": 2,
+        "maddons.automaton.music": {
+          "min": 2119
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_scores",
+      "entity": "this",
+      "scores": {
+        "maddons.automaton.music_track": 3,
+        "maddons.automaton.music": {
+          "min": 1059
+        }
+      }
+    }
+  ]
+}

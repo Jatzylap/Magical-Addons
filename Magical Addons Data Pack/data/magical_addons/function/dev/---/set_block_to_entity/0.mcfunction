@@ -1,0 +1,1 @@
+$execute align xyz positioned ~.5 ~.5 ~.5 run summon falling_block ~ ~ ~ {BlockState:{Name:"$(block)"},NoGravity:1b,Tags:[maddons.falling_block]}

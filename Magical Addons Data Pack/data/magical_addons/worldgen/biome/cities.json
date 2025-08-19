@@ -1,0 +1,71 @@
+{
+  "effects": {
+    "music_volume": 0,
+    "additions_sound": {
+      "sound": {
+        "sound_id": "magical_addons:ambient.aether.additions"
+      },
+      "tick_chance": 0.0001
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:mycelium"
+      },
+      "probability": 0.118093334
+    },
+    "sky_color": 9275608,
+    "fog_color": 9671612,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 11665355,
+    "foliage_color": 14417827
+  },
+  "carvers": [
+    "magical_addons:cave"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "magical_addons:city_columns"
+    ],
+    [],
+    [
+      "magical_addons:ore_gravitite",
+      "magical_addons:ore_coal",
+      "magical_addons:ore_quartz",
+      "magical_addons:ore_dirt",
+      "magical_addons:ore_gravel",
+      "magical_addons:ore_emerald",
+      "magical_addons:ore_granite",
+      "magical_addons:ore_diorite",
+      "magical_addons:spring_water_sky"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "magical_addons:flower_plains_sky"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0
+}

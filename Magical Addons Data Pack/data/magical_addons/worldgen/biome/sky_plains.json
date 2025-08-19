@@ -1,0 +1,98 @@
+{
+  "temperature": 0.8,
+  "downfall": 0,
+  "has_precipitation": false,
+  "effects": {
+    "sky_color": 12632319,
+    "fog_color": 9671612,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 11665355,
+    "foliage_color": 14417827,
+    "dry_foliage_color": 14417827,
+    "mood_sound": {
+      "sound": {
+        "sound_id": "magical_addons:ambient.aether.mood"
+      },
+      "tick_delay": 250,
+      "block_search_extent": 8,
+      "offset": 0
+    },
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": {
+            "sound_id": "magical_addons:music.aether"
+          },
+          "min_delay": 12000,
+          "max_delay": 24000,
+          "replace_current_music": true
+        }
+      }
+    ]
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:breeze",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": [
+    "minecraft:cave",
+    "minecraft:cave_extra_underground",
+    "minecraft:canyon"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "magical_addons:ore_gravitite",
+      "magical_addons:ore_coal",
+      "magical_addons:ore_quartz",
+      "magical_addons:ore_dirt",
+      "magical_addons:ore_gravel",
+      "magical_addons:ore_emerald",
+      "magical_addons:ore_granite",
+      "magical_addons:ore_diorite",
+      "magical_addons:spring_water_sky"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "magical_addons:flower_plains_sky",
+      "magical_addons:oak_trees_sky_plains",
+      "magical_addons:golden_trees_plains"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

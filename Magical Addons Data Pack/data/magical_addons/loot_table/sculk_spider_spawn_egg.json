@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sheep_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:sculk_spider_spawn_egg",
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "id": "sculk_spider_spawn_egg"
+                  }
+                },
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.sculk_spider_spawn_egg"
+                },
+                "minecraft:entity_data": {
+                  "id": "minecraft:marker",
+                  "Tags": [
+                    "maddons.sculk_spider_spawn_egg"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

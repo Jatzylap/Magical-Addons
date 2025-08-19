@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": "minecraft:quartz",
+    "@": "#minecraft:planks"
+  },
+  "pattern": [
+    "##",
+    "@@",
+    "@@"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:spawner",
+    "components": {
+      "minecraft:item_model": "magical_addons:wizarding_table",
+      "minecraft:item_name": {
+        "translate": "item.magical_addons.wizarding_table"
+      },
+      "minecraft:custom_model_data": {
+        "flags": [
+          false
+        ]
+      },
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "generated": false,
+          "id": "wizarding_table",
+          "break_speed": 0,
+          "damage": 0,
+          "max_damage": 50,
+          "groups": [
+            "explodable"
+          ]
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:block_entity_data"
+        ]
+      }
+    }
+  }
+}

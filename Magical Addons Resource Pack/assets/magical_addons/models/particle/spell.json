@@ -1,0 +1,12 @@
+{
+  "parent": "magical_addons:particle/particle",
+  "textures": {
+    "base": "magical_addons:particle/spell"
+  },
+  "display": {
+    "head": {
+      "scale": [2,2,0],
+      "translation": [10,10,0]
+    }
+  }
+}
