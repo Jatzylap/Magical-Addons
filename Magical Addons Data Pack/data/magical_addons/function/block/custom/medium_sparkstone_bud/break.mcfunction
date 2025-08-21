@@ -13,7 +13,5 @@ fill ~ ~-1 ~ ~ ~1 ~ water replace light[level=2,waterlogged=true]
 
 setblock ~ ~ ~ air
 
-execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/medium_sparkstone_bud
-
 kill @n[type=item_display,tag=maddons.medium_sparkstone_bud,distance=...5]
 kill @e[type=experience_orb,distance=...5]

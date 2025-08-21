@@ -9,7 +9,7 @@
         {
           "biome": "magical_addons:sky_plains",
           "parameters": {
-            "temperature": 0,
+            "temperature": 0.25,
             "humidity": 0,
             "continentalness": 0,
             "erosion": 0,
@@ -22,9 +22,9 @@
           "biome": "magical_addons:cities",
           "parameters": {
             "temperature": 1,
-            "humidity": 0.5,
+            "humidity": 0,
             "continentalness": 0,
-            "erosion": 0.5,
+            "erosion": 0.25,
             "weirdness": 0,
             "depth": 0,
             "offset": 0

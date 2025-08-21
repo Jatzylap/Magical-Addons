@@ -11,14 +11,9 @@
       ],
       "conditions": [
         {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
+          "condition": "minecraft:match_tool",
           "predicate": {
-            "equipment": {
-              "mainhand": {
-                "items": "#minecraft:pickaxes"
-              }
-            }
+            "items": "#minecraft:pickaxes"
           }
         }
       ]

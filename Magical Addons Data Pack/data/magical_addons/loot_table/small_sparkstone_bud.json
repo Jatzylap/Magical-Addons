@@ -20,6 +20,7 @@
                     "id": "small_sparkstone_bud",
                     "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 1.1",
                     "break_speed": 8,
+                    "loot_id": 8,
                     "groups": [
                       "explodable"
                     ]

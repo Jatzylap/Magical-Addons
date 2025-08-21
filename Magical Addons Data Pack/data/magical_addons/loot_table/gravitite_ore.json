@@ -20,6 +20,7 @@
                     "id": "gravitite_ore",
                     "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
                     "break_speed": -0.87,
+                    "loot_id": 5,
                     "properties": {
                       "light": true
                     },

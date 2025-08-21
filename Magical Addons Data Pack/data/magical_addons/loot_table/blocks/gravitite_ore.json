@@ -13,22 +13,17 @@
           "value": "magical_addons:gravitite_ore",
           "conditions": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
                     }
-                  }
+                  ]
                 }
               }
             }
@@ -40,36 +35,21 @@
           "condition": "minecraft:any_of",
           "terms": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:iron_pickaxe"
-                  }
-                }
+                "items": "minecraft:iron_pickaxe"
               }
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:diamond_pickaxe"
-                  }
-                }
+                "items": "minecraft:diamond_pickaxe"
               }
             },
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "minecraft:netherite_pickaxe"
-                  }
-                }
+                "items": "minecraft:netherite_pickaxe"
               }
             }
           ]

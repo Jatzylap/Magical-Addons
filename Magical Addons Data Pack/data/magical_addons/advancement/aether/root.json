@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:glowstone",
       "components": {
-        "minecraft:item_model": "magical_addons:aether_portal"
+        "minecraft:item_model": "magical_addons:sparkstone"
       }
     },
     "title": {
@@ -15,8 +15,8 @@
     },
     "background": "magical_addons:block/sparkstone",
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
   "criteria": {

@@ -11,22 +11,17 @@
               "type": "minecraft:loot_table",
               "conditions": [
                 {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
+                  "condition": "minecraft:match_tool",
                   "predicate": {
-                    "equipment": {
-                      "mainhand": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantments": "minecraft:silk_touch",
-                              "levels": {
-                                "min": 1
-                              }
-                            }
-                          ]
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
                         }
-                      }
+                      ]
                     }
                   }
                 }
@@ -40,14 +35,9 @@
                   "type": "minecraft:loot_table",
                   "conditions": [
                     {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
+                      "condition": "minecraft:match_tool",
                       "predicate": {
-                        "equipment": {
-                          "mainhand": {
-                            "items": "#minecraft:cluster_max_harvestables"
-                          }
-                        }
+                        "items": "#minecraft:cluster_max_harvestables"
                       }
                     }
                   ],
@@ -85,22 +75,17 @@
               "type": "minecraft:loot_table",
               "conditions": [
                 {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
+                  "condition": "minecraft:match_tool",
                   "predicate": {
-                    "equipment": {
-                      "mainhand": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantments": "minecraft:silk_touch",
-                              "levels": {
-                                "min": 1
-                              }
-                            }
-                          ]
+                    "predicates": {
+                      "minecraft:enchantments": [
+                        {
+                          "enchantments": "minecraft:silk_touch",
+                          "levels": {
+                            "min": 1
+                          }
                         }
-                      }
+                      ]
                     }
                   }
                 }
@@ -114,14 +99,9 @@
                   "type": "minecraft:loot_table",
                   "conditions": [
                     {
-                      "condition": "minecraft:entity_properties",
-                      "entity": "this",
+                      "condition": "minecraft:match_tool",
                       "predicate": {
-                        "equipment": {
-                          "mainhand": {
-                            "items": "#minecraft:cluster_max_harvestables"
-                          }
-                        }
+                        "items": "#minecraft:cluster_max_harvestables"
                       }
                     }
                   ],

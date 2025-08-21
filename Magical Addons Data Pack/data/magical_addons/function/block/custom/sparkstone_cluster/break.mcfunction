@@ -13,7 +13,5 @@ fill ~ ~-1 ~ ~ ~1 ~ water replace light[level=4,waterlogged=true]
 
 setblock ~ ~ ~ air
 
-execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/sparkstone_cluster
-
 kill @n[type=item_display,tag=maddons.sparkstone_cluster,distance=...5]
 kill @e[type=experience_orb,distance=...5]

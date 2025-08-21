@@ -4,7 +4,6 @@
 ## player
 tag @a[gamemode=!survival,gamemode=!adventure] add maddons.invul
 tag @a[gamemode=!creative,gamemode=!spectator] remove maddons.invul
-execute as @a[tag=maddons.in_aether] at @s if dimension overworld run function magical_addons:dimension/the_aether/return
 
 ## block
 execute at @a as @e[sort=random,type=item_display,tag=maddons.block.leaves,limit=8,distance=..16] at @s run function magical_addons:block/group/custom/leaves/decay with entity @s item.components."minecraft:custom_data".magical_addons

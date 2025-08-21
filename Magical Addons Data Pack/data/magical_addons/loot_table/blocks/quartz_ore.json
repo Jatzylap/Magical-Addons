@@ -9,14 +9,9 @@
           "name": "minecraft:quartz",
           "conditions": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "items": "#minecraft:pickaxes"
-                  }
-                }
+                "items": "#minecraft:pickaxes"
               }
             }
           ]
@@ -26,22 +21,17 @@
           "value": "magical_addons:quartz_ore",
           "conditions": [
             {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
+              "condition": "minecraft:match_tool",
               "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
                     }
-                  }
+                  ]
                 }
               }
             }

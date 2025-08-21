@@ -5,5 +5,3 @@ kill @n[type=item_display,tag=maddons.cursed_head,distance=...5]
 kill @e[type=experience_orb,distance=...5]
 
 particle block{block_state:"soul_sand"} ~ ~-.25 ~ 0 0 0 0.08 10
-
-execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/cursed_head

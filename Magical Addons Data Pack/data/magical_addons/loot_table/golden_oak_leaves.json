@@ -23,6 +23,7 @@
                     },
                     "sound": "playsound block.grass.step block @a ~ ~ ~ 0.15",
                     "break_speed": 75,
+                    "loot_id": 3,
                     "groups": [
                       "leaves",
                       "explodable"

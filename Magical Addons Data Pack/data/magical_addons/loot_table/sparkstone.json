@@ -20,6 +20,7 @@
                     "id": "sparkstone",
                     "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 0.6",
                     "break_speed": 2,
+                    "loot_id": 1,
                     "groups": [
                       "explodable"
                     ],

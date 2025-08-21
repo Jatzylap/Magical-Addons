@@ -17,8 +17,7 @@ execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s unles
 ## block
 execute as @e[type=item_display,tag=maddons.brewing_stand,tag=!maddons.registered] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run function magical_addons:dev/register_entity {cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}
 execute at @a as @e[type=item_display,tag=maddons.block,tag=!maddons.block.no_break,distance=..16] at @s run function magical_addons:block/break with entity @s item.components."minecraft:custom_data".magical_addons
-execute at @a as @e[type=item_display,tag=maddons.sky_oak_leaves,limit=2,sort=random,distance=..16] at @s if block ~ ~-1 ~ air if predicate magical_addons:shared/25_percent run particle minecraft:tinted_leaves{color:[0.6,1,0.2,0]} ~ ~ ~ 0.2 0.2 0.2 1 2
-execute at @a as @e[type=item_display,tag=maddons.golden_oak_leaves,limit=2,sort=random,distance=..16] at @s if block ~ ~-1 ~ air if predicate magical_addons:shared/25_percent run particle minecraft:tinted_leaves{color:[1,1,0,1]} ~ ~ ~ 0.2 0.2 0.2 1 2
+execute at @a as @e[type=item_display,tag=maddons.golden_oak_leaves,limit=16,sort=random,distance=..16] at @s if block ~ ~-1 ~ air if predicate magical_addons:shared/25_percent run particle minecraft:tinted_leaves{color:[1,1,0,1]} ~ ~ ~ 0.2 0.2 0.2 1 2
 
 ## item
 execute at @a run kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{gui:1}}}}},distance=..16]

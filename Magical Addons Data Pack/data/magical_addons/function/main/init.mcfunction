@@ -63,6 +63,7 @@ scoreboard objectives add maddons.nefficiency dummy
 scoreboard objectives add maddons.commanding_spell dummy
 scoreboard objectives add maddons.automaton.music dummy
 scoreboard objectives add maddons.automaton.music_track dummy
+scoreboard objectives add maddons.block.loot_id dummy
 
 ## Constants
 scoreboard players set #PI maddons.constant 314159265

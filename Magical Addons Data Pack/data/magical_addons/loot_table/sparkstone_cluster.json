@@ -11,13 +11,16 @@
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:item_model": "magical_addons:sparkstone_cluster",
-                "minecraft:item_name": "{\"translate\":\"item.magical_addons.sparkstone_cluster\"}",
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.sparkstone_cluster"
+                },
                 "minecraft:custom_data": {
                   "magical_addons": {
                     "generated": false,
                     "id": "sparkstone_cluster",
                     "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 1.1",
-                    "break_speed": 8,
+                    "break_speed": 8.0,
+                    "loot_id": 10,
                     "groups": [
                       "explodable"
                     ]

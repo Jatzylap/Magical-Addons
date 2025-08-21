@@ -58,21 +58,15 @@
       "minecraft:patch_tall_grass_2",
       "magical_addons:flower_plains_sky",
       "minecraft:patch_leaf_litter",
-      "magical_addons:oak_trees_sparkstone_grove"
+      "magical_addons:oak_trees_sparkstone_grove",
+      "magical_addons:golden_trees_plains"
     ],
     [
       "minecraft:freeze_top_layer"
     ]
   ],
   "spawners": {
-    "monster": [
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 1
-      }
-    ],
+    "monster": [],
     "creature": [
       {
         "type": "minecraft:cow",

@@ -41,7 +41,7 @@ function magical_addons:block/break_start with entity @s
 ## Get custom block target
 data modify storage iris:settings TargetEntities set value 0b
 data modify storage iris:settings Callback set value "magical_addons:block/mine"
-execute store result storage iris:settings MaxRecursionDepth int 1 run attribute @s minecraft:block_interaction_range get 2
+execute store result storage iris:settings MaxRecursionDepth int 1 run attribute @s minecraft:block_interaction_range get 2.5
 execute anchored eyes positioned ^ ^ ^ run function iris:get_target
 
 ## Save custom block target

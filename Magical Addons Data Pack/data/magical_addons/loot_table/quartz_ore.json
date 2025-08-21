@@ -20,6 +20,7 @@
                     "id": "quartz_ore",
                     "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
                     "break_speed": 1,
+                    "loot_id": 9,
                     "groups": [
                       "explodable"
                     ],

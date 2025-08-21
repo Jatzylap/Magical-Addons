@@ -19,7 +19,7 @@ fill ~ ~1 ~ ~ ~-1 ~ light[level=9] keep
 execute store result score @s maddons.max_damage store result score @s maddons.idamage run data get block ~ ~ ~ components."minecraft:custom_data".magical_addons.max_damage
 execute store result score @s maddons.damage run data get block ~ ~ ~ components."minecraft:custom_data".magical_addons.damage
 execute if predicate magical_addons:block/wizarding_table/check_hopper run function magical_addons:block/custom/wizarding_table/damage_from_block
-execute if items entity @p[advancements={magical_addons:---/block/interact/wizarding_table_off=true}] weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] run function magical_addons:block/custom/wizarding_table/damage_from_player
+execute if items entity @p[advancements={magical_addons:---/block/interact/wizarding_table=true}] weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] run function magical_addons:block/custom/wizarding_table/damage_from_player
 
 ## Sounds / Particles
 playsound block.respawn_anchor.charge block @a ~ ~ ~ 1 1.3
