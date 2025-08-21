@@ -6,7 +6,7 @@ Magical Addons is an experimental data pack and resource pack for Minecraft: Jav
 [![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
 
-Magical Addons is in early Beta!
+Currently in early Beta!
 
 ## ⚠️ Warning ⚠️
 This is a standalone data pack that is not guaranteed to work with any complementary mods or shader packs.
