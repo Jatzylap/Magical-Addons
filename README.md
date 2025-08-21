@@ -1,12 +1,12 @@
 ![Banner image](src/thumbnail.png)
 # Magical Addons
 
-Magical Addons is an experimental data pack for Minecraft: Java Edition which allows you to craft magical gear. Travel to a reimagined Aether dimension and fight new mobs. Designed to blend in with the base game progression and aesthetics.
+Magical Addons is an experimental data pack and resource pack for Minecraft: Java Edition which allows you to craft magical gear. Travel to a reimagined Aether dimension and fight new mobs. Designed to blend in with the base game progression and aesthetics.
 
-[![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=pre-release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
+[![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
 
-Currently in development.
+Magical Addons is in early Beta!
 
 ## ⚠️ Warning ⚠️
 This is a standalone data pack that is not guaranteed to work with any complementary mods or shader packs.
@@ -15,8 +15,8 @@ This is a standalone data pack that is not guaranteed to work with any complemen
 - Locate your .minecraft installation directory
 - To add the data pack to an existing world : drop the "magical_addons_datapack" folder into the “datapacks” directory of your world
 - To add the data pack to a new world : select the "More" tab in the new world settings, click "Data Packs", then drag the "magical_addons_datapack" into the Minecraft window
-- Drop the "magical_addons_resourcepack" folder into the “resourcepacks” directory
-- Select the "magical_addons_resourcepack" from your resource pack list
+- In your “resourcepacks” directory, drop the "Magical Addons Resource Pack" folder
+- In the game, select the "Magical Addons Resource Pack" from your Resource Pack list
 
 ## Credits [A-Z]
 - [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
