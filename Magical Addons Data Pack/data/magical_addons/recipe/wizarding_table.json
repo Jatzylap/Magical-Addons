@@ -28,6 +28,7 @@
           "generated": false,
           "id": "wizarding_table",
           "break_speed": 0,
+          "loot_id": 11,
           "damage": 0,
           "max_damage": 50,
           "groups": [
