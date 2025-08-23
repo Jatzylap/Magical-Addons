@@ -10,7 +10,7 @@ execute as @n[type=snowball,tag=maddons.sparkstone_orb,tag=!maddons.summoned] at
 
 ## Shoot
 playsound entity.ender_pearl.throw player @a ~ ~ ~ 0.5 0.5
-data modify entity @n[type=snowball,tag=maddons.sparkstone_orb,tag=!maddons.summoned] Item set from entity @s Inventory[{Slot:-106b}]
+data modify entity @n[type=snowball,tag=maddons.sparkstone_orb,tag=!maddons.summoned] Item set from entity @s equipment.offhand
 execute as @n[type=snowball,tag=maddons.sparkstone_orb,tag=!maddons.summoned] at @s run function magical_addons:item/sparkstone_orb/shoot
 
 ## Clear

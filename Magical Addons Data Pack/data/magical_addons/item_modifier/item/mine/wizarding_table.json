@@ -21,7 +21,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -58,7 +58,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -95,7 +95,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -132,7 +132,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -169,7 +169,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -206,7 +206,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -244,7 +244,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -281,7 +281,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -318,7 +318,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -355,7 +355,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -392,7 +392,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -429,7 +429,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",
@@ -466,7 +466,7 @@
         "slot": "mainhand"
       }
     ],
-    "replace": true,
+    "replace": false,
     "conditions": [
       {
         "condition": "minecraft:entity_properties",

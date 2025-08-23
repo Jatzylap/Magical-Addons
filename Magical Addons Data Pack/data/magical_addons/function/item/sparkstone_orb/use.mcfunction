@@ -2,10 +2,10 @@
 # called by advancement: item:use/sparkstone_orb
 
 ## Offhand use
-execute unless score @s maddons.cooldown matches 1.. unless data entity @s {SelectedItem:{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_orb"}}}}} if data entity @s {Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_orb"}}}}]} run function magical_addons:item/sparkstone_orb/use_offhand
+execute unless score @s maddons.cooldown matches 1.. unless items entity @s weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] if items entity @s weapon.offhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] run function magical_addons:item/sparkstone_orb/use_offhand
 
 ## Mainhand use
-execute unless score @s maddons.cooldown matches 1.. if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_orb"}}}}} run function magical_addons:item/sparkstone_orb/use_mainhand
+execute unless score @s maddons.cooldown matches 1.. if items entity @s weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] run function magical_addons:item/sparkstone_orb/use_mainhand
 
 ## Cooldown
 execute unless score @s maddons.cooldown matches 1.. run scoreboard players add @s maddons.cooldown 5

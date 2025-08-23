@@ -7,14 +7,14 @@
       }
     },
     "title": {
-      "translate": "advancements.magical_addons.nether.place_wizarding_table.title"
+      "translate": "advancements.magical_addons.story.place_wizarding_table.title"
     },
     "description": {
-      "translate": "advancements.magical_addons.nether.place_wizarding_table.description"
+      "translate": "advancements.magical_addons.story.place_wizarding_table.description"
     },
     "frame": "task"
   },
-  "parent": "magical_addons:nether/obtain_quartz",
+  "parent": "magical_addons:story/obtain_quartz",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:placed_block",

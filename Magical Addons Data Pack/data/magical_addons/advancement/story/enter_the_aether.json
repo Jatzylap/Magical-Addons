@@ -1,5 +1,5 @@
 {
-  "parent": "magical_addons:story/craft_wand",
+  "parent": "magical_addons:story/ritual_sanctuary",
   "criteria": {
     "entered_aether": {
       "conditions": {

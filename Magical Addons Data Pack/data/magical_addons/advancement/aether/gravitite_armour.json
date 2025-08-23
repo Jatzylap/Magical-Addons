@@ -1,0 +1,72 @@
+{
+  "parent": "magical_addons:aether/root",
+  "criteria": {
+    "gravitite_armour": {
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "gravitite_boots"
+                }
+              }
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "gravitite_chestplate"
+                }
+              }
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "gravitite_helmet"
+                }
+              }
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "gravitite_leggings"
+                }
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.aether.gravitite_armour.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_chestplate",
+      "components": {
+        "minecraft:item_model": "magical_addons:gravitite_chestplate"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.gravitite_armour.title"
+    }
+  },
+  "requirements": [
+    [
+      "gravitite_armour"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

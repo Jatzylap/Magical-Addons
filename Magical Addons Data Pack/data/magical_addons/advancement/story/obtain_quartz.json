@@ -4,14 +4,14 @@
       "id": "minecraft:quartz"
     },
     "title": {
-      "translate": "advancements.magical_addons.nether.obtain_quartz.title"
+      "translate": "advancements.magical_addons.story.obtain_quartz.title"
     },
     "description": {
-      "translate": "advancements.magical_addons.nether.obtain_quartz.description"
+      "translate": "advancements.magical_addons.story.obtain_quartz.description"
     },
     "frame": "task"
   },
-  "parent": "minecraft:nether/root",
+  "parent": "minecraft:story/mine_stone",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

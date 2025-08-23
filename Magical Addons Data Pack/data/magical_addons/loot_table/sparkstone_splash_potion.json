@@ -5,11 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:recovery_compass",
+          "name": "minecraft:potion",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:potion_contents": {
+                  "potion": "thick",
+                  "custom_color": 47871,
+                  "custom_name": "sparkstone_splash"
+                },
                 "minecraft:consumable": {
                   "consume_seconds": 999999,
                   "animation": "none"
@@ -19,15 +24,9 @@
                   "saturation": 0,
                   "can_always_eat": true
                 },
-                "minecraft:item_name": {
-                  "translate": "item.magical_addons.sparkstone_splash_potion"
-                },
                 "minecraft:rarity": "common",
                 "minecraft:item_model": "splash_potion",
                 "minecraft:max_stack_size": 1,
-                "minecraft:potion_contents": {
-                  "custom_color": 47871
-                },
                 "minecraft:lore": [
                   {
                     "translate": "item.magical_addons.sparkstone_splash_potion.lore",

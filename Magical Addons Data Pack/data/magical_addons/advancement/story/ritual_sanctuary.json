@@ -1,0 +1,35 @@
+{
+  "parent": "magical_addons:story/craft_wand",
+  "criteria": {
+    "find_ritual_sanctuary": {
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "magical_addons:ritual_sanctuary"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.story.ritual_sanctuary.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:glowstone",
+      "components": {
+        "minecraft:item_model": "magical_addons:sparkstone"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.story.ritual_sanctuary.title"
+    }
+  },
+  "requirements": [
+    [
+      "find_ritual_sanctuary"
+    ]
+  ]
+}

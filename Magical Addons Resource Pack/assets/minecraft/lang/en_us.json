@@ -7,6 +7,8 @@
 
   "item.minecraft.quartz": "Quartz",
   "item.minecraft.potion.effect.sparkstone": "Potion of Recharging",
+  "item.minecraft.potion.effect.sparkstone_splash": "Splash Potion of Recharging",
+  "item.minecraft.potion.effect.sparkstone_lingering": "Lingering Potion of Recharging",
 
   "item.magical_addons.wooden_dagger": "Wooden Dagger",
   "item.magical_addons.stone_dagger": "Stone Dagger",
@@ -47,8 +49,6 @@
   "item.magical_addons.sparkstone_potion.lore": "Sparkstone",
   "item.magical_addons.sparkstone_splash_potion.lore": "Sparkstone",
   "item.magical_addons.sparkstone_lingering_potion.lore": "Sparkstone",
-  "item.magical_addons.sparkstone_splash_potion": "Splash Potion of Recharging",
-  "item.magical_addons.sparkstone_lingering_potion": "Lingering Potion of Recharging",
   "item.magical_addons.wizarding_table": "Wizarding Bench",
 
 
@@ -64,25 +64,29 @@
 
   "instrument.magical_addons.deep_note_goat_horn": "Deep Note",
 
-  "advancements.magical_addons.nether.obtain_quartz.title": "It\'s Quartz",
-  "advancements.magical_addons.nether.place_wizarding_table.title": "Yet Another Custom Crafter",
+  "advancements.magical_addons.story.obtain_quartz.title": "It\'s Quartz",
+  "advancements.magical_addons.story.place_wizarding_table.title": "Yet Another Custom Crafter",
   "advancements.magical_addons.story.craft_wand.title": "Wand-maker",
+  "advancements.magical_addons.story.ritual_sanctuary.title": "Guild of Yore",
   "advancements.magical_addons.story.enter_the_aether.title": "Once upon a dream",
   "advancements.magical_addons.aether.root.title": "Aether",
   "advancements.magical_addons.aether.brew_sparkstone_potion.title": "Magic mead",
   "advancements.magical_addons.aether.get_ancient_staff.title": "Elder Wand",
   "advancements.magical_addons.aether.kill_automaton.title": "I\'ll Be Back",
   "advancements.magical_addons.aether.get_sparkstone.title": "Magic ore",
+  "advancements.magical_addons.aether.gravitite_armour.title": "Cover Me in Gravitite",
 
-  "advancements.magical_addons.nether.obtain_quartz.description": "Mine Quartz.",
-  "advancements.magical_addons.nether.place_wizarding_table.description": "Place a Wizarding Bench.",
+  "advancements.magical_addons.story.obtain_quartz.description": "Mine Quartz.",
+  "advancements.magical_addons.story.place_wizarding_table.description": "Place a Wizarding bench.",
   "advancements.magical_addons.story.craft_wand.description": "Craft a wand.",
+  "advancements.magical_addons.story.ritual_sanctuary.description": "Find a Ritual sanctuary.",
   "advancements.magical_addons.story.enter_the_aether.description": "Go to sleep on an Aether portal.",
-  "advancements.magical_addons.aether.get_sparkstone.description": "Mine a Sparkstone Cluster.",
-  "advancements.magical_addons.aether.brew_sparkstone_potion.description": "Brew a Potion of Sparkstone.",
+  "advancements.magical_addons.aether.get_sparkstone.description": "Mine a Sparkstone cluster.",
+  "advancements.magical_addons.aether.brew_sparkstone_potion.description": "Brew a Potion of Recharging.",
   "advancements.magical_addons.aether.get_ancient_staff.description": "Find the Staff of Ancients.",
   "advancements.magical_addons.aether.root.description": "Heaven?",
   "advancements.magical_addons.aether.kill_automaton.description": "Defeat an Automaton.",
+  "advancements.magical_addons.aether.gravitite_armour.description": "Get a full suit of Gravitite armor.",
 
   "subtitles.magical_addons.ambient.aether.additions": "Other-worldly noise",
   "subtitles.magical_addons.ambient.aether.mood": "Dreamy vibrations",
