@@ -1,5 +1,5 @@
 # block:group/vanilla/gold_ores/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ #magical_addons:gold_ores unless entity @n[type=item_display,distance=...5,tag=maddons.block] run function magical_addons:block/group/vanilla/gold_ores/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ #magical_addons:gold_ores unless entity @n[type=item_display,distance=...5,tag=maddons.block] run function magical_addons:block/group/vanilla/gold_ores/place

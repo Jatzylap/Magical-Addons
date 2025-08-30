@@ -2,7 +2,7 @@
 # called by: block:custom/aether_portal/scan
 
 ## Sound
-execute if entity @s[advancements={magical_addons:---/block/place/aether_portal=true}] run playsound block.wood.place block @a ~ ~ ~ 1 .8
+playsound block.wood.place block @a ~ ~ ~ 1 .8
 
 ## Block
 execute store result score @s maddons.rotation run data get entity @s Rotation[0] 10

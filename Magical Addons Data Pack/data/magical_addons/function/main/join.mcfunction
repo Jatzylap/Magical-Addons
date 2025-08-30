@@ -25,6 +25,3 @@ advancement revoke @s from magical_addons:---/recipe/root
 scoreboard players add @s maddons.mana 0
 scoreboard players enable @s maddons.developer_mode
 scoreboard players reset @s maddons.leave_game
-
-## Register
-function magical_addons:dev/register_entity {cmd:"function magical_addons:player/loop"}

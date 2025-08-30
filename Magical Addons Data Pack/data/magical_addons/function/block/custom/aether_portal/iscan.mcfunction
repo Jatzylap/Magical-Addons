@@ -1,5 +1,5 @@
 # block:custom/aether_portal/iscan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ white_bed{components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run return run function magical_addons:block/custom/aether_portal/interact
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ white_bed{components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run return run function magical_addons:block/custom/aether_portal/interact

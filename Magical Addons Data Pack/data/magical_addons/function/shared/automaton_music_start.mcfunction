@@ -1,5 +1,5 @@
 # shared:automaton_music_start
-# called by: player:loop
+# called by: player:tick
 
 ## Play intro once & stop other music
 execute unless score @s maddons.automaton.music matches 0.. run stopsound @s music

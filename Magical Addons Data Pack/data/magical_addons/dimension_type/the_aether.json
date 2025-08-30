@@ -1,5 +1,5 @@
 {
-  "ambient_light": 0.0,
+  "ambient_light": 1.0,
   "bed_works": true,
   "coordinate_scale": 6.0,
   "effects": "minecraft:the_nether",
@@ -16,6 +16,7 @@
     "min_inclusive": 0,
     "max_inclusive": 7
   },
+  "fixed_time": 22000,
   "natural": true,
   "piglin_safe": false,
   "respawn_anchor_works": false,

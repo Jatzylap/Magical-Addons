@@ -50,7 +50,7 @@ scoreboard objectives add maddons.iscan_range dummy
 scoreboard objectives add maddons.craft dummy
 scoreboard objectives add maddons.cycle_display_rot dummy
 scoreboard objectives add maddons.stat dummy
-scoreboard objectives add maddons.registry dummy
+scoreboard objectives add maddons.tick dummy
 scoreboard objectives add maddons.ray.x dummy
 scoreboard objectives add maddons.ray.y dummy
 scoreboard objectives add maddons.ray.z dummy
@@ -129,10 +129,6 @@ advancement revoke @a from magical_addons:---/dimension/root
 advancement revoke @a from magical_addons:---/item/root
 advancement revoke @a from magical_addons:---/player/root
 data modify storage magical_addons:temp data set value {}
-data modify storage iris:settings TargetEntities set value 1b
 execute as @a run scoreboard players add @s maddons.mana 0
 execute as @a run scoreboard players enable @a maddons.developer_mode
 execute as @a run scoreboard players enable @a maddons.get_items
-
-## Register players
-execute as @a run function magical_addons:dev/register_entity {cmd:"function magical_addons:player/loop"}

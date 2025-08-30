@@ -1,5 +1,5 @@
 # block:custom/sparkstone_cluster/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"sparkstone_cluster"}}}} run function magical_addons:block/custom/sparkstone_cluster/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"sparkstone_cluster"}}}} run function magical_addons:block/custom/sparkstone_cluster/place

@@ -1,5 +1,5 @@
 # block:vanilla/brewing_stand/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:brewing_stand unless entity @n[type=item_display,distance=...5,tag=maddons.block] run function magical_addons:block/vanilla/brewing_stand/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:brewing_stand unless entity @n[type=item_display,distance=...5,tag=maddons.block] run function magical_addons:block/vanilla/brewing_stand/place

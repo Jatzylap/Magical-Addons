@@ -1,0 +1,21 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:chicken"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
+  "rewards": {
+    "function": "magical_addons:player/death_by_chicken"
+  }
+}

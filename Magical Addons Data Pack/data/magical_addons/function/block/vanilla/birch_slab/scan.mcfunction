@@ -1,5 +1,5 @@
 # block:vanilla/birch_slab/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:birch_slab[type=double] run setblock ~ ~ ~ birch_planks
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:birch_slab[type=double] run setblock ~ ~ ~ birch_planks

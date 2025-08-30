@@ -11,7 +11,7 @@ execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{magical_addo
 execute as @a[scores={maddons.mana=..199},gamemode=!creative,gamemode=!spectator] at @s if data entity @s Inventory[{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_orb"}}}}] run function magical_addons:item/sparkstone_orb/share_mana
 execute as @a[scores={maddons.mana=401..}] at @s run scoreboard players set @s maddons.mana 400
 execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s if score @s maddons.mana matches 1.. run scoreboard players remove @s maddons.mana 1
-execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s if score @s maddons.mana matches 1.. run function magical_addons:player/event/mana_meter
+execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s if score @s maddons.mana matches 1.. run function magical_addons:player/mana_meter
 execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s unless score @s maddons.mana matches 1.. run tag @s add maddons.commanding_spell.stop
 
 ## block
@@ -28,7 +28,7 @@ execute store result score #maddons.entity maddons.stat if entity @e[tag=maddons
 execute store result score #maddons.item maddons.stat if entity @e[type=item]
 execute store result score #maddons.magic maddons.stat if entity @e[tag=maddons.magic]
 execute store result score #maddons.particle maddons.stat if entity @e[tag=maddons.particle]
-execute store result score #maddons.registered maddons.stat run data get storage magical_addons:registry data.entities
+execute store result score #maddons.registered maddons.stat run data get storage magical_addons:tick data.entities
 execute store result score #maddons.global maddons.stat if entity @e
 
 # shared

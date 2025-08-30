@@ -5,7 +5,7 @@
 scoreboard players add @s maddons.mana 1
 
 ## Display mana meter
-function magical_addons:player/event/mana_meter
+function magical_addons:player/mana_meter
 
 ## Mainhand
 execute if items entity @s weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}}] unless items entity @s weapon.mainhand *[custom_data~{magical_addons:{id:"sparkstone_orb"}},damage=50] run return run item modify entity @s weapon.mainhand magical_addons:item/damage/sparkstone_orb

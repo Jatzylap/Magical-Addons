@@ -1,6 +1,9 @@
 # block:mine
-# called by: iris:raycast/macro_functions/callback
-# registered by: player:loop
+# called by: bs.raycast:utils/on_targeted_block
+# registered by: player:tick
+
+## Save block target
+function magical_addons:block/save_target with entity @s
 
 ## Change blocks to mineable blocks
 execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[gamemode=!spectator] run function magical_addons:block/mine_scan

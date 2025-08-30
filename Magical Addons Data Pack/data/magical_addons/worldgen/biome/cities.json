@@ -55,7 +55,14 @@
     ]
   ],
   "spawners": {
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ],
     "creature": [],
     "ambient": [],
     "axolotls": [],

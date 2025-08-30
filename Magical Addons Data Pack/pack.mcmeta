@@ -2,7 +2,15 @@
   "pack": {
     "pack_format": 81,
     "description": [
-      {"text":"Magical Addons v1.0.0b","color":"#AAAAAA"}
+      {"text":"Magical Addons v1.1b","color":"#AAAAAA"}
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": 81,
+        "directory": "bookshelf"
+      }
     ]
   }
 }

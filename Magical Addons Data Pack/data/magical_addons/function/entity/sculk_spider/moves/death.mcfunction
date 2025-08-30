@@ -1,12 +1,12 @@
 # entity:sculk_spider/moves/death
 # called by: entity:sculk_spider/loop
 
-execute on vehicle run data merge entity @s {NoGravity:0b}
 execute at @s on passengers run rotate @s[tag=maddons.head] ~ ~
 
 tag @s add maddons.death
-execute on vehicle if entity @s[tag=!maddons.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1
-execute on vehicle if entity @s[tag=maddons.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1 1.3
+
+playsound entity.spider.death hostile @a ~ ~ ~ 1
+
 data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 2f
 execute on passengers run data modify entity @s[tag=maddons.head] item.components."minecraft:custom_model_data".floats[0] set value 2f
 

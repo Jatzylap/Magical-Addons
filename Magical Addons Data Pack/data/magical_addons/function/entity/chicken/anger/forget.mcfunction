@@ -1,5 +1,5 @@
 # entity:chicken/anger/forget
-# called by: entity:chicken/loop, player:event/death
+# called by: entity:chicken/loop, player:death_by_chicken
 
 tag @s remove maddons.chicken.anger
 data merge entity @s {DeathLootTable:"minecraft:entities/chicken"}

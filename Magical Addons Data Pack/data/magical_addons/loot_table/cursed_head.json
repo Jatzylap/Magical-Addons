@@ -28,12 +28,12 @@
                 "minecraft:equippable": {
                   "slot": "head",
                   "equip_on_interact": true
+                },
+                "minecraft:tooltip_display": {
+                  "hidden_components": [
+                    "minecraft:block_entity_data"
+                  ]
                 }
-              },
-              "minecraft:tooltip_display": {
-                "hidden_components": [
-                  "minecraft:block_entity_data"
-                ]
               }
             }
           ]

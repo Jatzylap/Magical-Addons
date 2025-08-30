@@ -1,5 +1,5 @@
 # block:custom/aether_portal/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"aether_portal"}}}} run function magical_addons:block/custom/aether_portal/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"aether_portal"}}}} run function magical_addons:block/custom/aether_portal/place

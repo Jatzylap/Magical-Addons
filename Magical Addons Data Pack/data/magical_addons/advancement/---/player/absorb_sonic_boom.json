@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:player/event/absorb_sonic_boom"
+    "function": "magical_addons:player/absorb_sonic_boom"
   }
 }

@@ -1,6 +1,6 @@
 # item:sparkstone_splash_potion/tick
 # called by: main:tick_cycle
-# registered by: player:loop
+# registered by: player:tick
 
 execute unless predicate magical_addons:shared/riding_vehicle on passengers run kill
 execute unless predicate magical_addons:shared/riding_vehicle run kill

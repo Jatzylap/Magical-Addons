@@ -1,5 +1,5 @@
 # block:custom/wizarding_table/iscan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ #magical_addons:wizarding_table{components:{"minecraft:custom_data":{magical_addons:{id:"wizarding_table"}}}} run function magical_addons:block/custom/wizarding_table/interact
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ #magical_addons:wizarding_table{components:{"minecraft:custom_data":{magical_addons:{id:"wizarding_table"}}}} run function magical_addons:block/custom/wizarding_table/interact

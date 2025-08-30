@@ -1,5 +1,5 @@
 # block:set_id
-# called by: block:group/vanilla/chiseled_bookshelf/return_check, block:mine_scan, player:event/walk_on_block, player:event/sprint_on_block, entity:step, entity:tile_step
+# called by: block:group/vanilla/chiseled_bookshelf/return_check, block:mine_scan, player:walk_on_block, player:sprint_on_block, entity:step, entity:tile_step
 
 ## For naturally-generated blocks ##
 

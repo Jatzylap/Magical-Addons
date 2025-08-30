@@ -1,5 +1,5 @@
 # entity:kill
-# called by: player:loop, entity:*/moves/death/1, item:*/break
+# called by: player:tick, entity:*/moves/death/1, item:*/break
 
 execute on passengers run kill
 execute on passengers run data merge entity @s {Health:0.0f,DeathTime:19s}

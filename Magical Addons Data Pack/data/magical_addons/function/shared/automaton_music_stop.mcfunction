@@ -1,5 +1,5 @@
 # shared:automaton_music_stop
-# called by: player:loop
+# called by: player:tick
 
 weather clear
 scoreboard players reset @s maddons.automaton.music

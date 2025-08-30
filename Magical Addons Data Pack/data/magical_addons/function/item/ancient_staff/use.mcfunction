@@ -8,7 +8,7 @@ execute unless score @s maddons.cooldown matches 1.. unless data entity @s {Sele
 execute unless score @s maddons.cooldown matches 1.. if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{magical_addons:{id:"ancient_staff"}}}}} run function magical_addons:item/ancient_staff/use_mainhand with entity @s SelectedItem.components."minecraft:custom_data".magical_addons
 
 ## Mana meter
-function magical_addons:player/event/mana_meter
+function magical_addons:player/mana_meter
 
 ## Cooldown
 execute unless score @s maddons.cooldown matches 1.. run scoreboard players add @s maddons.cooldown 10

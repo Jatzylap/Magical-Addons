@@ -1,6 +1,6 @@
 # item:sparkstone_lingering_potion/tick
 # called by: main:tick_cycle
-# registered by: player:loop
+# registered by: player:tick
 
 execute unless predicate magical_addons:shared/riding_vehicle summon area_effect_cloud run function magical_addons:dev/register_entity {cmd:"function magical_addons:entity/sparkstone_lingering_potion/cloud_tick"}
 execute unless predicate magical_addons:shared/riding_vehicle on passengers run kill

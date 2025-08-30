@@ -1,5 +1,5 @@
 # block:vanilla/spawner/iscan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:spawner unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{id:"spawner"}}}} run function magical_addons:block/vanilla/spawner/interact
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:spawner unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{id:"spawner"}}}} run function magical_addons:block/vanilla/spawner/interact

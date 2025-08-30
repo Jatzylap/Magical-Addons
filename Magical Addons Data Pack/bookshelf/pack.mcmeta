@@ -1,0 +1,11 @@
+{
+  "id": "bs.raycast",
+  "pack": {
+    "pack_format": 81,
+    "description": "Bookshelf raycasting module for casting rays that react to block and entity collisions.",
+    "supported_formats": {
+      "min_inclusive": 80,
+      "max_inclusive": 81
+    }
+  }
+}

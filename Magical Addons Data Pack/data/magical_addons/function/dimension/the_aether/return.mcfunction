@@ -1,5 +1,5 @@
 # dimension:the_aether/return
-# called by: dimension:overworld/loop, player:event/death, dimension:the_aether/test_return
+# called by: dimension:overworld/loop, player:death, dimension:the_aether/test_return
 
 advancement revoke @s only magical_addons:---/dimension/aether_return_bed
 

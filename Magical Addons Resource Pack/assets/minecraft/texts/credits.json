@@ -11,6 +11,18 @@
                             "GhostAdmiral",
                             "Jatzylap"
                         ]
+                    },
+                    {
+                        "title": "Executive Producer",
+                        "names": [
+                            "GhostAdmiral"
+                        ]
+                    },
+                    {
+                        "title": "Development Lead",
+                        "names": [
+                            "Jatzylap"
+                        ]
                     }
                 ]
             },
@@ -20,15 +32,11 @@
                     {
                         "title": "Pixel Art",
                         "names": [
-                            "Kotew",
-                            "Jatzylap",
-                            "GhostAdmiral",
-                            "Odedbir",
-                            "NachoToast"
+                            "Jatzylap"
                         ]
                     },
                     {
-                        "title": "Modelling & Rigging",
+                        "title": "Entity Models",
                         "names": [
                             "Jatzylap"
                         ]
@@ -53,7 +61,7 @@
                         ]
                     },
                     {
-                        "title": "SFX",
+                        "title": "Sound Effects",
                         "names": [
                             "Jatzylap"
                         ]
@@ -64,9 +72,9 @@
                 "discipline": "Programming",
                 "titles": [
                     {
-                        "title": "Chief Development Supervisor",
+                        "title": "Development Lead",
                         "names": [
-                            "GhostAdmiral"
+                            "Jatzylap"
                         ]
                     },
                     {
@@ -78,11 +86,8 @@
                     {
                         "title": "Gameplay Developers",
                         "names": [
-                            "Kotew",
                             "Jatzylap",
-                            "GhostAdmiral",
-                            "Odedbir",
-                            "NachoToast"
+                            "GhostAdmiral"
                         ]
                     }
                 ]
@@ -91,7 +96,7 @@
                 "discipline": "Testing",
                 "titles": [
                     {
-                        "title": "Beta testers",
+                        "title": "Alpha Testers (Technical)",
                         "names": [
                             "Jatzylap",
                             "Netrovek",
@@ -102,6 +107,13 @@
                             "Ianthekitten",
                             "Scarpionfighter"
 
+                        ]
+                    },
+                    {
+                        "title": "Beta Testers (Early Access)",
+                        "names": [
+                            "Jatzylap",
+                            "GhostAdmiral"
                         ]
                     }
                 ]
@@ -118,11 +130,11 @@
                         ]
                     },
                     {
-                        "title": "Data Packs",
+                        "title": "Library Data Packs",
                         "names": [
                             "gibbsly | Simple UUID Converter",
                             "MulverineX | Player Motion",
-                            "Aeldrion | Iris"
+                            "Aksiome | Bookshelf Modules: Raycast"
                         ]
                     }
                 ]

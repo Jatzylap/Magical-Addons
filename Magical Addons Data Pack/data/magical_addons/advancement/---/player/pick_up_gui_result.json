@@ -6,6 +6,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:player/event/pick_up_gui_result"
+    "function": "magical_addons:player/pick_up_gui_result"
   }
 }

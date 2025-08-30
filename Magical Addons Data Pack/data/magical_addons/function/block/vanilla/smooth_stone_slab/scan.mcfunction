@@ -1,5 +1,5 @@
 # block:vanilla/smooth_stone_slab/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run setblock ~ ~ ~ smooth_stone
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:smooth_stone_slab[type=double] run setblock ~ ~ ~ smooth_stone

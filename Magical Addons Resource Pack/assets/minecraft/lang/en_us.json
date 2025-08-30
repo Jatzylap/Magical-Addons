@@ -3,7 +3,7 @@
   "language.region": "United States",
   "language.code": "en_us",
 
-  "resourcePack.magical_addons.description": "Resource Pack for Magical Addons v1.0b",
+  "resourcePack.magical_addons.description": "Resource Pack for Magical Addons v1.1b",
 
   "item.minecraft.quartz": "Quartz",
   "item.minecraft.potion.effect.sparkstone": "Potion of Recharging",
@@ -51,7 +51,6 @@
   "item.magical_addons.sparkstone_lingering_potion.lore": "Sparkstone",
   "item.magical_addons.wizarding_table": "Wizarding Bench",
 
-
   "enchantment.magical_addons.commanding_spell": "Spell of Commanding",
   "enchantment.magical_addons.fire_spell": "Spell of Fire",
   "enchantment.magical_addons.ice_spell": "Spell of Ice",
@@ -63,6 +62,9 @@
   "container.wizarding_table.isLocked": "%s needs a %s!",
 
   "instrument.magical_addons.deep_note_goat_horn": "Deep Note",
+
+  "entity.magical_addons.sculk_spider": "Sculk Spider",
+  "entity.magical_addons.automaton": "Automaton",
 
   "advancements.magical_addons.story.obtain_quartz.title": "It\'s Quartz",
   "advancements.magical_addons.story.place_wizarding_table.title": "Yet Another Custom Crafter",

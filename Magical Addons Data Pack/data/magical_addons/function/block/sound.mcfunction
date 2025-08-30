@@ -1,5 +1,5 @@
 # block:sound
-# called by: player:event/walk_on_block, player:event/sprint_on_block, entity:tile_step, entity:step
+# called by: player:walk_on_block, player:sprint_on_block, entity:tile_step, entity:step
 
 $$(sound)
 

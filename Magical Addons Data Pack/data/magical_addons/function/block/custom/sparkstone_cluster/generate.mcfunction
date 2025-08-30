@@ -1,5 +1,5 @@
 # block:custom/sparkstone_cluster/generate
-# called by: dimension:the_echo/worldgen/set_blocks
+# called by: dimension:the_aether/worldgen/set_blocks
 
 execute align xyz positioned ~.5 ~.5 ~.5 unless predicate magical_addons:block/visible run return run setblock ~ ~ ~ soul_soil
 

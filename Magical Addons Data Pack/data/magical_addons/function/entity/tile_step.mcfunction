@@ -1,22 +1,22 @@
 # entity:tile_step
-# called by: player:loop
+# called by: player:tick
 
 ## Skip
-execute if entity @s[nbt={OnGround:0b},tag=maddons.vehicle] store result score @s maddons.stepping run return run data get entity @s data.magical_addons.sound_time 1000
-execute if entity @s[nbt={OnGround:0b},tag=!maddons.vehicle] run return run scoreboard players set @s maddons.stepping 2600
+execute if block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=maddons.vehicle] store result score @s maddons.stepping run return run data get entity @s data.magical_addons.sound_time 1000
+execute if block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=!maddons.vehicle] run return run scoreboard players set @s maddons.stepping 2600
 
 ## Set ID
-execute if entity @s[nbt={OnGround:1b}] positioned ~ ~-1 ~ if block ~ ~ ~ #magical_addons:in_scan unless entity @n[type=item_display,tag=maddons.block,distance=...5] run function magical_addons:block/set_id
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable positioned ~ ~-1 ~ if block ~ ~ ~ #magical_addons:in_scan unless entity @n[type=item_display,tag=maddons.block,distance=...5] run function magical_addons:block/set_id
 
 ## Set threshold
-execute if entity @s[nbt={OnGround:1b},tag=maddons.vehicle] store result score @s maddons.step run data get entity @s data.magical_addons.sound_time 1000
-execute if entity @s[nbt={OnGround:1b},tag=!maddons.vehicle] run scoreboard players set @s maddons.step 2600
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=maddons.vehicle] store result score @s maddons.step run data get entity @s data.magical_addons.sound_time 1000
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=!maddons.vehicle] run scoreboard players set @s maddons.step 2600
 
 ## Get speed
-execute if entity @s[nbt={OnGround:1b}] store result score @s maddons.walk2 run attribute @s minecraft:movement_speed get 1000
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable store result score @s maddons.walk_ run attribute @s minecraft:movement_speed get 1000
 
 ## Count step
-execute if entity @s[nbt={OnGround:1b}] run scoreboard players operation @s maddons.stepping += @s maddons.walk2
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable run scoreboard players operation @s maddons.stepping += @s maddons.walk_
 
 ## Result + Reset
-execute if entity @s[nbt={OnGround:1b}] if score @s maddons.step <= @s maddons.stepping run function magical_addons:block/sound with block ~ ~-1 ~ components."minecraft:custom_data".magical_addons
+execute unless block ~ ~-1 ~ #magical_addons:non_collidable if score @s maddons.step <= @s maddons.stepping run function magical_addons:block/sound with block ~ ~-1 ~ components."minecraft:custom_data".magical_addons
