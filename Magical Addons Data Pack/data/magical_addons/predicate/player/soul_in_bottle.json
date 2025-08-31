@@ -22,17 +22,13 @@
                 }
               ]
             }
-          },
-          "mainhand": {
-            "items": "minecraft:glass_bottle"
           }
         },
         "stepping_on": {
           "block": {
             "blocks": "#minecraft:soul_speed_blocks"
           }
-        },
-        "periodic_tick": 20
+        }
       }
     },
     {
@@ -56,17 +52,13 @@
                 }
               ]
             }
-          },
-          "mainhand": {
-            "items": "minecraft:glass_bottle"
           }
         },
         "stepping_on": {
           "block": {
             "blocks": "#minecraft:soul_speed_blocks"
           }
-        },
-        "periodic_tick": 20
+        }
       }
     },
     {
@@ -90,17 +82,13 @@
                 }
               ]
             }
-          },
-          "mainhand": {
-            "items": "minecraft:glass_bottle"
           }
         },
         "stepping_on": {
           "block": {
             "blocks": "#minecraft:soul_speed_blocks"
           }
-        },
-        "periodic_tick": 20
+        }
       }
     },
     {
@@ -124,17 +112,13 @@
                 }
               ]
             }
-          },
-          "mainhand": {
-            "items": "minecraft:glass_bottle"
           }
         },
         "stepping_on": {
           "block": {
             "blocks": "#minecraft:soul_speed_blocks"
           }
-        },
-        "periodic_tick": 20
+        }
       }
     },
     {
@@ -142,11 +126,6 @@
       "entity": "this",
       "predicate": {
         "location": {},
-        "equipment": {
-          "mainhand": {
-            "items": "minecraft:glass_bottle"
-          }
-        },
         "stepping_on": {
           "block": {
             "blocks": "minecraft:sculk_catalyst",

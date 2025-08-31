@@ -21,9 +21,6 @@ execute as @e[tag=maddons.custom_entity_spawner] at @s run function magical_addo
 ## stop creative music in aether dimension
 stopsound @a[nbt={Dimension:"minecraft:the_aether"}] music music.creative
 
-## catch soul in a bottle
-execute as @a at @s if predicate magical_addons:player/soul_in_bottle run loot replace entity @s weapon.mainhand loot magical_addons:soul_bottle
-
 ## entity
 execute as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity,tag=!maddons.death] at @s run function magical_addons:entity/sculk_spider/check_global
 execute as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity,tag=!maddons.death] at @s run function magical_addons:entity/automaton/check_global

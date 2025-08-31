@@ -5,6 +5,10 @@
 tag @a[gamemode=!survival,gamemode=!adventure] add maddons.invul
 tag @a[gamemode=!creative,gamemode=!spectator] remove maddons.invul
 
+## catch soul in a bottle
+execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.offhand minecraft:glass_bottle unless items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.offhand loot magical_addons:soul_bottle
+execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.mainhand loot magical_addons:soul_bottle
+
 ## block
 execute at @a as @e[sort=random,type=item_display,tag=maddons.block.leaves,limit=8,distance=..16] at @s run function magical_addons:block/group/custom/leaves/decay with entity @s item.components."minecraft:custom_data".magical_addons
 

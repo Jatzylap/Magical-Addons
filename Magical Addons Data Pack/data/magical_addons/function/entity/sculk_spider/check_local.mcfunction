@@ -17,12 +17,9 @@ execute on vehicle if entity @s[tag=!maddons.baby,tag=!maddons.silent] if predic
 ## Damage
 execute on vehicle as @s[nbt=!{NoAI:1b},nbt={DeathTime:0s}] anchored eyes positioned ^ ^ ^0.25 run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,distance=..1.5] 3.0 mob_attack by @s
 
-## Rotate Body
-execute on vehicle at @s on passengers run rotate @s[tag=maddons.body] ~ 0
-
-## Rotate head
-execute if predicate magical_addons:shared/50_percent on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] ~ 0
-execute if predicate magical_addons:shared/50_percent as @s[tag=!maddons.side_up,tag=!maddons.side_down,tag=!maddons.side_right,tag=!maddons.side_left] on passengers as @s[tag=maddons.head] at @s run rotate @s facing entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_spider,tag=!maddons.invul,distance=..7] eyes
+## Rotate Head
+execute on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] facing entity @p[tag=!maddons.invul,gamemode=!creative,gamemode=!spectator,distance=..16] eyes
+execute on passengers as @s[tag=maddons.head] store result entity @s data.magical_addons.rotation_y float 1 run data get entity @s Rotation[1]
 
 ## Drop over players
 execute on vehicle if entity @a[dy=-32] run data merge entity @s {NoGravity:0b} 

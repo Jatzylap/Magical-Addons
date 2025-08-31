@@ -10,8 +10,10 @@ execute store result entity @s item.components."minecraft:custom_model_data".flo
 ## Move
 execute store success entity @s[tag=!maddons.flip] item.components."minecraft:custom_model_data".floats[1] float 1 run data modify entity @s item.components."minecraft:custom_data".magical_addons.pos set from entity @s Pos
 
-## Rotate Body
-execute if predicate magical_addons:shared/15_percent on vehicle at @s on passengers facing entity @p[tag=!maddons.invul,distance=..16] eyes run rotate @s[tag=maddons.body] ~ 0
-
-## Rotate head
-execute on vehicle at @s on passengers if entity @s[tag=maddons.entity,tag=!maddons.side_right,tag=!maddons.side_left,tag=!maddons.side_up,tag=!maddons.side_down] on passengers run rotate @s[tag=maddons.head] facing entity @p[tag=!maddons.invul,distance=..16] eyes
+## Rotate
+execute on vehicle at @s on passengers on passengers run rotate @s[tag=maddons.head] ~ ~
+execute on passengers as @s[tag=maddons.head] run data modify entity @s Rotation[1] set from entity @s data.magical_addons.rotation_y
+execute store result score #maddons.sculk_spider.head_rot maddons.rotation on passengers run data get entity @s[tag=maddons.head] Rotation[0]
+execute store result score #maddons.sculk_spider.body_rot maddons.rotation on vehicle run data get entity @s Rotation[0]
+scoreboard players operation #maddons.sculk_spider.head_rot maddons.rotation -= #maddons.sculk_spider.body_rot maddons.rotation
+execute unless score #maddons.sculk_spider.head_rot maddons.rotation matches -45..45 on passengers at @s[tag=maddons.head] on vehicle run rotate @s[tag=maddons.body] ~ 0

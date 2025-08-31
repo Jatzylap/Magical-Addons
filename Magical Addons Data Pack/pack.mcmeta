@@ -10,6 +10,10 @@
       {
         "formats": 81,
         "directory": "bookshelf"
+      },
+      {
+        "formats": 81,
+        "directory": "experimental"
       }
     ]
   }
