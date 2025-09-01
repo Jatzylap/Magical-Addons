@@ -14,10 +14,10 @@ This is a standalone data pack that is not guaranteed to work with any complemen
 
 ## Setup
 - Locate your .minecraft installation directory
-- To add the data pack to an existing world : drop the "magical_addons_datapack" folder into the “datapacks” directory of your world
-- To add the data pack to a new world : select the "More" tab in the new world settings, click "Data Packs", then drag the "magical_addons_datapack" into the Minecraft window
-- In your “resourcepacks” directory, drop the "Magical Addons Resource Pack" folder
-- In the game, select the "Magical Addons Resource Pack" from your Resource Pack list
+- To add the data pack to an existing world : drop the `Magical Addons Data Pack` folder into the `datapacks` directory of your world
+- To add the data pack to a new world : select the `More` tab in the new world settings, click `Data Packs`, then drag the `Magical Addons Data Pack` into the Minecraft window
+- In your `resourcepacks` directory, drop the `Magical Addons Resource Pack` folder
+- In the game, select the `Magical Addons Resource Pack` from your Resource Pack list
 
 ## Credits [A-Z]
 - [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
