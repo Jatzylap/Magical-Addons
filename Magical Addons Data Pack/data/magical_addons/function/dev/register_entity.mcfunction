@@ -1,3 +1,6 @@
+# dev:register_entity
+# called by: <dev>
+
 function gu:convert with entity @s
 
 $data merge storage gu:main {cmd:'$(cmd)'}

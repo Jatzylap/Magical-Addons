@@ -13,7 +13,11 @@
       },
       {
         "formats": 81,
-        "directory": "experimental"
+        "directory": "player_motion"
+      },
+      {
+        "formats": 81,
+        "directory": "gu"
       }
     ]
   }

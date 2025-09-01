@@ -1,5 +1,5 @@
-# entity:sculk_spider/summon
-# called by: dimension:overworld/worldgen/set_blocks
+# entity:sculk_spider/spawn_overworld
+# called by: dimension:overworld/load_entities
 
 function magical_addons:entity/sculk_spider/summon {nbt:{}}
 execute if predicate magical_addons:shared/50_percent run function magical_addons:entity/sculk_spider/summon {nbt:{}}
