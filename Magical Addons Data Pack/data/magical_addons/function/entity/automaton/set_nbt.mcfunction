@@ -3,7 +3,7 @@
 
 $data merge entity @s $(nbt)
 
-execute on passengers as @s[tag=maddons.entity] run function magical_addons:dev/register_entity {cmd:"function magical_addons:entity/automaton/loop"}
+execute on passengers as @s[tag=maddons.entity] run function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:entity/automaton/loop"}
 
 execute on passengers as @s[tag=maddons.entity] run function magical_addons:entity/automaton/scale
 

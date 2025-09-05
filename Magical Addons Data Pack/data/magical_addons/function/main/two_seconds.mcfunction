@@ -15,7 +15,7 @@ execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s if sc
 execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s unless score @s maddons.mana matches 1.. run tag @s add maddons.commanding_spell.stop
 
 ## block
-execute as @e[type=#magical_addons:display,tag=maddons.brewing_stand,tag=!maddons.registered] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run function magical_addons:dev/register_entity {cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}
+execute as @e[type=#magical_addons:display,tag=maddons.brewing_stand,tag=!maddons.registered] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}
 execute at @a as @e[type=#magical_addons:display,tag=maddons.golden_oak_leaves,limit=16,sort=random,distance=..16] at @s if block ~ ~-1 ~ air if predicate magical_addons:shared/25_percent run particle minecraft:tinted_leaves{color:[1,1,0,1]} ~ ~ ~ 0.2 0.2 0.2 1 2
 
 ## block interactions

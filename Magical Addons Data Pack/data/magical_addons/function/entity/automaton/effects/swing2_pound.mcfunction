@@ -11,4 +11,4 @@ execute unless block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=mad
 execute unless block ~ ~-1 ~ #magical_addons:non_collidable if entity @s[tag=!maddons.phase1] run summon item_display ~ ~ ~ {CustomName:'{"translate":"entity.magical_addons.automaton"}',teleport_duration:2,Tags:[maddons.magic,maddons.invul,maddons.automaton.swing2_spell,spell2],Passengers:[{Count:1,id:area_effect_cloud,Radius:0f,Duration:40}]}
 
 execute as @n[tag=maddons.automaton.swing2_spell] at @s rotated as @n[tag=maddons.automaton,tag=maddons.entity] run tp @s ~ ~ ~ ~ 0
-execute as @n[tag=maddons.automaton.swing2_spell] at @s run function magical_addons:dev/register_entity {cmd:"function magical_addons:entity/automaton/effects/swing2_spell"}
+execute as @n[tag=maddons.automaton.swing2_spell] at @s run function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:entity/automaton/effects/swing2_spell"}

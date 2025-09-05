@@ -488,7 +488,7 @@
 		"name":"magical_addons:entity/automaton/ambient12",
 		"preload": true
 		}],
-	"subtitle": "subtitles.entity.automaton.ambient"
+	"subtitle": "subtitles.magical_addons.entity.automaton.ambient"
 	},
 
 	"entity.automaton.step": {

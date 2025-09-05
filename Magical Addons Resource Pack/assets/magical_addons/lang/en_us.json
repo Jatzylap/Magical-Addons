@@ -100,12 +100,12 @@
 
   "subtitles.magical_addons.entity.automaton.ambient": "Automaton whines",
   "subtitles.magical_addons.entity.automaton.hurt": "Automaton hurts",
-  "subtitles.magical_addons.entity.automaton.heartbeat": "Automaton's heart beats",
+  "subtitles.magical_addons.entity.automaton.shoot": "Automaton shoots",
   "subtitles.magical_addons.entity.automaton.attack": "Automaton attacks",
   "subtitles.magical_addons.entity.automaton.step": "Automaton steps",
   "subtitles.magical_addons.entity.automaton.angry": "Automaton angers",
   "subtitles.magical_addons.entity.automaton.death": "Automaton dies",
-  "subtitles.magical_addons.entity.soul.ambient": "Soul mourns",
+  "subtitles.magical_addons.entity.automaton.slam": "Automaton slams",
   "subtitles.magical_addons.entity.chicken.angry": "Chicken angers",
 
   "subtitles.magical_addons.item.spell.cast": "Spell whizzes",

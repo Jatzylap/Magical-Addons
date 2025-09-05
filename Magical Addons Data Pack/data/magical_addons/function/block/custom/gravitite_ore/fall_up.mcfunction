@@ -5,4 +5,4 @@ setblock ~ ~ ~ air
 
 tag @s add maddons.block.no_break
 
-function magical_addons:dev/register_entity {cmd:"function magical_addons:block/custom/gravitite_ore/tick"}
+function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:block/custom/gravitite_ore/tick"}
