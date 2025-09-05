@@ -18,6 +18,6 @@
     }
   },
   "rewards": {
-    "function": "magical_addons:block/custom/aether_portal/iraycast"
+    "function": "magical_addons:block/custom/aether_portal/interact"
   }
 }

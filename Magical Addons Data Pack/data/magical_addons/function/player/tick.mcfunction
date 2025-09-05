@@ -42,7 +42,7 @@ function magical_addons:block/break_start with entity @s
 data modify storage bs:data raycast.entities set value 0b
 data modify storage bs:data raycast.on_targeted_block set value "execute as @p[advancements={magical_addons:---/player/tick=true}] run function magical_addons:block/mine"
 data modify storage bs:data raycast.ignored_blocks set value "#magical_addons:intangible"
-execute store result storage bs:data raycast.max_distance int 1 run attribute @s minecraft:block_interaction_range get
+execute store result storage bs:data raycast.max_distance int 2 run attribute @s minecraft:block_interaction_range get
 execute anchored eyes positioned ^ ^ ^ run function bs.raycast:run
 
 ## Clear forbidden items

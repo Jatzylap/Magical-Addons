@@ -16,6 +16,6 @@ fill ~ ~-1 ~ ~ ~1 ~ air replace light[level=9]
 
 execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/wizarding_table
 
-execute as @n[type=item_display,tag=maddons.wizarding_table,tag=on,distance=...5] run loot spawn ~ ~ ~ loot magical_addons:sparkstone_orb
+execute as @n[type=#magical_addons:display,tag=maddons.wizarding_table,tag=on,distance=...5] run loot spawn ~ ~ ~ loot magical_addons:sparkstone_orb
 
-kill @n[type=item_display,tag=maddons.wizarding_table,distance=...5]
+kill @n[type=#magical_addons:display,tag=maddons.wizarding_table,distance=...5]

@@ -1,0 +1,26 @@
+{
+  "parent": "magical_addons:---/item/use",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "magical_addons": {
+                "id": "golden_oak_sapling"
+              }
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[maddons.block.interaction,maddons.golden_oak_sapling]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/golden_oak_sapling/use"
+  }
+}

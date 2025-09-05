@@ -5,7 +5,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -14,7 +14,7 @@
       "offsetX": -1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -23,7 +23,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -32,7 +32,7 @@
       "offsetY": -1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -41,7 +41,7 @@
       "offsetY": 1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -50,7 +50,7 @@
       "offsetZ": -1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     },
@@ -59,7 +59,7 @@
       "offsetZ": 1,
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:logs"
         }
       }
     }

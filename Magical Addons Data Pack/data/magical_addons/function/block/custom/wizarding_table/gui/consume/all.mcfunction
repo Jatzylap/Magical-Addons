@@ -2,15 +2,15 @@
 # called by: block:custom/wizarding_table/gui/consume/target
 
 ## Consume
-execute unless items block ~ ~ ~ container.2 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.2 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.3 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.3 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.4 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.4 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.11 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.11 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.12 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.12 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.13 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.13 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.20 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.20 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.21 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.21 magical_addons:block/wizarding_table/recipe_item_consume
-execute unless items block ~ ~ ~ container.22 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.22 magical_addons:block/wizarding_table/recipe_item_consume
+execute unless items block ~ ~ ~ container.2 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.2 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.3 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.3 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.4 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.4 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.11 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.11 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.12 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.12 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.13 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.13 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.20 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.20 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.21 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.21 magical_addons:item/consume
+execute unless items block ~ ~ ~ container.22 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.22 magical_addons:item/consume
 
 ## Semi consume
 execute if items block ~ ~ ~ container.2 #magical_addons:semi_consumable run item modify block ~ ~ ~ container.2 magical_addons:block/wizarding_table/recipe_item_semi_consume

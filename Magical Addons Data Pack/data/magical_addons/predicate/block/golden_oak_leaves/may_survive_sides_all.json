@@ -134,6 +134,60 @@
       }
     },
     {
+      "condition": "minecraft:location_check",
+      "offsetX": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetX": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": -1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "offsetZ": 1,
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
       "condition": "minecraft:reference",
       "name": "magical_addons:block/golden_oak_leaves/will_survive_on_log"
     }

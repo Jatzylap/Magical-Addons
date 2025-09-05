@@ -36,5 +36,3 @@ fill ~ ~ ~ ~15 ~15 ~15 oak_planks replace oak_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 spruce_planks replace spruce_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 stone replace stone_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 bricks replace brick_slab[type=double]
-
-## Entities

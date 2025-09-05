@@ -35,6 +35,3 @@ fill ~ ~ ~ ~15 ~15 ~15 cobblestone replace cobblestone_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 spruce_planks replace spruce_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 stone replace stone_slab[type=double]
 fill ~ ~ ~ ~15 ~15 ~15 bricks replace brick_slab[type=double]
-
-## Entities
-execute if biome ~ ~ ~ deep_dark if predicate magical_addons:shared/1_percent run function magical_addons:entity/sculk_spider/spawn

@@ -11,7 +11,7 @@ execute as @e[type=!player,tag=maddons.registered] at @s run function magical_ad
 
 ## block
 execute as @a at @s anchored eyes positioned ^ ^ ^ run function #bs.raycast:run {with:{entities:0b,on_targeted_block:"function magical_addons:block/update_start",max_distance:32}}
-execute at @a as @e[type=item_display,tag=maddons.block.gravitite,distance=..16] at @s unless block ~ ~ ~ #magical_addons:non_collidable run function magical_addons:block/group/custom/gravitite/fall_up with entity @s item.components."minecraft:custom_data".magical_addons
+execute at @a as @e[type=item_display,tag=maddons.block.gravitite,distance=..16] at @s unless block ~ ~ ~ #magical_addons:non_collidable run function magical_addons:block/group/custom/gravitite/fall_up with entity @s data.magical_addons
 execute at @a as @e[type=item_display,tag=maddons.wizarding_table,tag=off,distance=..16] at @s if predicate magical_addons:block/wizarding_table/check_hopper run function magical_addons:block/custom/wizarding_table/engage
 execute at @a as @e[type=item_display,tag=maddons.block.sapling,distance=..16] at @s run function magical_addons:block/group/custom/sapling/grow with entity @s item.components."minecraft:custom_data".magical_addons
 

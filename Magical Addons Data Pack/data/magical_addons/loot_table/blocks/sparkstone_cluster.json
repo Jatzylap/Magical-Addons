@@ -69,57 +69,50 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:alternatives",
-          "children": [
+          "type": "minecraft:loot_table",
+          "conditions": [
             {
-              "type": "minecraft:loot_table",
-              "conditions": [
+              "condition": "minecraft:all_of",
+              "terms": [
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": "#minecraft:cluster_max_harvestables",
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "predicates": {
-                      "minecraft:enchantments": [
-                        {
-                          "enchantments": "minecraft:silk_touch",
-                          "levels": {
-                            "min": 1
-                          }
-                        }
-                      ]
-                    }
+                    "items": "#minecraft:cluster_max_harvestables"
                   }
-                }
-              ],
-              "value": "magical_addons:sparkstone_cluster"
-            },
-            {
-              "type": "minecraft:alternatives",
-              "children": [
-                {
-                  "type": "minecraft:loot_table",
-                  "conditions": [
-                    {
-                      "condition": "minecraft:match_tool",
-                      "predicate": {
-                        "items": "#minecraft:cluster_max_harvestables"
-                      }
-                    }
-                  ],
-                  "functions": [
-                    {
-                      "add": false,
-                      "count": {
-                        "min": 0,
-                        "max": 1
-                      },
-                      "function": "minecraft:set_count"
-                    }
-                  ],
-                  "value": "magical_addons:sparkstone_dust"
                 }
               ]
             }
-          ]
+          ],
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "min": 0,
+                "max": 1
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "value": "magical_addons:sparkstone_dust"
         }
       ],
       "rolls": 1

@@ -21,7 +21,11 @@
                     "groups": [
                       "sapling",
                       "explodable"
-                    ]
+                    ],
+                    "can_interact_with_block": true,
+                    "interact_hitbox_width": 0.4,
+                    "interact_hitbox_height": 0.4,
+                    "block_interact_target": "minecraft:flower_pot"
                   }
                 },
                 "minecraft:tooltip_display": {

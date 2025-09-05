@@ -13,5 +13,5 @@ fill ~ ~-1 ~ ~ ~1 ~ water replace light[level=3,waterlogged=true]
 
 setblock ~ ~ ~ air
 
-kill @n[type=item_display,tag=maddons.large_sparkstone_bud,distance=...5]
+kill @n[type=#magical_addons:display,tag=maddons.large_sparkstone_bud,distance=...5]
 kill @e[type=experience_orb,distance=...5]

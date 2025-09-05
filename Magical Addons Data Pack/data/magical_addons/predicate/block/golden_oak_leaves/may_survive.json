@@ -5,7 +5,7 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"golden_oak_leaves\"}}}}"
         }
       }
@@ -14,7 +14,15 @@
       "condition": "minecraft:location_check",
       "predicate": {
         "block": {
-          "blocks": "oak_log"
+          "blocks": "#minecraft:leaves"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:logs"
         }
       }
     }

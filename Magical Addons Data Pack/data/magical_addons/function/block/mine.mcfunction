@@ -8,6 +8,9 @@ function magical_addons:block/save_target with entity @s
 ## Change blocks to mineable blocks
 execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[gamemode=!spectator] run function magical_addons:block/mine_scan
 
+## Set interaction on interactable blocks
+execute if block ~ ~ ~ #magical_addons:interactable if items entity @s weapon.mainhand *[custom_data~{magical_addons:{can_interact_with_block:1b}}] run function magical_addons:block/interact with entity @s SelectedItem.components."minecraft:custom_data".magical_addons
+
 ## Mining data
 scoreboard players reset @s maddons.block.loot_id
 execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[gamemode=!creative,gamemode=!spectator] run attribute @s minecraft:block_break_speed modifier remove magical_addons:mine_speed

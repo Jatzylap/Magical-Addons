@@ -1,11 +1,6 @@
 {
     "providers": [
-        {
-            "type": "reference",
-            "id": "magical_addons:bitmap",
-            "filter": {
-                "uniform": false
-            }
-        }
+        {"type":"reference","id":"magical_addons:gui","filter":{"uniform":false}},
+        {"type":"reference","id":"space:default","filter":{"uniform":false}}
     ]
 }

@@ -99,6 +99,7 @@
                         "title": "Alpha Testers (Technical)",
                         "names": [
                             "Jatzylap",
+                            "GhostAdmiral",
                             "Netrovek",
                             "SerpentLord77",
                             "Crusher919",
@@ -135,6 +136,12 @@
                             "gibbsly | Simple UUID Converter",
                             "MulverineX | Player Motion",
                             "Aksiome | Bookshelf Modules: Raycast"
+                        ]
+                    },
+                    {
+                        "title": "Other Resources",
+                        "names": [
+                            "AmberWat | NegativeSpaceFont"
                         ]
                     }
                 ]

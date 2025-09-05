@@ -37,16 +37,7 @@
                 "mana_item": true,
                 "min_mana": 0
               }
-            },
-            "minecraft:attribute_modifiers": [
-              {
-                "type": "minecraft:knockback_resistance",
-                "id": "magical_addons:knockback",
-                "amount": 99,
-                "operation": "add_value",
-                "slot": "hand"
-              }
-            ]
+            }
           }
         }
       ]

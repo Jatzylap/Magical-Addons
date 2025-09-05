@@ -14,7 +14,6 @@
     "id": "minecraft:command_block",
     "count": 1,
     "components": {
-      "!minecraft:enchantment_glint_override": {},
       "minecraft:consumable": {
         "consume_seconds": 999999,
         "animation": "none"

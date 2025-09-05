@@ -21,5 +21,3 @@ fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:bl
 
 ## Gravitite ore
 fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/gravitite_ore/generate"} replace stone_slab[type=double]
-
-## Entities
