@@ -5,8 +5,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "value": "magical_addons:sparkstone_orb"
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
         }
       ]
     }
