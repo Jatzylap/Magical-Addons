@@ -1,5 +1,4 @@
 # item:gravitite/loop
-# called by: main:tick_entity
-# registered by: item:gravitite/fall_up
+# called by: entity:tick
 
 data modify entity @s Motion[1] set value .05d

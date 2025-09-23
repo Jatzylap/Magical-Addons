@@ -17,7 +17,7 @@ execute store result score #maddons.temp maddons.temp run scoreboard players set
 ## Set animation
 data modify entity @s item.components."minecraft:custom_model_data".strings[1] set value ""
 data modify entity @s item.components."minecraft:custom_model_data".floats[1] set value 7f
-data modify entity @s item.components."minecraft:custom_data".magical_addons merge value {attack:"drop_staff"}
+data modify entity @s data.magical_addons.attack set value "drop_staff"
 
 ## Set start frame for animation
 execute store result score @s maddons.animation run time query gametime

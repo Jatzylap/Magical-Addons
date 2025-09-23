@@ -15,10 +15,10 @@ fill ~ ~ ~1 ~ ~ ~-1 air replace light[level=9]
 fill ~ ~-1 ~ ~ ~1 ~ air replace light[level=9]
 tag @s remove on
 tag @s add off
+tag @s remove maddons.entity.tickable
 data remove entity @s brightness
 data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value 0b
 data modify block ~ ~ ~ components."minecraft:custom_model_data".flags[0] set value 0b
-function magical_addons:dev/unregister_entity with block ~ ~ ~ components."minecraft:custom_data".magical_addons
 
 ## Drop recipe ingredients
 function magical_addons:block/custom/wizarding_table/return {slot:2}

@@ -6,7 +6,7 @@ execute at @s unless predicate magical_addons:shared/riding_vehicle run return r
 execute at @s[y=-99,dy=-9999] unless predicate magical_addons:shared/riding_vehicle run return run function magical_addons:entity/kill
 
 ## Bossbar
-function magical_addons:entity/automaton/bossbar with entity @s item.components."minecraft:custom_data"
+function magical_addons:entity/automaton/bossbar with entity @s data.magical_addons
 
 ## Music
 execute if entity @a[distance=..64] run weather thunder

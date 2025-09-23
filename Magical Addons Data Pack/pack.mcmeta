@@ -2,7 +2,7 @@
   "pack": {
     "pack_format": 81,
     "description": [
-      {"text":"Magical Addons v0.0.0","color":"#AAAAAA"}
+      {"text":"Magical Addons v0.0.1","color":"#AAAAAA"}
     ]
   },
   "overlays": {

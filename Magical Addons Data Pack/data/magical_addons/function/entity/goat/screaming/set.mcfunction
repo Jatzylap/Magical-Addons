@@ -1,7 +1,8 @@
-# entity:behaviours/screaming_goat/set
+# entity:goat/screaming/set
 # called by: main:two_seconds
 
 tag @s add maddons.entity
 tag @s add maddons.goat.screaming
+tag @s add maddons.entity.tickable
 
-function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:entity/goat/screaming/loop"}
+data merge entity @s {data:{magical_addons:{tick_cmd:"function magical_addons:entity/goat/screaming/loop"}}}

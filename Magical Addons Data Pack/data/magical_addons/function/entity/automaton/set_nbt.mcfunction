@@ -3,8 +3,9 @@
 
 $data merge entity @s $(nbt)
 
-execute on passengers as @s[tag=maddons.entity] run function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:entity/automaton/loop"}
-
 execute on passengers as @s[tag=maddons.entity] run function magical_addons:entity/automaton/scale
+
+## Register UUID to potentially remove bossbar
+execute on passengers as @s[tag=maddons.entity] run function magical_addons:entity/register
 
 tag @s add maddons.summoned

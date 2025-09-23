@@ -4,7 +4,7 @@
 ## entities
 execute at @a as @e[type=#magical_addons:weaponable,distance=..32,nbt=!{NoAI:1b}] at @s if items entity @s weapon.mainhand *[custom_data~{magical_addons:{mana_item:1b}}] if predicate magical_addons:shared/50_percent anchored eyes facing entity @p[gamemode=!spectator,gamemode=!creative] eyes run function magical_addons:item/iron_wand/disambiguation {hand:"mainhand"}
 execute at @a as @e[type=#magical_addons:weaponable,distance=..32,nbt=!{NoAI:1b}] at @s if dimension minecraft:the_aether unless data entity @s equipment.mainhand run function magical_addons:entity/weaponise
-execute as @e[type=goat,tag=!maddons.registered,nbt={IsScreamingGoat:1b}] at @s run function magical_addons:entity/goat/screaming/set
+execute as @e[type=goat,tag=!maddons.entity.tickable,nbt={IsScreamingGoat:1b}] at @s run function magical_addons:entity/goat/screaming/set
 
 ## player
 execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{magical_addons:{mana_item:1}}}}]},scores={maddons.mana=199}] at @s run playsound magical_addons:ui.mana.recharge player @s ~ ~ ~ 10000
@@ -15,7 +15,7 @@ execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s if sc
 execute as @a[gamemode=!creative,tag=maddons.using_commanding_spell] at @s unless score @s maddons.mana matches 1.. run tag @s add maddons.commanding_spell.stop
 
 ## block
-execute as @e[type=#magical_addons:display,tag=maddons.brewing_stand,tag=!maddons.registered] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:block/vanilla/brewing_stand/tick"}
+execute as @e[type=#magical_addons:display,tag=maddons.brewing_stand,tag=!maddons.entity.tickable] at @s unless data block ~ ~ ~ {BrewTime:0s} if data block ~ ~ ~ {Items:[{Slot:3b,components:{"minecraft:custom_data":{magical_addons:{brewable:1b}}}}]} run tag @s add maddons.entity.tickable
 execute at @a as @e[type=#magical_addons:display,tag=maddons.golden_oak_leaves,limit=16,sort=random,distance=..16] at @s if block ~ ~-1 ~ air if predicate magical_addons:shared/25_percent run particle minecraft:tinted_leaves{color:[1,1,0,1]} ~ ~ ~ 0.2 0.2 0.2 1 2
 
 ## block interactions
@@ -23,6 +23,9 @@ execute at @a run kill @e[type=interaction,tag=maddons.block.interaction]
 
 ## item
 execute at @a run kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{gui:1}}}}},distance=..16]
+
+## unregister registered entities
+execute at @a run function magical_addons:entity/unregister
 
 ## dev
 execute store result score #maddons.block maddons.stat if entity @e[tag=maddons.block]

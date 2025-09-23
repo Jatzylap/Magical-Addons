@@ -13,4 +13,3 @@ execute as @a[tag=!magical_addons] at @s run playsound magical_addons:ui.pack.ti
 schedule function magical_addons:main/half_second 10
 schedule function magical_addons:main/one_second 1s
 schedule function magical_addons:main/two_seconds 2s
-schedule function magical_addons:main/two_minutes 120s

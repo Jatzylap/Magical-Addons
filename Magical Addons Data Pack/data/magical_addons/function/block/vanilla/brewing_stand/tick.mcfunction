@@ -1,5 +1,5 @@
 # block:vanilla/brewing_stand/tick
-# called by: main:tick_cycle
+# called by: entity:tick
 # registered by: main:two_seconds
 
 ## Potion of Sparkstone
@@ -20,4 +20,4 @@ execute if data block ~ ~ ~ {BrewTime:0s} if items block ~ ~ ~ container.0 minec
 execute if data block ~ ~ ~ {BrewTime:0s} if items block ~ ~ ~ container.1 minecraft:lingering_potion[potion_contents={potion:"minecraft:regeneration"}] run function magical_addons:block/vanilla/brewing_stand/set_potion {slot:1,potion:"sparkstone_lingering_potion"}
 execute if data block ~ ~ ~ {BrewTime:0s} if items block ~ ~ ~ container.2 minecraft:lingering_potion[potion_contents={potion:"minecraft:regeneration"}] run function magical_addons:block/vanilla/brewing_stand/set_potion {slot:2,potion:"sparkstone_lingering_potion"}
 
-execute if data block ~ ~ ~ {BrewTime:0s} run function magical_addons:dev/unregister_entity with block ~ ~ ~ components."minecraft:custom_data"
+execute if data block ~ ~ ~ {BrewTime:0s} run tag @s remove maddons.entity.tickable

@@ -33,4 +33,4 @@ $execute store result score @s maddons.move run random value $(min_life)..$(max_
 $scoreboard players set @s maddons.constant $(lifetime)
 
 ## Register
-function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:particle/ring_of_fire/3"}
+tag @s add maddons.entity.tickable

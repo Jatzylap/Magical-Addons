@@ -1,6 +1,5 @@
 # entity:sparkstone_lingering_potion/cloud_tick
-# called by: main:tick_cycle
-# registered by: entity:sparkstone_lingering_potion/tick
+# called by: entity:tick
 
 tag @s add maddons.magic
 

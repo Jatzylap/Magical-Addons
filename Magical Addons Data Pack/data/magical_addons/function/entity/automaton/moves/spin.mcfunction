@@ -17,7 +17,7 @@ scoreboard players set @s maddons.cooldown 299
 ## Set animation
 execute on passengers run data modify entity @s[tag=maddons.head] item.components."minecraft:custom_model_data".floats[1] set value 4f
 data modify entity @s item.components."minecraft:custom_model_data".floats[1] set value 4f
-data modify entity @s item.components."minecraft:custom_data".magical_addons merge value {attack:"spin"}
+data modify entity @s data.magical_addons.attack set value "spin"
 
 ## Set start frame for animation
 execute store result score @s maddons.animation run time query gametime

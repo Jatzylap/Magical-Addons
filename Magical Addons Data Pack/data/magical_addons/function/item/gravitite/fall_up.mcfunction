@@ -2,7 +2,6 @@
 # called by: main:one_second, item:gravitite/drop
 
 tag @s add maddons.gravitite
+tag @s add maddons.entity.tickable
 
-data merge entity @s {NoGravity:1}
-
-function magical_addons:dev/register_entity {tick_cmd:"function magical_addons:item/gravitite/loop"}
+data merge entity @s {NoGravity:1,data:{magical_addons:{tick_cmd:"function magical_addons:item/gravitite/loop"}}}

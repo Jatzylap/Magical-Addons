@@ -6,6 +6,10 @@
         {
           "type": "minecraft:loot_table",
           "value": "magical_addons:ancient_staff"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "magical_addons:sparkstone_orb"
         }
       ]
     }
