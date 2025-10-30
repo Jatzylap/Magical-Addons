@@ -1,0 +1,46 @@
+{
+	"textures": {
+		"0": "magical_addons:entity/sculk_spider"
+	},
+	"elements": [
+		{
+			"from": [0, 7, 7],
+			"to": [16, 9, 9],
+			"light_emission": 0,
+			"faces": {
+				"north": {
+					"uv": [6.25, 0.5, 10.25, 1.5],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [10.25, 0.5, 10.75, 1.5],
+					"rotation": 90,
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [10.25, 0.5, 14.25, 1.5],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [10.25, 0.5, 10.75, 1.5],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [10.25, 1.5, 6.25, 0.5],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [10.25, 0.5, 6.25, 1.5],
+					"texture": "#0"
+				}
+			}
+		}
+	],
+	"display": {
+		"head": {
+			"rotation": [-28.12024, 28.17831, 48.53514],
+			"translation": [-8.08578, -2.59473, 6.40276],
+			"scale": [1, 1, 1]
+		}
+	}
+}

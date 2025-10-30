@@ -1,0 +1,9 @@
+{
+	"model": {
+		"type": "minecraft:model",
+		"model": "magical_addons:entity/sculk_spider/right_front_middle_leg",
+		"tints": [
+			{"type": "minecraft:dye", "default": [1, 1, 1]}
+		]
+	}
+}

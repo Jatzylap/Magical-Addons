@@ -1,0 +1,6 @@
+# block:custom/gravitite_ore/generate
+# called by: dimension:the_aether/worldgen/set_blocks
+
+## Block
+execute summon item_display run data merge entity @s {data:{magical_addons:{group:"gravitite",id:"gravitite_ore",break_cmd:"execute unless block ~ ~ ~ spawner{components:{\"minecraft:custom_data\":{magical_addons:{id:gravitite_ore}}}} run function magical_addons:block/custom/gravitite_ore/break"}},transformation:{scale:[-1,1,-1]},Tags:[maddons.block,maddons.gravitite_ore,maddons.block.gravitite],teleport_duration:3,item:{id:"spawner",components:{item_model:"magical_addons:gravitite_ore"}},view_range:64}
+setblock ~ ~ ~ spawner{components:{"minecraft:item_model":"magical_addons:gravitite_ore","minecraft:item_name":{"translate":"item.magical_addons.gravitite_ore"},"minecraft:tooltip_display":{"hidden_components":["minecraft:block_entity_data"]},custom_data:{magical_addons:{loot_id:5,generated:1b,break_speed:1.0,sound:"playsound block.stone.step block @a ~ ~ ~ 0.15",groups:["gravitite","explodable"],id:"gravitite_ore",properties:{light:1b}}}}}

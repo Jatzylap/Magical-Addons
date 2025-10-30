@@ -1,0 +1,43 @@
+{
+	"textures": {
+		"0": "magical_addons:entity/sculk_spider",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [4, 4, 0],
+			"to": [12, 12, 8],
+			"faces": {
+				"north": {
+					"uv": [10, 6, 12, 10],
+					"texture": "#0"
+				},
+				"east": {
+					"uv": [8, 6, 10, 10],
+					"texture": "#0"
+				},
+				"south": {
+					"uv": [14, 6, 16, 10],
+					"texture": "#0"
+				},
+				"west": {
+					"uv": [12, 6, 14, 10],
+					"texture": "#0"
+				},
+				"up": {
+					"uv": [12, 6, 10, 2],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [14, 2, 12, 6],
+					"texture": "#0"
+				}
+			}
+		}
+	]
+}
