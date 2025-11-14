@@ -1,0 +1,191 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "magical_addons:arms/0"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/1"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/2"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/3"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/4"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/5"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/6"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/7"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/8"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/9"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/10"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/11"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/12"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/13"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/14"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/15"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/16"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/17"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/18"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/19"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/20"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/21"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/22"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/23"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/24"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/25"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/26"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/27"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/28"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/29"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/30"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/31"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/32"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/33"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/34"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/35"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/36"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/37"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/38"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/39"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/40"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/41"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/42"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/43"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/44"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:arms/45"
+			}
+		]
+	}
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": "minecraft:recovery_compass"
+  },
+  "result": {
+    "id": "minecraft:barrier",
+    "components": {
+      "minecraft:item_model": "minecraft:air",
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "gui": 1
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hide_tooltip": true
+      }
+    }
+  }
+}

@@ -1,0 +1,1324 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "body",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:custom_model_data",
+          "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/0"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/1"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/1"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/2"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/2"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/3"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 4,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/4"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 5,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/5"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 6,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/6"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 7,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/7"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/7"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 8,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/8"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/8"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 9,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/9"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/9"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 10,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/10"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 11,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/11"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/11"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 12,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/12"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/12"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 13,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/13"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/13"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 14,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/14"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/walk/14"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/0"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/1"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/1"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/2"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/2"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/3"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 4,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/4"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 5,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/5"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 6,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/6"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 7,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/7"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/7"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 8,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/8"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/8"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 9,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/9"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/9"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 10,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/10"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 11,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/11"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/11"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 12,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/12"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/12"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 13,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/13"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/13"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 14,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/14"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/hurt/legs/crawl/14"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],  
+            "fallback": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/normal/body"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/normal/legs/idle"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/hurt/body"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/hurt/legs/idle"
+                }
+              ]
+            }
+          },
+          "on_false": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 0,
+            "entries": [
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/1"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/2"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 4,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 5,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 6,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 7,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/7"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 8,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/8"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 9,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/9"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 10,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 11,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/11"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 12,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/12"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 13,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/13"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 14,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/walk/14"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:range_dispatch",
+                  "property": "minecraft:custom_model_data",
+                  "index": 1,
+                  "entries": [
+                    {
+                      "threshold": 0,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/0"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 1,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/1"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 2,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/2"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 3,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/3"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 4,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/4"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 5,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/5"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 6,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/6"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 7,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/7"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 8,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/8"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 9,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/9"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 10,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/10"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 11,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/11"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 12,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/12"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 13,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/13"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "threshold": 14,
+                      "model": {
+                        "type": "minecraft:composite",
+                        "models": [
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/body"
+                          },
+                          {
+                            "type": "minecraft:model",
+                            "model": "magical_addons:entity/sculk_spider/normal/legs/crawl/14"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              }
+            ],  
+            "fallback": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/normal/body"
+                },
+                {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/sculk_spider/normal/legs/idle"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:custom_model_data",
+      "on_true": {
+        "type": "minecraft:composite",
+        "models": [
+          {
+            "type": "minecraft:model",
+            "model": "magical_addons:entity/sculk_spider/normal/head"
+          },
+          {
+            "type": "minecraft:model",
+            "model": "magical_addons:entity/sculk_spider/hurt/head"
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "magical_addons:entity/sculk_spider/normal/head"
+      }
+    }
+  }
+}

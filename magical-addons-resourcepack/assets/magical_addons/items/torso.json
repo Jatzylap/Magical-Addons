@@ -1,0 +1,63 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "magical_addons:torso/0"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/1"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/2"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/3"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/4"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/5"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/6"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/7"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/8"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/9"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/10"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/11"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/12"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:torso/13"
+			}
+		]
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"model": {
+		"type": "composite",
+		"models": [
+			{
+				"type": "model",
+				"model": "magical_addons:legs/0"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/1"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/2"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/3"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/4"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/5"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/6"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/7"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/8"
+			},
+			{
+				"type": "model",
+				"model": "magical_addons:legs/9"
+			}
+		]
+	}
+}
