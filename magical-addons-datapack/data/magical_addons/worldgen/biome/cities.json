@@ -1,22 +1,31 @@
 {
+  "attributes": {
+    "minecraft:audio/music_volume": {
+      "modifier": "override",
+      "argument": 0
+    },
+    "minecraft:audio/ambient_sounds": {
+      "modifier": "override",
+      "argument": {
+        "additions": {
+          "sound": {
+            "sound_id": "magical_addons:ambient.aether.additions"
+          },
+          "tick_chance": 0.0001
+        }
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:mycelium"
+        },
+        "probability": 0.118093334
+      }
+    ]
+  },
   "effects": {
-    "music_volume": 0,
-    "additions_sound": {
-      "sound": {
-        "sound_id": "magical_addons:ambient.aether.additions"
-      },
-      "tick_chance": 0.0001
-    },
-    "particle": {
-      "options": {
-        "type": "minecraft:mycelium"
-      },
-      "probability": 0.118093334
-    },
-    "sky_color": 9275608,
-    "fog_color": 9671612,
     "water_color": 4159204,
-    "water_fog_color": 329011,
     "grass_color": 11665355,
     "foliage_color": 14417827
   },

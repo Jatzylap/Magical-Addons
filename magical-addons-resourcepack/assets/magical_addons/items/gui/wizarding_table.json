@@ -22,147 +22,126 @@
         "when": "wt_rb_cg1_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg1_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg1_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category1/suggestion2"
         }
       },
       {
         "when": "wt_rb_cg2_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg2_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg2_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category2/suggestion2"
         }
       },
       {
         "when": "wt_rb_cg3_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg3_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg3_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category3/suggestion2"
         }
       },
       {
         "when": "wt_rb_cg4_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg4_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg4_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category4/suggestion2"
         }
       },
       {
         "when": "wt_rb_cg5_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg5_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg5_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category5/suggestion2"
         }
       },
       {
         "when": "wt_rb_cg6_s0",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion_0"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion0"
         }
       },
       {
         "when": "wt_rb_cg6_s1",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion_1"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion1"
         }
       },
       {
         "when": "wt_rb_cg6_s2",
         "model": {
           "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion_2"
-        }
-      },
-      {
-        "when": "wt_rb_cg7_s0",
-        "model": {
-          "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category7/suggestion_0"
-        }
-      },
-      {
-        "when": "wt_rb_cg7_s1",
-        "model": {
-          "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category7/suggestion_1"
-        }
-      },
-      {
-        "when": "wt_rb_cg7_s2",
-        "model": {
-          "type": "minecraft:model",
-          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category7/suggestion_2"
+          "model": "magical_addons:gui/sprites/recipe_book/wizarding_table/category6/suggestion2"
         }
       }
     ],

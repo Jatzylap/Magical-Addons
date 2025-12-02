@@ -491,6 +491,31 @@
 	"subtitle": "subtitles.magical_addons.entity.automaton.ambient"
 	},
 
+	"entity.automaton.hurt": {
+	"category": "hostile",
+	"sounds": [{
+		"name":"mob/enderdragon/hit1",
+		"pitch": 1.5,
+		"preload": true
+				},
+				{
+		"name":"mob/enderdragon/hit2",
+		"pitch": 1.5,
+		"preload": true
+				},
+				{
+		"name":"mob/enderdragon/hit3",
+		"pitch": 1.5,
+		"preload": true
+				},
+				{
+		"name":"mob/enderdragon/hit4",
+		"pitch": 1.5,
+		"preload": true
+		}],
+	"subtitle": "subtitles.magical_addons.entity.automaton.hurt"
+	},
+
 	"entity.automaton.step": {
 	"category": "hostile",
 	"sounds": [{
@@ -576,59 +601,6 @@
 				},
 				{
 		"name":"magical_addons:entity/automaton/attack3",
-		"preload": true
-		}],
-	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
-	},
-
-	"entity.automaton.strike": {
-	"category": "hostile",
-	"sounds": [{
-		"name":"magical_addons:entity/automaton/strike1",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike2",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike3",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike4",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike5",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike6",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike7",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike8",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike9",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike10",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike11",
-		"preload": true
-				},
-				{
-		"name":"magical_addons:entity/automaton/strike12",
 		"preload": true
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"

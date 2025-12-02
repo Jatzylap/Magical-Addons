@@ -5,31 +5,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:white_bed",
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
-                "minecraft:item_name": {
-                  "translate": "item.magical_addons.aether_portal"
+                "minecraft:enchantments": {
+                  "magical_addons:lucidity": 1
                 },
-                "minecraft:item_model": "magical_addons:aether_portal",
-                "minecraft:rarity": "uncommon",
-                "minecraft:max_stack_size": 1,
-                "minecraft:custom_data": {
-                  "magical_addons": {
-                    "generated": false,
-                    "id": "aether_portal",
-                    "groups": [
-                      "explodable"
-                    ],
-                    "base_block": "spawner"
-                  }
-                },
-                "minecraft:tooltip_display": {
-                  "hidden_components": [
-                    "minecraft:block_entity_data"
-                  ]
+                "minecraft:enchantable": {
+                  "value": 1
                 }
               }
             }

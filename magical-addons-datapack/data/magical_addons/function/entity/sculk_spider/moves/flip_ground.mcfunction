@@ -1,7 +1,7 @@
 # entity:sculk_spider/moves/flip_ground
 # called by: entity:sculk_spider/check_global
 
-execute on vehicle on vehicle run data merge entity @s {NoGravity:0b}
+execute on vehicle on vehicle run data merge entity @s {NoGravity:0b,Motion:[0d,-0.5d]}
 execute on vehicle on vehicle run attribute @s minecraft:movement_speed base set 0.36
 execute if entity @s[tag=!maddons.ground] on vehicle on passengers run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{left_rotation:[0f,0f,0f,1f]}}
 

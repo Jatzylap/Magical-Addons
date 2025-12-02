@@ -16,4 +16,5 @@ function magical_addons:particle/ring_of_fire {scale:35,lifetime:180,min_life:0,
 ## Crater
 summon fireball ~ ~ ~ {Motion:[0d,-9d,0d],acceleration_power:9.0,ExplosionPower:10b,Item:{id:"stick",components:{item_model:"air"}}}
 
-function magical_addons:entity/kill
+## Despawn
+function magical_addons:item/sparkstone_orb/despawn

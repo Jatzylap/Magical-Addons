@@ -2,10 +2,12 @@
 # called by: #minecraft:load
 
 ## Config
-gamerule commandBlockOutput false
-gamerule maxCommandChainLength 2147483647
-gamerule maxCommandForkCount 2147483647
-gamerule commandModificationBlockLimit 2147483647
+gamerule command_block_output false
+gamerule max_command_sequence_length 2147483647
+gamerule max_command_forks 2147483647
+gamerule max_block_modifications 2147483647
+execute unless data storage magical_addons:config "disable_world_greeting" run data merge storage magical_addons:config {"disable_world_greeting": false}
+execute unless data storage magical_addons:config "disable_custom_boss_music" run data merge storage magical_addons:config {"disable_custom_boss_music": false}
 execute in minecraft:overworld run forceload add -29999999 1600
 fill -29999999 16 1600 -29999984 31 1615 air
 
@@ -65,6 +67,7 @@ scoreboard objectives add maddons.commanding_spell dummy
 scoreboard objectives add maddons.automaton.music dummy
 scoreboard objectives add maddons.automaton.music_track dummy
 scoreboard objectives add maddons.block.loot_id dummy
+scoreboard objectives add maddons.gamerule dummy
 
 ## Constants
 scoreboard players set #PI maddons.constant 314159265

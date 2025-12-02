@@ -14,9 +14,9 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:glowstone",
+      "id": "minecraft:white_bed",
       "components": {
-        "minecraft:item_model": "magical_addons:aether_portal"
+        "minecraft:enchantments": {"magical_addons:lucidity": 1}
       }
     },
     "title": {

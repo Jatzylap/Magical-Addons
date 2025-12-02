@@ -15,3 +15,9 @@ fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:bl
 
 ## Small sparkstone bud
 fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/small_sparkstone_bud/generate"} replace light[level=4]
+
+## Gravitite ore
+fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/gravitite_ore/generate"} replace stone_slab[type=double]
+
+## Golden oak leaves
+fill ~ ~ ~ ~15 ~15 ~15 command_block{auto:1b,Command:"function magical_addons:block/custom/golden_oak_leaves/generate"} replace spruce_slab[type=double]

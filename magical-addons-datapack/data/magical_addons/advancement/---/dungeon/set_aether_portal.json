@@ -9,7 +9,10 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:white_bed"
+                "blocks": "#magical_addons:aether_portal",
+                "predicates": {
+                  "minecraft:enchantable": {}
+                }
               }
             }
           }

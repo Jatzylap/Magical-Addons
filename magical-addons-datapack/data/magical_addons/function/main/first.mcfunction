@@ -1,13 +1,13 @@
 # main:first
 # called by: main:init
 
-title @a[tag=!magical_addons] times 40 30 40
-title @a[tag=!magical_addons] title [""]
-title @a[tag=!magical_addons] subtitle ["\uE011"]
-stopsound @a[tag=!magical_addons] * magical_addons:ui.pack.title
+execute if data storage magical_addons:config {"disable_world_greeting":false} run title @a[tag=!magical_addons] times 40 30 40
+execute if data storage magical_addons:config {"disable_world_greeting":false} run title @a[tag=!magical_addons] title [""]
+execute if data storage magical_addons:config {"disable_world_greeting":false} run title @a[tag=!magical_addons] subtitle ["\uE011"]
+execute if data storage magical_addons:config {"disable_world_greeting":false} run stopsound @a[tag=!magical_addons] master magical_addons:ui.pack.title
 
 ## Pack installed
-execute as @a[tag=!magical_addons] at @s run playsound magical_addons:ui.pack.title master @s ~ ~ ~ 10000
+execute if data storage magical_addons:config {"disable_world_greeting":false} as @a[tag=!magical_addons] at @s run playsound magical_addons:ui.pack.title master @s ~ ~ ~ 10000
 
 ## Execute loops
 schedule function magical_addons:main/four_ticks 4

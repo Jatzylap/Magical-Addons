@@ -30,7 +30,7 @@ void main() {
     int alpha = int(texture(Sampler0, UV0).a * 255);
 
     if (alpha == 1) vertexColor = Color; // No ambient occlusion
-    else vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
+    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
 
     vec2 light = minecraft_compute_light(Light0_Direction, Light1_Direction, Normal);
     vertexPerFaceColorBack = minecraft_mix_light_separate(-light, Color);

@@ -3,7 +3,1482 @@
     "type": "minecraft:condition",
     "property": "minecraft:custom_model_data",
     "on_true": {
-      "type": "minecraft:empty"
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/walk/39"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/run/15"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/39"
+                }
+              },
+              {
+                "threshold": 40,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/40"
+                }
+              },
+              {
+                "threshold": 41,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/41"
+                }
+              },
+              {
+                "threshold": 42,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/42"
+                }
+              },
+              {
+                "threshold": 43,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/43"
+                }
+              },
+              {
+                "threshold": 44,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/44"
+                }
+              },
+              {
+                "threshold": 45,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/45"
+                }
+              },
+              {
+                "threshold": 46,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/46"
+                }
+              },
+              {
+                "threshold": 47,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/47"
+                }
+              },
+              {
+                "threshold": 48,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/48"
+                }
+              },
+              {
+                "threshold": 49,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/49"
+                }
+              },
+              {
+                "threshold": 50,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/50"
+                }
+              },
+              {
+                "threshold": 51,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/51"
+                }
+              },
+              {
+                "threshold": 52,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/52"
+                }
+              },
+              {
+                "threshold": 53,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/53"
+                }
+              },
+              {
+                "threshold": 54,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/54"
+                }
+              },
+              {
+                "threshold": 55,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/55"
+                }
+              },
+              {
+                "threshold": 56,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/56"
+                }
+              },
+              {
+                "threshold": 57,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/57"
+                }
+              },
+              {
+                "threshold": 58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/58"
+                }
+              },
+              {
+                "threshold": 59,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/59"
+                }
+              },
+              {
+                "threshold": 60,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/60"
+                }
+              },
+              {
+                "threshold": 61,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/61"
+                }
+              },
+              {
+                "threshold": 62,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/62"
+                }
+              },
+              {
+                "threshold": 63,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/63"
+                }
+              },
+              {
+                "threshold": 64,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/64"
+                }
+              },
+              {
+                "threshold": 65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/65"
+                }
+              },
+              {
+                "threshold": 66,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/66"
+                }
+              },
+              {
+                "threshold": 67,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/67"
+                }
+              },
+              {
+                "threshold": 68,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/68"
+                }
+              },
+              {
+                "threshold": 69,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/69"
+                }
+              },
+              {
+                "threshold": 70,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/70"
+                }
+              },
+              {
+                "threshold": 71,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/71"
+                }
+              },
+              {
+                "threshold": 72,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/72"
+                }
+              },
+              {
+                "threshold": 73,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/73"
+                }
+              },
+              {
+                "threshold": 74,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/74"
+                }
+              },
+              {
+                "threshold": 75,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/75"
+                }
+              },
+              {
+                "threshold": 76,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/76"
+                }
+              },
+              {
+                "threshold": 77,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/77"
+                }
+              },
+              {
+                "threshold": 78,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/78"
+                }
+              },
+              {
+                "threshold": 79,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/79"
+                }
+              },
+              {
+                "threshold": 80,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/jump/80"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/spin/20"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/pound/22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/head/redress/19"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "magical_addons:entity/automaton/hurt/head/idle"
+      }
     },
     "on_false": {
       "type": "minecraft:range_dispatch",
@@ -21,280 +1496,1457 @@
                 "threshold": 0,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.0/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/0"
                 }
               },
               {
                 "threshold": 1,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.1/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/1"
                 }
               },
               {
                 "threshold": 2,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.2/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/2"
                 }
               },
               {
                 "threshold": 3,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.3/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/3"
                 }
               },
               {
                 "threshold": 4,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.4/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/4"
                 }
               },
               {
                 "threshold": 5,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.5/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/5"
                 }
               },
               {
                 "threshold": 6,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.6/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/6"
                 }
               },
               {
                 "threshold": 7,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.7/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/7"
                 }
               },
               {
                 "threshold": 8,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.8/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/8"
                 }
               },
               {
                 "threshold": 9,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.9/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/9"
                 }
               },
               {
                 "threshold": 10,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.10/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/10"
                 }
               },
               {
                 "threshold": 11,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.11/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/11"
                 }
               },
               {
                 "threshold": 12,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.12/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/12"
                 }
               },
               {
                 "threshold": 13,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.13/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/13"
                 }
               },
               {
                 "threshold": 14,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.14/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/14"
                 }
               },
               {
                 "threshold": 15,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.15/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/15"
                 }
               },
               {
                 "threshold": 16,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.16/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/16"
                 }
               },
               {
                 "threshold": 17,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.17/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/17"
                 }
               },
               {
                 "threshold": 18,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.18/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/18"
                 }
               },
               {
                 "threshold": 19,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.19/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/19"
                 }
               },
               {
                 "threshold": 20,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.20/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/20"
                 }
               },
               {
                 "threshold": 21,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.21/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/21"
                 }
               },
               {
                 "threshold": 22,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.22/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/22"
                 }
               },
               {
                 "threshold": 23,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.23/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/23"
                 }
               },
               {
                 "threshold": 24,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.24/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/24"
                 }
               },
               {
                 "threshold": 25,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.25/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/25"
                 }
               },
               {
                 "threshold": 26,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.26/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/26"
                 }
               },
               {
                 "threshold": 27,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.27/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/27"
                 }
               },
               {
                 "threshold": 28,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.28/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/28"
                 }
               },
               {
                 "threshold": 29,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.29/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/29"
                 }
               },
               {
                 "threshold": 30,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.30/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/30"
                 }
               },
               {
                 "threshold": 31,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.31/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/31"
                 }
               },
               {
                 "threshold": 32,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.32/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/32"
                 }
               },
               {
                 "threshold": 33,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.33/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/33"
                 }
               },
               {
                 "threshold": 34,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.34/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/34"
                 }
               },
               {
                 "threshold": 35,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.35/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/35"
                 }
               },
               {
                 "threshold": 36,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.36/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/36"
                 }
               },
               {
                 "threshold": 37,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.37/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/37"
                 }
               },
               {
                 "threshold": 38,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.38/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/38"
                 }
               },
               {
                 "threshold": 39,
                 "model": {
                   "type": "minecraft:model",
-                  "model": "magical_addons:entity/automaton/normal/head/walk.39/0"
+                  "model": "magical_addons:entity/automaton/normal/head/walk/39"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/run/15"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/39"
+                }
+              },
+              {
+                "threshold": 40,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/40"
+                }
+              },
+              {
+                "threshold": 41,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/41"
+                }
+              },
+              {
+                "threshold": 42,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/42"
+                }
+              },
+              {
+                "threshold": 43,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/43"
+                }
+              },
+              {
+                "threshold": 44,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/44"
+                }
+              },
+              {
+                "threshold": 45,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/45"
+                }
+              },
+              {
+                "threshold": 46,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/46"
+                }
+              },
+              {
+                "threshold": 47,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/47"
+                }
+              },
+              {
+                "threshold": 48,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/48"
+                }
+              },
+              {
+                "threshold": 49,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/49"
+                }
+              },
+              {
+                "threshold": 50,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/50"
+                }
+              },
+              {
+                "threshold": 51,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/51"
+                }
+              },
+              {
+                "threshold": 52,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/52"
+                }
+              },
+              {
+                "threshold": 53,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/53"
+                }
+              },
+              {
+                "threshold": 54,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/54"
+                }
+              },
+              {
+                "threshold": 55,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/55"
+                }
+              },
+              {
+                "threshold": 56,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/56"
+                }
+              },
+              {
+                "threshold": 57,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/57"
+                }
+              },
+              {
+                "threshold": 58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/58"
+                }
+              },
+              {
+                "threshold": 59,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/59"
+                }
+              },
+              {
+                "threshold": 60,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/60"
+                }
+              },
+              {
+                "threshold": 61,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/61"
+                }
+              },
+              {
+                "threshold": 62,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/62"
+                }
+              },
+              {
+                "threshold": 63,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/63"
+                }
+              },
+              {
+                "threshold": 64,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/64"
+                }
+              },
+              {
+                "threshold": 65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/65"
+                }
+              },
+              {
+                "threshold": 66,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/66"
+                }
+              },
+              {
+                "threshold": 67,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/67"
+                }
+              },
+              {
+                "threshold": 68,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/68"
+                }
+              },
+              {
+                "threshold": 69,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/69"
+                }
+              },
+              {
+                "threshold": 70,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/70"
+                }
+              },
+              {
+                "threshold": 71,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/71"
+                }
+              },
+              {
+                "threshold": 72,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/72"
+                }
+              },
+              {
+                "threshold": 73,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/73"
+                }
+              },
+              {
+                "threshold": 74,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/74"
+                }
+              },
+              {
+                "threshold": 75,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/75"
+                }
+              },
+              {
+                "threshold": 76,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/76"
+                }
+              },
+              {
+                "threshold": 77,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/77"
+                }
+              },
+              {
+                "threshold": 78,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/78"
+                }
+              },
+              {
+                "threshold": 79,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/79"
+                }
+              },
+              {
+                "threshold": 80,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/jump/80"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/spin/20"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/pound/22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/head/redress/19"
                 }
               }
             ]
@@ -303,7 +2955,7 @@
       ],
       "fallback": {
         "type": "minecraft:model",
-        "model": "magical_addons:entity/automaton/normal/head/idle.0/0"
+        "model": "magical_addons:entity/automaton/normal/head/idle"
       }
     }
   }

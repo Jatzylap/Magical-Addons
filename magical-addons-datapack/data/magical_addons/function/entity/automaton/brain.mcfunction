@@ -5,13 +5,13 @@
 execute on vehicle on vehicle unless data entity @s {DeathTime:0s} run return run function magical_addons:entity/automaton/death
 
 ## Hurt
-#execute on vehicle on passengers store result entity @s item.components."minecraft:custom_model_data".flags[0] byte 1 on vehicle on vehicle unless data entity @s {HurtTime:0s}
+execute on vehicle on passengers store result entity @s item.components."minecraft:custom_model_data".flags[0] byte 1 on vehicle on vehicle unless data entity @s {HurtTime:0s}
 
 ## Rotate body
-execute on vehicle on vehicle at @s on passengers on passengers run rotate @s[tag=!maddons.bone.head] ~ 0
+execute if entity @s[tag=!maddons.shoot,tag=!maddons.spin,tag=!maddons.pound] on vehicle on vehicle at @s on passengers on passengers run rotate @s ~ 0
 
 ## Rotate head
-execute unless score @s[tag=maddons.entity.ai,tag=!maddons.automaton.shoot] maddons.cooldown matches 0.. at @s facing entity @n[type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton,distance=..64] eyes run rotate @s ~ 0
+execute if entity @s[tag=maddons.entity.ai,tag=!maddons.shoot,tag=!maddons.spin,tag=!maddons.pound] at @s facing entity @n[type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton,distance=..64] eyes run rotate @s ~ 0
 
 ## Speed
 execute store result score #maddons.automaton.motion.x maddons.move on vehicle on vehicle run data get entity @s Motion[0] 1000
@@ -24,8 +24,11 @@ scoreboard players operation #maddons.automaton.motion.x maddons.move += #maddon
 execute store result score #maddons.automaton.speed maddons.move run scoreboard players operation #maddons.automaton.motion.x maddons.move += #maddons.automaton.motion.z maddons.move
 
 ## Move
-execute unless score @s maddons.cooldown matches 0.. on vehicle on passengers as @s[tag=maddons.animation.walk] store success entity @s item.components."minecraft:custom_model_data".floats[0] float 1 store success score @s maddons.move run data modify entity @s data.magical_addons.pos set from entity @s Pos
-execute unless score @s maddons.cooldown matches 0.. if score @s maddons.move matches 1 if score #maddons.automaton.speed maddons.move matches 1600.. on vehicle on passengers as @s[tag=maddons.animation.run] run data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 2f
-
-## Animate for tick_cmd
-#execute if score @s maddons.cooldown matches 0.. run return run function magical_addons:entity/automaton/animate with entity @s data.magical_addons
+execute on vehicle on passengers unless score @s maddons.cooldown matches 0.. store success entity @s item.components."minecraft:custom_model_data".floats[0] float 1 store success score @s maddons.move run data modify entity @s data.magical_addons.pos set from entity @s Pos
+#### Walk
+execute if score @s maddons.move matches 1 unless score @s maddons.cooldown matches 0.. unless score #maddons.automaton.speed maddons.move matches 200.. run data merge entity @s {data:{magical_addons:{tick_cmd:"execute on vehicle on passengers unless score @s maddons.cooldown matches 0.. store result entity @s item.components.\"minecraft:custom_model_data\".floats[1] int 1 run data get storage magical_addons:tick data.entity.automaton.animations.walk.frame"}}}
+execute if score @s maddons.move matches 1 unless score @s maddons.cooldown matches 0.. unless score #maddons.automaton.speed maddons.move matches 200.. on vehicle on vehicle run return run data merge entity @s {data:{magical_addons:{sound_time:5}}}
+#### Run
+execute if score @s maddons.move matches 1 unless score @s maddons.cooldown matches 0.. if score #maddons.automaton.speed maddons.move matches 200.. on vehicle on passengers unless score @s maddons.cooldown matches 0.. run data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 2f
+execute if score @s maddons.move matches 1 unless score @s maddons.cooldown matches 0.. if score #maddons.automaton.speed maddons.move matches 200.. run data merge entity @s {data:{magical_addons:{tick_cmd:"execute on vehicle on passengers unless score @s maddons.cooldown matches 0.. store result entity @s item.components.\"minecraft:custom_model_data\".floats[1] int 1 run data get storage magical_addons:tick data.entity.automaton.animations.run.frame"}}}
+execute if score @s maddons.move matches 1 unless score @s maddons.cooldown matches 0.. if score #maddons.automaton.speed maddons.move matches 200.. on vehicle on vehicle run data merge entity @s {data:{magical_addons:{sound_time:2}}}

@@ -4,12 +4,13 @@
     "##"
   ],
   "key": {
-    "#": "minecraft:recovery_compass"
+    "#": "#magical_addons:illegal_recipe_items"
   },
   "result": {
     "id": "minecraft:barrier",
     "components": {
       "minecraft:item_model": "minecraft:air",
+      "minecraft:item_name": "",
       "minecraft:custom_data": {
         "magical_addons": {
           "gui": 1

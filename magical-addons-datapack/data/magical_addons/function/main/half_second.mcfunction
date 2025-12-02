@@ -5,9 +5,6 @@
 tag @a[gamemode=!survival,gamemode=!adventure] add maddons.invul
 tag @a[gamemode=!creative,gamemode=!spectator] remove maddons.invul
 
-## Remove fog in aether unless near automaton
-execute as @a at @s if dimension minecraft:the_aether unless entity @e[distance=..64,tag=maddons.automaton,tag=maddons.entity.brain,type=item_display] run effect give @s darkness 1 0 true
-
 ## catch soul in a bottle
 execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.offhand minecraft:glass_bottle unless items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.offhand loot magical_addons:soul_bottle
 execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.mainhand loot magical_addons:soul_bottle

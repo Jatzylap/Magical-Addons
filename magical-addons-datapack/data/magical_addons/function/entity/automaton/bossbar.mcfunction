@@ -2,7 +2,7 @@
 # called by: entity:automaton/check_global
 
 $bossbar add magical_addons:$(UUID) {"translate":"entity.magical_addons.automaton"}
-$bossbar set magical_addons:$(UUID) color yellow
+$bossbar set magical_addons:$(UUID) color purple
 
 $execute store result bossbar magical_addons:$(UUID) max on vehicle on vehicle run attribute @s minecraft:max_health get
 $execute store result bossbar magical_addons:$(UUID) value on vehicle on vehicle run data get entity @s Health

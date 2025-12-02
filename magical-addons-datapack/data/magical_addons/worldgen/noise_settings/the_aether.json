@@ -1,5 +1,5 @@
 {
-  "sea_level": -64,
+  "sea_level": 0,
   "disable_mob_generation": false,
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
@@ -14,7 +14,7 @@
     }
   },
   "noise": {
-    "min_y": 0,
+    "min_y": 128,
     "height": 256,
     "size_horizontal": 2,
     "size_vertical": 1
@@ -63,8 +63,8 @@
                 "type": "minecraft:mul",
                 "argument1": {
                   "type": "minecraft:y_clamped_gradient",
-                  "from_y": 14,
-                  "to_y": 38,
+                  "from_y": 142,
+                  "to_y": 166,
                   "from_value": 0,
                   "to_value": 1
                 },
@@ -78,8 +78,8 @@
                       "type": "minecraft:mul",
                       "argument1": {
                         "type": "minecraft:y_clamped_gradient",
-                        "from_y": 56,
-                        "to_y": 128,
+                        "from_y": 184,
+                        "to_y": 256,
                         "from_value": 1,
                         "to_value": 0
                       },

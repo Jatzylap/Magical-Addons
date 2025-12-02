@@ -6,33 +6,35 @@ execute if block ~ ~ ~ #magical_addons:translucent on vehicle on passengers run 
 execute unless block ~ ~ ~ #magical_addons:translucent on vehicle on passengers run function magical_addons:entity/light
 
 ## Health
-execute store result score @s maddons.damage on vehicle run data get entity @s Health
+execute store result score @s maddons.damage on vehicle on vehicle run data get entity @s Health
 
 ## Flags
 execute on vehicle on vehicle if data entity @s {NoAI:1b} on passengers on passengers run tag @s[tag=maddons.entity.brain] remove maddons.entity.ai
 execute on vehicle on vehicle unless data entity @s {NoAI:1b} on passengers on passengers run tag @s[tag=maddons.entity.brain] add maddons.entity.ai
 
 ## Phase
-execute if score @s maddons.damage matches 601.. run tag @s add maddons.phase1
-execute if score @s maddons.damage matches 601.. run tag @s remove maddons.phase2
-execute if score @s maddons.damage matches 601.. run tag @s remove maddons.phase3
-execute if score @s maddons.damage matches 301..600 run tag @s add maddons.phase2
-execute if score @s maddons.damage matches 301..600 run tag @s remove maddons.phase1
-execute if score @s maddons.damage matches 301..600 run tag @s remove maddons.phase3
-execute if score @s maddons.damage matches ..300 run tag @s add maddons.phase3
-execute if score @s maddons.damage matches ..300 run tag @s remove maddons.phase1
-execute if score @s maddons.damage matches ..300 run tag @s remove maddons.phase2
+execute if score @s maddons.damage matches 201.. run tag @s add maddons.phase1
+execute if score @s maddons.damage matches 201.. run tag @s remove maddons.phase2
+execute if score @s maddons.damage matches 201.. run tag @s remove maddons.phase3
+execute if score @s maddons.damage matches 101..200 run tag @s add maddons.phase2
+execute if score @s maddons.damage matches 101..200 run tag @s remove maddons.phase1
+execute if score @s maddons.damage matches 101..200 run tag @s remove maddons.phase3
+execute if score @s maddons.damage matches ..100 run tag @s add maddons.phase3
+execute if score @s maddons.damage matches ..100 run tag @s remove maddons.phase1
+execute if score @s maddons.damage matches ..100 run tag @s remove maddons.phase2
+
+## Speed
+execute on vehicle on vehicle run attribute @s minecraft:movement_speed modifier remove magical_addons:speed
+execute if entity @s[tag=!maddons.phase1] on vehicle on vehicle run attribute @s minecraft:movement_speed modifier add magical_addons:speed 0.1 add_value
 
 ## Ambient sound
 execute if entity @s[tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent run playsound magical_addons:entity.automaton.ambient hostile @a ~ ~ ~ 3
 
 ## Attack
-#execute if entity @s[tag=maddons.entity.ai] if entity @n[type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton,distance=..64] if predicate magical_addons:shared/50_percent unless score @s maddons.cooldown matches 0.. run function magical_addons:entity/automaton/attack
+execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.attack] if entity @n[type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton,distance=..64] if predicate magical_addons:shared/50_percent run function magical_addons:entity/automaton/attack
 
 ## Boss fog in aether
-execute if dimension minecraft:the_aether as @a[distance=..64] at @s store result score @s maddons.boss_fog.time run data get entity @s active_effects[{id:"minecraft:darkness"}].duration
-execute if dimension minecraft:the_aether as @a[distance=..64] at @s store success score @s maddons.boss_fog.success if data entity @s active_effects[{id:"minecraft:darkness"}].amplifier
-execute if dimension minecraft:the_aether as @a[distance=..64] at @s if score @s maddons.boss_fog.time matches ..20 if score @s maddons.boss_fog.success matches 0 run effect clear @s darkness
+execute if dimension minecraft:the_aether run weather thunder 20
 
 ## Music
 execute if entity @s[tag=!maddons.entity.ai] run return fail

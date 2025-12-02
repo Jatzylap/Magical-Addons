@@ -5,34 +5,18 @@
   },
   "elements": [
     {
-      "from": [
-        0,
-        0,
-        0
-      ],
-      "to": [
-        6,
-        6,
-        0
-      ],
+      "from": [0, 0, 0],
+      "to": [6, 6, 0],
       "shade": false,
+      "light_emission": 15,
       "rotation": {
         "angle": 0,
         "axis": "y",
-        "origin": [
-          3,
-          3,
-          0
-        ]
+        "origin": [3, 3, 0]
       },
       "faces": {
         "north": {
-          "uv": [
-            0,
-            0,
-            14,
-            14
-          ],
+          "uv": [0, 0, 14, 14],
           "texture": "#particle",
           "tintindex": 0
         }

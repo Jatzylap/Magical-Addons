@@ -7,9 +7,15 @@
   "item.minecraft.potion.effect.sparkstone": "Potion of Recharging",
   "item.minecraft.potion.effect.sparkstone_splash": "Splash Potion of Recharging",
   "item.minecraft.potion.effect.sparkstone_lingering": "Lingering Potion of Recharging",
-  "options.graphics.fast.tooltip": "Fast graphics reduces the amount of visible rain and snow.\nTransparency effects will still be enabled for various blocks such as leaves.",
 
   "resourcePack.magical_addons.description": "Resources",
+
+  "dialog.magical_addons.gamerules": "Gamerules",
+  "dialog.magical_addons.save": "Save",
+
+
+  "gamerule.magical_addons.disable_world_greeting": "Disable \"Magical Addons\" World Greeting",
+  "gamerule.magical_addons.disable_custom_boss_music": "Disable Custom Boss Music",
 
   "arguments.magical_addons.summon.invalid": "This entity cannot be summoned in Peaceful difficulty!",
 
@@ -61,6 +67,7 @@
   "enchantment.magical_addons.damaging_spell": "Spell of Damaging",
   "enchantment.magical_addons.wind_spell": "Spell of Wind",
   "enchantment.magical_addons.sonic_boom": "Sonic Boom",
+  "enchantment.magical_addons.lucidity": "Lucidity",
 
   "container.wizarding_table.isLocked": "%s needs a %s!",
 

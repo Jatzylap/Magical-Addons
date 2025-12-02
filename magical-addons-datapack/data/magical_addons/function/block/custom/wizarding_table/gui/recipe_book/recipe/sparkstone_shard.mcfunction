@@ -1,4 +1,4 @@
-# block:custom/wizarding_table/gui/recipe_book/recipe/sparkstone_block
+# block:custom/wizarding_table/gui/recipe_book/recipe/sparkstone_shard
 # called by: block:custom/wizarding_table/gui/recipe_book_category*
 
 item replace block ~ ~ ~ container.15 with echo_shard[max_stack_size=1,max_damage=100,custom_data={magical_addons:{gui:1}}]

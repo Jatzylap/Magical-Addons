@@ -6,11 +6,11 @@ execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{
 
 ## Sounds
 execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:8b}]} unless score @s maddons.wizarding_table_page matches ..0 run playsound ui.button.click ui @p ~ ~ ~ .3
-execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:26b}]} unless score @s maddons.wizarding_table_page matches 1.. run playsound ui.button.click ui @p ~ ~ ~ .3
+execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:26b}]} unless score @s maddons.wizarding_table_page matches 2.. run playsound ui.button.click ui @p ~ ~ ~ .3
 
 ## Scroll
 execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:8b}]} unless score @s maddons.wizarding_table_page matches ..0 run scoreboard players remove @s maddons.wizarding_table_page 1
-execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:26b}]} unless score @s maddons.wizarding_table_page matches 1.. run scoreboard players add @s maddons.wizarding_table_page 1
+execute if entity @s[tag=maddons.block.rb.c4_] unless data block ~ ~ ~ {Items:[{Slot:26b}]} unless score @s maddons.wizarding_table_page matches 2.. run scoreboard players add @s maddons.wizarding_table_page 1
 
 ## Save out-of-bound items
 execute if items block ~ ~ ~ container.0 * unless items block ~ ~ ~ container.0 *[custom_data~{magical_addons:{gui:1}}] run function magical_addons:block/custom/wizarding_table/return {slot:0}
@@ -77,6 +77,7 @@ item replace block ~ ~ ~ container.26 with structure_void[max_stack_size=1,max_d
 ## Recipes
 execute if score @s maddons.wizarding_table_page matches 0 run function magical_addons:block/custom/wizarding_table/gui/recipe_book/recipe/sparkstone_shard
 execute if score @s maddons.wizarding_table_page matches 1 run function magical_addons:block/custom/wizarding_table/gui/recipe_book/recipe/sparkstone_orb
+execute if score @s maddons.wizarding_table_page matches 2 run function magical_addons:block/custom/wizarding_table/gui/recipe_book/recipe/aether_portal
 
 ## Orb damage indicator
 data modify block ~ ~ ~ Items[{Slot:17b}].components."minecraft:max_damage" set from block ~ ~ ~ components."minecraft:custom_data".magical_addons.max_damage

@@ -1,31 +1,12 @@
 {
+  "attributes": {
+    "minecraft:audio/music_volume": {
+      "modifier": "override",
+      "argument": 0
+    }
+  },
   "effects": {
-    "mood_sound": {
-      "sound": {
-        "sound_id": "magical_addons:ambient.aether.mood"
-      },
-      "tick_delay": 250,
-      "block_search_extent": 8,
-      "offset": 2.0
-    },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": {
-            "sound_id": "magical_addons:music.aether"
-          },
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": true
-        }
-      }
-    ],
-    "music_volume": 0.0,
-    "sky_color": 12632319,
-    "fog_color": 9671612,
     "water_color": 4159204,
-    "water_fog_color": 329011,
     "grass_color": 11665355,
     "foliage_color": 14417827
   },
@@ -67,14 +48,7 @@
   ],
   "spawners": {
     "monster": [],
-    "creature": [
-      {
-        "type": "minecraft:cow",
-        "weight": 1,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],
@@ -84,6 +58,6 @@
   },
   "spawn_costs": {},
   "has_precipitation": false,
-  "temperature": 2.0,
-  "downfall": 0.0
+  "temperature": 2,
+  "downfall": 0
 }
