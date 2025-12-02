@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "",
+  "external_title": {
+    "text": "",
+    "extra": [
+      {
+        "text": "Magical",
+        "color": "#ff00ff"
+      },
+      {
+        "text": " Addons",
+        "color": "#00ffff"
+      }
+    ]
+  },
+  "inputs": [],
+  "exit_action": {
+    "label": {
+      "translate": "gui.done"
+    }
+  },
+  "actions": [
+    {
+      "label": {
+        "translate": "dialog.magical_addons.gamerules"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "function magical_addons:dialog/gamerules with storage magical_addons:config"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {}
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:player/set_enchantable_item"
+  }
+}

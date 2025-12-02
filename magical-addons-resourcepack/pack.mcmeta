@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "min_format": 75,
+    "max_format": 75,
+    "description": [
+      {"text":"Magical Addons v0.1.0","color":"#AAAAAA","extra":[{"text":" "},
+      {"translate":"resourcePack.magical_addons.description"}]}
+    ]
+  }
+}

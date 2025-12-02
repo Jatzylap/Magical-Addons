@@ -1,0 +1,87 @@
+{
+  "attributes": {
+    "minecraft:audio/music_volume": {
+      "modifier": "override",
+      "argument": 0
+    },
+    "minecraft:audio/ambient_sounds": {
+      "modifier": "override",
+      "argument": {
+        "additions": {
+          "sound": {
+            "sound_id": "magical_addons:ambient.aether.additions"
+          },
+          "tick_chance": 0.0001
+        }
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:mycelium"
+        },
+        "probability": 0.118093334
+      }
+    ]
+  },
+  "effects": {
+    "water_color": 4159204,
+    "grass_color": 11665355,
+    "foliage_color": 14417827
+  },
+  "carvers": [
+    "magical_addons:cave"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [
+      "magical_addons:city_columns"
+    ],
+    [],
+    [
+      "magical_addons:ore_gravitite",
+      "magical_addons:ore_coal",
+      "magical_addons:ore_quartz",
+      "magical_addons:ore_dirt",
+      "magical_addons:ore_gravel",
+      "magical_addons:ore_emerald",
+      "magical_addons:ore_granite",
+      "magical_addons:ore_diorite",
+      "magical_addons:spring_water_sky"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "magical_addons:flower_plains_sky"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 0,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "has_precipitation": false,
+  "temperature": 2,
+  "downfall": 0
+}

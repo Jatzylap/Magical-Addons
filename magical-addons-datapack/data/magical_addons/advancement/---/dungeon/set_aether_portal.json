@@ -1,0 +1,26 @@
+{
+  "parent": "magical_addons:---/dungeon/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#magical_addons:aether_portal",
+                "predicates": {
+                  "minecraft:enchantable": {}
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:dungeon/aether_portal/raycast"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:enchantments",
+    "cases": [
+      {
+        "when": {
+          "magical_addons:lucidity": 1
+        },
+        "model": {
+          "type": "minecraft:special",
+          "model": {
+            "type": "minecraft:bed",
+            "texture": "magical_addons:aether"
+          },
+          "base": "magical_addons:item/aether_portal"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:special",
+      "model": {
+        "type": "minecraft:bed",
+        "texture": "minecraft:white"
+      },
+      "base": "minecraft:item/white_bed"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.22",
+	"texture_size": [64, 32],
+	"textures": {
+		"0": "magical_addons:entity/sculk_spider_hurt_layer",
+		"1": "magical_addons:entity/sculk_spider_bioluminescent_hurt_layer",
+		"particle": "magical_addons:entity/sculk_spider_hurt_layer"
+	},
+	"elements": [
+		{
+			"name": "head",
+			"from": [4, 5, -3],
+			"to": [12, 13, 5],
+			"rotation": {"x": 0, "y": 0, "z": 0, "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 6, 12, 10], "texture": "#0"},
+				"east": {"uv": [8, 6, 10, 10], "texture": "#0"},
+				"south": {"uv": [14, 6, 16, 10], "texture": "#0"},
+				"west": {"uv": [12, 6, 14, 10], "texture": "#0"},
+				"up": {"uv": [12, 6, 10, 2], "texture": "#0"},
+				"down": {"uv": [14, 2, 12, 6], "texture": "#0"}
+			}
+		},
+		{
+			"name": "head_glow",
+			"from": [4, 5, -3],
+			"to": [12, 13, 5],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"x": 0, "y": 0, "z": 0, "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [10, 6, 12, 10], "texture": "#1"},
+				"east": {"uv": [8, 6, 10, 10], "texture": "#1"},
+				"south": {"uv": [14, 6, 16, 10], "texture": "#1"},
+				"west": {"uv": [12, 6, 14, 10], "texture": "#1"},
+				"up": {"uv": [12, 6, 10, 2], "texture": "#1"},
+				"down": {"uv": [14, 2, 12, 6], "texture": "#1"}
+			}
+		}
+	]
+}

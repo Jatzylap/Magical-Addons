@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "magical_addons:wizarding_table"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_quartz"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "magical_addons:wizarding_table"
+    ]
+  }
+}

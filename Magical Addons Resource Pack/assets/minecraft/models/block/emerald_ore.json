@@ -1,7 +1,0 @@
-{
-	"parent":"magical_addons:block/template_ore",
-	"textures":{
-		"base":"block/emerald_ore",
-		"glow":"magical_addons:block/emerald_ore_overlay"
-	}
-}

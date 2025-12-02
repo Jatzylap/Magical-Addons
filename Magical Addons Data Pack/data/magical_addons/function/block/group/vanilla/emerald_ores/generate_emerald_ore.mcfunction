@@ -1,8 +1,0 @@
-# block:group/vanilla/emerald_ores/generate_emerald_ore
-# called by: dimension:*/worldgen/set_blocks
-
-summon item_display ~ ~ ~ {data:{magical_addons:{id:"emerald_ores",break_cmd:"execute unless block ~ ~ ~ #emerald_ores run kill @n[type=item_display,tag=maddons.emerald_ores,distance=...5]"}},Tags:[maddons.block,maddons.vanilla,maddons.cullable,maddons.light,maddons.emerald_ores,maddons.block.unloadable],item:{id:"stick",count:1,components:{item_model:"air",custom_model_data:{colors:[I;65280]}}},item_display:"head"}
-
-execute if predicate magical_addons:block/visible unless entity @n[type=item_display,tag=maddons.light,nbt={item:{components:{"minecraft:item_model":"magical_addons:misc/light"}}},distance=..1.5] run data modify entity @n[type=item_display,tag=maddons.light,distance=...5] item.components."minecraft:item_model" set value "magical_addons:misc/light"
-
-setblock ~ ~ ~ emerald_ore

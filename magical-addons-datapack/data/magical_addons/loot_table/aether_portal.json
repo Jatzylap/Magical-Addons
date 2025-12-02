@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_bed",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:enchantments": {
+                  "magical_addons:lucidity": 1
+                },
+                "minecraft:enchantable": {
+                  "value": 1
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

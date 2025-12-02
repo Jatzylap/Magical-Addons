@@ -1,0 +1,31 @@
+{
+  "parent": "magical_addons:story/ritual_sanctuary",
+  "criteria": {
+    "entered_aether": {
+      "conditions": {
+        "to": "minecraft:the_aether"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.story.enter_the_aether.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_bed",
+      "components": {
+        "minecraft:enchantments": {"magical_addons:lucidity": 1}
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.story.enter_the_aether.title"
+    }
+  },
+  "requirements": [
+    [
+      "entered_aether"
+    ]
+  ]
+}
