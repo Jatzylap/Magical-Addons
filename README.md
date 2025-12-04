@@ -1,4 +1,4 @@
-![Banner image](src/thumbnail.png)
+![Banner image](https://github.com/Jatzylap/Magical-Addons/blob/master/src/thumbnail.png)
 # Magical Addons
 
 Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a data pack designed to consistently further the boundaries of magic in Minecraft.
