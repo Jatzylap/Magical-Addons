@@ -1,7 +1,7 @@
 ![Banner image](src/thumbnail.png)
 # Magical Addons
 
-Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is an ambitious vanilla+ data pack designed to consistently further the boundaries of magic in Minecraft.
+Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a data pack designed to consistently further the boundaries of magic in Minecraft.
 
 [![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?include_prereleases&label=release&logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
@@ -9,10 +9,10 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 Currently in Early Access!
 
 ## Summary
-Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with wands and spells, but above all, through many vanilla blocks such as the Enchanting Table or the Bed. On your journey, naturally occurring materials such as Quartz, harvested from Quartz ore, are used to craft the Wizarding Bench: a block capable of infusing the power of Sparkstone into your items. Though if you're perceptive enough, you'll come across a Sparkstone geode which honours its Overworld counterpart with Sparkstone clusters and blocks. If you're feeling reckless however, you'll run into an ominous-looking structure called the Ritual Sanctuary, home to a sanctum full of Sparkstone blocks yet filled to the brim with Evokers and Vex. Rumour has it a powerful mob created with dark magic lurks within what is known as an Ancient Temple. 
+Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with the addition of magic wands, spells, and above all, Aether portals (aka bed portals). On your journey to the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone geodes, are used to power the Wizarding Bench: a block capable of crafting magical gear such as Gravitite armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can choose to search for the Staff of Ancients rumoured to have been guarded by an ancient automaton. 
 
 ## Getting to the Aether
-Bound to the Lucidity enchantment offered by the enchanting table, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For this, you must firstly enchant the bed with the Lucidity enchantment. Secondly, place the bed down. Finally, sleep in the bed when it is past dusk. 
+Bound to the Lucidity enchantment offered by the enchanting table, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For this, you must firstly enchant the bed with the Lucidity enchantment. Secondly, place the bed down. Finally, sleep in the bed when it is way past your bedtime.
 
 ## Setup
 - Locate your .minecraft installation directory
