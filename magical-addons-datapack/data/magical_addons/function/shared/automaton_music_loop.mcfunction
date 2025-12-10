@@ -3,7 +3,7 @@
 
 ## Reset timer & stop other music
 scoreboard players set @s maddons.automaton.music 0
-stopsound @s music
+execute if data storage magical_addons:config {disable_custom_boss_music:0b} run stopsound @s music
 stopsound @s hostile magical_addons:music.boss.intro
 stopsound @s hostile magical_addons:music.boss.phase1
 stopsound @s hostile magical_addons:music.boss.phase2
