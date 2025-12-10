@@ -2,10 +2,12 @@
 # called by: #minecraft:load
 
 ## Config
+gamerule command_blocks_work true
 gamerule command_block_output false
 gamerule max_command_sequence_length 2147483647
 gamerule max_command_forks 2147483647
-gamerule max_block_modifications 2147483647
+execute store result score #magical_addons:config maddons.temp run gamerule max_block_modifications
+execute if score #magical_addons:config maddons.temp matches ..4095 run gamerule max_block_modifications 4096
 execute unless data storage magical_addons:config "disable_world_greeting" run data merge storage magical_addons:config {"disable_world_greeting": false}
 execute unless data storage magical_addons:config "disable_custom_boss_music" run data merge storage magical_addons:config {"disable_custom_boss_music": false}
 execute in minecraft:overworld run forceload add -29999999 1600
@@ -20,6 +22,7 @@ scoreboard objectives add maddons.sprint custom:sprint_one_cm
 scoreboard objectives add maddons.sprint_ custom:sprint_one_cm
 scoreboard objectives add maddons.damage_taken custom:damage_taken
 scoreboard objectives add maddons.jump custom:jump
+scoreboard objectives add maddons.sheep_spawn_egg used:sheep_spawn_egg
 scoreboard objectives add maddons.mana dummy
 scoreboard objectives add maddons.x dummy
 scoreboard objectives add maddons.y dummy
