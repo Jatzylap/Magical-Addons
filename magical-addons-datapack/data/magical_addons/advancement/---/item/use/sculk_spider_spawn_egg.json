@@ -1,10 +1,30 @@
 {
   "parent": "magical_addons:---/item/use",
   "criteria": {
-    "requirement": {
+    "trigger1": {
       "trigger": "minecraft:item_used_on_block"
+    },
+    "trigger2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "maddons.sheep_spawn_egg": 1
+            }
+          }
+        ]
+      }
     }
   },
+  "requirements": [
+    [
+      "trigger1",
+      "trigger2"
+    ]
+  ],
   "rewards": {
     "function": "magical_addons:item/sculk_spider_spawn_egg/use"
   }

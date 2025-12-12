@@ -2,12 +2,12 @@
 # called by: player:tick
 
 ## Play intro once & stop other music
-execute unless score @s maddons.automaton.music matches 0.. run stopsound @s music
+execute unless score @s maddons.automaton.music matches 0.. if data storage magical_addons:config {disable_custom_boss_music:0b} run stopsound @s music
 execute unless score @s maddons.automaton.music matches 0.. run stopsound @s hostile magical_addons:music.boss.intro
 execute unless score @s maddons.automaton.music matches 0.. run stopsound @s hostile magical_addons:music.boss.phase1
 execute unless score @s maddons.automaton.music matches 0.. run stopsound @s hostile magical_addons:music.boss.phase2
 execute unless score @s maddons.automaton.music matches 0.. run stopsound @s hostile magical_addons:music.boss.phase3
-execute unless score @s maddons.automaton.music matches 0.. run playsound magical_addons:music.boss.intro music @s ~ ~ ~
+execute unless score @s maddons.automaton.music matches 0.. run playsound magical_addons:music.boss.intro hostile @s ~ ~ ~
 
 ## Music timer
 scoreboard players add @s maddons.automaton.music 1
