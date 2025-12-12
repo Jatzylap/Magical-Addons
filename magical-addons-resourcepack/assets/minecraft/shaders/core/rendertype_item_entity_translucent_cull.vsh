@@ -28,8 +28,11 @@ void main() {
     int alpha = int(texture(Sampler0, UV0).a * 255);
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
-    if (alpha == 1) vertexColor = Color;   // No ambient occlusion
+
+    // No ambient occlusion
+    if (alpha == 1) vertexColor = Color;
     else vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * texelFetch(Sampler2, UV2 / 16, 0);
+    
     texCoord0 = UV0;
     texCoord1 = UV1;
     texCoord2 = UV2;

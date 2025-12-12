@@ -1,8 +1,10 @@
 {
   "pack": {
-    "min_format": 93.1,
+    "min_format": 94.1,
     "max_format": 94.1,
     "description": [
-      {"text":"Magical Addons v0.1.0","color":"#AAAAAA"}    ]
+      {"text":"Magical Addons\n","color":"light_purple","extra":[
+      {"text":"0.1.1","color":"aqua"}]}
+    ]
   }
 }

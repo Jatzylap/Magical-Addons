@@ -44,6 +44,7 @@ scoreboard objectives add maddons.idamage dummy
 scoreboard objectives add maddons.damage dummy
 scoreboard objectives add maddons.max_damage dummy
 scoreboard objectives add maddons.death dummy
+scoreboard objectives add maddons.hurt dummy
 scoreboard objectives add maddons.scale dummy
 scoreboard objectives add maddons.animation dummy
 scoreboard objectives add maddons.rotation dummy
