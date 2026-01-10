@@ -14,7 +14,7 @@
             "type": "minecraft:bed",
             "texture": "magical_addons:aether"
           },
-          "base": "magical_addons:item/aether_portal"
+          "base": "minecraft:item/template_bed"
         }
       }
     ],
@@ -24,7 +24,7 @@
         "type": "minecraft:bed",
         "texture": "minecraft:white"
       },
-      "base": "minecraft:item/white_bed"
+      "base": "minecraft:item/template_bed"
     }
   }
 }

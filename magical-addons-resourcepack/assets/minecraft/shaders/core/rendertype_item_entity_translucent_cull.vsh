@@ -29,7 +29,7 @@ void main() {
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
 
-    // No ambient occlusion
+    // No ambient occlusion on certain custom blocks (e.g. clusters)
     if (alpha == 1) vertexColor = Color;
     else vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * texelFetch(Sampler2, UV2 / 16, 0);
     
