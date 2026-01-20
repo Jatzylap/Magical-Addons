@@ -10,4 +10,4 @@ execute if score #magical_addons:golden_tree maddons.temp matches 0..1 run setbl
 execute if score #magical_addons:golden_tree maddons.temp matches 2 run setblock ~ ~ ~ structure_block[mode=load]{mode:"LOAD",posX:-7,posY:0,posZ:-6,name:"magical_addons:golden_oak_fancy"}
 execute if score #magical_addons:golden_tree maddons.temp matches 0.. run setblock ~ ~1 ~ redstone_block
 
-kill 
+kill
