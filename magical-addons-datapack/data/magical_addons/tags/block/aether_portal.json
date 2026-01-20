@@ -1,7 +1,5 @@
 {
   "values": [
-
-	"minecraft:white_bed"
-  
+	  "#minecraft:beds"
   ]
 }

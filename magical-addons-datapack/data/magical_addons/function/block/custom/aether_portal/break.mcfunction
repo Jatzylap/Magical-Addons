@@ -3,10 +3,10 @@
 
 execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/aether_portal
 
-fill ~-1 ~ ~-2 ~1 ~1 ~1 air replace light[level=15]
-fill ~-1 ~ ~-1 ~1 ~1 ~2 air replace light[level=15]
-fill ~-2 ~ ~-1 ~1 ~1 ~1 air replace light[level=15]
-fill ~-1 ~ ~-1 ~2 ~1 ~1 air replace light[level=15]
+fill ~-1 ~ ~-2 ~1 ~ ~1 air replace light[level=10]
+fill ~-1 ~ ~-1 ~1 ~ ~2 air replace light[level=10]
+fill ~-2 ~ ~-1 ~1 ~ ~1 air replace light[level=10]
+fill ~-1 ~ ~-1 ~2 ~ ~1 air replace light[level=10]
 
 ## Part: head
 execute if entity @n[type=#magical_addons:display,tag=maddons.aether_portal,tag=maddons.block.face_north,tag=maddons.block.part_head,distance=...5] positioned ~ ~ ~1 run kill @n[type=#magical_addons:display,tag=maddons.aether_portal,tag=maddons.block.part_foot,distance=...5]
