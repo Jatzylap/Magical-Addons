@@ -2,4 +2,4 @@
 # called by: item:sparkstone_orb/explode
 
 execute on passengers run kill
-kill 
+kill
