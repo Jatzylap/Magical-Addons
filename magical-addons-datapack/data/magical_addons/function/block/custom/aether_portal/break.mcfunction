@@ -1,7 +1,8 @@
 # block:custom/aether_portal/break
 # called by: block:break
 
-execute unless entity @s[gamemode=creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/aether_portal
+execute if entity @s[type=!player] run loot spawn ~ ~ ~ loot magical_addons:blocks/aether_portal
+execute if entity @s[type=player,gamemode=!creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/aether_portal
 
 fill ~-1 ~ ~-2 ~1 ~ ~1 air replace light[level=10]
 fill ~-1 ~ ~-1 ~1 ~ ~2 air replace light[level=10]
