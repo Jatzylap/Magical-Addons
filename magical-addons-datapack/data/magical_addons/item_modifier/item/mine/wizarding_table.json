@@ -153,6 +153,43 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
+        "amount": 25,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:enchantment.efficiency",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "maddons.efficiency"
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:copper_axe"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:item",
         "amount": 40,
         "operation": "add_value",
         "slot": "mainhand"
@@ -339,6 +376,43 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
+        "amount": -0.7,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:enchantment.efficiency",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "maddons.nefficiency"
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:copper_pickaxe"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:item",
         "amount": -0.8,
         "operation": "add_value",
         "slot": "mainhand"
@@ -481,6 +555,7 @@
                 "minecraft:golden_shovel",
                 "minecraft:diamond_shovel",
                 "minecraft:netherite_shovel",
+                "minecraft:copper_shovel",
                 "minecraft:shears"
               ]
             }

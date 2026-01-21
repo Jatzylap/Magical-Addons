@@ -116,6 +116,43 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
+        "amount": -15.6,
+        "operation": "add_value",
+        "slot": "mainhand"
+      },
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:enchantment.efficiency",
+        "amount": {
+          "type": "minecraft:score",
+          "target": "this",
+          "score": "maddons.nefficiency"
+        },
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:copper_pickaxe"
+            }
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:block_break_speed",
+        "id": "magical_addons:item",
         "amount": -15.5,
         "operation": "add_value",
         "slot": "mainhand"
