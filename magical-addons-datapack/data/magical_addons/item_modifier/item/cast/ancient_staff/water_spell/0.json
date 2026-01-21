@@ -1,0 +1,13 @@
+{
+  "function": "minecraft:set_lore",
+  "entity": "this",
+  "lore": [
+    {
+      "translate": "enchantment.magical_addons.water_spell",
+      "color": "gray",
+      "italic": false
+    }
+  ],
+  "mode": "replace_section",
+  "offset": 0
+}
