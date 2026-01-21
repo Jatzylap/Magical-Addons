@@ -7,7 +7,7 @@
         "condition": "minecraft:location_check",
         "predicate": {
           "block": {
-            "blocks": "minecraft:trial_spawner",
+            "blocks": "minecraft:spawner",
             "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"small_sparkstone_bud\"}}}}"
           }
         }
@@ -27,7 +27,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:trial_spawner",
+          "blocks": "minecraft:spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"small_sparkstone_bud\"}}}}"
         }
       }
@@ -37,7 +37,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:trial_spawner",
+          "blocks": "minecraft:spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"large_sparkstone_bud\"}}}}"
         }
       }
@@ -47,7 +47,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:trial_spawner",
+          "blocks": "minecraft:spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"medium_sparkstone_bud\"}}}}"
         }
       }
@@ -57,7 +57,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "minecraft:trial_spawner",
+          "blocks": "minecraft:spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"sparkstone_cluster\"}}}}"
         }
       }

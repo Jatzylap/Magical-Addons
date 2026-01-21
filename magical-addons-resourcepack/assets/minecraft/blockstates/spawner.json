@@ -1,6 +1,6 @@
 {
   "variants": {
-    "ominous=false,trial_spawner_state=inactive": {
+    "": {
       "model": "magical_addons:block/air"
     }
   }

@@ -1,23 +1,29 @@
 { 
-  "block.trial_spawner.place": {
+  "block.spawner.place": {
     "replace": true,
     "sounds": [],
     "subtitle": ""
   },
 
-  "block.trial_spawner.break": {
+ "block.spawner.hit": {
     "replace": true,
     "sounds": [],
     "subtitle": ""
   },
 
-  "block.trial_spawner.step": {
+  "block.spawner.break": {
     "replace": true,
     "sounds": [],
     "subtitle": ""
   },
 
-  "block.trial_spawner.fall": {
+  "block.spawner.step": {
+    "replace": true,
+    "sounds": [],
+    "subtitle": ""
+  },
+
+  "block.spawner.fall": {
     "replace": true,
     "sounds": [],
     "subtitle": ""

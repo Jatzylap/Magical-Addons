@@ -5,9 +5,9 @@ $scoreboard players set #maddons.chunk.pos maddons.x $(x)
 $scoreboard players set #maddons.chunk.pos maddons.y $(y)
 $scoreboard players set #maddons.chunk.pos maddons.z $(z)
 
-execute store result score #maddons.spawner.pos maddons.x run data get block ~ ~ ~ x
-execute store result score #maddons.spawner.pos maddons.y run data get block ~ ~ ~ y
-execute store result score #maddons.spawner.pos maddons.z run data get block ~ ~ ~ z
+execute store result score #maddons.spawner.pos maddons.x run data get block ~ ~ ~ x 
+execute store result score #maddons.spawner.pos maddons.y run data get block ~ ~ ~ y 
+execute store result score #maddons.spawner.pos maddons.z run data get block ~ ~ ~ z 
 
 scoreboard players operation #maddons.spawner.pos maddons.x -= #-29999999 maddons.constant
 scoreboard players operation #maddons.spawner.pos maddons.y -= #16 maddons.constant

@@ -778,28 +778,111 @@
 	"sounds": [
 		{
 		"name":"block/trial_spawner/step1",
-		"preload": true,
-		"pitch": 0.8
+		"preload": true
 		},
 		{
 		"name":"block/trial_spawner/step2",
-		"preload": true,
-		"pitch": 0.8
+		"preload": true
 		},
 		{
 		"name":"block/trial_spawner/step3",
-		"preload": true,
-		"pitch": 0.8
+		"preload": true
 		},
 		{
 		"name":"block/trial_spawner/step4",
+		"preload": true
+		},
+		{
+		"name":"block/trial_spawner/step5",
+		"preload": true
+		}],
+	"subtitle": "subtitles.block.generic.footsteps"
+	},
+
+	"block.spawner.place": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/place1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/trial_spawner/step5",
+		"name":"block/spawner/place2",
 		"preload": true,
 		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/place3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/place4",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/place5",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.place"
+	},
+
+	"block.spawner.break": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/break1",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break2",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break3",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break4",
+		"preload": true,
+		"pitch": 0.8
+		},
+		{
+		"name":"block/spawner/break5",
+		"preload": true,
+		"pitch": 0.8
+		}],
+	"subtitle": "subtitles.block.generic.break"
+	},
+
+	"block.spawner.step": {
+	"category": "block",
+	"sounds": [
+		{
+		"name":"block/spawner/step1",
+		"preload": true
+		},
+		{
+		"name":"block/spawner/step2",
+		"preload": true
+		},
+		{
+		"name":"block/spawner/step3",
+		"preload": true
+		},
+		{
+		"name":"block/spawner/step4",
+		"preload": true
+		},
+		{
+		"name":"block/spawner/step5",
+		"preload": true
 		}],
 	"subtitle": "subtitles.block.generic.footsteps"
 	}

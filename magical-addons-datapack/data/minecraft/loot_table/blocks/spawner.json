@@ -137,5 +137,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/trial_spawner"
+  "random_sequence": "minecraft:blocks/spawner"
 }

@@ -14,23 +14,33 @@
                   "condition": "minecraft:any_of",
                   "terms": [
                     {
-                      "condition": "minecraft:match_tool",
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
                       "predicate": {
-                        "items": "minecraft:shears"
+                        "equipment": {
+                          "mainhand": {
+                            "items": "minecraft:shears"
+                          }
+                        }
                       }
                     },
                     {
-                      "condition": "minecraft:match_tool",
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
                       "predicate": {
-                        "predicates": {
-                          "minecraft:enchantments": [
-                            {
-                              "enchantments": "minecraft:silk_touch",
-                              "levels": {
-                                "min": 1
-                              }
+                        "equipment": {
+                          "mainhand": {
+                            "predicates": {
+                              "minecraft:enchantments": [
+                                {
+                                  "enchantments": "minecraft:silk_touch",
+                                  "levels": {
+                                    "min": 1
+                                  }
+                                }
+                              ]
                             }
-                          ]
+                          }
                         }
                       }
                     }
@@ -69,23 +79,33 @@
             "condition": "minecraft:any_of",
             "terms": [
               {
-                "condition": "minecraft:match_tool",
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
                 "predicate": {
-                  "items": "minecraft:shears"
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:shears"
+                    }
+                  }
                 }
               },
               {
-                "condition": "minecraft:match_tool",
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
                 "predicate": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
                       }
-                    ]
+                    }
                   }
                 }
               }
@@ -134,23 +154,33 @@
             "condition": "minecraft:any_of",
             "terms": [
               {
-                "condition": "minecraft:match_tool",
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
                 "predicate": {
-                  "items": "minecraft:shears"
+                  "equipment": {
+                    "mainhand": {
+                      "items": "minecraft:shears"
+                    }
+                  }
                 }
               },
               {
-                "condition": "minecraft:match_tool",
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
                 "predicate": {
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:silk_touch",
-                        "levels": {
-                          "min": 1
-                        }
+                  "equipment": {
+                    "mainhand": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "minecraft:silk_touch",
+                            "levels": {
+                              "min": 1
+                            }
+                          }
+                        ]
                       }
-                    ]
+                    }
                   }
                 }
               }

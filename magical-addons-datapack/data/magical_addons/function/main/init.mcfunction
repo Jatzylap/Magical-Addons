@@ -148,4 +148,3 @@ advancement revoke @a from magical_addons:---/player/root
 data modify storage magical_addons:temp data set value {}
 execute as @a run scoreboard players add @s maddons.mana 0
 execute as @a run scoreboard players enable @a maddons.developer_mode
-execute as @a run scoreboard players enable @a maddons.get_items

@@ -9,7 +9,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": "minecraft:trial_spawner",
+                "blocks": "minecraft:spawner",
                 "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"small_sparkstone_bud\"}}}}"
               }
             }

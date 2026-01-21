@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:trial_spawner",
+          "name": "minecraft:spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -22,13 +22,12 @@
                       "persistent": true
                     },
                     "sound": "playsound block.grass.step block @a ~ ~ ~ 0.15",
-                    "break_speed": 120,
+                    "break_speed": 75,
                     "loot_id": 3,
                     "groups": [
                       "leaves",
                       "explodable"
-                    ],
-                    "base_block": "spruce_slab[type=double]"
+                    ]
                   }
                 },
                 "minecraft:tooltip_display": {

@@ -1,5 +1,0 @@
-# block:vanilla/trial_spawner/generate_
-# called by: block:vanilla/trial_spawner/generate
-
-$execute positioned $(x) $(y) $(z) positioned ~ ~.5 ~ unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{}}}} summon item_display run data merge entity @s {transformation:{scale:[0.999,0.999,0.999]},data:{magical_addons:{id:"trial_spawner",break_cmd:"execute unless block ~ ~ ~ trial_spawner run function magical_addons:block/vanilla/trial_spawner/break"}},item:{id:"trial_spawner"},Tags:[maddons.block,maddons.vanilla,maddons.trial_spawner]}
-$execute positioned $(x) $(y) $(z) positioned ~ ~.5 ~ unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{}}}} run data merge block ~ ~ ~ {components:{custom_data:{magical_addons:{id:"trial_spawner",generated:1b,sound:"playsound magical_addons:block.trial_spawner.step block @a ~ ~ ~ 1"}}}}

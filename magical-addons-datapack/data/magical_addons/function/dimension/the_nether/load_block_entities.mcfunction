@@ -1,7 +1,7 @@
 # dimension:the_nether/load_block_entities
 # called by: dimension:the_nether/load_chunk
 
-## trial_spawner
-execute in overworld run fill -29999999 16 1600 -29999984 31 1615 air replace minecraft:trial_spawner
-clone from the_nether ~ ~ ~ ~15 ~15 ~15 to overworld -29999999 16 1600 filtered minecraft:trial_spawner
-$execute in overworld run fill -29999999 16 1600 -29999984 31 1615 command_block{auto:1b,Command:'function magical_addons:block/vanilla/trial_spawner/generate {dim:"the_nether",x:$(x),y:$(y),z:$(z)}'} replace trial_spawner
+## Spawner
+execute in overworld run fill -29999999 16 1600 -29999984 31 1615 air replace minecraft:spawner
+clone from the_nether ~ ~ ~ ~15 ~15 ~15 to overworld -29999999 16 1600 filtered minecraft:spawner
+$execute in overworld run fill -29999999 16 1600 -29999984 31 1615 command_block{auto:1b,Command:'function magical_addons:block/vanilla/spawner/generate {dim:"the_nether",x:$(x),y:$(y),z:$(z)}'} replace spawner

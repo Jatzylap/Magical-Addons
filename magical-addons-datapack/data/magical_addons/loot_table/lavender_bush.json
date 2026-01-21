@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:trial_spawner",
+          "name": "minecraft:spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
