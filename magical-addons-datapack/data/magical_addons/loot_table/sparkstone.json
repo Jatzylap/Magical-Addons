@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,7 +19,7 @@
                     "generated": false,
                     "id": "sparkstone",
                     "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 0.6",
-                    "break_speed": 2,
+                    "break_speed": 47,
                     "loot_id": 1,
                     "groups": [
                       "explodable"

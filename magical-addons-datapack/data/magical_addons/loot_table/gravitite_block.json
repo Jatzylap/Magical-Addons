@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,7 +19,7 @@
                     "generated": false,
                     "id": "gravitite_block",
                     "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
-                    "break_speed": 0,
+                    "break_speed": 45,
                     "loot_id": 4,
                     "groups": [
                       "explodable"

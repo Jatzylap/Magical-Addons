@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,12 +19,11 @@
                     "generated": false,
                     "id": "medium_sparkstone_bud",
                     "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 1.1",
-                    "break_speed": 8,
+                    "break_speed": 53,
                     "loot_id": 7,
                     "groups": [
                       "explodable"
-                    ],
-                    "base_block": "spawner"
+                    ]
                   }
                 },
                 "minecraft:tooltip_display": {

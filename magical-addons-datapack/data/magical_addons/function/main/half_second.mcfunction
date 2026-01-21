@@ -19,6 +19,10 @@ execute at @a as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity.b
 
 ## item
 execute at @a as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{id:"gravitite"}}}}},tag=!maddons.gravitite,distance=..16] at @s run function magical_addons:item/gravitite/fall_up
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{gui:1}}}}}]
+kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{result:1}}}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:brown_shulker_box",components:{"minecraft:container":[{}],"minecraft:custom_name":{"translate":"item.magical_addons.wizarding_table"}}}}]
+kill @e[type=item,nbt={Item:{id:"minecraft:barrel",components:{"minecraft:container":[{}],"minecraft:custom_name":{"translate":"item.magical_addons.wizarding_table"}}}}]
 
 ## magic
 execute at @a as @e[type=item_display,tag=maddons.lightning_spell,tag=maddons.found_target] at @s positioned ^ ^ ^-1 run function magical_addons:magic/lightning_spell/electricity/start

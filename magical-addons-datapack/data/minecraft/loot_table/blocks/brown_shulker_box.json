@@ -3,6 +3,24 @@
   "pools": [
     {
       "rolls": 1,
+      "entries": [ 
+        {
+          "type": "minecraft:loot_table",
+          "value": "magical_addons:blocks/wizarding_table",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "maddons.block.loot_id": 11
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",

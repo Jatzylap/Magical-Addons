@@ -19,6 +19,32 @@
         },
         {
           "type": "minecraft:loot_table",
+          "value": "magical_addons:blocks/cursed_head",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "maddons.block.loot_id": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "magical_addons:blocks/golden_oak_leaves",
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "maddons.block.loot_id": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "value": "magical_addons:blocks/gravitite_block",
           "conditions": [
             {
@@ -111,5 +137,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:blocks/spawner"
+  "random_sequence": "minecraft:blocks/trial_spawner"
 }

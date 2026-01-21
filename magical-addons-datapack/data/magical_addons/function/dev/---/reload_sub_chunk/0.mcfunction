@@ -18,4 +18,4 @@ execute store result storage magical_addons:temp data.dev.reload_sub_chunk.z int
 
 ## Reload chunk
 function magical_addons:dev/---/reload_sub_chunk/1 with storage magical_addons:temp data.dev.reload_sub_chunk
-kill 
+kill

@@ -18,3 +18,6 @@ $execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:comma
 
 ## Damaging spell
 $execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:damaging_spell":1}] run return run function magical_addons:magic/damaging_spell/start
+
+## Water spell
+$execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:water_spell":1}] run return run function magical_addons:magic/water_spell/start

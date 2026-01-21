@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,7 +19,7 @@
                   "magical_addons": {
                     "generated": false,
                     "id": "cursed_head",
-                    "break_speed": 15.0,
+                    "break_speed": 60.0,
                     "loot_id": 2,
                     "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
                     "groups": [ "explodable" ]

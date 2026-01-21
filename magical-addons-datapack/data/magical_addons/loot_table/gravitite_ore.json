@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,7 +19,7 @@
                     "generated": false,
                     "id": "gravitite_ore",
                     "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
-                    "break_speed": 1.0,
+                    "break_speed": 46,
                     "loot_id": 5,
                     "groups": [
                       "explodable",

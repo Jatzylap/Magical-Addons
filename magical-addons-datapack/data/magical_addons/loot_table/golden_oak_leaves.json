@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -22,7 +22,7 @@
                       "persistent": true
                     },
                     "sound": "playsound block.grass.step block @a ~ ~ ~ 0.15",
-                    "break_speed": 75,
+                    "break_speed": 120,
                     "loot_id": 3,
                     "groups": [
                       "leaves",
