@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:spawner",
+          "name": "minecraft:trial_spawner",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -23,8 +23,7 @@
                     "loot_id": 7,
                     "groups": [
                       "explodable"
-                    ],
-                    "base_block": "spawner"
+                    ]
                   }
                 },
                 "minecraft:tooltip_display": {

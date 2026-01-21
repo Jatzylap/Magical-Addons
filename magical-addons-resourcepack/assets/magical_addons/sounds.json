@@ -731,83 +731,73 @@
 	"subtitle": "subtitles.block.portal.travel"
 	},
 
-	"block.spawner.place": {
+	"block.trial_spawner.place": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/spawner/break1",
+		"name":"block/trial_spawner/place1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/break2",
+		"name":"block/trial_spawner/place2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/break3",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/spawner/break4",
+		"name":"block/trial_spawner/place3",
 		"preload": true,
 		"pitch": 0.8
 		}],
 	"subtitle": "subtitles.block.generic.place"
 	},
 
-	"block.spawner.break": {
+	"block.trial_spawner.break": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/spawner/break1",
+		"name":"block/trial_spawner/break1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/break2",
+		"name":"block/trial_spawner/break2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/break3",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/spawner/break4",
+		"name":"block/trial_spawner/break3",
 		"preload": true,
 		"pitch": 0.8
 		}],
 	"subtitle": "subtitles.block.generic.break"
 	},
 
-	"block.spawner.step": {
+	"block.trial_spawner.step": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/spawner/step1",
+		"name":"block/trial_spawner/step1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/step2",
+		"name":"block/trial_spawner/step2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/step3",
+		"name":"block/trial_spawner/step3",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/step4",
+		"name":"block/trial_spawner/step4",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/step5",
+		"name":"block/trial_spawner/step5",
 		"preload": true,
 		"pitch": 0.8
 		}],

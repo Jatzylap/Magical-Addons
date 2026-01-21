@@ -5,8 +5,5 @@
 execute if block ~ ~ ~ #magical_addons:air_like run function magical_addons:particle/break_block {id:"magical_addons:golden_oak_leaves"}
 execute if block ~ ~ ~ #magical_addons:air_like run playsound block.grass.break block @a ~ ~ ~ 1 .8
 
-execute if entity @s[type=!player] run loot spawn ~ ~ ~ loot magical_addons:golden_oak_leaves
-execute if entity @s[type=player,gamemode=!creative] run loot spawn ~ ~ ~ loot magical_addons:blocks/golden_oak_leaves
-
 kill @n[type=#magical_addons:display,tag=maddons.golden_oak_leaves,distance=...5]
 kill @e[type=experience_orb,distance=...5]

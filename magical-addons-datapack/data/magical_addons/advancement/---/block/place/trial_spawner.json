@@ -1,0 +1,54 @@
+{
+  "parent": "magical_addons:---/block/place",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:all_of",
+                "terms": [
+                  {
+                    "condition": "minecraft:location_check",
+                    "predicate": {
+                      "block": {
+                        "blocks": "minecraft:trial_spawner"
+                      }
+                    }
+                  },
+                  {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                      "condition": "minecraft:location_check",
+                      "predicate": {
+                        "block": {
+                          "blocks": "minecraft:trial_spawner",
+                          "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{}}}}"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "condition": "minecraft:location_check",
+                "predicate": {
+                  "block": {
+                    "blocks": "minecraft:trial_spawner",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:trial_spawner}}}}"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:block/vanilla/trial_spawner/raycast"
+  }
+}

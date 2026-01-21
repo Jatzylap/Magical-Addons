@@ -6,7 +6,7 @@
       "offsetX": -1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }
@@ -16,7 +16,7 @@
       "offsetX": 1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }
@@ -26,7 +26,7 @@
       "offsetY": -1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }
@@ -36,7 +36,7 @@
       "offsetY": 1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }
@@ -46,7 +46,7 @@
       "offsetZ": -1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }
@@ -56,7 +56,7 @@
       "offsetZ": 1,
       "predicate": {
         "block": {
-          "blocks": "spawner",
+          "blocks": "minecraft:trial_spawner",
           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{properties:{path:1}}}}}"
         }
       }

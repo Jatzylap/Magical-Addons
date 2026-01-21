@@ -15,7 +15,7 @@
                     "condition": "minecraft:location_check",
                     "predicate": {
                       "block": {
-                        "blocks": "minecraft:spawner"
+                        "blocks": "minecraft:trial_spawner"
                       }
                     }
                   },
@@ -25,7 +25,7 @@
                       "condition": "minecraft:location_check",
                       "predicate": {
                         "block": {
-                          "blocks": "minecraft:spawner",
+                          "blocks": "minecraft:trial_spawner",
                           "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{}}}}"
                         }
                       }
@@ -37,8 +37,8 @@
                 "condition": "minecraft:location_check",
                 "predicate": {
                   "block": {
-                    "blocks": "spawner",
-                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:spawner}}}}"
+                    "blocks": "trial_spawner",
+                    "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:trial_spawner}}}}"
                   }
                 }
               }

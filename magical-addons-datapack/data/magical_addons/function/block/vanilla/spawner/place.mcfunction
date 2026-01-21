@@ -5,5 +5,5 @@
 execute if entity @s[advancements={magical_addons:---/block/place/spawner=true}] run playsound magical_addons:block.spawner.place block @a ~ ~ ~ 1 .6
 
 ## Block
-summon item_display ~ ~ ~ {data:{magical_addons:{id:"spawner",break_cmd:"execute unless block ~ ~ ~ spawner run function magical_addons:block/vanilla/spawner/break"}},item:{id:"spawner"},Tags:[maddons.block,maddons.vanilla,maddons.spawner]}
-data merge block ~ ~ ~ {components:{custom_data:{magical_addons:{id:"spawner",generated:1b,sound:"playsound magical_addons:block.spawner.step block @a ~ ~ ~ 1"}}}}
+summon item_display ~ ~ ~ {data:{magical_addons:{id:"trial_spawner",break_cmd:"execute unless block ~ ~ ~ trial_spawner run function magical_addons:block/vanilla/spawner/break"}},item:{id:"trial_spawner"},Tags:[maddons.block,maddons.vanilla,maddons.spawner]}
+data merge block ~ ~ ~ {components:{custom_data:{magical_addons:{id:"trial_spawner",generated:1b,sound:"playsound magical_addons:block.spawner.step block @a ~ ~ ~ 1"}}}}
