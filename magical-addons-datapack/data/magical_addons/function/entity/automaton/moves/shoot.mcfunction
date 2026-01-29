@@ -2,7 +2,7 @@
 # called by: entity:automaton/attack
 
 ## Play sound
-execute on vehicle on vehicle run playsound magical_addons:entity.automaton.attack hostile @a ~ ~ ~ 3
+execute on vehicle on vehicle at @s as @a run playsound magical_addons:entity.automaton.attack hostile @a
 
 ## Cease motion
 execute on vehicle on vehicle run attribute @s movement_speed modifier add magical_addons:stop -9999 add_value

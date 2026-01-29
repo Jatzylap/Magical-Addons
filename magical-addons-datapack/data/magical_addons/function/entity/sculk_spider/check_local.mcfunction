@@ -13,8 +13,8 @@ execute on vehicle on vehicle unless data entity @s {NoAI:1b} on passengers on p
 execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] run effect give @a[distance=..16,gamemode=!creative,gamemode=!spectator] darkness 6
 
 ## Ambient sound
-execute if entity @s[tag=maddons.entity.baby,tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent run playsound entity.spider.ambient hostile @a ~ ~ ~ 1 1.3
-execute if entity @s[tag=!maddons.entity.baby,tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent run playsound entity.spider.ambient hostile @a ~ ~ ~ 1
+execute if entity @s[tag=maddons.entity.baby,tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent at @s as @a run playsound entity.spider.ambient hostile @a ~ ~ ~ 1 1.3
+execute if entity @s[tag=!maddons.entity.baby,tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent at @s as @a run playsound entity.spider.ambient hostile @a ~ ~ ~ 1
 
 ## Damage
 execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] on vehicle on vehicle anchored eyes positioned ^ ^ ^0.25 run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,dy=1] 3.0 mob_attack by @s

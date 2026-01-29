@@ -3,7 +3,7 @@
 
 particle minecraft:explosion_emitter ~ ~3 ~
 
-playsound minecraft:entity.generic.explode block @a ~ ~3 ~ 7 .8
+execute at @s as @a run playsound minecraft:entity.generic.explode block @a ~ ~3 ~ 7 .8
 
 summon falling_block ^-1 ^ ^ {Tags:[maddons.automaton.block],BlockState:{Name:"stone_brick_stairs"},DropItem:0,Time:0}
 summon falling_block ^1 ^ ^ {Tags:[maddons.automaton.block],BlockState:{Name:"stone_brick_stairs"},DropItem:0,Time:0}

@@ -1,5 +1,8 @@
 # dialog:gamerules
-# called by: dialog/config.json
+# called by: player:tick
+
+scoreboard players reset @s maddons.dialog.gamerules
+scoreboard players enable @s maddons.dialog.gamerules
 
 ## '\u0024' substitutes '$'
 

@@ -5,7 +5,7 @@
 execute on vehicle on vehicle run rotate @s facing entity @n[tag=!maddons.automaton,tag=!maddons.invul,type=!#magical_addons:invulnerable,distance=..64] feet
 
 ## Play sound
-execute on vehicle on vehicle run playsound magical_addons:entity.automaton.attack hostile @a ~ ~ ~ 3
+execute on vehicle on vehicle at @s as @a run playsound magical_addons:entity.automaton.attack hostile @a
 
 ## Cease motion
 execute on vehicle on vehicle run attribute @s movement_speed modifier add magical_addons:stop -9999 add_value

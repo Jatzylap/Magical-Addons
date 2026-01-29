@@ -442,51 +442,63 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/ambient1",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient2",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient3",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient4",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient5",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient6",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient7",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient8",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient9",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient10",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient11",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/ambient12",
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.ambient"
 	},
@@ -496,22 +508,26 @@
 	"sounds": [{
 		"name":"mob/enderdragon/hit1",
 		"pitch": 1.5,
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/enderdragon/hit2",
 		"pitch": 1.5,
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/enderdragon/hit3",
 		"pitch": 1.5,
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/enderdragon/hit4",
 		"pitch": 1.5,
-		"preload": true
+		"preload": true,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.hurt"
 	},
@@ -521,26 +537,31 @@
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/step1",
 		"attenuation_distance": 16,
+		"volume": 1.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step2",
 		"attenuation_distance": 16,
+		"volume": 1.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step3",
 		"attenuation_distance": 16,
+		"volume": 1.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step4",
 		"attenuation_distance": 16,
+		"volume": 1.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step5",
 		"attenuation_distance": 16,
+		"volume": 1.0,
 		"preload": true
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.step"
@@ -559,7 +580,9 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/slam",
-		"preload": true
+		"preload": true,
+		"volume": 7.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.slam"
 	},
@@ -635,7 +658,9 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/short_punch",
-		"preload": true
+		"preload": true,
+		"volume": 1.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
 	},
@@ -644,7 +669,9 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/punch",
-		"preload": true
+		"preload": true,
+		"volume": 1.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
 	},
@@ -653,7 +680,9 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/kick",
-		"preload": true
+		"preload": true,
+		"volume": 1.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
 	},
@@ -731,103 +760,35 @@
 	"subtitle": "subtitles.block.portal.travel"
 	},
 
-	"block.trial_spawner.place": {
-	"category": "block",
-	"sounds": [
-		{
-		"name":"block/trial_spawner/place1",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/trial_spawner/place2",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/trial_spawner/place3",
-		"preload": true,
-		"pitch": 0.8
-		}],
-	"subtitle": "subtitles.block.generic.place"
-	},
-
-	"block.trial_spawner.break": {
-	"category": "block",
-	"sounds": [
-		{
-		"name":"block/trial_spawner/break1",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/trial_spawner/break2",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/trial_spawner/break3",
-		"preload": true,
-		"pitch": 0.8
-		}],
-	"subtitle": "subtitles.block.generic.break"
-	},
-
-	"block.trial_spawner.step": {
-	"category": "block",
-	"sounds": [
-		{
-		"name":"block/trial_spawner/step1",
-		"preload": true
-		},
-		{
-		"name":"block/trial_spawner/step2",
-		"preload": true
-		},
-		{
-		"name":"block/trial_spawner/step3",
-		"preload": true
-		},
-		{
-		"name":"block/trial_spawner/step4",
-		"preload": true
-		},
-		{
-		"name":"block/trial_spawner/step5",
-		"preload": true
-		}],
-	"subtitle": "subtitles.block.generic.footsteps"
-	},
-
 	"block.spawner.place": {
 	"category": "block",
 	"sounds": [
 		{
-		"name":"block/spawner/place1",
+		"name":"block/spawner/break1",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/place2",
+		"name":"block/spawner/break2",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/place3",
+		"name":"block/spawner/break3",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/place4",
+		"name":"block/spawner/break4",
 		"preload": true,
 		"pitch": 0.8
 		},
 		{
-		"name":"block/spawner/place5",
+		"name":"block/spawner/break5",
 		"preload": true,
 		"pitch": 0.8
 		}],
-	"subtitle": "subtitles.block.generic.place"
+	"subtitle": "subtitles.block.generic.footsteps"
 	},
 
 	"block.spawner.break": {

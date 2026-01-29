@@ -2,7 +2,7 @@
 # called by: block:place
 
 ## Sound
-execute if entity @s[advancements={magical_addons:---/block/place/spawner=true}] run playsound magical_addons:block.spawner.place block @a ~ ~ ~ 1 .6
+execute if entity @s[advancements={magical_addons:---/block/place/spawner=true}] run playsound magical_addons:block.spawner.place block @a ~ ~ ~ 1
 
 ## Block
 summon item_display ~ ~ ~ {data:{magical_addons:{id:"spawner",break_cmd:"execute unless block ~ ~ ~ spawner run function magical_addons:block/vanilla/spawner/break"}},item:{id:"spawner"},Tags:[maddons.block,maddons.vanilla,maddons.spawner]}

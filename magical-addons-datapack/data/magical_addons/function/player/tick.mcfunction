@@ -1,6 +1,20 @@
 # player:tick
 # called by advancement: player:tick
 
+## Calculate chunk coords to load custom blocks 
+execute store result score #maddons.chunk maddons.x store result score #maddons.chunk_ maddons.x run data get entity @s Pos[0]
+execute store result score #maddons.chunk maddons.y store result score #maddons.chunk_ maddons.y run data get entity @s Pos[1]
+execute store result score #maddons.chunk maddons.z store result score #maddons.chunk_ maddons.z run data get entity @s Pos[2]
+scoreboard players operation #maddons.chunk_ maddons.x %= #16 maddons.constant
+scoreboard players operation #maddons.chunk_ maddons.y %= #16 maddons.constant
+scoreboard players operation #maddons.chunk_ maddons.z %= #16 maddons.constant
+execute store result storage magical_addons:temp data.dimension.x int 1 run scoreboard players operation #maddons.chunk maddons.x -= #maddons.chunk_ maddons.x
+execute store result storage magical_addons:temp data.dimension.y int 1 run scoreboard players operation #maddons.chunk maddons.y -= #maddons.chunk_ maddons.y
+execute store result storage magical_addons:temp data.dimension.z int 1 run scoreboard players operation #maddons.chunk maddons.z -= #maddons.chunk_ maddons.z
+data modify storage magical_addons:temp data.dimension.UUID set from entity @s UUID
+data modify storage magical_addons:temp data.dimension.id set string entity @s Dimension 10
+function magical_addons:dimension/set_chunk_corner with storage magical_addons:temp data.dimension
+
 ## If player moves
 execute if predicate magical_addons:player/move run function magical_addons:player/move
 
@@ -50,8 +64,11 @@ execute if data storage magical_addons:config {"disable_custom_boss_music":false
 ## Stop automaton boss track
 execute if data storage magical_addons:config {"disable_custom_boss_music":false} if entity @s[tag=maddons.boss.automaton] unless entity @n[type=item_display,tag=maddons.entity.ai,tag=maddons.automaton,distance=..64] run function magical_addons:shared/automaton_music_stop
 
-## dev
-tellraw @s[tag=maddons.dev] ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------\n"},{"text":"[Gamerules]\n\n","color":"gold","click_event":{"action":"run_command","command":"function magical_addons:dialog/gamerules with storage magical_addons:config"}},{"text":"Custom Blocks: ","color":"green"},{"score":{"name":"#maddons.block","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill Blocks]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.block]"}},{"text":"\n"},{"text":"Custom Entities: ","color":"green"},{"score":{"name":"#maddons.entity","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.entity]"}},{"text":"\n"},{"text":"Custom Spells: ","color":"green"},{"score":{"name":"#maddons.magic","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.magic]"}},{"text":"\n"},{"text":"Custom Particles: ","color":"green"},{"score":{"name":"#maddons.particle","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.particle]"}},{"text":"\n\n"},{"text":"Total Items: ","color":"aqua"},{"score":{"name":"#maddons.item","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=item]"}},{"text":"\n"},{"text":"Registered Entities: ","color":"aqua"},{"score":{"name":"#maddons.registered","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.registered,type=!player]"}},{"text":"\n"},{"text":"Total Entities: ","color":"aqua"},{"score":{"name":"#maddons.global","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=!player]"}},{"text":"\n-------------------------------"}]
+## Dialog
+execute as @s[scores={maddons.dialog.gamerules=1..}] run function magical_addons:dialog/gamerules with storage magical_addons:config
+
+## Developer
+tellraw @s[tag=maddons.dev] ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------\n"},{"text":"Custom Blocks: ","color":"green"},{"score":{"name":"#maddons.block","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill Blocks]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.block]"}},{"text":"\n"},{"text":"Custom Entities: ","color":"green"},{"score":{"name":"#maddons.entity","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.entity]"}},{"text":"\n"},{"text":"Custom Spells: ","color":"green"},{"score":{"name":"#maddons.magic","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.magic]"}},{"text":"\n"},{"text":"Custom Particles: ","color":"green"},{"score":{"name":"#maddons.particle","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.particle]"}},{"text":"\n\n"},{"text":"Total Items: ","color":"aqua"},{"score":{"name":"#maddons.item","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=item]"}},{"text":"\n"},{"text":"Registered Entities: ","color":"aqua"},{"score":{"name":"#maddons.registered","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.registered,type=!player]"}},{"text":"\n"},{"text":"Total Entities: ","color":"aqua"},{"score":{"name":"#maddons.global","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=!player]"}},{"text":"\n-------------------------------"}]
 execute if score @s maddons.developer_mode matches 1.. run function magical_addons:dev/toggle_dev_mode
 
 ## Reset

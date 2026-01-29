@@ -28,7 +28,7 @@ execute on vehicle on vehicle run attribute @s minecraft:movement_speed modifier
 execute if entity @s[tag=!maddons.phase1] on vehicle on vehicle run attribute @s minecraft:movement_speed modifier add magical_addons:speed 0.1 add_value
 
 ## Ambient sound
-execute if entity @s[tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent run playsound magical_addons:entity.automaton.ambient hostile @a ~ ~ ~ 3
+execute if predicate magical_addons:shared/5_percent if entity @s[tag=!maddons.entity.silent] at @s as @a run playsound magical_addons:entity.automaton.ambient hostile @a
 
 ## Attack
 execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.attack] if entity @n[type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton,distance=..64] if predicate magical_addons:shared/50_percent run function magical_addons:entity/automaton/attack

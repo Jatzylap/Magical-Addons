@@ -36,6 +36,7 @@ scoreboard objectives add maddons.z2 dummy
 scoreboard objectives add maddons.constant dummy
 scoreboard objectives add maddons.temp dummy
 scoreboard objectives add maddons.developer_mode trigger
+scoreboard objectives add maddons.dialog.gamerules trigger
 scoreboard objectives add maddons.successCount dummy
 scoreboard objectives add maddons.soul_bottle dummy
 scoreboard objectives add maddons.wizarding_table_page dummy
@@ -148,3 +149,4 @@ advancement revoke @a from magical_addons:---/player/root
 data modify storage magical_addons:temp data set value {}
 execute as @a run scoreboard players add @s maddons.mana 0
 execute as @a run scoreboard players enable @a maddons.developer_mode
+execute as @a run scoreboard players enable @a maddons.dialog.gamerules

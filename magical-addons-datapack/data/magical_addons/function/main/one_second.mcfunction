@@ -16,7 +16,9 @@ execute at @a as @e[type=item_display,tag=maddons.wizarding_table,tag=off,distan
 execute at @a as @e[type=item_display,tag=maddons.block.sapling,sort=random,limit=30] at @s run function magical_addons:block/group/custom/sapling/grow with entity @s data.magical_addons
 
 ## structure
-execute as @e[tag=maddons.custom_entity_spawner] at @s run function magical_addons:dev/force_custom_entity with entity @s data.magical_addons
+execute store result score #maddons.shared.difficulty maddons.temp run difficulty
+execute store result score #maddons.shared.spawn_mobs maddons.temp run gamerule spawn_mobs
+execute unless score #maddons.shared.difficulty maddons.temp matches 0 unless score #maddons.shared.spawn_mobs maddons.temp matches 0 as @e[tag=maddons.custom_entity_spawner] at @s run function magical_addons:entity/spawn with entity @s data.magical_addons
 
 ## stop creative music in aether dimension
 stopsound @a[nbt={Dimension:"minecraft:the_aether"}] music music.creative
@@ -27,7 +29,7 @@ execute as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity.brain] 
 
 ## portal
 execute as @a at @s run execute as @e[type=item_display,tag=maddons.aether_portal,tag=maddons.block.part_foot,limit=100,sort=random,distance=..16] at @s run function magical_addons:block/custom/aether_portal/tick
-execute if predicate magical_addons:shared/5_percent as @n[type=item_display,tag=maddons.aether_portal] at @s run playsound magical_addons:block.portal.ambient ambient @a ~ ~ ~ 1
+execute if predicate magical_addons:shared/5_percent as @n[type=item_display,tag=maddons.aether_portal] at @s as @a run playsound magical_addons:block.portal.ambient ambient @a
 
 ## shared
 scoreboard players reset @a maddons.successCount

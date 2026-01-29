@@ -2,7 +2,7 @@
 # called by: entity:automaton/attack
 
 ## Play sound
-execute on vehicle on vehicle run playsound magical_addons:entity.automaton.short_punch hostile @a ~ ~ ~ 3
+execute on vehicle on vehicle at @s as @a run playsound magical_addons:entity.automaton.short_punch hostile @a
 
 ## Set flags
 tag @s add maddons.entity.attack

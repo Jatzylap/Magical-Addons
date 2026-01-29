@@ -2,7 +2,7 @@
 # called by: entity:automaton/animate/jump
 
 ## Sound
-execute on vehicle on vehicle at @s unless block ~ ~-1 ~ #magical_addons:non_collidable run playsound magical_addons:entity.automaton.slam hostile @a ~ ~ ~ 7
+execute on vehicle on vehicle at @s unless block ~ ~-1 ~ #magical_addons:non_collidable at @s as @a run playsound magical_addons:entity.automaton.slam hostile @a ~ ~ ~ 7
 
 ## Damage
 execute on vehicle on vehicle at @s as @e[distance=..6,type=!#magical_addons:invulnerable,tag=!maddons.invul,tag=!maddons.automaton] at @s run damage @s 8 mob_attack by @n[tag=maddons.automaton,tag=maddons.vehicle]

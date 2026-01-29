@@ -1,6 +1,6 @@
 # dev:force_custom_entity
-# called by: <dev>
+# called by: main:one_second
 
 $function magical_addons:entity/$(entity)/summon {nbt:{}}
 
-kill
+kill @s[type=marker]
