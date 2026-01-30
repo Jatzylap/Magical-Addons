@@ -1,9 +1,6 @@
 # magic:commanding_spell/cast
 # called by: magic:commanding_spell/start
 
-## Particle
-particle minecraft:entity_effect{color:[.68,.36,.15,.98]} ~ ~ ~ 0 0 0 0 5 force @a
-
 ## Distance
 scoreboard players add @s maddons.commanding_spell 1
 

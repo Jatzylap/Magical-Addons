@@ -6,10 +6,26 @@
         {
           "type": "minecraft:loot_table",
           "value": "magical_addons:ancient_staff"
-        },
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "magical_addons:sparkstone_orb"
+          "value": "magical_addons:sparkstone_orb",
+          "functions": [
+            {
+              "": "",
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     }

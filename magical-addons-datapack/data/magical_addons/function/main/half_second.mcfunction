@@ -16,6 +16,7 @@ execute at @a as @e[type=#magical_addons:display,tag=maddons.block,tag=!maddons.
 ## mob
 execute at @a as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..16] at @s run function magical_addons:entity/sculk_spider/check_local
 execute at @a as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..64] at @s run function magical_addons:entity/automaton/check_local
+execute at @a as @e[type=item_display,tag=maddons.sparkstone_golem,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..64] at @s run function magical_addons:entity/sparkstone_golem/check_local
 
 ## item
 execute at @a as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{id:"gravitite"}}}}},tag=!maddons.gravitite,distance=..16] at @s run function magical_addons:item/gravitite/fall_up

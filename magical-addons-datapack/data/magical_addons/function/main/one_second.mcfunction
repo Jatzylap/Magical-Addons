@@ -26,6 +26,7 @@ stopsound @a[nbt={Dimension:"minecraft:the_aether"}] music music.creative
 ## entity
 execute as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity.brain] at @s run function magical_addons:entity/sculk_spider/check_global
 execute as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity.brain] at @s run function magical_addons:entity/automaton/check_global
+execute as @e[type=item_display,tag=maddons.sparkstone_golem,tag=maddons.entity.brain] at @s run function magical_addons:entity/sparkstone_golem/check_global
 
 ## portal
 execute as @a at @s run execute as @e[type=item_display,tag=maddons.aether_portal,tag=maddons.block.part_foot,limit=100,sort=random,distance=..16] at @s run function magical_addons:block/custom/aether_portal/tick

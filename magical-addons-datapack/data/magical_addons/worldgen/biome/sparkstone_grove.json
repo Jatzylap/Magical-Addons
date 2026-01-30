@@ -1,10 +1,5 @@
 {
-  "attributes": {
-    "minecraft:audio/music_volume": {
-      "modifier": "override",
-      "argument": 0
-    }
-  },
+  "attributes": {},
   "effects": {
     "water_color": 4159204,
     "grass_color": 11665355,

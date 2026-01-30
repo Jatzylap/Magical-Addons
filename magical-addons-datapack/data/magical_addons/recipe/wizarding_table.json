@@ -12,7 +12,7 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:trial_spawner",
+    "id": "minecraft:spawner",
     "components": {
       "minecraft:item_model": "magical_addons:wizarding_table",
       "minecraft:item_name": {

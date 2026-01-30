@@ -13,6 +13,7 @@
 	"minecraft:armor_stand",
 	"minecraft:falling_block",
 	"minecraft:splash_potion",
-	"minecraft:lingering_potion"
+	"minecraft:lingering_potion",
+	"minecraft:evoker_fangs"
 	]
 }

@@ -130,11 +130,12 @@
                         ]
                     },
                     {
-                        "title": "Library Data Packs",
+                        "title": "Data Packs",
                         "names": [
                             "gibbsly | Simple UUID Converter",
                             "MulverineX | Player Motion",
-                            "Aksiome | Bookshelf Modules: Raycast"
+                            "Aksiome | Bookshelf Modules: Raycast",
+                            "lightninng | Ominous Towers"
                         ]
                     },
                     {

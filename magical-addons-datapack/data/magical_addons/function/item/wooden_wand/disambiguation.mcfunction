@@ -21,3 +21,7 @@ $execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:damag
 
 ## Water spell
 $execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:water_spell":1}] run return run function magical_addons:magic/water_spell/start
+
+## Earth spell
+$execute if items entity @s weapon.$(hand) *[enchantments={"magical_addons:earth_spell":1}] run return run function magical_addons:magic/earth_spell/start
+

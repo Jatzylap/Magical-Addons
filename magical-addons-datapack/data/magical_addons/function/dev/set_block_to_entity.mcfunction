@@ -321,7 +321,7 @@ execute if block ~ ~ ~ minecraft:light_blue_banner run return run function magic
 execute if block ~ ~ ~ minecraft:brown_concrete run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"brown_concrete"}
 execute if block ~ ~ ~ minecraft:dirt_path run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"dirt_path"}
 execute if block ~ ~ ~ minecraft:acacia_fence run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"acacia_fence"}
-#execute if block ~ ~ ~ minecraft:trial_spawner run return run function magical_addons:dev/---/set_block_to_entity/1
+#execute if block ~ ~ ~ minecraft:spawner run return run function magical_addons:dev/---/set_block_to_entity/1
 execute if block ~ ~ ~ minecraft:birch_slab run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"birch_slab"}
 execute if block ~ ~ ~ minecraft:chest run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"chest"}
 execute if block ~ ~ ~ minecraft:cake run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"cake"}

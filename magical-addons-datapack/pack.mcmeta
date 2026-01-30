@@ -3,8 +3,8 @@
     "min_format": 94.1,
     "max_format": 94.1,
     "description": [
-      {"text":"Magical Addons\n","color":"light_purple","extra":[
-      {"text":"0.1.1","color":"aqua"}]}
+      {"text":"Magical Addons ","color":"gray","extra":[
+      {"text":"0.2"}]}
     ]
   }
 }

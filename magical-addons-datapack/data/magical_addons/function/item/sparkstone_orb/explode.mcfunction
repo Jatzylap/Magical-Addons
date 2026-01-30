@@ -2,7 +2,7 @@
 # called by: item:sparkstone_orb/loop
 
 summon lightning_bolt ~ 999 ~
-fill ~-6 ~-6 ~-6 ~6 ~6 ~6 air replace trial_spawner{components:{"minecraft:custom_data":{magical_addons:{groups:["explodable"]}}}}
+fill ~-6 ~-6 ~-6 ~6 ~6 ~6 air replace spawner{components:{"minecraft:custom_data":{magical_addons:{groups:["explodable"]}}}}
 
 ## Sounds
 playsound magical_addons:ambient.quake player @a ~ ~ ~ 100 0.5

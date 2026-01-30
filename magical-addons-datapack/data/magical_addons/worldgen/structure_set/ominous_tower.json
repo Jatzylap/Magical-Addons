@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "magical_addons:ominous_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 15,
+    "salt": 6453
+  }
+}

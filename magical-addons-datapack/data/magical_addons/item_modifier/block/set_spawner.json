@@ -1,4 +1,4 @@
 {
   "function": "minecraft:set_item",
-  "item": "minecraft:trial_spawner"
+  "item": "minecraft:spawner"
 }

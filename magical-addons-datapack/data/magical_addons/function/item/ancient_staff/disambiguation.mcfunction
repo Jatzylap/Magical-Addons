@@ -21,3 +21,10 @@ $execute if items entity @s weapon.$(hand) *[custom_model_data={strings:["damagi
 
 ## Sonic boom
 $execute if items entity @s weapon.$(hand) *[custom_model_data={strings:["sonic"]}] run return run function magical_addons:item/ancient_staff/cast/spell {spell:'sonic_boom',hand:'$(hand)',nbt:'$(nbt)'}
+
+## Water spell
+$execute if items entity @s weapon.$(hand) *[custom_model_data={strings:["water"]}] run return run function magical_addons:item/ancient_staff/cast/spell {spell:'water_spell',hand:'$(hand)',nbt:'$(nbt)'}
+
+## Earth spell
+$execute if items entity @s weapon.$(hand) *[custom_model_data={strings:["earth"]}] run return run function magical_addons:item/ancient_staff/cast/spell {spell:'earth_spell',hand:'$(hand)',nbt:'$(nbt)'}
+

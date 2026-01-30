@@ -5,6 +5,8 @@
     "magical_addons:lightning_spell",
     "magical_addons:commanding_spell",
     "magical_addons:wind_spell",
-    "magical_addons:damaging_spell"
+    "magical_addons:damaging_spell",
+    "magical_addons:water_spell",
+    "magical_addons:earth_spell"
 	]
 }

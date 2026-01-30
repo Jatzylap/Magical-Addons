@@ -1,0 +1,23 @@
+{
+  "parent": "magical_addons:---/player/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:evoker"
+          },
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:evoker_fangs"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:player/absorb_earth_spell"
+  }
+}

@@ -3,7 +3,6 @@
   "start_pool": "magical_addons:ritual_sanctuary/top",
   "size": 2,
 
-
   "comment": "THIS IS THE HEIGHT FROM HEIGHTMAP (NOT ACTUAL Y)",
   "start_height": {
     "type": "minecraft:uniform",
