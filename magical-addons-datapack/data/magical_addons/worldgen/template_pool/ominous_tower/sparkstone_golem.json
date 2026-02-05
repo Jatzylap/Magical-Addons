@@ -5,7 +5,7 @@
         "weight": 1,
         "element": {
           "element_type": "minecraft:single_pool_element",
-          "location": "magical_addons:ancient_temple/sparkstone_golem",
+          "location": "magical_addons:ominous_tower/sparkstone_golem",
           "projection": "rigid",
           "processors": "minecraft:empty"
         }
