@@ -35,7 +35,6 @@
     "minecraft:piercing",
     "minecraft:density",
     "minecraft:breach",
-    "#magical_addons:wand_spell",
-    "magical_addons:lucidity"
+    "#magical_addons:wand_spell"
   ]
 }

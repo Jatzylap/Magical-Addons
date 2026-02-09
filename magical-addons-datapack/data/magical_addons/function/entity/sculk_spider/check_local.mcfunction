@@ -18,3 +18,4 @@ execute if entity @s[tag=!maddons.entity.baby,tag=!maddons.entity.silent] if pre
 
 ## Damage
 execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] on vehicle on vehicle anchored eyes positioned ^ ^ ^0.25 run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,dy=1] 3.0 mob_attack by @s
+execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] on vehicle on vehicle run damage @n[tag=!maddons.sculk_spider,type=!#magical_addons:invulnerable,distance=..2] 3.0 mob_attack by @s

@@ -67,7 +67,6 @@
   "enchantment.magical_addons.damaging_spell": "Spell of Damaging",
   "enchantment.magical_addons.wind_spell": "Spell of Wind",
   "enchantment.magical_addons.sonic_boom": "Sonic Boom",
-  "enchantment.magical_addons.lucidity": "Lucidity",
 
   "container.wizarding_table.isLocked": "%s needs a %s!",
 
@@ -75,6 +74,7 @@
 
   "entity.magical_addons.sculk_spider": "Sculk Spider",
   "entity.magical_addons.automaton": "Automaton",
+  "entity.magical_addons.sparkstone_golem": "Sparkstone Golem",
 
   "advancements.magical_addons.story.obtain_quartz.title": "It\'s Quartz",
   "advancements.magical_addons.story.place_wizarding_table.title": "Yet Another Custom Crafter",

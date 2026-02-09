@@ -12,3 +12,4 @@ execute store result storage magical_addons:tick data.entity.automaton.animation
 
 ## Entity tick command
 execute as @e[type=!player,tag=maddons.entity.tickable] at @s run function magical_addons:entity/tick with entity @s data.magical_addons
+execute as @e[type=lightning_bolt,tag=!maddons.entity.summoned] at @s run function magical_addons:entity/lightning_bolt/set

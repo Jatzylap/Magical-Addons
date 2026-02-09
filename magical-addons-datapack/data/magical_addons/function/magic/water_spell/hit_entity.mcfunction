@@ -17,7 +17,7 @@ execute if entity @n[type=#magical_addons:spell_deflector,tag=!maddons.invul,tag
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force
 playsound magical_addons:item.generic.spell.dispel player @a ~ ~ ~ 1
 
-execute positioned ~-1 ~-1 ~-1 run fill ~ ~ ~ ~1 ~1 ~1 water replace #magical_addons:non_collidable
+fill ~ ~ ~ ~ ~ ~ water replace #magical_addons:non_collidable
 
 kill
 

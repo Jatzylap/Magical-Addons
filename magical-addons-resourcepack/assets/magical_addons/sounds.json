@@ -688,10 +688,12 @@
 	},
 
 	"item.dagger.hit": {
-	"category": "player",
+	"category": "neutral",
 	"sounds": [{
 		"name":"magical_addons:item/dagger_hit",
-		"preload": true
+		"preload": true,
+		"volume": 1.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.item.dagger.hit"
 	},

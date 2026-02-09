@@ -9,7 +9,7 @@ execute if entity @s[gamemode=creative] run tag @n[type=snowball,tag=maddons.sto
 execute as @n[type=snowball,tag=maddons.stone_dagger,tag=!maddons.summoned] at @s rotated as @p[advancements={magical_addons:---/item/use/stone_dagger=true}] run tp @s ~ ~ ~ ~ ~
 
 ## Shoot
-playsound entity.ender_pearl.throw player @a ~ ~ ~ 0.5 0.5
+execute at @s as @a run playsound entity.ender_pearl.throw neutral @a ~ ~ ~ 0.5 0.5
 data modify entity @n[type=snowball,tag=maddons.stone_dagger,tag=!maddons.summoned] Item set from entity @s SelectedItem
 execute as @n[type=snowball,tag=maddons.stone_dagger,tag=!maddons.summoned] at @s run function magical_addons:item/stone_dagger/shoot
 
