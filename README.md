@@ -16,10 +16,9 @@ When struck by a lightning bolt, a white bed provides the sleeping player with a
 
 ## Setup
 - Locate your .minecraft installation directory
-- To add the data pack to an existing world : drop the `magical-addons-datapack` folder into the `datapacks` directory of your world
-- To add the data pack to a new world : select the `More` tab in the new world settings, click `Data Packs`, then drag the `magical-addons-datapack` into the Minecraft window
-- In your `resourcepacks` directory, drop the `magical-addons-resourcepack` folder
-- In the game, select the `magical-addons-resourcepack` from your Resource Pack list
+- Drop the DP into the datapacks directory of your world or the Data Pack world settings window
+- Drop the RP into the resourcepacks directory
+- Select the RP from your Resource Pack list
 
 ## Credits [A-Z]
 - [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
