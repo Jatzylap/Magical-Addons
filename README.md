@@ -3,8 +3,9 @@
 
 Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a data pack designed to consistently further the boundaries of magic in Minecraft.
 
-[![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?logo=github&logoColor=red)](https://github.com/Jatzylap/Magical-Addons/releases)
+[![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
+[![CurseForge Downloads](http://cf.way2muchnoise.eu/255308.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 [![CurseForge Version](http://cf.way2muchnoise.eu/versions/255308_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 
 **Currently in Early Access!**
