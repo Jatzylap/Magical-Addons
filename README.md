@@ -5,8 +5,8 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 
 [![](https://img.shields.io/github/v/release/Jatzylap/Magical-Addons?logo=github)](https://github.com/Jatzylap/Magical-Addons/releases)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Jatzylap/Magical-Addons?logo=git&logoColor=white)](https://github.com/Jatzylap/Magical-Addons/commits/main)
-[![CurseForge Downloads](http://cf.way2muchnoise.eu/255308.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
-[![CurseForge Version](http://cf.way2muchnoise.eu/versions/255308_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
+[![CurseForge Downloads](https://cf.way2muchnoise.eu/1351106.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
+[![CurseForge Version](http://cf.way2muchnoise.eu/versions/1351106_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 
 **Currently in Early Access!**
 
