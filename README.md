@@ -3,8 +3,11 @@
 
 Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a data pack designed to consistently further the boundaries of magic in Minecraft.
 
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/hyNAnMwk?color=00AF5C&logo=modrinth)](https://modrinth.com/datapack/magical--addons)
+[![Modrinth Version](https://img.shields.io/modrinth/game-versions/hyNAnMwk?color=00AF5C&label=latest&logo=modrinth&last=true)](https://modrinth.com/datapack/magical--addons)
 [![Curseforge Downloads](https://cf.way2muchnoise.eu/1351106.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 [![CurseForge Version](http://cf.way2muchnoise.eu/versions/1351106_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
+[![Discord members online](https://img.shields.io/discord/1408091570930061312.svg?label=discord&logoColor=FFFFFF&logo=discord&color=7289DA&style=flat-square)](https://discord.gg/4kzRhxpjbk)
 
 **Currently in early access!**
 
