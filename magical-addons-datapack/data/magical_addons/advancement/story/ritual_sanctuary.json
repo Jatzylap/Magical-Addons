@@ -18,7 +18,7 @@
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:glowstone",
+      "id": "minecraft:magma_block",
       "components": {
         "minecraft:item_model": "magical_addons:sparkstone"
       }

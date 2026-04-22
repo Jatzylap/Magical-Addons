@@ -16,7 +16,7 @@
       "count": 1,
       "id": "minecraft:white_bed",
       "components": {
-        "minecraft:enchantments": {"magical_addons:lucidity": 1}
+        "minecraft:item_model": "magical_addons:aether_portal"
       }
     },
     "title": {

@@ -327,6 +327,10 @@
 			{
 			"name":"magical_addons:music/game/aether/nullverse",
 			"stream": true
+			},
+			{
+			"name":"magical_addons:music/game/aether/aevum",
+			"stream": true
 			}
 		]
 	},
@@ -784,11 +788,6 @@
 		"name":"block/spawner/break4",
 		"preload": true,
 		"pitch": 0.8
-		},
-		{
-		"name":"block/spawner/break5",
-		"preload": true,
-		"pitch": 0.8
 		}],
 	"subtitle": "subtitles.block.generic.footsteps"
 	},
@@ -813,11 +812,6 @@
 		},
 		{
 		"name":"block/spawner/break4",
-		"preload": true,
-		"pitch": 0.8
-		},
-		{
-		"name":"block/spawner/break5",
 		"preload": true,
 		"pitch": 0.8
 		}],
@@ -848,5 +842,37 @@
 		"preload": true
 		}],
 	"subtitle": "subtitles.block.generic.footsteps"
+	},
+
+	"entity.sparkstone_golem.ambient": {
+	"category": "hostile",
+	"sounds": [
+		{
+		"name":"magical_addons:entity/sparkstone_golem/ambient1",
+		"preload": true
+		}],
+	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.ambient"
+	},
+
+	"entity.sparkstone_golem.hurt": {
+	"category": "hostile",
+	"sounds": [
+		{
+		"name":"magical_addons:entity/sparkstone_golem/ambient1",
+		"preload": true,
+		"pitch": 0.5
+		}],
+	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.hurt"
+	},
+
+	"entity.sparkstone_golem.death": {
+	"category": "hostile",
+	"sounds": [
+		{
+		"name":"entity/shulker/death1",
+		"preload": true,
+		"pitch": 0.5
+		}],
+	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.death"
 	}
 }

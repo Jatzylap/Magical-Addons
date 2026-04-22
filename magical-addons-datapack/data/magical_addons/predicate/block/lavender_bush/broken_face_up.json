@@ -28,7 +28,7 @@
         "offsetY": -1,
         "predicate": {
           "block": {
-            "blocks": "#minecraft:big_dripleaf_placeable"
+            "blocks": "#magical_addons:shrubs_grow_on"
           }
         }
       }

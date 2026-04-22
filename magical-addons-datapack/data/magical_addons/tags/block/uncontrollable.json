@@ -1,7 +1,6 @@
 {
 	"values":[
 		"#magical_addons:air_like",
-		"minecraft:spawner",
 		"minecraft:barrier",
 		"minecraft:water",
 		"minecraft:lava",
@@ -16,6 +15,8 @@
 		"minecraft:vine",
 		"minecraft:glow_lichen",
 		"minecraft:weeping_vines",
-		"minecraft:twisting_vines"
+		"minecraft:twisting_vines",
+		"minecraft:short_grass",
+		"minecraft:tall_grass"
 	]
 }

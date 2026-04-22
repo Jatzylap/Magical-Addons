@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chain_command_block",
+    "minecraft:ender_pearl"
+  ],
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "count": 1,
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 999999,
+        "animation": "none"
+      },
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:item_model": "magical_addons:sparkstone_orb",
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_name": {
+        "translate": "item.magical_addons.sparkstone_orb"
+      },
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "id": "sparkstone_orb"
+        }
+      },
+      "minecraft:max_damage": 50,
+      "minecraft:damage": 0,
+      "minecraft:tool": {
+        "rules": [],
+        "damage_per_block": 0
+      },
+      "minecraft:max_stack_size": 1
+    }
+  }
+}

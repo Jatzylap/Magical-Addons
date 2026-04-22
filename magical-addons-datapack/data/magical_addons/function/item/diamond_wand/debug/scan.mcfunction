@@ -1,5 +1,5 @@
 # item:diamond_wand/debug/scan
-# called by: iris:raycast/macro_functions/callback
+# called by: bs.raycast:utils/on_targeted_block
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:command_block{components:{"minecraft:custom_data":{magical_addons:{id:"diamond_wand"}}}} run function magical_addons:item/diamond_wand/debug/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:command_block{components:{"minecraft:custom_data":{magical_addons:{id:"diamond_wand"}}}} run function magical_addons:item/diamond_wand/debug/place

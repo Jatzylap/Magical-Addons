@@ -20,7 +20,7 @@ execute if items entity @s weapon.* *[custom_data~{magical_addons:{id:ancient_st
 execute if items entity @s weapon.* *[custom_data~{magical_addons:{id:ancient_staff}}] anchored eyes positioned ^ ^ ^ as @n[type=#minecraft:impact_projectiles,distance=..2] at @s store result entity @s Motion[2] double -1 run data get entity @s Motion[2] 0.5
 
 ## Step sounds on custom blocks
-execute as @e[type=#magical_addons:uses_custom_tile_step_sound,type=!player,tag=!maddons.custom_step_sound,nbt=!{Motion:[0.000d,0.000d,0.000d]},distance=..16] at @s run function magical_addons:entity/tile_step
+execute as @e[type=#magical_addons:uses_tile_step_sound,type=!player,tag=!maddons.custom_step_sound,nbt=!{Motion:[0.000d,0.000d,0.000d]},distance=..16] at @s run function magical_addons:entity/tile_step
 execute as @e[type=!#magical_addons:invulnerable,type=!player,tag=maddons.vehicle,tag=maddons.custom_step_sound,nbt=!{Motion:[0.000d,0.000d,0.000d]},distance=..16] at @s run function magical_addons:entity/step
 
 ## Get saved custom block target to detect whether it broke

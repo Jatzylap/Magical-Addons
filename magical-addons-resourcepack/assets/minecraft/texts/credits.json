@@ -96,7 +96,7 @@
                 "discipline": "Testing",
                 "titles": [
                     {
-                        "title": "Alpha Testers (Technical)",
+                        "title": "Alpha Testers",
                         "names": [
                             "Jatzylap",
                             "GhostAdmiral",
@@ -111,7 +111,7 @@
                         ]
                     },
                     {
-                        "title": "Beta Testers (Early Access)",
+                        "title": "Beta Testers",
                         "names": [
                             "Jatzylap",
                             "GhostAdmiral"
@@ -123,12 +123,6 @@
 
                 "discipline": "Special Thanks",
                 "titles": [
-                    {
-                        "title": "Shaders",
-                        "names": [
-                            "Godlander | OBJMC"
-                        ]
-                    },
                     {
                         "title": "Data Packs",
                         "names": [

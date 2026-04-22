@@ -1,10 +1,18 @@
 {
   "pack": {
-    "min_format": 94.1,
-    "max_format": 94.1,
+    "min_format": 101.1,
+    "max_format": 101.1,
     "description": [
       {"text":"Magical Addons ","color":"gray","extra":[
-      {"text":"0.2.1"}]}
+      {"text":"0.3"}]}
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "minecraft",
+        "path": "recipe/repair_item"
+      }
     ]
   }
 }

@@ -9,7 +9,7 @@ tag @s remove maddons.entity.brain
 execute on vehicle on passengers run rotate @s ~ 0
 
 ## Sound
-playsound entity.iron_golem.death hostile @a ~ ~ ~ 1
+playsound magical_addons:entity.sparkstone_golem.death hostile @a ~ ~ ~ 0.25
 
 ## Tick
 scoreboard players set @s maddons.death 0

@@ -11,3 +11,4 @@ playsound block.beacon.power_select player @a ~ ~ ~ 0.5 2
 
 $$(cmd1)
 $$(cmd2)
+$$(cmd3)

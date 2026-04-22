@@ -1,0 +1,68 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 999999,
+                  "animation": "none",
+                  "has_consume_particles": false,
+                  "on_consume_effects": []
+                },
+                "minecraft:food": {
+                  "nutrition": 0,
+                  "saturation": 0,
+                  "can_always_eat": true
+                },
+                "minecraft:rarity": "common",
+                "minecraft:item_model": "magical_addons:copper_dagger",
+                "minecraft:max_damage": 190,
+                "minecraft:max_stack_size": 1,
+                "minecraft:damage": 0,
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.copper_dagger"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "id": "copper_dagger",
+                    "max_damage": 190
+                  }
+                },
+                "minecraft:enchantable": {
+                  "value": 13
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:attack_damage",
+                    "id": "magical_addons:attack_damage",
+                    "amount": 2.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  },
+                  {
+                    "type": "minecraft:attack_speed",
+                    "id": "magical_addons:attack_speed",
+                    "amount": 1.6,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                  }
+                ],
+                "minecraft:tool": {
+                  "rules": [],
+                  "can_destroy_blocks_in_creative": false
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

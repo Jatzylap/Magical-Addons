@@ -43,6 +43,12 @@
         "recipe_id": "magical_addons:golden_wand"
       }
     },
+    "copper_wand": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "magical_addons:copper_wand"
+      }
+    },
     "diamond_wand": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
@@ -62,6 +68,7 @@
       "stone_wand",
       "iron_wand",
       "golden_wand",
+      "copper_wand",
       "diamond_wand",
       "netherite_wand"
     ]

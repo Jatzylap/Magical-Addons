@@ -39,6 +39,7 @@
   "has_ceiling": false,
   "has_skylight": true,
   "has_fixed_time": true,
+  "has_ender_dragon_fight": false,
   "cardinal_light": "nether",
   "height": 256,
   "infiniburn": "#minecraft:infiniburn_overworld",

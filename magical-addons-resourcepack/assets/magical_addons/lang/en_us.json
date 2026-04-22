@@ -18,17 +18,20 @@
   "gamerule.magical_addons.disable_custom_boss_music": "Disable Custom Boss Music",
 
   "arguments.magical_addons.summon.invalid": "This entity cannot be summoned in Peaceful difficulty!",
+  "arguments.magical_addons.id.invalid": "This custom block ID cannot be placed.",
 
   "item.magical_addons.wooden_dagger": "Wooden Dagger",
   "item.magical_addons.stone_dagger": "Stone Dagger",
   "item.magical_addons.iron_dagger": "Iron Dagger",
   "item.magical_addons.golden_dagger": "Golden Dagger",
+  "item.magical_addons.copper_dagger": "Copper Dagger",
   "item.magical_addons.diamond_dagger": "Diamond Dagger",
   "item.magical_addons.netherite_dagger": "Netherite Dagger",
   "item.magical_addons.wooden_wand": "Wooden Wand",
   "item.magical_addons.stone_wand": "Stone Wand",
   "item.magical_addons.iron_wand": "Iron Wand",
   "item.magical_addons.golden_wand": "Golden Wand",
+  "item.magical_addons.copper_wand": "Copper Wand",
   "item.magical_addons.diamond_wand": "Diamond Wand",
   "item.magical_addons.netherite_wand": "Netherite Wand",
   "item.magical_addons.sparkstone_orb": "Sparkstone Orb",
@@ -66,7 +69,9 @@
   "enchantment.magical_addons.lightning_spell": "Spell of Lightning",
   "enchantment.magical_addons.damaging_spell": "Spell of Damaging",
   "enchantment.magical_addons.wind_spell": "Spell of Wind",
-  "enchantment.magical_addons.sonic_boom": "Sonic Boom",
+  "enchantment.magical_addons.wind_spell": "Spell of Water",
+  "enchantment.magical_addons.earth_spell": "Spell of Earth",
+  "ability.magical_addons.sonic_boom": "Sonic Boom",
 
   "container.wizarding_table.isLocked": "%s needs a %s!",
 
@@ -117,6 +122,9 @@
   "subtitles.magical_addons.entity.automaton.death": "Automaton dies",
   "subtitles.magical_addons.entity.automaton.slam": "Automaton slams",
   "subtitles.magical_addons.entity.chicken.angry": "Chicken angers",
+  "subtitles.magical_addons.entity.sparkstone_golem.ambient": "Golem grumbles",
+  "subtitles.magical_addons.entity.sparkstone_golem.hurt": "Golem hurts",
+  "subtitles.magical_addons.entity.sparkstone_golem.death": "Golem dies",
 
   "subtitles.magical_addons.item.spell.cast": "Spell whizzes",
   "subtitles.magical_addons.item.spell.absorb": "Spell absorbs",

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:recovery_compass",
+          "name": "minecraft:repeating_command_block",
           "functions": [
             {
               "function": "minecraft:set_components",
@@ -19,7 +19,8 @@
                   "magical_addons": {
                     "id": "gravitite"
                   }
-                }
+                },
+                "minecraft:provides_trim_material": "magical_addons:gravitite"
               }
             }
           ]

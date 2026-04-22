@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:sparkstone_shard",
+          "value": "magical_addons:sparkstone_shard",
           "functions": [
             {
               "function": "minecraft:set_count",

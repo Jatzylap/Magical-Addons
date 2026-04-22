@@ -5,7 +5,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -14,
+        "amount": -69.0,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -42,7 +42,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15,
+        "amount": -70.5,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -79,7 +79,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15.6,
+        "amount": -71.1,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -116,7 +116,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15.5,
+        "amount": -71.0,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -153,7 +153,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15.5,
+        "amount": -71.0,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -190,7 +190,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15.5,
+        "amount": -71.0,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -227,7 +227,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": -15.6,
+        "amount": -71.1,
         "operation": "add_value",
         "slot": "mainhand"
       },
@@ -264,7 +264,7 @@
       {
         "attribute": "minecraft:block_break_speed",
         "id": "magical_addons:item",
-        "amount": 500,
+        "amount": 500.0,
         "operation": "add_value",
         "slot": "mainhand"
       },

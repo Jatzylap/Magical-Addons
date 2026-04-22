@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:chain_command_block"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:spawner",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "magical_addons:sparkstone",
+      "minecraft:item_name": {
+        "translate": "item.magical_addons.sparkstone"
+      },
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "generated": false,
+          "id": "sparkstone",
+          "sound": "playsound block.amethyst_block.step block @a ~ ~ ~ 0.15 0.6",
+          "break_speed": 2,
+          "loot_id": 1,
+          "groups": [
+            "explodable"
+          ]
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:block_entity_data"
+        ]
+      }
+    }
+  }
+}

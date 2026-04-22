@@ -74,8 +74,7 @@ item replace block ~ ~ ~ container.25 with structure_void[max_stack_size=1,max_d
 item replace block ~ ~ ~ container.26 with structure_void[max_stack_size=1,max_damage=100,item_model="air",custom_data={magical_addons:{gui:1}},tooltip_display={hide_tooltip:true}]
 
 ## Recipes
-execute if score @s maddons.wizarding_table_page matches 0 run function magical_addons:block/custom/wizarding_table/gui/recipe_book/recipe/gravitite_block
-execute if score @s maddons.wizarding_table_page matches 1 run function magical_addons:block/custom/wizarding_table/gui/recipe_book/recipe/sparkstone
+## ???
 
 ## Orb damage indicator
 data modify block ~ ~ ~ Items[{Slot:17b}].components."minecraft:max_damage" set from block ~ ~ ~ components."minecraft:custom_data".magical_addons.max_damage

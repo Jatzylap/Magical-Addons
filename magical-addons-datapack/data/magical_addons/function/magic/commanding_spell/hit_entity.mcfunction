@@ -1,8 +1,8 @@
 # magic:commanding_spell/hit_entity
 # called by: magic:commanding_spell/cast
 
-execute if entity @n[type=#magical_addons:boss,tag=!maddons.invul,tag=maddons.target_entity] run return 0
-execute if entity @n[tag=maddons.boss,tag=maddons.target_entity] run return 0
+execute if entity @n[type=#magical_addons:uncontrollable,tag=!maddons.invul,tag=maddons.target_entity] run return 0
+execute if entity @n[tag=maddons.entity.boss,tag=maddons.target_entity] run return 0
 
 ## If spell is absorbed
 execute as @n[type=!#magical_addons:invulnerable,tag=maddons.target_entity] at @s if items entity @s weapon.mainhand *[custom_data~{magical_addons:{id:"ancient_staff"}}] unless data entity @s SelectedItem.components."minecraft:lore".[5] run return run item modify entity @s weapon.mainhand magical_addons:item/absorb/ancient_staff/commanding_spell

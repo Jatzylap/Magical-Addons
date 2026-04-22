@@ -1,10 +1,7 @@
 {
   "type": "minecraft:random_selector",
   "config": {
-    "default": {
-      "feature": "minecraft:oak",
-      "placement": []
-    },
+    "default": "minecraft:oak",
     "features": [
       {
         "chance": 0.33333334,
