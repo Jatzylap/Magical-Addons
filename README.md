@@ -12,10 +12,10 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 **Currently in early access!**
 
 ## Summary
-Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with the addition of magic wands, spells, and above all, Aether portals (aka bed portals). On your journey to the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone geodes, are used to power the Wizarding Bench: a block capable of crafting magical gear such as Gravitite armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by an ancient automaton.
+Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with the addition of magic wands, spells, and above all, Aether portals (aka bed portals). On your journey to the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone geodes, are used to power the Wizarding Bench: a block capable of crafting magical gear such as Gravitite Armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by dark forces.
 
 ## Getting to the Aether
-When struck by a lightning bolt, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For the best chance of a strike, you can place a lightning rod next to the bed. Striking the rod with the Channeling enchantment works too. Next, sleep in the bed when it is way past your bedtime.
+When struck by a lightning bolt, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For the best chance of a strike, you can place a lightning rod next to the bed. Striking the rod with the Channelling enchantment works too. Next, sleep in the bed when it is way past your bedtime.
 
 ## Setup
 - Locate your .minecraft installation directory
@@ -23,11 +23,17 @@ When struck by a lightning bolt, a white bed provides the sleeping player with a
 - Drop the RP into the resourcepacks directory
 - Select the RP from your Resource Pack list
 
-## Credits [A-Z]
-- [GhostAdmiral](https://github.com/GhostAdmiral) (Project Lead, Programming, Game Design, Testing)
-- [Jatzylap](https://github.com/Jatzylap) (Project Lead, Programming, Game Design, Game Art, SFX, Testing)
-- Kotew (Original concept, Programming, Game Design, Game Art)
-- [NachoToast](https://github.com/NachoToast) (Programming)
-- Odedbir (Programming)
-- [Oisann](https://github.com/samsa12) (Narrative Design)
-- [SammygoodTunes](https://github.com/SammygoodTunes) (Original Soundtrack, Testing)
+## Credits
+- [GhostAdmiral](https://github.com/GhostAdmiral)
+- Kotew
+- [NachoToast](https://github.com/NachoToast)
+- Odedbir
+- [Oisann](https://github.com/samsa12)
+- [SammygoodTunes](https://github.com/SammygoodTunes)
+- SerpentLord77
+- Crusher919
+- Bazoo27
+- Gilt
+- Ianthekitten
+- Netrovek
+- Scarpionfighter
