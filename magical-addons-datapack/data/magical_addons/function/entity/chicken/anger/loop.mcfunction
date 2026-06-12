@@ -1,4 +1,4 @@
-# entity:chicken/anger/loop
+# magical_addons:entity/chicken/anger/loop
 # called by: main:tick_entity
 
 execute if score @s maddons.chicken.anger matches 1.. facing entity @p[gamemode=!creative,gamemode=!spectator] feet run tp @s ^ ^ ^.25 facing entity @p[gamemode=!creative,gamemode=!spectator] feet

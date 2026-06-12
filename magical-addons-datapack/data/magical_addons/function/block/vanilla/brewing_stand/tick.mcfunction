@@ -1,5 +1,5 @@
 # block:vanilla/brewing_stand/tick
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 # registered by: main:two_seconds
 
 ## Potion of Sparkstone

@@ -3,6 +3,9 @@
   "language.region": "United States",
   "language.code": "en_us",
 
+  "block.minecraft.chain_command_block": "§fSparkstone Shard",
+  "block.minecraft.repeating_command_block": "§fGravitite Gem",
+  
   "item.minecraft.quartz": "Quartz",
   "item.minecraft.potion.effect.sparkstone": "Potion of Recharging",
   "item.minecraft.potion.effect.sparkstone_splash": "Splash Potion of Recharging",
@@ -12,7 +15,6 @@
 
   "dialog.magical_addons.gamerules": "Gamerules",
   "dialog.magical_addons.save": "Save",
-
 
   "gamerule.magical_addons.disable_world_greeting": "Disable \"Magical Addons\" World Greeting",
   "gamerule.magical_addons.disable_custom_boss_music": "Disable Custom Boss Music",
@@ -62,6 +64,8 @@
   "item.magical_addons.sparkstone_splash_potion.lore": "Sparkstone",
   "item.magical_addons.sparkstone_lingering_potion.lore": "Sparkstone",
   "item.magical_addons.wizarding_table": "Wizarding Bench",
+  "item.magical_addons.sparkstone_dust": "Sparkstone Dust",
+  "item.magical_addons.sparkstone_golem_spawn_egg": "Sparkstone Golem Spawn Egg",
 
   "enchantment.magical_addons.commanding_spell": "Spell of Commanding",
   "enchantment.magical_addons.fire_spell": "Spell of Fire",
@@ -69,13 +73,15 @@
   "enchantment.magical_addons.lightning_spell": "Spell of Lightning",
   "enchantment.magical_addons.damaging_spell": "Spell of Damaging",
   "enchantment.magical_addons.wind_spell": "Spell of Wind",
-  "enchantment.magical_addons.wind_spell": "Spell of Water",
+  "enchantment.magical_addons.water_spell": "Spell of Water",
   "enchantment.magical_addons.earth_spell": "Spell of Earth",
-  "ability.magical_addons.sonic_boom": "Sonic Boom",
+  "____ability.magical_addons.sonic_boom": "Sonic Boom",
 
   "container.wizarding_table.isLocked": "%s needs a %s!",
 
   "instrument.magical_addons.deep_note_goat_horn": "Deep Note",
+
+  "trim_material.magical_addons.gravitite": "Gravitite Material",
 
   "entity.magical_addons.sculk_spider": "Sculk Spider",
   "entity.magical_addons.automaton": "Automaton",
@@ -122,9 +128,9 @@
   "subtitles.magical_addons.entity.automaton.death": "Automaton dies",
   "subtitles.magical_addons.entity.automaton.slam": "Automaton slams",
   "subtitles.magical_addons.entity.chicken.angry": "Chicken angers",
-  "subtitles.magical_addons.entity.sparkstone_golem.ambient": "Golem grumbles",
-  "subtitles.magical_addons.entity.sparkstone_golem.hurt": "Golem hurts",
-  "subtitles.magical_addons.entity.sparkstone_golem.death": "Golem dies",
+  "subtitles.magical_addons.entity.sparkstone_golem.ambient": "Sparkstone Golem grumbles",
+  "subtitles.magical_addons.entity.sparkstone_golem.hurt": "Sparkstone Golem hurts",
+  "subtitles.magical_addons.entity.sparkstone_golem.death": "Sparkstone Golem dies",
 
   "subtitles.magical_addons.item.spell.cast": "Spell whizzes",
   "subtitles.magical_addons.item.spell.absorb": "Spell absorbs",

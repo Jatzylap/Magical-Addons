@@ -1,0 +1,28 @@
+{
+  "values": [
+    "minecraft:mangrove_propagule",
+    "minecraft:bush",
+    "#iris:shape_groups/allium",
+    "minecraft:fire",
+    "minecraft:wheat",
+    "minecraft:rail",
+    "#iris:shape_groups/acacia_pressure_plate",
+    "minecraft:nether_portal",
+    "#iris:shape_groups/copper_chain",
+    "#iris:shape_groups/acacia_fence_gate",
+    "minecraft:enchanting_table",
+    "minecraft:cocoa",
+    "#iris:shape_groups/creeper_head",
+    "#iris:shape_groups/heavy_weighted_pressure_plate",
+    "minecraft:chorus_plant",
+    "#iris:shape_groups/kelp",
+    "#iris:shape_groups/brain_coral_fan",
+    "minecraft:scaffolding",
+    "#iris:shape_groups/campfire",
+    "minecraft:twisting_vines",
+    "minecraft:large_amethyst_bud",
+    "minecraft:pointed_dripstone",
+    "minecraft:big_dripleaf",
+    "minecraft:pale_hanging_moss"
+  ]
+}

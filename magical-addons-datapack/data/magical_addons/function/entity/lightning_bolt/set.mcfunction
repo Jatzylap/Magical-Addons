@@ -1,4 +1,4 @@
-# entity:lightning_bolt/set
+# magical_addons:entity/lightning_bolt/set
 # called by: main:tick
 
 function magical_addons:dungeon/aether_portal/scan

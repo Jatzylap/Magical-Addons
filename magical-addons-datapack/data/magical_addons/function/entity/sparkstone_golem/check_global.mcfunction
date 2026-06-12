@@ -1,4 +1,4 @@
-# entity:sparkstone_golem/check_global
+# magical_addons:entity/sparkstone_golem/check_global
 # called by: main:one_second
 
 ## Despawn

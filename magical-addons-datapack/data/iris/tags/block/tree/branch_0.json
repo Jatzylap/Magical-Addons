@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#iris:shape_groups/air",
+    "#iris:shape_groups/activator_rail",
+    "#iris:shape_groups/cactus",
+    "#iris:shape_groups/acacia_shelf",
+    "#iris:shape_groups/acacia_stairs",
+    "#iris:shape_groups/acacia_sign",
+    "#iris:shape_groups/acacia_hanging_sign",
+    "minecraft:snow",
+    "#iris:shape_groups/comparator",
+    "#iris:shape_groups/melon_stem",
+    "#iris:shape_groups/acacia_slab",
+    "#iris:shape_groups/cauldron",
+    "minecraft:tripwire_hook",
+    "minecraft:piglin_head",
+    "minecraft:hopper",
+    "minecraft:pitcher_crop",
+    "minecraft:sniffer_egg",
+    "minecraft:sea_pickle",
+    "minecraft:lectern",
+    "#iris:shape_groups/crimson_fungus",
+    "#iris:shape_groups/black_candle",
+    "minecraft:small_amethyst_bud",
+    "#iris:shape_groups/azalea",
+    "minecraft:hanging_roots"
+  ]
+}

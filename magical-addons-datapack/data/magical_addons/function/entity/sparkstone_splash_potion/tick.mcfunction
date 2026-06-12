@@ -1,5 +1,5 @@
 # item:sparkstone_splash_potion/tick
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 execute unless predicate magical_addons:shared/riding_vehicle on passengers run kill
 execute unless predicate magical_addons:shared/riding_vehicle run kill

@@ -1,6 +1,7 @@
 # block:custom/golden_oak_sapling/grow
 # called by: block:group/custom/sapling/grow
 
+execute unless dimension minecraft:the_aether run return fail
 execute unless score @s maddons.cooldown matches 100.. run return run scoreboard players add @s maddons.cooldown 1
 
 ## Place feature cmd does not work at high altitudes for some reason

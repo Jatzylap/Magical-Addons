@@ -1,5 +1,5 @@
-# entity:sparkstone_golem/tick
-# called by: entity:tick
+# magical_addons:entity/sparkstone_golem/tick
+# called by: magical_addons:entity/tick
 
 ## Get nbt
 execute store result score @s maddons.hurt on vehicle on vehicle run data get entity @s HurtTime

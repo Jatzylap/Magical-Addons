@@ -1,4 +1,4 @@
-# shared:automaton_music_start
+# magical_addons:shared/automaton_music_start
 # called by: player:tick
 
 ## Play intro once & stop other music

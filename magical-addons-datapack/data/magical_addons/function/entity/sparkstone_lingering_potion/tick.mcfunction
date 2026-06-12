@@ -1,5 +1,5 @@
 # item:sparkstone_lingering_potion/tick
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 execute unless predicate magical_addons:shared/riding_vehicle run summon area_effect_cloud ~ ~ ~ {Tags:[maddons.entity.tickable],data:{magical_addons:{tick_cmd:"function magical_addons:entity/sparkstone_lingering_potion/cloud_tick"}}}
 execute unless predicate magical_addons:shared/riding_vehicle on passengers run kill

@@ -13,6 +13,7 @@ tag @n[tag=maddons.target_entity] remove maddons.target_entity
 scoreboard players add @s maddons.move 1
 tp @s ^ ^ ^1 ~ 0
 execute if score @s maddons.move matches 3.. positioned over ocean_floor run summon evoker_fangs ~ ~ ~ {Tags:["maddons.invul"]}
+data modify entity @n[type=evoker_fangs,tag=maddons.invul] Owner set from entity @s UUID
 
 execute if score @s maddons.damage matches 1 run kill
-execute if score @s maddons.move matches 19.. run kill
+execute if score @s maddons.move matches 25.. run kill

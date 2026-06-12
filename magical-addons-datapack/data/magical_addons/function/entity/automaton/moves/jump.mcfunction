@@ -1,5 +1,5 @@
-# entity:automaton/moves/jump
-# called by: entity:automaton/attack
+# magical_addons:entity/automaton/moves/jump
+# called by: magical_addons:entity/automaton/attack
 
 ## Face target entity
 execute on vehicle on vehicle run rotate @s facing entity @n[tag=!maddons.automaton,tag=!maddons.invul,type=!#magical_addons:invulnerable,distance=..64] feet
@@ -18,6 +18,7 @@ tag @s add maddons.entity.attack
 ## Set animation
 execute on vehicle on passengers run scoreboard players set @s maddons.cooldown 199
 execute on vehicle on passengers run scoreboard players set @s maddons.animation -1
-execute on vehicle on passengers run data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 3f
 execute on vehicle on passengers run data merge entity @s {data:{magical_addons:{tick_cmd:"function magical_addons:entity/automaton/animate/jump",attack:{id:"jump"}}}}
+execute on vehicle on passengers run data merge entity @s[tag=maddons.entity.brain] {data:{magical_addons:{tick_cmd:"function magical_addons:entity/automaton/attack_tick with entity @s data.magical_addons.attack"}}}
+execute on vehicle on passengers run item modify entity @s contents magical_addons:entity/animate/automaton/attack
 execute on vehicle on passengers run tag @s add maddons.entity.tickable

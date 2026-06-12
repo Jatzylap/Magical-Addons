@@ -1,5 +1,5 @@
 # magic:lightning_spell/loop
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 scoreboard players add @s maddons.move 1
 

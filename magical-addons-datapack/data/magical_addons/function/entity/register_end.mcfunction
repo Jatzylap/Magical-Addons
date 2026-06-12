@@ -1,5 +1,5 @@
-# entity:register_end
-# called by: entity:register
+# magical_addons:entity/register_end
+# called by: magical_addons:entity/register
 
 ## Store UUID into storage 'magical_addons:tick'
 $execute unless data storage magical_addons:tick data.entities[{UUID:'$(out)'}] run data modify storage magical_addons:tick data.entities append value {UUID:'$(out)'}

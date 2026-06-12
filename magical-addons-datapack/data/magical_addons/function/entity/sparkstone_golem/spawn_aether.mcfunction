@@ -1,4 +1,4 @@
-# entity:sparkstone_golem/spawn_aether
+# magical_addons:entity/sparkstone_golem/spawn_aether
 # called by: dimension:the_aether/load_entities
 
 function magical_addons:entity/sparkstone_golem/summon {nbt:{}}

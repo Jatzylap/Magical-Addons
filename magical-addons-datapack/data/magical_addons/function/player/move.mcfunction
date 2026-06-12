@@ -15,5 +15,5 @@ data modify storage magical_addons:temp data.dimension.UUID set from entity @s U
 data modify storage magical_addons:temp data.dimension.id set string entity @s Dimension 10
 function magical_addons:dimension/set_chunk_corner with storage magical_addons:temp data.dimension
 
-## Step sounds
-function magical_addons:player/walk_on_block
+## Step sounds + particles
+function magical_addons:player/step_on_block

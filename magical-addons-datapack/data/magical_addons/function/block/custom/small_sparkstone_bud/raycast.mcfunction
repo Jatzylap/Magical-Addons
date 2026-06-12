@@ -1,10 +1,13 @@
 # block:custom/small_sparkstone_bud/raycast
 # called by advancement: block:place/small_sparkstone_bud
 
-data modify storage bs:data raycast.entities set value 0b
-data modify storage bs:data raycast.on_targeted_block set value "execute as @p[advancements={magical_addons:---/block/place/small_sparkstone_bud=true}] run function magical_addons:block/custom/small_sparkstone_bud/scan"
-execute store result storage bs:data raycast.max_distance int 2 run attribute @s minecraft:block_interaction_range get
+data merge storage iris:settings {\
+    target_entities: false,\
+    callback: "function magical_addons:block/custom/small_sparkstone_bud/scan",\
+    blacklist: "#magical_addons:intangible",\
+    whitelist: ""\
+}
 
-execute anchored eyes positioned ^ ^ ^ run function bs.raycast:run
+execute anchored eyes positioned ^ ^ ^ run function iris:get_target
 
 advancement revoke @s from magical_addons:---/block/place

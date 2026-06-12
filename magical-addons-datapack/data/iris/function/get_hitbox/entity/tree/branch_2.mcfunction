@@ -1,0 +1,14 @@
+execute if entity @s[type=minecraft:area_effect_cloud] run function iris:get_hitbox/entity/shape_groups/area_effect_cloud
+execute if entity @s[type=minecraft:bee] run function iris:get_hitbox/entity/shape_groups/bee
+execute if entity @s[type=#iris:shape_groups/camel] run function iris:get_hitbox/entity/shape_groups/camel
+execute if entity @s[type=minecraft:cod] run function iris:get_hitbox/entity/shape_groups/cod
+execute if entity @s[type=minecraft:dolphin] run function iris:get_hitbox/entity/shape_groups/dolphin
+execute if entity @s[type=minecraft:elder_guardian] run function iris:get_hitbox/entity/shape_groups/elder_guardian
+execute if entity @s[type=minecraft:evoker_fangs] run function iris:get_hitbox/entity/shape_groups/evoker_fangs
+execute if entity @s[type=#iris:shape_groups/goat] run function iris:get_hitbox/entity/shape_groups/goat
+execute if entity @s[type=minecraft:leash_knot] run function iris:get_hitbox/entity/shape_groups/leash_knot
+execute if entity @s[type=minecraft:polar_bear] run function iris:get_hitbox/entity/shape_groups/polar_bear
+execute if entity @s[type=minecraft:snow_golem] run function iris:get_hitbox/entity/shape_groups/snow_golem
+execute if entity @s[type=minecraft:vex] run function iris:get_hitbox/entity/shape_groups/vex
+execute if entity @s[type=minecraft:armor_stand] run function iris:get_hitbox/entity/shape_groups/armor_stand
+execute if entity @s[type=minecraft:slime] run function iris:get_hitbox/entity/shape_groups/slime

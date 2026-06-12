@@ -1,5 +1,5 @@
 # block:custom/golden_oak_leaves/scan
-# called by: bs.raycast:utils/on_targeted_block
+# called by: iris:raycast/macro_functions/callback
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"golden_oak_leaves"}}}} unless entity @n[type=#magical_addons:display,tag=maddons.block,distance=...5] run function magical_addons:block/custom/golden_oak_leaves/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:spawner{components:{"minecraft:custom_data":{magical_addons:{generated:0b,id:"golden_oak_leaves"}}}} unless entity @n[type=#magical_addons:display,tag=maddons.block,distance=...5] run function magical_addons:block/custom/golden_oak_leaves/place

@@ -1,5 +1,5 @@
 # magic:damaging_spell/loop
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 ## Block
 execute positioned ^ ^ ^1 unless block ~ ~ ~ #magical_addons:non_collidable positioned ^ ^ ^-1 run return run function magical_addons:magic/damaging_spell/hit_block

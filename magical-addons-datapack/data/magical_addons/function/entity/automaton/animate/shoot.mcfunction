@@ -1,6 +1,7 @@
-# entity:automaton/animate/shoot
-# called by: entity:tick
+# magical_addons:entity/automaton/animate/shoot
+# called by: magical_addons:entity/tick
 
+## Reset
 execute if score @s maddons.cooldown matches 0 on vehicle on passengers run function magical_addons:entity/automaton/moves/reset
 
 ## Stop
@@ -23,6 +24,5 @@ execute if score @s[tag=maddons.phase3] maddons.cooldown matches 50 on vehicle o
 execute if score @s maddons.cooldown matches 100 on vehicle on vehicle at @s positioned ~ ~-1.25 ~ run function magical_addons:entity/automaton/effects/shoot_spell
 execute if score @s maddons.cooldown matches 80 on vehicle on vehicle at @s positioned ~ ~-1.25 ~ run function magical_addons:entity/automaton/effects/shoot_spell
 execute if score @s maddons.cooldown matches 60 on vehicle on vehicle at @s positioned ~ ~-1.25 ~ run function magical_addons:entity/automaton/effects/shoot_spell
-execute if score @s maddons.cooldown matches 40 on vehicle on vehicle at @s positioned ~ ~-1.25 ~ run function magical_addons:entity/automaton/effects/shoot_spell
 
 scoreboard players remove @s maddons.cooldown 1

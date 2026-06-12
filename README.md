@@ -9,8 +9,6 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 [![CurseForge Version](http://cf.way2muchnoise.eu/versions/1351106_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 [![Discord members online](https://img.shields.io/discord/1408091570930061312.svg?label=discord&logoColor=FFFFFF&logo=discord&color=7289DA&style=flat-square)](https://discord.gg/4kzRhxpjbk)
 
-**Currently in early access!**
-
 ## Summary
 Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with the addition of magic wands, spells, and above all, Aether portals (aka bed portals). On your journey to the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone geodes, are used to power the Wizarding Bench: a block capable of crafting magical gear such as Gravitite armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by an ancient automaton.
 

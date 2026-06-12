@@ -1,5 +1,5 @@
 # block:custom/gravitite_ore/tick
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 ## Commanding spell debug
 execute if entity @s[tag=maddons.entity.suspend_tick] run return fail

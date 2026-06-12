@@ -3,6 +3,11 @@
 
 ## Exit
 execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:11b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category3
+execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:2b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/open_category1
+execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:3b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/open_category2
+execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:12b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/open_category4
+execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:20b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/open_category5
+execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:21b}]} run return run function magical_addons:block/custom/wizarding_table/gui/recipe_book/open_category6
 
 ## Sounds
 execute if entity @s[tag=maddons.block.rb.c3_] unless data block ~ ~ ~ {Items:[{Slot:8b}]} unless score @s maddons.wizarding_table_page matches ..0 run playsound ui.button.click ui @p ~ ~ ~ .3

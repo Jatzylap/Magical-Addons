@@ -541,31 +541,31 @@
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/step1",
 		"attenuation_distance": 16,
-		"volume": 1.0,
+		"volume": 4.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step2",
 		"attenuation_distance": 16,
-		"volume": 1.0,
+		"volume": 4.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step3",
 		"attenuation_distance": 16,
-		"volume": 1.0,
+		"volume": 4.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step4",
 		"attenuation_distance": 16,
-		"volume": 1.0,
+		"volume": 4.0,
 		"preload": true
 				},
 				{
 		"name":"magical_addons:entity/automaton/step5",
 		"attenuation_distance": 16,
-		"volume": 1.0,
+		"volume": 4.0,
 		"preload": true
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.step"
@@ -575,7 +575,9 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/death",
-		"preload": true
+		"preload": true,
+		"volume": 7.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.death"
 	},
@@ -596,22 +598,30 @@
 	"sounds": [{
 		"name":"mob/warden/heartbeat_1",
 		"preload": true,
-		"pitch": 2.0
+		"pitch": 2.0,
+		"volume": 7.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/warden/heartbeat_2",
 		"preload": true,
-		"pitch": 2.0
+		"pitch": 2.0,
+		"volume": 7.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/warden/heartbeat_3",
 		"preload": true,
-		"pitch": 2.0
+		"pitch": 2.0,
+		"volume": 7.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"mob/warden/heartbeat_4",
 		"preload": true,
-		"pitch": 2.0
+		"pitch": 2.0,
+		"volume": 7.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.shoot"
 	},
@@ -620,15 +630,21 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/attack1",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/attack2",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/attack3",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
 	},
@@ -637,23 +653,33 @@
 	"category": "hostile",
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/angry1",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/angry2",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/angry3",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/angry4",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 				},
 				{
 		"name":"magical_addons:entity/automaton/angry5",
-		"preload": true
+		"preload": true,
+		"volume": 4.0,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
 	},
@@ -674,7 +700,7 @@
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/punch",
 		"preload": true,
-		"volume": 1.0,
+		"volume": 4.0,
 		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
@@ -685,7 +711,7 @@
 	"sounds": [{
 		"name":"magical_addons:entity/automaton/kick",
 		"preload": true,
-		"volume": 1.0,
+		"volume": 4.0,
 		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.automaton.attack"
@@ -849,7 +875,9 @@
 	"sounds": [
 		{
 		"name":"magical_addons:entity/sparkstone_golem/ambient1",
-		"preload": true
+		"volume": 1.5,
+		"preload": true,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.ambient"
 	},
@@ -860,7 +888,9 @@
 		{
 		"name":"magical_addons:entity/sparkstone_golem/ambient1",
 		"preload": true,
-		"pitch": 0.5
+		"volume": 1.5,
+		"pitch": 0.5,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.hurt"
 	},
@@ -871,7 +901,9 @@
 		{
 		"name":"entity/shulker/death1",
 		"preload": true,
-		"pitch": 0.5
+		"volume": 1.5,
+		"pitch": 0.5,
+		"attenuation_distance": 16
 		}],
 	"subtitle": "subtitles.magical_addons.entity.sparkstone_golem.death"
 	}

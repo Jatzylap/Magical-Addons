@@ -113,6 +113,7 @@ execute if block ~ ~ ~ minecraft:infested_stone run return run function magical_
 execute if block ~ ~ ~ minecraft:bookshelf run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"bookshelf"}
 execute if block ~ ~ ~ minecraft:purple_concrete_powder run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"purple_concrete_powder"}
 execute if block ~ ~ ~ minecraft:cobblestone_stairs run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"cobblestone_stairs"}
+execute if block ~ ~ ~ minecraft:mossy_cobblestone_stairs run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"mossy_cobblestone_stairs"}
 execute if block ~ ~ ~ minecraft:enchanting_table run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"enchanting_table"}
 execute if block ~ ~ ~ minecraft:white_concrete run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"white_concrete"}
 execute if block ~ ~ ~ minecraft:purpur_stairs run return run function magical_addons:dev/---/set_block_to_entity/0 {block:"purpur_stairs"}

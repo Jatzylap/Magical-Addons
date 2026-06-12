@@ -1,5 +1,5 @@
-# entity:automaton/attack
-# called by: entity:automaton/check_local
+# magical_addons:entity/automaton/attack
+# called by: magical_addons:entity/automaton/check_local
 
 ## Start animation
 scoreboard players reset @s maddons.temp

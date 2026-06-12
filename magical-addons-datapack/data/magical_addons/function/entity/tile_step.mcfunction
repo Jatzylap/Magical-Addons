@@ -1,4 +1,4 @@
-# entity:tile_step
+# magical_addons:entity/tile_step
 # called by: player:tick
 
 ## Skip

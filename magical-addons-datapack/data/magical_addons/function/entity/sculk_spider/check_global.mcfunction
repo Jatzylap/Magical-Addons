@@ -1,4 +1,4 @@
-# entity:sculk_spider/check_global
+# magical_addons:entity/sculk_spider/check_global
 # called by: main:one_second
 
 ## Despawn
@@ -17,4 +17,4 @@ execute unless entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_s
 execute unless entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_spider,tag=!maddons.invul,dy=-32] unless block ^-1 ^ ^ #magical_addons:non_collidable if block ^1 ^ ^ #magical_addons:non_collidable if block ^ ^ ^1 #magical_addons:non_collidable if block ^ ^ ^-1 #magical_addons:non_collidable run return run function magical_addons:entity/sculk_spider/moves/flip_side_right
 execute unless entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_spider,tag=!maddons.invul,dy=-32] if block ~ ~1 ~ #magical_addons:non_collidable if block ~ ~-1 ~ #magical_addons:non_collidable unless block ^ ^ ^1 #magical_addons:non_collidable if block ^ ^ ^-1 #magical_addons:non_collidable run return run function magical_addons:entity/sculk_spider/moves/flip_side_up
 execute unless entity @n[type=!#magical_addons:invulnerable,tag=!maddons.sculk_spider,tag=!maddons.invul,dy=-32] if block ~ ~1 ~ #magical_addons:non_collidable if block ~ ~-1 ~ #magical_addons:non_collidable unless block ^ ^ ^-1 #magical_addons:non_collidable if block ^ ^ ^1 #magical_addons:non_collidable run return run function magical_addons:entity/sculk_spider/moves/flip_side_down
-function magical_addons:entity/sculk_spider/moves/flip_ground
+execute if entity @s[tag=!maddons.ground] run function magical_addons:entity/sculk_spider/moves/flip_ground

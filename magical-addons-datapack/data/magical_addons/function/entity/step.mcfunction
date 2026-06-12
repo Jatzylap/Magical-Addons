@@ -1,4 +1,4 @@
-# entity:step
+# magical_addons:entity/step
 # called by: player:tick
 
 ## Set ID

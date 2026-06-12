@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:block/tinted_cross",
+  "parent": "magical_addons:block/tinted_cross",
   "textures": {
     "cross": "magical_addons:block/large_sparkstone_bud"
   }

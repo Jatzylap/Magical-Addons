@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=north] run data modify storage iris:data shape set value [{min: [0.375d, 0.375d, 0.0d], max: [0.625d, 0.625d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=east] run data modify storage iris:data shape set value [{min: [0.0d, 0.375d, 0.375d], max: [1.0d, 0.625d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=south] run data modify storage iris:data shape set value [{min: [0.375d, 0.375d, 0.0d], max: [0.625d, 0.625d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=west] run data modify storage iris:data shape set value [{min: [0.0d, 0.375d, 0.375d], max: [1.0d, 0.625d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=up] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.375d], max: [0.625d, 1.0d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/end_rod[facing=down] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.375d], max: [0.625d, 1.0d, 0.625d]}]

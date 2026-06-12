@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #iris:shape_groups/copper_lantern[hanging=true] run data modify storage iris:data shape set value [{min: [0.3125d, 0.0625d, 0.3125d], max: [0.6875d, 0.5d, 0.6875d]}, {min: [0.375d, 0.5d, 0.375d], max: [0.625d, 0.625d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/copper_lantern[hanging=false] run data modify storage iris:data shape set value [{min: [0.3125d, 0.0d, 0.3125d], max: [0.6875d, 0.4375d, 0.6875d]}, {min: [0.375d, 0.4375d, 0.375d], max: [0.625d, 0.5625d, 0.625d]}]

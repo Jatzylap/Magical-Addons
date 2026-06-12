@@ -1,8 +1,6 @@
 # player:set_interactable_item
 # called by advancement: player:set_interactable_item
 
-advancement revoke @s only magical_addons:---/player/set_interactable_item
-
 ## Mainhand
 execute if items entity @s weapon.mainhand #magical_addons:interactable_vanilla run item modify entity @s weapon.mainhand magical_addons:player/set_interactable_item
 
@@ -116,3 +114,5 @@ execute if items entity @s inventory.25 #magical_addons:interactable_vanilla run
 
 ## Inventory 26
 execute if items entity @s inventory.26 #magical_addons:interactable_vanilla run item modify entity @s inventory.26 magical_addons:player/set_interactable_item
+
+advancement revoke @s only magical_addons:---/player/set_interactable_item

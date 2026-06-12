@@ -1,5 +1,5 @@
-# entity:sculk_spider/death
-# called by: entity:sculk_spider/brain
+# magical_addons:entity/sculk_spider/death
+# called by: magical_addons:entity/sculk_spider/brain
 
 ## Tags
 tag @s add maddons.entity.tickable
@@ -9,8 +9,8 @@ tag @s remove maddons.entity.brain
 execute on vehicle on passengers run rotate @s ~ 0
 
 ## Sound
-execute if entity @s[tag=!maddons.entity.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1
-execute if entity @s[tag=maddons.entity.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1 1.3
+execute if entity @s[tag=!maddons.entity.silent,tag=!maddons.entity.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1
+execute if entity @s[tag=!maddons.entity.silent,tag=maddons.entity.baby] run playsound entity.spider.death hostile @a ~ ~ ~ 1 1.3
 
 ## Tick
 scoreboard players set @s maddons.death 0

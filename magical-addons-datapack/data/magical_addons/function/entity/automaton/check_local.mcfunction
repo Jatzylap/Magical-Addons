@@ -1,4 +1,4 @@
-# entity:automaton/check_local
+# magical_addons:entity/automaton/check_local
 # called by: main:half_second
 
 ## Light

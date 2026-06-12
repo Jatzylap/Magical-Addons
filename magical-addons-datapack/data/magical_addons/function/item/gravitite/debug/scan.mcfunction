@@ -1,5 +1,5 @@
 # item:gravitite/debug/scan
-# called by: bs.raycast:utils/on_targeted_block
+# called by: iris:raycast/macro_functions/callback
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ minecraft:repeating_command_block{components:{"minecraft:custom_data":{magical_addons:{id:"gravitite"}}}} run function magical_addons:item/gravitite/debug/place
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ minecraft:repeating_command_block{components:{"minecraft:custom_data":{magical_addons:{id:"gravitite"}}}} run function magical_addons:item/gravitite/debug/place

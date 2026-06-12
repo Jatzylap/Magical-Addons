@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "magical_addons:sparkstone_dust"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:entities/allay"
+}

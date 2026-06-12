@@ -1,5 +1,5 @@
-# entity:light
-# called by: entity:sculk_spider/check_local
+# magical_addons:entity/light
+# called by: magical_addons:entity/sculk_spider/check_local
 
 execute if predicate magical_addons:block/light/0 run data merge entity @s {brightness:{sky:0,block:0}}
 execute if predicate magical_addons:block/light/1 run data merge entity @s {brightness:{sky:0,block:1}}

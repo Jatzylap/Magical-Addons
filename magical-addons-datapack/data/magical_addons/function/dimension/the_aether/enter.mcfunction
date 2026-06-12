@@ -17,4 +17,4 @@ execute if score @s maddons.temp matches 0 run function magical_addons:dimension
 execute if score @s maddons.temp matches 1 run function magical_addons:dimension/the_aether/warp_start with entity @s
 
 ## Play sound
-execute in the_aether at @s run playsound magical_addons:block.portal.travel block @s ~ ~ ~ 0.5
+execute in minecraft:the_aether at @s run playsound magical_addons:block.portal.travel block @s ~ ~ ~ 0.5

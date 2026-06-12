@@ -34,7 +34,7 @@ $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantme
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.ice_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/ice_spell/0
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.commanding_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/commanding_spell/0
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.wind_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/wind_spell/0
-$execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/0
+$execute if data storage magical_addons:temp data.ancient_staff{spell:"____ability.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/0
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.water_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/water_spell/0
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.earth_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/earth_spell/0
 
@@ -47,7 +47,7 @@ $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantme
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.ice_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/ice_spell/1
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.commanding_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/commanding_spell/1
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.wind_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/wind_spell/1
-$execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/1
+$execute if data storage magical_addons:temp data.ancient_staff{spell:"____ability.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/1
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.water_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/water_spell/1
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.earth_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/earth_spell/1
 
@@ -59,7 +59,7 @@ $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantme
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.ice_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/ice_spell/2
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.commanding_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/commanding_spell/2
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.wind_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/wind_spell/2
-$execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/2
+$execute if data storage magical_addons:temp data.ancient_staff{spell:"____ability.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/2
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.water_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/water_spell/2
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.earth_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/earth_spell/2
 
@@ -71,7 +71,7 @@ $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantme
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.ice_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/ice_spell/3
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.commanding_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/commanding_spell/3
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.wind_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/wind_spell/3
-$execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/3
+$execute if data storage magical_addons:temp data.ancient_staff{spell:"____ability.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/3
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.water_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/water_spell/3
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.earth_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/earth_spell/3
 
@@ -83,6 +83,6 @@ $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantme
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.ice_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/ice_spell/4
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.commanding_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/commanding_spell/4
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.wind_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/wind_spell/4
-$execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/4
+$execute if data storage magical_addons:temp data.ancient_staff{spell:"____ability.magical_addons.sonic_boom"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/sonic_boom/4
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.water_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/water_spell/4
 $execute if data storage magical_addons:temp data.ancient_staff{spell:"enchantment.magical_addons.earth_spell"} run item modify entity @s weapon.$(hand) magical_addons:item/cast/ancient_staff/earth_spell/4

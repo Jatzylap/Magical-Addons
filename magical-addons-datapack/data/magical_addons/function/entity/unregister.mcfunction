@@ -1,4 +1,4 @@
-# entity:unregister
+# magical_addons:entity/unregister
 # called by: main:two_seconds
 
 ## Copy list

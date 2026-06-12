@@ -1,7 +1,7 @@
-# entity:automaton/death
-# called by: entity:automaton/brain
+# magical_addons:entity/automaton/death
+# called by: magical_addons:entity/automaton/brain
 
-playsound magical_addons:entity.automaton.death hostile @a ~ ~ ~ 7
+execute if entity @s[tag=!maddons.entity.silent] run playsound magical_addons:entity.automaton.death hostile @a ~ ~ ~ 7
 
 execute on passengers on passengers as @s[tag=maddons.entity.brain] positioned ~ ~-6.5 ~ run function magical_addons:entity/automaton/moves/death
 

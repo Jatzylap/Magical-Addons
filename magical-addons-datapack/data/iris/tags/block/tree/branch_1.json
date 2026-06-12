@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#iris:shape_groups/acacia_leaves",
+    "#iris:shape_groups/piston",
+    "#iris:shape_groups/sugar_cane",
+    "#iris:shape_groups/copper_torch",
+    "#iris:shape_groups/chest",
+    "#iris:shape_groups/acacia_door",
+    "#iris:shape_groups/acacia_wall_hanging_sign",
+    "minecraft:cactus_flower",
+    "#iris:shape_groups/acacia_trapdoor",
+    "minecraft:vine",
+    "#iris:shape_groups/andesite_wall",
+    "minecraft:end_portal",
+    "minecraft:tripwire",
+    "minecraft:piglin_wall_head",
+    "#iris:shape_groups/black_wall_banner",
+    "minecraft:beetroots",
+    "minecraft:dried_ghast",
+    "minecraft:bamboo_sapling",
+    "minecraft:bell",
+    "minecraft:nether_sprouts",
+    "#iris:shape_groups/black_candle_cake",
+    "#iris:shape_groups/calibrated_sculk_sensor",
+    "#iris:shape_groups/pink_petals",
+    "minecraft:frogspawn"
+  ]
+}

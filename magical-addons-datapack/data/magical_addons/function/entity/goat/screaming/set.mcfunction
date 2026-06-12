@@ -1,4 +1,4 @@
-# entity:goat/screaming/set
+# magical_addons:entity/goat/screaming/set
 # called by: main:two_seconds
 
 tag @s add maddons.entity

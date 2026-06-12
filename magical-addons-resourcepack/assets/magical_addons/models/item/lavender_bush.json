@@ -1,6 +1,6 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "item/generated",
   "textures": {
-    "layer0": "magical_addons:block/lavender_bush"
+    "layer0": "magical_addons:item/lavender_bush"
   }
 }

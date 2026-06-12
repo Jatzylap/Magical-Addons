@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=north, in_wall=true] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.375d], max: [1.0d, 0.8125d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=north, in_wall=false] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.375d], max: [1.0d, 1.0d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=south, in_wall=true] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.375d], max: [1.0d, 0.8125d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=south, in_wall=false] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.375d], max: [1.0d, 1.0d, 0.625d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=west, in_wall=true] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.0d], max: [0.625d, 0.8125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=west, in_wall=false] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.0d], max: [0.625d, 1.0d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=east, in_wall=true] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.0d], max: [0.625d, 0.8125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/acacia_fence_gate[facing=east, in_wall=false] run data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.0d], max: [0.625d, 1.0d, 1.0d]}]

@@ -1,4 +1,4 @@
-# entity:sculk_spider/check_local
+# magical_addons:entity/sculk_spider/check_local
 # called by: main:half_second
 
 ## Light
@@ -10,7 +10,7 @@ execute on vehicle on vehicle if data entity @s {NoAI:1b} on passengers on passe
 execute on vehicle on vehicle unless data entity @s {NoAI:1b} on passengers on passengers run tag @s[tag=maddons.bone.body] add maddons.entity.ai
 
 ## Effects
-execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] run effect give @a[distance=..16,gamemode=!creative,gamemode=!spectator] darkness 6
+#execute if entity @s[tag=maddons.entity.ai,tag=!maddons.entity.death] run effect give @a[distance=..16,gamemode=!creative,gamemode=!spectator] darkness 6
 
 ## Ambient sound
 execute if entity @s[tag=maddons.entity.baby,tag=!maddons.entity.silent] if predicate magical_addons:shared/5_percent at @s as @a run playsound entity.spider.ambient hostile @a ~ ~ ~ 1 1.3

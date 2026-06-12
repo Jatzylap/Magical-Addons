@@ -1,45 +1,151 @@
 {
-    "sources": [
+  "sources": [
+    {
+      "type": "minecraft:paletted_permutations",
+      "palette_key": "minecraft:trims/color_palettes/trim_palette",
+      "permutations": {
+        "gravitite": "magical_addons:trims/color_palettes/gravitite"
+      },
+      "textures": [
+        "minecraft:trims/items/helmet_trim",
+        "minecraft:trims/items/chestplate_trim",
+        "minecraft:trims/items/leggings_trim",
+        "minecraft:trims/items/boots_trim"
+      ]
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "magical_addons:gui/container/wizarding_table"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "magical_addons:particle/spell"
+    },
+    {
+      "type": "directory",
+      "source": "gui/sprites/recipe_book",
+      "prefix": "recipe_book/"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "recipe_book/"
+      }
+    },
+    {
+      "type": "directory",
+      "prefix": "misc/",
+      "source": "misc"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "misc/"
+      }
+    },
+    {
+      "type": "directory",
+      "prefix": "entity/",
+      "source": "entity"
+    },
+    {
+      "type": "filter",
+      "pattern": {
+        "namespace": "minecraft",
+        "path": "entity/"
+      }
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/sparkstone_cluster",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
         {
-          "type": "minecraft:paletted_permutations",
-          "palette_key": "minecraft:trims/color_palettes/trim_palette",
-          "permutations": {
-            "gravitite": "magical_addons:trims/color_palettes/gravitite"
-          },
-          "textures": [
-            "minecraft:trims/items/helmet_trim",
-            "minecraft:trims/items/chestplate_trim",
-            "minecraft:trims/items/leggings_trim",
-            "minecraft:trims/items/boots_trim"
-          ]
-        },
-        {
-          "type": "minecraft:single",
-          "resource": "magical_addons:gui/container/wizarding_table"
-        },
-        {
-          "type": "minecraft:single",
-          "resource": "magical_addons:gui/container/crafting_table"
-        },
-        {
-          "type": "directory",
-          "source": "gui/sprites",
-          "prefix": ""
-        },
-        {
-            "type": "directory",
-            "source": "misc",
-            "prefix": "misc/"
-        },
-        {
-            "type": "directory",
-            "source": "entity",
-            "prefix": "entity/"
-        },
-        {
-            "type": "directory",
-            "source": "particle",
-            "prefix": "particle/" 
+          "sprite": "magical_addons:item/sparkstone_cluster",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
         }
-    ]
+      ]
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/large_sparkstone_bud",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
+        {
+          "sprite": "magical_addons:item/large_sparkstone_bud",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/medium_sparkstone_bud",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
+        {
+          "sprite": "magical_addons:item/medium_sparkstone_bud",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/small_sparkstone_bud",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
+        {
+          "sprite": "magical_addons:item/small_sparkstone_bud",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/lavender_bush",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
+        {
+          "sprite": "magical_addons:item/lavender_bush",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    {
+      "type": "minecraft:unstitch",
+      "resource": "magical_addons:block/golden_oak_sapling",
+      "divisor_x": 48,
+      "divisor_y": 16,
+      "regions": [
+        {
+          "sprite": "magical_addons:item/golden_oak_sapling",
+          "x": 16,
+          "y": 0,
+          "width": 16,
+          "height": 16
+        }
+      ]
+    }
+  ]
 }

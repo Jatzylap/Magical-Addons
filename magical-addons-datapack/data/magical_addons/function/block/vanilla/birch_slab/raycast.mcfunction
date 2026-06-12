@@ -1,10 +1,13 @@
 # block:vanilla/birch_slab/raycast
 # called by advancement: block:place/birch_slab
 
-data modify storage bs:data raycast.entities set value 0b
-data modify storage bs:data raycast.on_targeted_block set value "execute as @p[advancements={magical_addons:---/block/place/birch_slab=true}] run function magical_addons:block/vanilla/birch_slab/scan"
-execute store result storage bs:data raycast.max_distance int 2 run attribute @s minecraft:block_interaction_range get
+data merge storage iris:settings {\
+    target_entities: false,\
+    callback: "function magical_addons:block/vanilla/birch_slab/scan",\
+    blacklist: "#magical_addons:intangible",\
+    whitelist: ""\
+}
 
-execute anchored eyes positioned ^ ^ ^ run function bs.raycast:run
+execute anchored eyes positioned ^ ^ ^ run function iris:get_target
 
 advancement revoke @s from magical_addons:---/block/place
