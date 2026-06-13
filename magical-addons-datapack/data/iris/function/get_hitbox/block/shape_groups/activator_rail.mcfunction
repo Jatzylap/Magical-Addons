@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=north_south] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=east_west] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=ascending_east] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=ascending_west] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=ascending_north] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/activator_rail[shape=ascending_south] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5d, 1.0d]}]

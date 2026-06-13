@@ -1,5 +1,5 @@
-# entity:automaton/bossbar
-# called by: entity:automaton/check_global
+# magical_addons:entity/automaton/bossbar
+# called by: magical_addons:entity/automaton/check_global
 
 $bossbar add magical_addons:$(UUID) {"translate":"entity.magical_addons.automaton"}
 $bossbar set magical_addons:$(UUID) color purple

@@ -1,5 +1,5 @@
-# entity:chicken/anger/forget
-# called by: entity:chicken/loop, player:death_by_chicken
+# magical_addons:entity/chicken/anger/forget
+# called by: magical_addons:entity/chicken/loop, player:death_by_chicken
 
 tag @s remove maddons.chicken.anger
 tag @s remove maddons.entity.tickable

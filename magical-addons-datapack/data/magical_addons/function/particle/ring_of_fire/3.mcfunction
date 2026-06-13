@@ -1,5 +1,5 @@
 # particle:ring_of_fire/3
-# called by: entity:tick
+# called by: magical_addons:entity/tick
 
 ## End
 execute if score @s maddons.move >= @s maddons.constant run return run kill

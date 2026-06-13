@@ -1,5 +1,5 @@
-# entity:sparkstone_golem/set_nbt
-# called by: entity:sparkstone_golem/summon
+# magical_addons:entity/sparkstone_golem/set_nbt
+# called by: magical_addons:entity/sparkstone_golem/summon
 
 ## Set NBT
 $data merge entity @s $(nbt)

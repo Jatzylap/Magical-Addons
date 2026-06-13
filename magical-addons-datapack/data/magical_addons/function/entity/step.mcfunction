@@ -1,4 +1,4 @@
-# entity:step
+# magical_addons:entity/step
 # called by: player:tick
 
 ## Set ID
@@ -14,4 +14,4 @@ execute store result score @s maddons.walk_ run attribute @s minecraft:movement_
 scoreboard players operation @s maddons.stepping += @s maddons.walk_
 
 ## Result + Reset
-execute if score @s maddons.step <= @s maddons.stepping run function magical_addons:block/sound with entity @s data.magical_addons
+execute if score @s maddons.step <= @s maddons.stepping run function magical_addons:entity/step_sound with entity @s data.magical_addons

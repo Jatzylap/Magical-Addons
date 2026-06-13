@@ -1,4 +1,4 @@
-# entity:sculk_spider/spawn_overworld
+# magical_addons:entity/sculk_spider/spawn_overworld
 # called by: dimension:overworld/load_entities
 
 function magical_addons:entity/sculk_spider/summon {nbt:{}}

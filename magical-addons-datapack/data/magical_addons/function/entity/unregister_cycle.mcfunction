@@ -1,5 +1,5 @@
-# entity:unregister_cycle
-# called by: entity:unregister, entity:unregister_cycle
+# magical_addons:entity/unregister_cycle
+# called by: magical_addons:entity/unregister, magical_addons:entity/unregister_cycle
 
 function magical_addons:entity/unregister_tick with storage magical_addons:temp data.tick[-1]
 

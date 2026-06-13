@@ -1,5 +1,5 @@
-# entity:sculk_spider/moves/flip_side_right
-# called by: entity:sculk_spider/check_global
+# magical_addons:entity/sculk_spider/moves/flip_side_right
+# called by: magical_addons:entity/sculk_spider/check_global
 
 execute if entity @s[tag=!maddons.side_right] on vehicle on passengers run data merge entity @s {start_interpolation:0,interpolation_duration:10,transformation:{left_rotation:[0f,0f,-0.707f,.707f]}}
 

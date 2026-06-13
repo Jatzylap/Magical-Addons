@@ -1,5 +1,5 @@
-# entity:sculk_spider/brain
-# entity:brain
+# magical_addons:entity/sculk_spider/brain
+# magical_addons:entity/brain
 
 ## Get nbt
 execute store result score @s maddons.death on vehicle on vehicle run data get entity @s DeathTime
@@ -19,6 +19,4 @@ scoreboard players operation #maddons.sculk_spider.head_rot maddons.rotation -= 
 execute unless score #maddons.sculk_spider.head_rot maddons.rotation matches -45..45 on vehicle on passengers at @s[tag=maddons.bone.head] on vehicle on passengers run rotate @s[tag=!maddons.bone.head] ~ 0
 
 ## Move
-execute on vehicle on vehicle if predicate magical_addons:entity/sculk_spider_crawl on passengers on passengers as @s[tag=maddons.bone.body] run return run item modify entity @s contents {"function":"minecraft:set_custom_model_data","floats":{"mode":"replace_section","size":1,"offset":0,"values":[2f]}}
-execute on vehicle on vehicle if predicate magical_addons:entity/sculk_spider_walk on passengers on passengers as @s[tag=maddons.bone.body] run return run item modify entity @s contents {"function":"minecraft:set_custom_model_data","floats":{"mode":"replace_section","size":1,"offset":0,"values":[1f]}}
-execute on vehicle on passengers run item modify entity @s[tag=maddons.bone] contents {"function":"minecraft:set_custom_model_data","floats":{"mode":"replace_section","size":1,"offset":0,"values":[0f]}}
+execute on vehicle on passengers run item modify entity @s[tag=maddons.bone.body] contents magical_addons:entity/animate/sculk_spider

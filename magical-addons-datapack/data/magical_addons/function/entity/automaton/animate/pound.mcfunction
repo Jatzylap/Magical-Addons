@@ -1,6 +1,7 @@
-# entity:automaton/animate/pound
-# called by: entity:tick
+# magical_addons:entity/automaton/animate/pound
+# called by: magical_addons:entity/tick
 
+## Reset
 execute if score @s maddons.cooldown matches 0 on vehicle on passengers run function magical_addons:entity/automaton/moves/reset
 
 ## Pound

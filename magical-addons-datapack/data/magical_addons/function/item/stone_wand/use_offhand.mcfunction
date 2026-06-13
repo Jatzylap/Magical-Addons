@@ -5,7 +5,7 @@
 execute if entity @s[gamemode=creative] run function magical_addons:item/stone_wand/disambiguation {hand:"offhand"}
 
 ## Use (!Creative Mode)
-$execute if entity @s[gamemode=!creative] unless score @s maddons.mana matches $(min_mana).. run return run playsound magical_addons:item.generic.spell.fizzle player @s ~ ~ ~
+$execute if entity @s[gamemode=!creative] unless score @s maddons.mana matches $(min_mana).. run return run execute unless score @s maddons.sound_cooldown matches 1.. run playsound magical_addons:item.generic.spell.fizzle player @s ~ ~ ~ 0.5
 execute if entity @s[gamemode=!creative] run function magical_addons:item/stone_wand/disambiguation {hand:"offhand"}
 
 ## Break

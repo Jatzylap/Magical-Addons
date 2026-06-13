@@ -1,0 +1,14 @@
+execute if entity @s[type=minecraft:allay] run function iris:get_hitbox/entity/shape_groups/allay
+execute if entity @s[type=#iris:shape_groups/bat] run function iris:get_hitbox/entity/shape_groups/bat
+execute if entity @s[type=#iris:shape_groups/breeze_wind_charge] run function iris:get_hitbox/entity/shape_groups/breeze_wind_charge
+execute if entity @s[type=minecraft:chicken] run function iris:get_hitbox/entity/shape_groups/chicken
+execute if entity @s[type=minecraft:creeper] run function iris:get_hitbox/entity/shape_groups/creeper
+execute if entity @s[type=#iris:shape_groups/egg] run function iris:get_hitbox/entity/shape_groups/egg
+execute if entity @s[type=minecraft:end_crystal] run function iris:get_hitbox/entity/shape_groups/end_crystal
+execute if entity @s[type=#iris:shape_groups/glow_squid] run function iris:get_hitbox/entity/shape_groups/glow_squid
+execute if entity @s[type=minecraft:iron_golem] run function iris:get_hitbox/entity/shape_groups/iron_golem
+execute if entity @s[type=minecraft:pig] run function iris:get_hitbox/entity/shape_groups/pig
+execute if entity @s[type=minecraft:sniffer] run function iris:get_hitbox/entity/shape_groups/sniffer
+execute if entity @s[type=minecraft:turtle] run function iris:get_hitbox/entity/shape_groups/turtle
+execute if entity @s[type=minecraft:wolf] run function iris:get_hitbox/entity/shape_groups/wolf
+execute if entity @s[type=minecraft:pufferfish] run function iris:get_hitbox/entity/shape_groups/pufferfish

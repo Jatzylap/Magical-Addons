@@ -1,0 +1,18 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#base"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [6, 6, 0],
+			"shade": false,
+			"light_emission": 15,
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 3, 0]},
+			"faces": {
+				"north": {"uv": [5.33333, 0, 10.66667, 14], "texture": "#particle", "tintindex": 0}
+			}
+		}
+	]
+}

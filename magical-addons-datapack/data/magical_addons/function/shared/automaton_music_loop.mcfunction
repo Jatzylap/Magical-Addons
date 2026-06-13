@@ -1,5 +1,5 @@
-# shared:automaton_music_loop
-# called by: shared:automaton_music_start
+# magical_addons:shared/automaton_music_loop
+# called by: magical_addons:shared/automaton_music_start
 
 ## Reset timer & stop other music
 scoreboard players set @s maddons.automaton.music 0

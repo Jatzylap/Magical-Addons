@@ -1,5 +1,5 @@
-# entity:sparkstone_lingering_potion/cloud_tick
-# called by: entity:tick
+# magical_addons:entity/sparkstone_lingering_potion/cloud_tick
+# called by: magical_addons:entity/tick
 
 tag @s add maddons.magic
 

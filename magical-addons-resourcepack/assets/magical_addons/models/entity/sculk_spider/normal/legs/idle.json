@@ -2,8 +2,8 @@
 	"format_version": "1.22",
 	"texture_size": [64, 32],
 	"textures": {
-		"0": "magical_addons:entity/sculk_spider",
-		"particle": "magical_addons:entity/sculk_spider"
+		"0": "magical_addons:entity/sculk_spider/sculk_spider",
+		"particle": "magical_addons:entity/sculk_spider/sculk_spider"
 	},
 	"elements": [
 		{

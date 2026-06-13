@@ -1,4 +1,4 @@
-# entity:register
+# magical_addons:entity/register
 # called by: main:one_second, entity/*/set_nbt
 
 ## Register to potentially unregister

@@ -22,6 +22,7 @@ scoreboard objectives add maddons.sprint custom:sprint_one_cm
 scoreboard objectives add maddons.sprint_ custom:sprint_one_cm
 scoreboard objectives add maddons.damage_taken custom:damage_taken
 scoreboard objectives add maddons.jump custom:jump
+scoreboard objectives add maddons.fall custom:fall_one_cm
 scoreboard objectives add maddons.sheep_spawn_egg used:sheep_spawn_egg
 scoreboard objectives add maddons.mana dummy
 scoreboard objectives add maddons.x dummy
@@ -66,6 +67,7 @@ scoreboard objectives add maddons.reload_sub_chunk dummy
 scoreboard objectives add maddons.step dummy
 scoreboard objectives add maddons.stepping dummy
 scoreboard objectives add maddons.cooldown dummy
+scoreboard objectives add maddons.sound_cooldown dummy
 scoreboard objectives add maddons.efficiency dummy
 scoreboard objectives add maddons.nefficiency dummy
 scoreboard objectives add maddons.commanding_spell dummy
@@ -73,6 +75,7 @@ scoreboard objectives add maddons.automaton.music dummy
 scoreboard objectives add maddons.automaton.music_track dummy
 scoreboard objectives add maddons.block.loot_id dummy
 scoreboard objectives add maddons.gamerule dummy
+scoreboard objectives add maddons.portal dummy
 
 ## Constants
 scoreboard players set #PI maddons.constant 314159265

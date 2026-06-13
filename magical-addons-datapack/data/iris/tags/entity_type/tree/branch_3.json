@@ -1,0 +1,17 @@
+{
+  "values": [
+    "minecraft:armadillo",
+    "#iris:shape_groups/blaze",
+    "#iris:shape_groups/cat",
+    "minecraft:copper_golem",
+    "minecraft:donkey",
+    "minecraft:enderman",
+    "#iris:shape_groups/falling_block",
+    "minecraft:guardian",
+    "#iris:shape_groups/llama",
+    "minecraft:rabbit",
+    "minecraft:spider",
+    "minecraft:warden",
+    "minecraft:magma_cube"
+  ]
+}

@@ -1,4 +1,4 @@
-# shared:automaton_music_stop
+# magical_addons:shared/automaton_music_stop
 # called by: player:tick
 
 scoreboard players reset @s maddons.automaton.music

@@ -1,5 +1,5 @@
 # block:update_start
-# called by: bs.raycast:utils/on_targeted_block
+# called by: iris:raycast/macro_functions/callback
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-3 ~1 ~2 if block ~ ~ ~ #magical_addons:in_scan run function magical_addons:block/update
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-3 ~1 ~3 if block ~ ~ ~ #magical_addons:in_scan run function magical_addons:block/update

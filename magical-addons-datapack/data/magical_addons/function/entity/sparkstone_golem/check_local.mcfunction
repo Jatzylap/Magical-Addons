@@ -1,4 +1,4 @@
-# entity:sparkstone_golem/check_local
+# magical_addons:entity/sparkstone_golem/check_local
 # called by: main:half_second
 
 ## Light

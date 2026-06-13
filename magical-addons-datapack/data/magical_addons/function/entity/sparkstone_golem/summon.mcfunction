@@ -1,5 +1,5 @@
-# entity:sparkstone_golem/summon
-# called by: entity:sparkstone_golem/spawn
+# magical_addons:entity/sparkstone_golem/summon
+# called by: magical_addons:entity/sparkstone_golem/spawn
 
 ## Errors
 execute store result score #maddons.shared.difficulty maddons.temp run difficulty

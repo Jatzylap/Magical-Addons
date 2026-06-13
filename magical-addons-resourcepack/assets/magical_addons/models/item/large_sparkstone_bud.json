@@ -1,7 +1,7 @@
   {
   "parent": "item/amethyst_bud",
   "textures": {
-    "layer0": "magical_addons:block/large_sparkstone_bud"
+    "layer0": "magical_addons:item/large_sparkstone_bud"
   },
   "display": {
     "fixed": {

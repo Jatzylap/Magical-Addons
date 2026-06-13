@@ -1,5 +1,5 @@
-# entity:automaton/animate/reset
-# called by: entity:automaton/animate/*
+# magical_addons:entity/automaton/animate/reset
+# called by: magical_addons:entity/automaton/animate/*
 
 execute on vehicle on vehicle run attribute @s movement_speed modifier remove magical_addons:stop
 
@@ -13,6 +13,7 @@ tag @s[tag=maddons.entity.brain] remove maddons.pound
 tag @s[tag=!maddons.entity.brain] remove maddons.entity.tickable
 scoreboard players reset @s maddons.cooldown
 scoreboard players reset @s maddons.animation
-data modify entity @s item.components."minecraft:custom_model_data".floats[0] set value 0f
+item modify entity @s contents {"function": "minecraft:set_custom_model_data","floats": {"values":[0,0],"mode":"replace_section","size":1,"offset":0}}
 data remove entity @s[tag=!maddons.entity.brain] data
-data merge entity @s[tag=maddons.entity.brain] {data:{magical_addons:{tick_cmd:"execute on vehicle on passengers unless score @s maddons.cooldown matches 0.. store result entity @s item.components.\"minecraft:custom_model_data\".floats[1] float 1 run data get storage magical_addons:tick data.entity.automaton.animations.walk.frame",attack:{id:""}}}}
+execute on vehicle on passengers as @s[tag=maddons.bone] run data merge entity @s {start_interpolation:-1,interpolation_duration:1,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f]}}
+data merge entity @s[tag=maddons.entity.brain] {data:{magical_addons:{tick_cmd:"function magical_addons:entity/automaton/tick",attack:{id:""}}}}

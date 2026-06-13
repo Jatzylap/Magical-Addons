@@ -6,7 +6,7 @@ execute if data block ~ ~ ~ {components:{"minecraft:custom_model_data":{flags:[1
 
 ## Block
 data merge entity @s {brightness:{sky:15,block:9}}
-execute store result block ~ ~ ~ components."minecraft:custom_model_data".flags[0] byte 1 run data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value 1
+execute store result block ~ ~ ~ components."minecraft:custom_model_data".flags[0] byte 1 run data modify entity @s item.components."minecraft:custom_model_data".flags[0] set value 1b
 function magical_addons:block/custom/wizarding_table/set_state with block ~ ~ ~
 data remove block ~ ~ ~ lock
 

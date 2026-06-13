@@ -2,8 +2,8 @@
 	"format_version": "1.22",
 	"texture_size": [64, 32],
 	"textures": {
-		"2": "magical_addons:entity/sculk_spider_hurt_layer",
-		"particle": "magical_addons:entity/sculk_spider_hurt_layer"
+		"2": "magical_addons:entity/sculk_spider/sculk_spider_hurt_layer",
+		"particle": "magical_addons:entity/sculk_spider/sculk_spider_hurt_layer"
 	},
 	"elements": [
 		{

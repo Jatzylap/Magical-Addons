@@ -1,5 +1,5 @@
-# entity:sparkstone_golem/brain
-# entity:brain
+# magical_addons:entity/sparkstone_golem/brain
+# magical_addons:entity/brain
 
 ## Get nbt
 execute store result score @s maddons.death on vehicle on vehicle run data get entity @s DeathTime

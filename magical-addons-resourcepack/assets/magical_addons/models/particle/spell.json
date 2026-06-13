@@ -1,7 +1,7 @@
 {
-  "parent": "magical_addons:particle/particle",
+  "parent": "magical_addons:particle/generated",
   "textures": {
-    "base": "magical_addons:particle/spell"
+    "particle": "magical_addons:particle/spell"
   },
   "display": {
     "head": {

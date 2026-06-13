@@ -1,0 +1,8 @@
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=0] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=1] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.1875d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=2] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.25d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=3] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.3125d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=4] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.375d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=5] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.4375d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=6] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5d, 1.0d]}]
+execute if block ~ ~ ~ #iris:shape_groups/carrots[age=7] run data modify storage iris:data shape set value [{min: [0.0d, 0.0d, 0.0d], max: [1.0d, 0.5625d, 1.0d]}]

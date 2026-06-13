@@ -1,11 +1,11 @@
 # block:mine
-# called by: bs.raycast:utils/on_targeted_block
+# called by: iris:raycast/macro_functions/callback
 # registered by: player:tick
 
-#title @s times 0 1 0
-#title @s title ["",{"nbt":"attributes[{id:\"minecraft:block_break_speed\"}].base","interpret":false,"entity":"@s"}]
-#execute if data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{}}}} run return run attribute @s block_break_speed base set 64
-#attribute @s block_break_speed base set 1
+## DEBUG
+#execute align xyz positioned ~.5 ~.5 ~.5 run particle flame ~ ~ ~ 0 2 0 0 100
+#execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[gamemode=!creative,gamemode=!spectator] if data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{}}}} run return run attribute @s block_break_speed base set 500
+#execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[gamemode=!creative,gamemode=!spectator] run attribute @s block_break_speed base reset
 
 ## Reset
 scoreboard players reset @s maddons.block.loot_id

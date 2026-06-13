@@ -11,7 +11,7 @@ execute as @n[type=!#magical_addons:invulnerable,tag=maddons.target_entity] at @
 
 ## If spell is deflected
 execute if entity @n[type=#magical_addons:spell_deflector,tag=!maddons.invul,tag=maddons.target_entity] run playsound entity.breeze.deflect hostile @a ~ ~ ~ 1
-execute if entity @n[type=#magical_addons:spell_deflector,tag=!maddons.invul,tag=maddons.target_entity] run data remove entity @s item.components."minecraft:custom_data".magical_addons.temp.UUID
+data modify entity @s item.components."minecraft:custom_data".magical_addons.temp.UUID set from entity @n[type=!#magical_addons:invulnerable,tag=maddons.target_entity] UUID
 execute if entity @n[type=#magical_addons:spell_deflector,tag=!maddons.invul,tag=maddons.target_entity] run return 3
 
 particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force

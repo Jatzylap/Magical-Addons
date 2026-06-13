@@ -13,7 +13,7 @@
     "entity": "this",
     "lore": [
       {
-        "translate": "ability.magical_addons.sonic_boom",
+        "translate": "____ability.magical_addons.sonic_boom",
         "color": "gray",
         "italic": false
       }

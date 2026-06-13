@@ -1,4 +1,4 @@
-# entity:automaton/check_global
+# magical_addons:entity/automaton/check_global
 # called by: main:one_second
 
 ## Despawn

@@ -1,5 +1,5 @@
-# entity:sculk_spider/hurt
-# called by: entity:sculk_spider/tick
+# magical_addons:entity/sculk_spider/hurt
+# called by: magical_addons:entity/sculk_spider/tick
 
 execute if score @s[tag=!maddons.entity.death,tag=!maddons.entity.silent,tag=!maddons.entity.baby] maddons.hurt matches 9 at @s as @a run playsound entity.spider.hurt hostile @a ~ ~ ~ 1 1
 execute if score @s[tag=!maddons.entity.death,tag=!maddons.entity.silent,tag=maddons.entity.baby] maddons.hurt matches 9 at @s as @a run playsound entity.spider.hurt hostile @a ~ ~ ~ 1 1.3

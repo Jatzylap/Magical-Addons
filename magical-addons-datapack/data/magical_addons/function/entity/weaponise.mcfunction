@@ -1,4 +1,4 @@
-# entity:weaponise_mob
+# magical_addons:entity/weaponise_mob
 # called by: main:two_seconds
 
 execute store result score #maddons.entity.weapon maddons.temp run random value 0..2

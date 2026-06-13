@@ -1,7 +1,7 @@
 # block:custom/large_sparkstone_bud/break
 # called by: block:break
 
-particle item{item:{id:"minecraft:stick",components:{"minecraft:item_model":"magical_addons:large_sparkstone_bud"}}} ~ ~ ~ .2 .2 .2 0.08 40 force
+particle item{item:{id:"minecraft:stick",components:{"minecraft:item_model":"magical_addons:large_sparkstone_bud"}}} ~ ~ ~ .2 .2 .2 0.08 30 force
 playsound block.large_amethyst_bud.break block @a ~ ~ ~ 1 0.68
 
 fill ~1 ~ ~ ~-1 ~ ~ air replace light[level=3,waterlogged=false]

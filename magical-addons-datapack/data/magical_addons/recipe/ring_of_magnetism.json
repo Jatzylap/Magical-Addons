@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "@#@",
+    " @ "
+  ],
+  "key": {
+    "#": "minecraft:repeating_command_block",
+    "@": "minecraft:gold_nugget"
+  },
+  "result": {
+    "id": "minecraft:recovery_compass",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "magical_addons:ring_of_magnetism",
+      "minecraft:rarity": "uncommon",
+      "minecraft:item_name": {
+        "translate": "item.magical_addons.ring_of_magnetism"
+      },
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "id": "ring_of_magnetism"
+        }
+      }
+    }
+  }
+}

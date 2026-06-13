@@ -1,5 +1,5 @@
 # dungeon:aether_portal/scan
-# called by: entity:lightning_bolt/set
+# called by: magical_addons:entity/lightning_bolt/set, iris:raycast/macro_functions/callback
 
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-5 if block ~ ~ ~ #magical_addons:aether_portal[part=foot] unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run function magical_addons:dungeon/aether_portal/check_frame
 execute align xyz positioned ~.5 ~.5 ~.5 positioned ~-5 ~-5 ~-4 if block ~ ~ ~ #magical_addons:aether_portal[part=foot] unless data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run function magical_addons:dungeon/aether_portal/check_frame

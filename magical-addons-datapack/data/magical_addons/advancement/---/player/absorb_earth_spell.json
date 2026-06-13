@@ -5,10 +5,13 @@
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
         "damage": {
-          "source_entity": {
-            "type": "minecraft:evoker"
-          },
           "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:bypasses_armor"
+              }
+            ],
             "direct_entity": {
               "type": "minecraft:evoker_fangs"
             }
@@ -17,6 +20,11 @@
       }
     }
   },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ],
   "rewards": {
     "function": "magical_addons:player/absorb_earth_spell"
   }

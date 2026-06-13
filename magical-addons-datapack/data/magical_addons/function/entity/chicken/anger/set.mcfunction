@@ -1,5 +1,5 @@
-# entity:chicken/anger/set
-# called by advancement: entity:hit_chicken
+# magical_addons:entity/chicken/anger/set
+# called by advancement: magical_addons:entity/hit_chicken
 
 execute as @e[distance=..12,type=chicken,tag=!maddons.chicken.anger] at @s run scoreboard players add @s maddons.chicken.anger 100
 tag @e[distance=..12,scores={maddons.chicken.anger=300..},type=chicken] add maddons.chicken.anger

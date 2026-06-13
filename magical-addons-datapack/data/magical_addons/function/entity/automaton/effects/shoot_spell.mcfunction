@@ -1,5 +1,5 @@
-# entity:automaton/effects/shoot_spell
-# called by: entity:automaton/animate/shoot
+# magical_addons:entity/automaton/effects/shoot_spell
+# called by: magical_addons:entity/automaton/animate/shoot
 
 execute store result score @s maddons.temp run random value 0..3
 

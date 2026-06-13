@@ -1,5 +1,5 @@
-# entity:sparkstone_golem/death
-# called by: entity:sparkstone_golem/brain
+# magical_addons:entity/sparkstone_golem/death
+# called by: magical_addons:entity/sparkstone_golem/brain
 
 ## Tags
 tag @s add maddons.entity.tickable

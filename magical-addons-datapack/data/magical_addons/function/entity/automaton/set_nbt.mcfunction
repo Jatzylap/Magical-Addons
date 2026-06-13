@@ -1,5 +1,5 @@
-# entity:automaton/set_nbt
-# called by: entity:automaton/summon
+# magical_addons:entity/automaton/set_nbt
+# called by: magical_addons:entity/automaton/summon
 
 $data merge entity @s $(nbt)
 

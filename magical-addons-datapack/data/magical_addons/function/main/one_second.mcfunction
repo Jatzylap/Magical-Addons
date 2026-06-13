@@ -10,7 +10,14 @@ execute if score #magical_addons:entity_count maddons.tick matches 1.. run funct
 execute as @e[type=!player,tag=maddons.entity.registered] at @s run function magical_addons:entity/register
 
 ## block
-execute as @a at @s anchored eyes positioned ^ ^ ^ run function #bs.raycast:run {with:{entities:0b,on_targeted_block:"function magical_addons:block/update_start",max_distance:32}}
+data merge storage iris:settings {\
+    target_entities: false,\
+    callback: "function magical_addons:block/update_start",\
+    blacklist: "#magical_addons:intangible",\
+    whitelist: "",\
+    max_distance: 32\
+}
+execute as @a at @s anchored eyes positioned ^ ^ ^ run function iris:get_target
 execute at @a as @e[type=item_display,tag=maddons.block.gravitite,distance=..16] at @s unless block ~ ~ ~ #magical_addons:non_collidable run function magical_addons:block/group/custom/gravitite/fall_up with entity @s data.magical_addons
 execute at @a as @e[type=item_display,tag=maddons.wizarding_table,tag=off,distance=..16] at @s if predicate magical_addons:block/wizarding_table/check_hopper run function magical_addons:block/custom/wizarding_table/engage
 execute at @a as @e[type=item_display,tag=maddons.block.sapling,sort=random,limit=30] at @s run function magical_addons:block/group/custom/sapling/grow with entity @s data.magical_addons
