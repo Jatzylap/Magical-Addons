@@ -10,10 +10,10 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 [![Discord members online](https://img.shields.io/discord/1408091570930061312.svg?label=discord&logoColor=FFFFFF&logo=discord&color=7289DA&style=flat-square)](https://discord.gg/4kzRhxpjbk)
 
 ## Summary
-Centered around the idea of a magic ecosystem, Magical Addons breathes new life into Minecraft with the addition of wands, armour, and above all, Aether portals (aka bed portals). On your journey through the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone Geodes, are used to craft the Sparkstone Orb: an item which imbues you with the power to cast spells. gear such as Gravitite Armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by dark forces.
+Centered around the idea of a magic ecosystem, **Magical Addons** breathes new life into Minecraft with the addition of a new magic system and a reimagined **Aether** dimension. On your journey through the Aether, you may encounter naturally occurring materials such as **Sparkstone** and **Gravitite**; known to bestow magical properties on their bearer. Once **Sparkstone** has been obtained, you will be able to craft the **Sparkstone Orb**: an item which imbues you with the power to cast spells. Beyond this, equip yourself with **Gravitite Armour** and search for the **Staff of Ancients**: a legendary item guarded by an ancient **Automaton**.
 
 ## Getting to the Aether
-When struck by a lightning bolt, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For the best chance of a strike, you can place a lightning rod next to the bed. Striking the rod with the Channelling enchantment works too. Next, sleep in the bed when it is way past your bedtime.
+When struck by a **Lightning Bolt**, a **White Bed** turns into an **Aether Portal**; providing the sleeping player with a unique entry into the **Aether** dimension. For the best chance of a strike, you can place a **Lightning Rod** next to the bed. Striking the rod with the **Channelling** enchantment works too. Next, sleep in the bed when it is way past your bedtime.
 
 ## Setup
 - Locate your .minecraft installation directory
