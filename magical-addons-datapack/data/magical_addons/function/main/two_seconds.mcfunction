@@ -3,7 +3,7 @@
 
 ## entities
 execute at @a as @e[type=#magical_addons:weaponable,distance=..32,nbt=!{NoAI:1b}] at @s if items entity @s weapon.mainhand *[custom_data~{magical_addons:{mana_item:1b}}] if predicate magical_addons:shared/50_percent anchored eyes facing entity @p[gamemode=!spectator,gamemode=!creative] eyes run function magical_addons:item/iron_wand/disambiguation {hand:"mainhand"}
-execute at @a as @e[type=#magical_addons:weaponable,distance=..32,nbt=!{NoAI:1b}] at @s if dimension minecraft:the_aether unless data entity @s equipment.mainhand run function magical_addons:entity/weaponise
+execute at @a as @e[type=#magical_addons:weaponable,tag=!maddons.entity,distance=..32,nbt=!{NoAI:1b}] at @s unless data entity @s equipment.mainhand run function magical_addons:entity/weaponise
 execute as @e[type=goat,tag=!maddons.entity.tickable,nbt={IsScreamingGoat:1b}] at @s run function magical_addons:entity/goat/screaming/set
 
 ## player
