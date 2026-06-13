@@ -9,10 +9,8 @@ Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Ma
 [![CurseForge Version](http://cf.way2muchnoise.eu/versions/1351106_latest.svg)](https://www.curseforge.com/minecraft/data-packs/magical-addons)
 [![Discord members online](https://img.shields.io/discord/1408091570930061312.svg?label=discord&logoColor=FFFFFF&logo=discord&color=7289DA&style=flat-square)](https://discord.gg/4kzRhxpjbk)
 
-**Currently in early access!**
-
 ## Summary
-Centered around the magical potential of ordinary objects, Magical Addons breathes new life into Minecraft with the addition of magic wands, spells, and above all, Aether portals (aka bed portals). On your journey to the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone geodes, are used to power the Wizarding Bench: a block capable of crafting magical gear such as Gravitite Armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by dark forces.
+Centered around the idea of a magic ecosystem, Magical Addons breathes new life into Minecraft with the addition of wands, armour, and above all, Aether portals (aka bed portals). On your journey through the Aether, naturally occurring materials such as Sparkstone, harvested from Sparkstone Geodes, are used to craft the Sparkstone Orb: an item which imbues you with the power to cast spells. gear such as Gravitite Armour. Currently, this gear is intended to help better navigate the Aether. Beyond this, you can search for the Staff of Ancients, an item closely guarded by dark forces.
 
 ## Getting to the Aether
 When struck by a lightning bolt, a white bed provides the sleeping player with a unique entry into the Aether dimension based on the location slept at. For the best chance of a strike, you can place a lightning rod next to the bed. Striking the rod with the Channelling enchantment works too. Next, sleep in the bed when it is way past your bedtime.
