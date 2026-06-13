@@ -1,5 +1,5 @@
 {
-  "parent": "item/sparkstone_bud",
+  "parent": "item/amethyst_bud",
   "textures": {
     "layer0": "magical_addons:item/small_sparkstone_bud"
   },

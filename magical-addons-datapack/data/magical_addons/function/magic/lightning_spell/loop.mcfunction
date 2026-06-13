@@ -14,8 +14,10 @@ execute if entity @s[tag=!maddons.found_target] if entity @n[type=!#magical_addo
 tag @n[tag=maddons.target_entity] remove maddons.target_entity
 
 ## Motion
-tag @s[scores={maddons.damage=3}] add maddons.deflect
-tp @s[tag=!maddons.deflect,tag=!maddons.found_target] ^ ^ ^1
-tp @s[tag=maddons.deflect,tag=!maddons.found_target] ^ ^ ^-0.8
+execute if entity @s[tag=maddons.deflect] unless score @s maddons.damage matches 3 run tag @s remove maddons.deflect
+execute if score @s maddons.damage matches 3 run rotate @s[tag=!maddons.deflect] ~180 ~
+execute if score @s maddons.damage matches 3 run tag @s add maddons.deflect
+execute anchored eyes run rotate @s[tag=!maddons.entity.unattractable] facing entity @p[tag=maddons.entity.use_ring_of_magnetism,distance=..16] eyes
+execute anchored eyes run tp @s ^ ^ ^1
 
 execute if score @s maddons.move matches 99.. run kill

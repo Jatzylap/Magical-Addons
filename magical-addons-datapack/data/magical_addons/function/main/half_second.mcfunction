@@ -9,21 +9,25 @@ tag @a[gamemode=!creative,gamemode=!spectator] remove maddons.invul
 execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.offhand minecraft:glass_bottle unless items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.offhand loot magical_addons:soul_bottle
 execute as @a at @s if predicate magical_addons:player/soul_in_bottle if items entity @s weapon.mainhand minecraft:glass_bottle run loot replace entity @s weapon.mainhand loot magical_addons:soul_bottle
 
-## block
+## leaf decay
 execute at @a as @e[sort=random,type=item_display,tag=maddons.block.leaves,limit=1,distance=..32] at @s run function magical_addons:block/group/custom/leaves/decay with entity @s data.magical_addons
+
+## block break update
 execute at @a as @e[type=#magical_addons:display,tag=maddons.block,tag=!maddons.block.no_break,distance=..16] at @s run function magical_addons:block/break with entity @s data.magical_addons
 
-## mob
+## mob updates
 execute at @a as @e[type=item_display,tag=maddons.sculk_spider,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..16] at @s run function magical_addons:entity/sculk_spider/check_local
 execute at @a as @e[type=item_display,tag=maddons.automaton,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..64] at @s run function magical_addons:entity/automaton/check_local
 execute at @a as @e[type=item_display,tag=maddons.sparkstone_golem,tag=maddons.entity.brain,tag=!maddons.entity.death,distance=..64] at @s run function magical_addons:entity/sparkstone_golem/check_local
 
-## item
+## gravitite gem ascension
 execute at @a as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{id:"gravitite"}}}}},tag=!maddons.gravitite,distance=..16] at @s run function magical_addons:item/gravitite/fall_up
+
+## wizarding table purge
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{gui:1}}}}}]
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{result:1}}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:brown_shulker_box",components:{"minecraft:container":[{}],"minecraft:custom_name":{"translate":"item.magical_addons.wizarding_table"}}}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:barrel",components:{"minecraft:container":[{}],"minecraft:custom_name":{"translate":"item.magical_addons.wizarding_table"}}}}]
 
-## shared
+## repeat
 schedule function magical_addons:main/half_second 10

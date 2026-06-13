@@ -67,6 +67,7 @@ scoreboard objectives add maddons.reload_sub_chunk dummy
 scoreboard objectives add maddons.step dummy
 scoreboard objectives add maddons.stepping dummy
 scoreboard objectives add maddons.cooldown dummy
+scoreboard objectives add maddons.sound_cooldown dummy
 scoreboard objectives add maddons.efficiency dummy
 scoreboard objectives add maddons.nefficiency dummy
 scoreboard objectives add maddons.commanding_spell dummy

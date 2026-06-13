@@ -11,9 +11,11 @@ tag @n[tag=maddons.target_entity] remove maddons.target_entity
 
 ## Motion
 scoreboard players add @s maddons.move 1
-tag @s[scores={maddons.damage=3}] add maddons.deflect
-tp @s[tag=!maddons.deflect] ^ ^ ^1
-tp @s[tag=maddons.deflect] ^ ^ ^-0.8
+execute if entity @s[tag=maddons.deflect] unless score @s maddons.damage matches 3 run tag @s remove maddons.deflect
+execute if score @s maddons.damage matches 3 run rotate @s[tag=!maddons.deflect] ~180 ~
+execute if score @s maddons.damage matches 3 run tag @s add maddons.deflect
+execute anchored eyes run rotate @s[tag=!maddons.entity.unattractable] facing entity @p[tag=maddons.entity.use_ring_of_magnetism,distance=..16] eyes
+execute anchored eyes run tp @s ^ ^ ^1
 
 execute if score @s maddons.damage matches 1 run kill
 execute if score @s maddons.move matches 99.. run kill

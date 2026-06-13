@@ -10,6 +10,9 @@ execute if score @s maddons.mana matches 201.. run function magical_addons:effec
 ## Wand casting cooldown
 scoreboard players remove @s[scores={maddons.cooldown=1..}] maddons.cooldown 1
 
+## Wand casting sound cooldown
+scoreboard players remove @s[scores={maddons.sound_cooldown=1..}] maddons.sound_cooldown 1
+
 ## Turn item splash potions into splash potion projectiles
 execute at @a as @n[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_splash_potion"}}}}},distance=..16] at @s if predicate magical_addons:block/dispenser run function magical_addons:item/sparkstone_splash_potion/set_projectile
 execute at @a as @n[type=item,nbt={Item:{components:{"minecraft:custom_data":{magical_addons:{id:"sparkstone_lingering_potion"}}}}},distance=..16] at @s if predicate magical_addons:block/dispenser run function magical_addons:item/sparkstone_lingering_potion/set_projectile
@@ -69,6 +72,9 @@ execute if score @s maddons.portal matches 0.. run function magical_addons:playe
 ## Developer
 tellraw @s[tag=maddons.dev] ["",{"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n-------------------------------\n"},{"text":"Custom Blocks: ","color":"green"},{"score":{"name":"#maddons.block","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill Blocks]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.block]"}},{"text":"\n"},{"text":"Custom Entities: ","color":"green"},{"score":{"name":"#maddons.entity","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.entity]"}},{"text":"\n"},{"text":"Custom Spells: ","color":"green"},{"score":{"name":"#maddons.magic","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.magic]"}},{"text":"\n"},{"text":"Custom Particles: ","color":"green"},{"score":{"name":"#maddons.particle","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.particle]"}},{"text":"\n\n"},{"text":"Total Items: ","color":"aqua"},{"score":{"name":"#maddons.item","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=item]"}},{"text":"\n"},{"text":"Registered Entities: ","color":"aqua"},{"score":{"name":"#maddons.registered","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[tag=maddons.registered,type=!player]"}},{"text":"\n"},{"text":"Total Entities: ","color":"aqua"},{"score":{"name":"#maddons.global","objective":"maddons.stat"},"color":"yellow"},{"text":" [Kill All]","color":"red","click_event":{"action":"run_command","command":"kill @e[type=!player]"}},{"text":"\n-------------------------------"}]
 execute if score @s maddons.developer_mode matches 1.. run function magical_addons:dev/toggle_dev_mode
+
+## Ring of magnetism
+function magical_addons:item/ring_of_magnetism/attract
 
 ## Reset
 advancement revoke @s only magical_addons:---/player/tick

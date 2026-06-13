@@ -2,6 +2,7 @@
 # called by: player_tick
 
 execute if score @s maddons.portal matches 0 run title @s times 0 6 0
+execute if score @s maddons.portal matches 0 run title @s subtitle [""]
 execute if score @s maddons.portal matches 0 run effect give @s nausea 6 0 true
 execute if score @s maddons.portal matches 0 run title @s title ["",{"text":"\uE073","shadow_color":0}]
 execute if score @s maddons.portal matches 1 run title @s title ["",{"text":"\uE074","shadow_color":0}]

@@ -8,7 +8,7 @@ execute if entity @s[gamemode=!creative] if data entity @s equipment.offhand.com
 execute if entity @s[gamemode=creative] run function magical_addons:item/ancient_staff/disambiguation {hand:"offhand",nbt:"equipment.offhand"}
 
 ## Use (!Creative Mode)
-$execute if entity @s[gamemode=!creative] unless score @s maddons.mana matches $(min_mana).. run return run playsound magical_addons:item.generic.spell.fizzle player @s ~ ~ ~
+$execute if entity @s[gamemode=!creative] unless score @s maddons.mana matches $(min_mana).. unless score @s maddons.sound_cooldown matches 1.. run return run playsound magical_addons:item.generic.spell.fizzle player @s ~ ~ ~ 0.5
 execute if entity @s[gamemode=!creative] run function magical_addons:item/ancient_staff/disambiguation {hand:"offhand",nbt:"equipment.offhand"}
 
 ## Break
