@@ -1,17 +1,17 @@
 {
-  "parent": "magical_addons:aether/sparkstone_orb",
+  "parent": "magical_addons:aether/gravitite_armour",
   "display": {
     "icon": {
       "id": "minecraft:recovery_compass",
       "components": {
-        "minecraft:item_model": "magical_addons:ancient_staff"
+        "minecraft:item_model": "magical_addons:ring_of_magnetism"
       }
     },
     "title": {
-      "translate": "advancements.magical_addons.aether.get_ancient_staff.title"
+      "translate": "advancements.magical_addons.aether.ring_of_magnetism.title"
     },
     "description": {
-      "translate": "advancements.magical_addons.aether.get_ancient_staff.description"
+      "translate": "advancements.magical_addons.aether.ring_of_magnetism.description"
     },
     "frame": "goal",
     "show_toast": true,
@@ -27,7 +27,7 @@
             "predicates": {
               "minecraft:custom_data": {
                 "magical_addons": {
-                  "id": "ancient_staff"
+                  "id": "ring_of_magnetism"
                 }
               }
             }
@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "experience": 6
+    "experience": 8
   }
 }

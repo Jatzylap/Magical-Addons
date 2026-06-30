@@ -1,17 +1,17 @@
 {
-  "parent": "magical_addons:aether/ritual_sanctuary",
+  "parent": "magical_addons:aether/root",
   "display": {
     "icon": {
       "id": "minecraft:stick",
       "components": {
-        "minecraft:item_model": "magical_addons:sparkstone_shard"
+        "minecraft:item_model": "magical_addons:gravitite"
       }
     },
     "title": {
-      "translate": "advancements.magical_addons.aether.get_sparkstone.title"
+      "translate": "advancements.magical_addons.aether.get_gravitite.title"
     },
     "description": {
-      "translate": "advancements.magical_addons.aether.get_sparkstone.description"
+      "translate": "advancements.magical_addons.aether.get_gravitite.description"
     },
     "frame": "task"
   },
@@ -24,7 +24,7 @@
             "components": {
               "minecraft:custom_data": {
                 "magical_addons": {
-                  "id": "sparkstone_shard"
+                  "id": "gravitite"
                 }
               }
             }

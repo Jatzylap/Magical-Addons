@@ -1,5 +1,5 @@
 {
-  "parent": "magical_addons:story/craft_wand",
+  "parent": "magical_addons:aether/root",
   "criteria": {
     "find_ritual_sanctuary": {
       "conditions": {
@@ -14,17 +14,14 @@
   },
   "display": {
     "description": {
-      "translate": "advancements.magical_addons.story.ritual_sanctuary.description"
+      "translate": "advancements.magical_addons.aether.ritual_sanctuary.description"
     },
     "icon": {
       "count": 1,
-      "id": "minecraft:magma_block",
-      "components": {
-        "minecraft:item_model": "magical_addons:sparkstone"
-      }
+      "id": "minecraft:chest"
     },
     "title": {
-      "translate": "advancements.magical_addons.story.ritual_sanctuary.title"
+      "translate": "advancements.magical_addons.aether.ritual_sanctuary.title"
     }
   },
   "requirements": [

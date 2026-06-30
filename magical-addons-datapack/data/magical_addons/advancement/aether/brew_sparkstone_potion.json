@@ -1,4 +1,5 @@
 {
+  "parent": "magical_addons:aether/get_sparkstone",
   "display": {
     "icon": {
       "id": "potion",
@@ -21,7 +22,6 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "magical_addons:aether/get_sparkstone",
   "criteria": {
     "brew_sparkstone_potion": {
       "trigger": "minecraft:impossible"

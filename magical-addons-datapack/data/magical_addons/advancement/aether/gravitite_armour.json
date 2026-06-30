@@ -1,5 +1,5 @@
 {
-  "parent": "magical_addons:aether/root",
+  "parent": "magical_addons:aether/get_gravitite",
   "criteria": {
     "gravitite_armour": {
       "conditions": {

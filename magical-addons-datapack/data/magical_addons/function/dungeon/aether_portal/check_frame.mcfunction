@@ -1,6 +1,9 @@
 # dungeon:aether_portal/check_frame
 # called by: dungeon:aether_portal/scan
 
+## adv
+execute if block ~ ~ ~ #magical_addons:aether_portal run advancement grant @p only magical_addons:story/light_aether_portal
+
 ## facing=north
 execute if block ~ ~ ~ #magical_addons:aether_portal[part=foot,facing=north] run return run function magical_addons:block/custom/aether_portal/generate_north
 
