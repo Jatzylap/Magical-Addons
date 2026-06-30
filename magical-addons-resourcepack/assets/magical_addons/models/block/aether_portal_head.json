@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/template_bed_head",
+  "textures": {
+    "east": "magical_addons:block/aether_portal_head_east",
+    "up": "magical_addons:block/aether_portal_head_up",
+    "west": "magical_addons:block/aether_portal_head_west"
+  }
+}

@@ -6,9 +6,6 @@ $tp $(x) $(y) $(z)
 ## Load chunks
 execute at @s run forceload add ~-1 ~-2 ~1 ~1
 
-## 'Your portal was obstructed' 
-execute at @s unless block ~ ~ ~ white_bed{components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run scoreboard players set #magical_addons:aether_obstructed maddons.temp 1
-
 ## Calculate chunk coords to load custom blocks 
 execute store result score #maddons.chunk maddons.x store result score #maddons.chunk_ maddons.x run data get entity @s Pos[0]
 execute store result score #maddons.chunk maddons.y store result score #maddons.chunk_ maddons.y run data get entity @s Pos[1]

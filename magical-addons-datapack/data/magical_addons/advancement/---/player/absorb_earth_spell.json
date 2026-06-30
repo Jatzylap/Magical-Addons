@@ -13,7 +13,7 @@
               }
             ],
             "direct_entity": {
-              "type": "minecraft:evoker_fangs"
+              "minecraft:entity_type": "minecraft:evoker_fangs"
             }
           }
         }

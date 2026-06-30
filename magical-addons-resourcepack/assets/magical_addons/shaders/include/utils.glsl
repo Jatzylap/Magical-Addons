@@ -6,7 +6,8 @@
 #define SPIDER_EYE_COLOUR_EMISSIVE_0   0xFF0E0E
 #define SPIDER_EYE_COLOUR_EMISSIVE_1   0xA60202
 #define SPIDER_EYE_COLOUR_EMISSIVE_2   0x620000
-#define ALPHA_CUTOUT_COLOUR            0x00FE00
+#define NO_AMBIENT_OCCLUSION           0x00FE00
+#define NO_TINT_SHADING                0x0000FE
 
 int vec3ToInt(vec3 col) {
    ivec3 icol = ivec3(col*255.);

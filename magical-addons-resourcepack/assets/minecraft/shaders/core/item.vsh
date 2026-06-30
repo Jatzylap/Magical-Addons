@@ -5,7 +5,6 @@
 #moj_import <minecraft:dynamictransforms.glsl>
 #moj_import <minecraft:projection.glsl>
 #moj_import <minecraft:sample_lightmap.glsl>
-#moj_import <minecraft:animation_sprite.glsl>
 #moj_import <magical_addons:utils.glsl>
 
 in vec3 Position;
@@ -16,42 +15,43 @@ in ivec2 UV2;
 in vec3 Normal;
 
 uniform sampler2D Sampler0;
+uniform sampler2D Sampler1;
 uniform sampler2D Sampler2;
 
 out float sphericalVertexDistance;
 out float cylindricalVertexDistance;
 out vec4 vertexColor;
+out vec4 lightMapColor;
+out vec4 overlayColor;
+flat out int noAmbientOcclusion;
+flat out int noTintShading;
+
 out vec2 texCoord0;
 
 void main() {
 
+    vec3 alpha = texture(Sampler0, UV0).rgb;
+    noAmbientOcclusion = 0;
+    noTintShading = 0;
+    // Exclude GUI models
+    if (ProjMat[3].x != -1)
+    {
+        if (vec3ToInt(alpha) == NO_AMBIENT_OCCLUSION) {
+            noAmbientOcclusion = 1;
+        }
+        else if (vec3ToInt(alpha) == NO_TINT_SHADING) {
+            noTintShading = 1;
+        }
+    }
+
+    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+
     sphericalVertexDistance = fog_spherical_distance(Position);
     cylindricalVertexDistance = fog_cylindrical_distance(Position);
 
-    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color) * sample_lightmap(Sampler2, UV2);
-
-    /*
-    // Get mipmap levels
-    int maxLevel = 0;
-    for (int i = 0; i < 128; i += 1) {
-        vec2 a = textureSize(Sampler0, i);
-        vec2 b = textureSize(Sampler0, i + 1);
-        if (a != vec2(0,0) && b != vec2(0,0)) {
-            maxLevel = i;
-            break;
-        }
-    }
-    */
-
-    // No ambient occlusion
-    vec3 alpha = texture(Sampler0, UV0).rgb;
-    if (ProjMat[3].x != -1 && // Exclude GUI models
-        vec3ToInt(alpha) == ALPHA_CUTOUT_COLOUR) {
-        vertexColor = Color * sample_lightmap(Sampler2, UV2);
-    }
-
-
-    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
+    vertexColor = minecraft_mix_light(Light0_Direction, Light1_Direction, Normal, Color);
+    lightMapColor = sample_lightmap(Sampler2, UV2);
+    overlayColor = texelFetch(Sampler1, UV1, 0);
 
     texCoord0 = UV0;
 }

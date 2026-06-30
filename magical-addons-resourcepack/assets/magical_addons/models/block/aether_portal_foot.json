@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_bed_foot",
+  "textures": {
+    "east": "magical_addons:block/aether_portal_foot_east",
+    "south": "magical_addons:block/aether_portal_foot_south",
+    "up": "magical_addons:block/aether_portal_foot_up",
+    "west": "magical_addons:block/aether_portal_foot_west"
+  }
+}

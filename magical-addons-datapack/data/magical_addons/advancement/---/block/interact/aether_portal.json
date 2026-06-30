@@ -9,9 +9,9 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"aether_portal\"}}}}"
-                }
+                "blocks": "#magical_addons:aether_portal"
               }
+            }
           }
         ]
       }

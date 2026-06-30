@@ -55,7 +55,7 @@
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "minecraft:item_display",
+                "entity_type": "minecraft:item_display",
                 "nbt": "{Tags:[maddons.wizarding_table]}"
               }
             }

@@ -12,9 +12,9 @@
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                  "type": "minecraft:player",
-                  "nbt": "{SleepTimer:99s}",
-                  "location": {
+                  "minecraft:entity_type": "minecraft:player",
+                  "minecraft:nbt": "{SleepTimer:99s}",
+                  "minecraft:location": {
                     "dimension": "minecraft:the_aether"
                   }
                 }

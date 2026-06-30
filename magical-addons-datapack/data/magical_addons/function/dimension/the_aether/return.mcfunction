@@ -1,8 +1,6 @@
 # dimension:the_aether/return
 # called by: dimension:overworld/loop, dimension:the_aether/test_return
 
-advancement revoke @s only magical_addons:---/dimension/aether_return_bed
-
 ## Return aether & overworld coords
 function magical_addons:dimension/the_aether/return_coords with entity @s
 

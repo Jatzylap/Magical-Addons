@@ -1,4 +1,4 @@
-# block:custom/aether_portal/tick
+# block:custom/aether_bed/tick
 # called by: main:one_second
 
 ## Particles

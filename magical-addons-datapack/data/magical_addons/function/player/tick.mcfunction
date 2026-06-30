@@ -66,7 +66,7 @@ execute if data storage magical_addons:config {"disable_custom_boss_music":false
 execute as @s[scores={maddons.dialog.gamerules=1..}] run function magical_addons:dialog/gamerules with storage magical_addons:config
 
 ## Aether portal overlay
-execute unless data entity @s {SleepTimer:0s} if data block ~ ~ ~ {components:{"minecraft:custom_data":{magical_addons:{id:"aether_portal"}}}} run scoreboard players add @s maddons.portal 0
+execute unless data entity @s {SleepTimer:0s} if block ~ ~ ~ #magical_addons:aether_portal if entity @n[type=item_display,tag=maddons.aether_portal,distance=...5] run scoreboard players add @s maddons.portal 0
 execute if score @s maddons.portal matches 0.. run function magical_addons:player/aether_portal_overlay
 
 ## Developer

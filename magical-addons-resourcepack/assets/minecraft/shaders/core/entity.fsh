@@ -57,10 +57,12 @@ void main() {
 #ifndef NO_OVERLAY
     color.rgb = mix(overlayColor.rgb, color.rgb, overlayColor.a);
 #endif
+#ifdef EMISSIVE
     // Remove emissive spider eye colours
     if (vec3ToInt(texture(Sampler0, texCoord0).rgb) == SPIDER_EYE_COLOUR_EMISSIVE_0 ||
         vec3ToInt(texture(Sampler0, texCoord0).rgb) == SPIDER_EYE_COLOUR_EMISSIVE_1 ||
         vec3ToInt(texture(Sampler0, texCoord0).rgb) == SPIDER_EYE_COLOUR_EMISSIVE_2) discard;
+#endif
 #ifndef EMISSIVE
     // Replace spider eye normal colours with emissive
     if (vec3ToInt(texture(Sampler0, texCoord0).rgb) == SPIDER_EYE_COLOUR_0) {
