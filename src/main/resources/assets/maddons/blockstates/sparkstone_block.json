@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "maddons:block/sparkstone_block"
+    }
+  }
+}

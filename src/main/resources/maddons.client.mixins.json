@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "com.maddons.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"MaddonsClientMixin",
+		"LivingRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
