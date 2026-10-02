@@ -97,38 +97,38 @@ import org.jetbrains.annotations.Nullable;
 
 public class SculkSpider extends AgeableMob implements IAdvancedClimber, VibrationSystem, Enemy
 {
-   private double lerpXRot;
-   private double lerpYRot;
-   private ClimberComponent climberComponent;
+	private double lerpXRot;
+	private double lerpYRot;
+   	private ClimberComponent climberComponent;
 	private static final Identifier SPEED_MODIFIER_BABY_ID = Identifier.fromNamespaceAndPath(Maddons.MOD_ID, "baby");
-   private static final AttributeModifier SPEED_MODIFIER_BABY = new AttributeModifier(SPEED_MODIFIER_BABY_ID, 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
-   private static final EntityDataAccessor<Integer> CLIENT_ANGER_LEVEL = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.INT);
-   private static final EntityDataAccessor<Byte> DATA_FLAGS_ID = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.BYTE);
-   private static final EntityDimensions BABY_DIMENSIONS = EntityDimensions
+   	private static final AttributeModifier SPEED_MODIFIER_BABY = new AttributeModifier(SPEED_MODIFIER_BABY_ID, 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE);
+   	private static final EntityDataAccessor<Integer> CLIENT_ANGER_LEVEL = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.INT);
+   	private static final EntityDataAccessor<Byte> DATA_FLAGS_ID = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.BYTE);
+   	private static final EntityDimensions BABY_DIMENSIONS = EntityDimensions
       .scalable(0.56F, 0.36F)
 	   .withEyeHeight(0.33F)
       .withAttachments(EntityAttachments.builder().attach(EntityAttachment.VEHICLE, 0.0F, 0.1875F, 0.0F));
 	private DynamicGameEventListener<VibrationSystem.Listener> dynamicGameEventListener;
-   private VibrationSystem.Data vibrationData;
-   private VibrationSystem.User vibrationUser;
-   private AngerManagement angerManagement = new AngerManagement(this::canTargetEntity, Collections.emptyList());
-   private static final Brain.Provider<SculkSpider> BRAIN_PROVIDER = Brain.provider(
+   	private VibrationSystem.Data vibrationData;
+   	private VibrationSystem.User vibrationUser;
+   	private AngerManagement angerManagement = new AngerManagement(this::canTargetEntity, Collections.emptyList());
+   	private static final Brain.Provider<SculkSpider> BRAIN_PROVIDER = Brain.provider(
       List.of(MemoryModuleType.NEAREST_VISIBLE_NEMESIS, MemoryModuleType.RECENT_PROJECTILE, MemoryModuleType.TOUCH_COOLDOWN, MemoryModuleType.VIBRATION_COOLDOWN),
       List.of(SensorType.NEAREST_PLAYERS, MaddonsSensorTypes.SCULK_SPIDER_SENSOR),
       SculkSpiderAi::getActivities
    );
    
 
-   public SculkSpider(EntityType<? extends AgeableMob> entityType, Level level)
-   {
+   	public SculkSpider(EntityType<? extends AgeableMob> entityType, Level level)
+	{
 		super(entityType, level);
-      this.dynamicGameEventListener = new DynamicGameEventListener<>(new VibrationSystem.Listener(this));
+      	this.dynamicGameEventListener = new DynamicGameEventListener<>(new VibrationSystem.Listener(this));
 		this.vibrationUser = new SculkSpider.VibrationUser();
 		this.vibrationData = new VibrationSystem.Data();
-      this.climberComponent = new ClimberComponent(this);
-      this.moveControl = new ClimberMoveController<>(this);
-      this.lookControl = new ClimberLookController<>(this);
-      this.jumpControl = new ClimberJumpController<>(this);
+		this.climberComponent = new ClimberComponent(this);
+		this.moveControl = new ClimberMoveController<>(this);
+		this.lookControl = new ClimberLookController<>(this);
+		this.jumpControl = new ClimberJumpController<>(this);
 	}
 
 	public static AttributeSupplier.Builder createAttributes()
@@ -296,7 +296,7 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
    }
 
    public boolean shouldTrackPathingTargets() {
-      return true;
+      return false;
    }
 
 	public void setClimbing(final boolean value) {
@@ -318,14 +318,14 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
       }
       super.tick();
       if (!this.level().isClientSide())
-      {
-         this.setClimbing(this.horizontalCollision || this.verticalCollision);
-         AttributeInstance speed = this.getAttribute(Attributes.MOVEMENT_SPEED);
-			speed.removeModifier(SPEED_MODIFIER_BABY_ID);
-			if (this.isBaby())
+	{
+		this.setClimbing(this.horizontalCollision);
+		AttributeInstance speed = this.getAttribute(Attributes.MOVEMENT_SPEED);
+		speed.removeModifier(SPEED_MODIFIER_BABY_ID);
+		if (this.isBaby())
          {
-				speed.addTransientModifier(SPEED_MODIFIER_BABY);
-			}
+			speed.addTransientModifier(SPEED_MODIFIER_BABY);
+		}
       }
       ClimberHelper.tickClimber(this);
    }

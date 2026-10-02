@@ -12,7 +12,7 @@ public class ClimberPathNavigator<T extends Mob & IAdvancedClimber> extends Adva
    private BlockPos targetPosition;
 
    public ClimberPathNavigator(T entity, Level worldIn, boolean useVanillaBehaviour) {
-      super(entity, worldIn, false, true, true);
+      super(entity, worldIn, true, true, true);
       this.useVanillaBehaviour = useVanillaBehaviour;
    }
 

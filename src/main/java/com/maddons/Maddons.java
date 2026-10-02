@@ -1,7 +1,8 @@
 package com.maddons;
 
-// import com.maddons.item.MaddonsItems;
+import com.maddons.item.MaddonsItems;
 import com.maddons.block.MaddonsBlocks;
+import com.maddons.client.particle.MaddonsParticleTypes;
 import com.maddons.entity.MaddonsEntityTypes;
 import com.maddons.event.MaddonsEvents;
 import com.maddons.network.MaddonsPayloads;
@@ -19,8 +20,8 @@ public class Maddons implements ModInitializer {
 	@Override
 	public void onInitialize()
 	{
-		// All static fields are evaluated
-		// MaddonsItems.initialise();
+		// All static fields are evaluated, initialise() method is read before instances of classes are created
+		MaddonsItems.initialise();
 		MaddonsBlocks.initialise();
 		MaddonsEntityTypes.initialise();
 		MaddonsEntityTypes.registerAttributes();
@@ -29,5 +30,6 @@ public class Maddons implements ModInitializer {
 		MaddonsPayloads.registerClientBound();
 		MaddonsPayloads.registerServerBound();
 		MaddonsSensorTypes.initialise();
+		MaddonsParticleTypes.register();
 	}
 }
