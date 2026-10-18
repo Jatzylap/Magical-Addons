@@ -1,7 +1,7 @@
-![Banner image](https://github.com/Jatzylap/Magical-Addons/blob/master/src/thumbnail.png)
+![Banner image](https://github.com/Jatzylap/Magical-Addons/blob/main/docs/thumbnail.png)
 # Magical Addons
 
-Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a mod designed to consistently further the boundaries of magic in Minecraft.
+Craft a wand and fight new mobs, or go to bed and chase the Aether dimension! Magical Addons is a datapack designed to consistently further the boundaries of magic in Minecraft.
 
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/hyNAnMwk?color=00AF5C&logo=modrinth)](https://modrinth.com/datapack/magical--addons)
 [![Modrinth Version](https://img.shields.io/modrinth/game-versions/hyNAnMwk?color=00AF5C&label=latest&logo=modrinth&last=true)](https://modrinth.com/datapack/magical--addons)
@@ -16,7 +16,9 @@ Centered around the idea of a magic ecosystem, **Magical Addons** breathes new l
 When struck by a **Lightning Bolt**, a **White Bed** turns into an **Aether Portal**; providing the sleeping player with a unique entry into the **Aether** dimension. For the best chance of a strike, you can place a **Lightning Rod** next to the bed. Striking the rod with the **Channelling** enchantment works too. Next, sleep in the bed when it is way past your bedtime.
 
 ## Setup
-- Locate your .minecraft installation directory
-- Drop the DP into the datapacks directory of your world or the Data Pack world settings window
-- Drop the RP into the resourcepacks directory
-- Select the RP from your Resource Pack list
+- Clone this repository with Git
+- Run `build.py` with Python (3.14.5)
+- Locate the generated packs in the `dist` folder
+- Drop the `datapack` into the datapacks directory of your world or the Data Pack world settings window
+- Drop the `resourcepack` into the resourcepacks directory
+- Select the Resource Pack from your Resource Pack list
