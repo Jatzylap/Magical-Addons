@@ -37,6 +37,7 @@ class Config:
 		buildpath = os.path.join(self.out_path, self.out_name)
 		datapack = self.provideMcmeta()
 		shutil.copytree("src", buildpath)
+		shutil.copy("res/pack.png", os.path.join(buildpath, "pack.png"))
 		if self.out_license:
 			shutil.copy("LICENSE", os.path.join(buildpath, "LICENSE"))
 		try:
