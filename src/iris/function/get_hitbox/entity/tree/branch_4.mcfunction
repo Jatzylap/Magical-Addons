@@ -1,0 +1,13 @@
+execute if entity @s[type=#iris:shape_groups/arrow] run function iris:get_hitbox/entity/shape_groups/arrow
+execute if entity @s[type=#iris:shape_groups/bogged] run function iris:get_hitbox/entity/shape_groups/bogged
+execute if entity @s[type=minecraft:cave_spider] run function iris:get_hitbox/entity/shape_groups/cave_spider
+execute if entity @s[type=#iris:shape_groups/cow] run function iris:get_hitbox/entity/shape_groups/cow
+execute if entity @s[type=#iris:shape_groups/dragon_fireball] run function iris:get_hitbox/entity/shape_groups/dragon_fireball
+execute if entity @s[type=#iris:shape_groups/endermite] run function iris:get_hitbox/entity/shape_groups/endermite
+execute if entity @s[type=#iris:shape_groups/ghast] run function iris:get_hitbox/entity/shape_groups/ghast
+execute if entity @s[type=#iris:shape_groups/hoglin] run function iris:get_hitbox/entity/shape_groups/hoglin
+execute if entity @s[type=#iris:shape_groups/nautilus] run function iris:get_hitbox/entity/shape_groups/nautilus
+execute if entity @s[type=minecraft:ravager] run function iris:get_hitbox/entity/shape_groups/ravager
+execute if entity @s[type=minecraft:strider] run function iris:get_hitbox/entity/shape_groups/strider
+execute if entity @s[type=minecraft:wither] run function iris:get_hitbox/entity/shape_groups/wither
+execute if entity @s[type=minecraft:phantom] run function iris:get_hitbox/entity/shape_groups/phantom

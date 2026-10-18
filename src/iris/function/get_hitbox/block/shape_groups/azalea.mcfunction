@@ -1,0 +1,1 @@
+data modify storage iris:data shape set value [{min: [0.375d, 0.0d, 0.375d], max: [0.625d, 1.0d, 0.625d]}, {min: [0.0d, 0.5d, 0.0d], max: [0.375d, 1.0d, 1.0d]}, {min: [0.375d, 0.5d, 0.0d], max: [1.0d, 1.0d, 0.375d]}, {min: [0.375d, 0.5d, 0.625d], max: [1.0d, 1.0d, 1.0d]}, {min: [0.625d, 0.5d, 0.375d], max: [1.0d, 1.0d, 0.625d]}]

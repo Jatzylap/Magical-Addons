@@ -1,0 +1,522 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack1.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE011"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack2.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE012"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack3.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE013"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack4.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE014"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack5.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE015"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack6.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE016"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/title/pack7.png",
+            "ascent": 25,
+            "height": 25,
+            "chars": ["\uE017"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_empty.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE038"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_1.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE039"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_2.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE040"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_3.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE041"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_4.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE042"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_5.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE043"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_6.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE044"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_7.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE045"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_8.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE046"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_9.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE047"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_10.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE048"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_11.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE049"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_12.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE050"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_13.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE051"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_14.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE052"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_15.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE053"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_16.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE054"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_17.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE055"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_18.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE056"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_19.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE057"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_20.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE058"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_21.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE059"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_22.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE060"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_max.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE061"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_progress_max_out.png",
+            "ascent": -34,
+            "height": 9,
+            "chars": ["\uE062"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_0.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE063"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_1.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE064"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_2.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE065"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_3.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE066"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_4.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE067"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_5.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE068"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_6.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE069"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_7.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE070"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_8.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE071"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/mana_9.png",
+            "ascent": -30,
+            "height": 9,
+            "chars": ["\uE072"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_1.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE073"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_2.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE074"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_3.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE075"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_4.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE076"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_5.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE077"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_6.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE078"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_7.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE079"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_8.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE080"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_9.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE081"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_10.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE082"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_11.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE083"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_12.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE084"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_13.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE085"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_14.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE086"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_15.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE087"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_16.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE088"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_17.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE089"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_18.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE090"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_19.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE091"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_20.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE092"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_21.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE093"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_22.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE094"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_23.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE095"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_24.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE096"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_25.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE097"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_26.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE098"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_27.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE099"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_28.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE100"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_29.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE101"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_30.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE102"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_31.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE103"]
+        },
+        {
+            "type": "bitmap",
+            "file": "magical_addons:gui/sprites/hud/aether_portal_overlay_32.png",
+            "height": 255,
+            "ascent": 128,
+            "chars": ["\uE104"]
+        }
+    ]
+}

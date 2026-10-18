@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "magical_addons:gravitite"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "magical_addons:gravitite"
+      }
+    ]
+  }
+}

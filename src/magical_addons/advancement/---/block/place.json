@@ -1,0 +1,8 @@
+{
+  "parent": "magical_addons:---/block/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#iris:shape_groups/arrow",
+    "#iris:shape_groups/bogged",
+    "minecraft:cave_spider",
+    "#iris:shape_groups/cow",
+    "#iris:shape_groups/dragon_fireball",
+    "#iris:shape_groups/endermite",
+    "#iris:shape_groups/ghast",
+    "#iris:shape_groups/hoglin",
+    "#iris:shape_groups/nautilus",
+    "minecraft:ravager",
+    "minecraft:strider",
+    "minecraft:wither",
+    "minecraft:phantom"
+  ]
+}

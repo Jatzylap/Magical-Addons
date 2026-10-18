@@ -1,0 +1,13 @@
+execute if entity @s[type=minecraft:armadillo] run function iris:get_hitbox/entity/shape_groups/armadillo
+execute if entity @s[type=#iris:shape_groups/blaze] run function iris:get_hitbox/entity/shape_groups/blaze
+execute if entity @s[type=#iris:shape_groups/cat] run function iris:get_hitbox/entity/shape_groups/cat
+execute if entity @s[type=minecraft:copper_golem] run function iris:get_hitbox/entity/shape_groups/copper_golem
+execute if entity @s[type=minecraft:donkey] run function iris:get_hitbox/entity/shape_groups/donkey
+execute if entity @s[type=minecraft:enderman] run function iris:get_hitbox/entity/shape_groups/enderman
+execute if entity @s[type=#iris:shape_groups/falling_block] run function iris:get_hitbox/entity/shape_groups/falling_block
+execute if entity @s[type=minecraft:guardian] run function iris:get_hitbox/entity/shape_groups/guardian
+execute if entity @s[type=#iris:shape_groups/llama] run function iris:get_hitbox/entity/shape_groups/llama
+execute if entity @s[type=minecraft:rabbit] run function iris:get_hitbox/entity/shape_groups/rabbit
+execute if entity @s[type=minecraft:spider] run function iris:get_hitbox/entity/shape_groups/spider
+execute if entity @s[type=minecraft:warden] run function iris:get_hitbox/entity/shape_groups/warden
+execute if entity @s[type=minecraft:magma_cube] run function iris:get_hitbox/entity/shape_groups/magma_cube

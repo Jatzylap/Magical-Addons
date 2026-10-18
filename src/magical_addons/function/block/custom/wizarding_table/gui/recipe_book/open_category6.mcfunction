@@ -1,0 +1,21 @@
+# block:custom/wizarding_table/gui/recipe_book/open_category6
+# called by: block:custom/wizarding_table/gui/recipe_book
+
+## Sound
+execute if entity @s[tag=!maddons.block.rb.c1_,\
+                     tag=!maddons.block.rb.c2_,\
+                     tag=!maddons.block.rb.c3_,\
+                     tag=!maddons.block.rb.c4_,\
+                     tag=!maddons.block.rb.c5_] run playsound ui.button.click ui @p ~ ~ ~ .3
+
+## Exit (debug)
+execute if entity @s[tag=maddons.block.rb.c1_] run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category1
+execute if entity @s[tag=maddons.block.rb.c2_] run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category2
+execute if entity @s[tag=maddons.block.rb.c3_] run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category3
+execute if entity @s[tag=maddons.block.rb.c4_] run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category4
+execute if entity @s[tag=maddons.block.rb.c5_] run function magical_addons:block/custom/wizarding_table/gui/recipe_book/close_category5
+
+tag @s add maddons.block.rb.c6
+
+## Set category page
+scoreboard players set @s maddons.wizarding_table_page 0

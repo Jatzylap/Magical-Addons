@@ -1,0 +1,42 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "maddons.x": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.x1"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.x1"
+      }
+    },
+    "maddons.y": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.y1"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.y1"
+      }
+    },
+    "maddons.z": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.z1"
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "maddons.z1"
+      }
+    }
+  }
+}

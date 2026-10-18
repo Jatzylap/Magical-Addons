@@ -1,0 +1,28 @@
+{
+  "parent": "magical_addons:story/craft_wand",
+  "criteria": {
+    "light_aether_portal": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.story.light_aether_portal.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:white_bed",
+      "components": {
+        "minecraft:item_model": "magical_addons:aether_portal"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.story.light_aether_portal.title"
+    }
+  },
+  "requirements": [
+    [
+      "light_aether_portal"
+    ]
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_model": "magical_addons:gravitite_leggings",
+                "minecraft:rarity": "common",
+                "minecraft:equippable": {
+                  "slot": "legs",
+                  "asset_id": "magical_addons:gravitite",
+                  "equip_sound": {
+                    "sound_id": "magical_addons:item.armour.equip_gravitite"
+                  },
+                  "dispensable": true,
+                  "swappable": true,
+                  "equip_on_interact": true
+                },
+                "minecraft:item_name": {
+                  "translate": "item.magical_addons.gravitite_leggings"
+                },
+                "minecraft:custom_data": {
+                  "magical_addons": {
+                    "id": "gravitite_leggings"
+                  }
+                },
+                "minecraft:attribute_modifiers": [
+                  {
+                    "type": "minecraft:armor",
+                    "id": "magical_addons:armour_legs",
+                    "amount": 5,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:gravity",
+                    "id": "magical_addons:armour_legs",
+                    "amount": -0.015,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  },
+                  {
+                    "type": "minecraft:fall_damage_multiplier",
+                    "id": "magical_addons:armour_legs",
+                    "amount": -0.25,
+                    "operation": "add_value",
+                    "slot": "legs"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

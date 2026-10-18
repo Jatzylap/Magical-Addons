@@ -1,0 +1,14 @@
+execute if entity @s[type=#iris:shape_groups/acacia_boat] run function iris:get_hitbox/entity/shape_groups/acacia_boat
+execute if entity @s[type=minecraft:axolotl] run function iris:get_hitbox/entity/shape_groups/axolotl
+execute if entity @s[type=minecraft:breeze] run function iris:get_hitbox/entity/shape_groups/breeze
+execute if entity @s[type=#iris:shape_groups/chest_minecart] run function iris:get_hitbox/entity/shape_groups/chest_minecart
+execute if entity @s[type=minecraft:creaking] run function iris:get_hitbox/entity/shape_groups/creaking
+execute if entity @s[type=#iris:shape_groups/drowned] run function iris:get_hitbox/entity/shape_groups/drowned
+execute if entity @s[type=minecraft:ender_dragon] run function iris:get_hitbox/entity/shape_groups/ender_dragon
+execute if entity @s[type=minecraft:giant] run function iris:get_hitbox/entity/shape_groups/giant
+execute if entity @s[type=#iris:shape_groups/horse] run function iris:get_hitbox/entity/shape_groups/horse
+execute if entity @s[type=minecraft:panda] run function iris:get_hitbox/entity/shape_groups/panda
+execute if entity @s[type=minecraft:salmon] run function iris:get_hitbox/entity/shape_groups/salmon
+execute if entity @s[type=minecraft:tropical_fish] run function iris:get_hitbox/entity/shape_groups/tropical_fish
+execute if entity @s[type=minecraft:wither_skeleton] run function iris:get_hitbox/entity/shape_groups/wither_skeleton
+execute if entity @s[type=minecraft:player] run function iris:get_hitbox/entity/shape_groups/player

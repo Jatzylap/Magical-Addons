@@ -1,0 +1,2962 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:custom_model_data",
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/walk/39"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/run/15"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/39"
+                }
+              },
+              {
+                "threshold": 40,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/40"
+                }
+              },
+              {
+                "threshold": 41,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/41"
+                }
+              },
+              {
+                "threshold": 42,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/42"
+                }
+              },
+              {
+                "threshold": 43,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/43"
+                }
+              },
+              {
+                "threshold": 44,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/44"
+                }
+              },
+              {
+                "threshold": 45,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/45"
+                }
+              },
+              {
+                "threshold": 46,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/46"
+                }
+              },
+              {
+                "threshold": 47,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/47"
+                }
+              },
+              {
+                "threshold": 48,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/48"
+                }
+              },
+              {
+                "threshold": 49,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/49"
+                }
+              },
+              {
+                "threshold": 50,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/50"
+                }
+              },
+              {
+                "threshold": 51,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/51"
+                }
+              },
+              {
+                "threshold": 52,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/52"
+                }
+              },
+              {
+                "threshold": 53,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/53"
+                }
+              },
+              {
+                "threshold": 54,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/54"
+                }
+              },
+              {
+                "threshold": 55,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/55"
+                }
+              },
+              {
+                "threshold": 56,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/56"
+                }
+              },
+              {
+                "threshold": 57,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/57"
+                }
+              },
+              {
+                "threshold": 58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/58"
+                }
+              },
+              {
+                "threshold": 59,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/59"
+                }
+              },
+              {
+                "threshold": 60,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/60"
+                }
+              },
+              {
+                "threshold": 61,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/61"
+                }
+              },
+              {
+                "threshold": 62,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/62"
+                }
+              },
+              {
+                "threshold": 63,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/63"
+                }
+              },
+              {
+                "threshold": 64,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/64"
+                }
+              },
+              {
+                "threshold": 65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/65"
+                }
+              },
+              {
+                "threshold": 66,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/66"
+                }
+              },
+              {
+                "threshold": 67,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/67"
+                }
+              },
+              {
+                "threshold": 68,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/68"
+                }
+              },
+              {
+                "threshold": 69,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/69"
+                }
+              },
+              {
+                "threshold": 70,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/70"
+                }
+              },
+              {
+                "threshold": 71,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/71"
+                }
+              },
+              {
+                "threshold": 72,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/72"
+                }
+              },
+              {
+                "threshold": 73,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/73"
+                }
+              },
+              {
+                "threshold": 74,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/74"
+                }
+              },
+              {
+                "threshold": 75,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/75"
+                }
+              },
+              {
+                "threshold": 76,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/76"
+                }
+              },
+              {
+                "threshold": 77,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/77"
+                }
+              },
+              {
+                "threshold": 78,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/78"
+                }
+              },
+              {
+                "threshold": 79,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/79"
+                }
+              },
+              {
+                "threshold": 80,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/jump/80"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/spin/20"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/pound/22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/hurt/torso/redress/19"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "magical_addons:entity/automaton/hurt/torso/idle"
+      }
+    },
+    "on_false": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:custom_model_data",
+      "index": 0,
+      "entries": [
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/walk/39"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 2,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/run/15"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 3,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/22"
+                }
+              },
+              {
+                "threshold": 23,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/23"
+                }
+              },
+              {
+                "threshold": 24,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/24"
+                }
+              },
+              {
+                "threshold": 25,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/25"
+                }
+              },
+              {
+                "threshold": 26,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/26"
+                }
+              },
+              {
+                "threshold": 27,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/27"
+                }
+              },
+              {
+                "threshold": 28,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/28"
+                }
+              },
+              {
+                "threshold": 29,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/29"
+                }
+              },
+              {
+                "threshold": 30,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/30"
+                }
+              },
+              {
+                "threshold": 31,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/31"
+                }
+              },
+              {
+                "threshold": 32,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/32"
+                }
+              },
+              {
+                "threshold": 33,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/33"
+                }
+              },
+              {
+                "threshold": 34,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/34"
+                }
+              },
+              {
+                "threshold": 35,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/35"
+                }
+              },
+              {
+                "threshold": 36,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/36"
+                }
+              },
+              {
+                "threshold": 37,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/37"
+                }
+              },
+              {
+                "threshold": 38,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/38"
+                }
+              },
+              {
+                "threshold": 39,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/39"
+                }
+              },
+              {
+                "threshold": 40,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/40"
+                }
+              },
+              {
+                "threshold": 41,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/41"
+                }
+              },
+              {
+                "threshold": 42,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/42"
+                }
+              },
+              {
+                "threshold": 43,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/43"
+                }
+              },
+              {
+                "threshold": 44,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/44"
+                }
+              },
+              {
+                "threshold": 45,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/45"
+                }
+              },
+              {
+                "threshold": 46,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/46"
+                }
+              },
+              {
+                "threshold": 47,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/47"
+                }
+              },
+              {
+                "threshold": 48,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/48"
+                }
+              },
+              {
+                "threshold": 49,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/49"
+                }
+              },
+              {
+                "threshold": 50,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/50"
+                }
+              },
+              {
+                "threshold": 51,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/51"
+                }
+              },
+              {
+                "threshold": 52,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/52"
+                }
+              },
+              {
+                "threshold": 53,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/53"
+                }
+              },
+              {
+                "threshold": 54,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/54"
+                }
+              },
+              {
+                "threshold": 55,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/55"
+                }
+              },
+              {
+                "threshold": 56,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/56"
+                }
+              },
+              {
+                "threshold": 57,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/57"
+                }
+              },
+              {
+                "threshold": 58,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/58"
+                }
+              },
+              {
+                "threshold": 59,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/59"
+                }
+              },
+              {
+                "threshold": 60,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/60"
+                }
+              },
+              {
+                "threshold": 61,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/61"
+                }
+              },
+              {
+                "threshold": 62,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/62"
+                }
+              },
+              {
+                "threshold": 63,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/63"
+                }
+              },
+              {
+                "threshold": 64,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/64"
+                }
+              },
+              {
+                "threshold": 65,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/65"
+                }
+              },
+              {
+                "threshold": 66,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/66"
+                }
+              },
+              {
+                "threshold": 67,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/67"
+                }
+              },
+              {
+                "threshold": 68,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/68"
+                }
+              },
+              {
+                "threshold": 69,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/69"
+                }
+              },
+              {
+                "threshold": 70,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/70"
+                }
+              },
+              {
+                "threshold": 71,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/71"
+                }
+              },
+              {
+                "threshold": 72,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/72"
+                }
+              },
+              {
+                "threshold": 73,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/73"
+                }
+              },
+              {
+                "threshold": 74,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/74"
+                }
+              },
+              {
+                "threshold": 75,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/75"
+                }
+              },
+              {
+                "threshold": 76,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/76"
+                }
+              },
+              {
+                "threshold": 77,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/77"
+                }
+              },
+              {
+                "threshold": 78,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/78"
+                }
+              },
+              {
+                "threshold": 79,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/79"
+                }
+              },
+              {
+                "threshold": 80,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/jump/80"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 4,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/spin/20"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 6,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/19"
+                }
+              },
+              {
+                "threshold": 20,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/20"
+                }
+              },
+              {
+                "threshold": 21,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/21"
+                }
+              },
+              {
+                "threshold": 22,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/pound/22"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "threshold": 7,
+          "model": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:custom_model_data",
+            "index": 1,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/0"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/1"
+                }
+              },
+              {
+                "threshold": 2,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/2"
+                }
+              },
+              {
+                "threshold": 3,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/3"
+                }
+              },
+              {
+                "threshold": 4,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/4"
+                }
+              },
+              {
+                "threshold": 5,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/5"
+                }
+              },
+              {
+                "threshold": 6,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/6"
+                }
+              },
+              {
+                "threshold": 7,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/7"
+                }
+              },
+              {
+                "threshold": 8,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/8"
+                }
+              },
+              {
+                "threshold": 9,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/9"
+                }
+              },
+              {
+                "threshold": 10,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/10"
+                }
+              },
+              {
+                "threshold": 11,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/11"
+                }
+              },
+              {
+                "threshold": 12,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/12"
+                }
+              },
+              {
+                "threshold": 13,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/13"
+                }
+              },
+              {
+                "threshold": 14,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/14"
+                }
+              },
+              {
+                "threshold": 15,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/15"
+                }
+              },
+              {
+                "threshold": 16,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/16"
+                }
+              },
+              {
+                "threshold": 17,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/17"
+                }
+              },
+              {
+                "threshold": 18,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/18"
+                }
+              },
+              {
+                "threshold": 19,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "magical_addons:entity/automaton/normal/torso/redress/19"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "magical_addons:entity/automaton/normal/torso/idle"
+      }
+    }
+  }
+}

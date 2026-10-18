@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "magical_addons:item/copper_dagger"
+  }
+}

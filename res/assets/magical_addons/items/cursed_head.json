@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "model": {
+      "type": "minecraft:head",
+      "kind": "player",
+      "texture": "magical_addons:player/wide/herobrine"
+    },
+    "base": "magical_addons:item/template_skull"
+  }
+}

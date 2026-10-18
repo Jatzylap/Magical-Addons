@@ -1,0 +1,41 @@
+{
+  "parent": "magical_addons:aether/ritual_sanctuary",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "sparkstone_orb"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.aether.sparkstone_orb.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:magma_block",
+      "components": {
+        "minecraft:item_model": "magical_addons:sparkstone_orb"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.sparkstone_orb.title"
+    }
+  },
+  "requirements": [
+    [
+      "requirement"
+    ]
+  ]
+}

@@ -1,0 +1,6 @@
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=north] run data modify storage iris:data shape set value [{min: [0.1875d, 0.1875d, 0.6875d], max: [0.8125d, 0.8125d, 1.0d]}]
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=east] run data modify storage iris:data shape set value [{min: [0.0d, 0.1875d, 0.1875d], max: [0.3125d, 0.8125d, 0.8125d]}]
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=south] run data modify storage iris:data shape set value [{min: [0.1875d, 0.1875d, 0.0d], max: [0.8125d, 0.8125d, 0.3125d]}]
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=west] run data modify storage iris:data shape set value [{min: [0.6875d, 0.1875d, 0.1875d], max: [1.0d, 0.8125d, 0.8125d]}]
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=up] run data modify storage iris:data shape set value [{min: [0.1875d, 0.0d, 0.1875d], max: [0.8125d, 0.3125d, 0.8125d]}]
+execute if block ~ ~ ~ minecraft:large_amethyst_bud[facing=down] run data modify storage iris:data shape set value [{min: [0.1875d, 0.6875d, 0.1875d], max: [0.8125d, 1.0d, 0.8125d]}]

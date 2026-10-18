@@ -1,0 +1,65 @@
+[
+  {
+    "function": "set_custom_model_data",
+    "floats": {
+      "values": [
+        1
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "magical_addons:entity/sculk_spider/walk"
+      }
+    ]
+  },
+  {
+    "function": "set_custom_model_data",
+    "floats": {
+      "values": [
+        2
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:reference",
+        "name": "magical_addons:entity/sculk_spider/crawl"
+      }
+    ]
+  },
+  {
+    "function": "set_custom_model_data",
+    "floats": {
+      "values": [
+        0
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:reference",
+              "name": "magical_addons:entity/sculk_spider/crawl"
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "magical_addons:entity/sculk_spider/walk"
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

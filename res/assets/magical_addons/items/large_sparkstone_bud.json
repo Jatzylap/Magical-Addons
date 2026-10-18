@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "cases": [
+      {
+        "when": "block",
+        "model": {
+          "type": "minecraft:model",
+          "model": "magical_addons:block/large_sparkstone_bud"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "magical_addons:item/large_sparkstone_bud"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# item:copper_wand/use
+# called by advancement: item:use/copper_wand
+
+## Offhand use
+execute unless score @s maddons.cooldown matches 1.. unless data entity @s {SelectedItem:{components:{"minecraft:custom_data":{magical_addons:{id:"copper_wand"}}}}} if data entity @s {equipment:{offhand:{components:{"minecraft:custom_data":{magical_addons:{id:"copper_wand"}}}}}} run function magical_addons:item/copper_wand/use_offhand with entity @s equipment.offhand.components."minecraft:custom_data".magical_addons
+
+## Mainhand use
+execute unless score @s maddons.cooldown matches 1.. if data entity @s {SelectedItem:{components:{"minecraft:custom_data":{magical_addons:{id:"copper_wand"}}}}} run function magical_addons:item/copper_wand/use_mainhand with entity @s SelectedItem.components."minecraft:custom_data".magical_addons
+
+## Mana meter
+function magical_addons:player/mana_meter
+
+## Cooldowns
+execute unless score @s maddons.cooldown matches 1.. run scoreboard players add @s maddons.cooldown 2
+execute unless score @s maddons.sound_cooldown matches 1.. run scoreboard players add @s maddons.sound_cooldown 10
+
+## Reset
+advancement revoke @s from magical_addons:---/item/use

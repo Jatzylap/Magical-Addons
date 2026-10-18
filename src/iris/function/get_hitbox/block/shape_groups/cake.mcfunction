@@ -1,0 +1,7 @@
+execute if block ~ ~ ~ minecraft:cake[bites=0] run data modify storage iris:data shape set value [{min: [0.0625d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=1] run data modify storage iris:data shape set value [{min: [0.1875d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=2] run data modify storage iris:data shape set value [{min: [0.3125d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=3] run data modify storage iris:data shape set value [{min: [0.4375d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=4] run data modify storage iris:data shape set value [{min: [0.5625d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=5] run data modify storage iris:data shape set value [{min: [0.6875d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]
+execute if block ~ ~ ~ minecraft:cake[bites=6] run data modify storage iris:data shape set value [{min: [0.8125d, 0.0d, 0.0625d], max: [0.9375d, 0.5d, 0.9375d]}]

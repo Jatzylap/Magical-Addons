@@ -1,0 +1,43 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "magical_addons": {
+        "can_interact_with_block": true,
+        "block_interact_target": "minecraft:structure_void",
+        "interact_hitbox_width": 1.0,
+        "interact_hitbox_height": 1.0,
+        "id": "bone_meal"
+      }
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:bone_meal"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "items": "minecraft:bone_meal"
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,94 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        3
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{data:{magical_addons:{attack:{id:shoot}}}}"
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{data:{magical_addons:{attack:{id:jump}}}}"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        4
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{data:{magical_addons:{attack:{id:spin}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        5
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{data:{magical_addons:{attack:{id:punch}}}}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_custom_model_data",
+    "floats": {
+      "values": [
+        6
+      ],
+      "mode": "replace_section",
+      "size": 1,
+      "offset": 0
+    },
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{data:{magical_addons:{attack:{id:pound}}}}"
+        }
+      }
+    ]
+  }
+]

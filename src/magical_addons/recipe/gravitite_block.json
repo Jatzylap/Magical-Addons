@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "minecraft:repeating_command_block"
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "id": "minecraft:spawner",
+    "count": 1,
+    "components": {
+      "minecraft:item_model": "magical_addons:gravitite_block",
+      "minecraft:item_name": {
+        "translate": "item.magical_addons.gravitite_block"
+      },
+      "minecraft:custom_data": {
+        "magical_addons": {
+          "generated": false,
+          "id": "gravitite_block",
+          "sound": "playsound block.stone.step block @a ~ ~ ~ 0.15",
+          "break_speed": 0,
+          "loot_id": 4,
+          "groups": [
+            "explodable"
+          ]
+        }
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:block_entity_data"
+        ]
+      }
+    }
+  }
+}

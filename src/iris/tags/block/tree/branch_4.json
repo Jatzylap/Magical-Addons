@@ -1,0 +1,27 @@
+{
+  "values": [
+    "#iris:shape_groups/black_bed",
+    "minecraft:short_dry_grass",
+    "#iris:shape_groups/brown_mushroom",
+    "#iris:shape_groups/black_carpet",
+    "#iris:shape_groups/dirt_path",
+    "#iris:shape_groups/acacia_wall_sign",
+    "#iris:shape_groups/acacia_button",
+    "minecraft:cake",
+    "#iris:shape_groups/attached_melon_stem",
+    "minecraft:lily_pad",
+    "minecraft:brewing_stand",
+    "minecraft:ender_chest",
+    "#iris:shape_groups/creeper_wall_head",
+    "minecraft:daylight_detector",
+    "minecraft:torchflower_crop",
+    "minecraft:turtle_egg",
+    "#iris:shape_groups/brain_coral_wall_fan",
+    "minecraft:grindstone",
+    "minecraft:sweet_berry_bush",
+    "minecraft:composter",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:spore_blossom",
+    "minecraft:big_dripleaf_stem"
+  ]
+}

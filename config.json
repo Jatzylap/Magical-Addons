@@ -1,0 +1,11 @@
+{
+	"release_version": "0.3.2",
+	"output_license_in_packs": true,
+	"build_path": "dist",
+	"output_datapack_name": "datapack",
+	"output_resourcepack_name": "resourcepack",
+	"datapack_min_format": 107.1,
+	"datapack_max_format": 107.1,
+	"resourcepack_min_format": 88.0,
+	"resourcepack_max_format": 88.0
+}

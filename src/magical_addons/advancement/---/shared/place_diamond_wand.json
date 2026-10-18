@@ -1,0 +1,24 @@
+{
+  "parent": "magical_addons:---/shared/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:command_block",
+                "nbt": "{components:{\"minecraft:custom_data\":{magical_addons:{id:\"diamond_wand\"}}}}"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "magical_addons:item/diamond_wand/debug/raycast"
+  }
+}

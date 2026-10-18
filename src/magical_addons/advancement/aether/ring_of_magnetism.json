@@ -1,0 +1,42 @@
+{
+  "parent": "magical_addons:aether/gravitite_armour",
+  "display": {
+    "icon": {
+      "id": "minecraft:recovery_compass",
+      "components": {
+        "minecraft:item_model": "magical_addons:ring_of_magnetism"
+      }
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.ring_of_magnetism.title"
+    },
+    "description": {
+      "translate": "advancements.magical_addons.aether.ring_of_magnetism.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": {
+                "magical_addons": {
+                  "id": "ring_of_magnetism"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 8
+  }
+}

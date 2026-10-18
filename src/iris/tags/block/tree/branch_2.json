@@ -1,0 +1,28 @@
+{
+  "values": [
+    "#iris:shape_groups/acacia_sapling",
+    "#iris:shape_groups/crimson_roots",
+    "minecraft:piston_head",
+    "#iris:shape_groups/copper_wall_torch",
+    "minecraft:redstone_wire",
+    "minecraft:ladder",
+    "minecraft:lever",
+    "#iris:shape_groups/acacia_fence",
+    "#iris:shape_groups/black_stained_glass_pane",
+    "#iris:shape_groups/glow_lichen",
+    "minecraft:nether_wart",
+    "minecraft:end_portal_frame",
+    "#iris:shape_groups/carrots",
+    "#iris:shape_groups/anvil",
+    "#iris:shape_groups/end_rod",
+    "#iris:shape_groups/conduit",
+    "#iris:shape_groups/brain_coral",
+    "minecraft:bamboo",
+    "#iris:shape_groups/copper_lantern",
+    "minecraft:weeping_vines",
+    "minecraft:amethyst_cluster",
+    "#iris:shape_groups/copper_golem_statue",
+    "minecraft:leaf_litter",
+    "minecraft:pale_moss_carpet"
+  ]
+}

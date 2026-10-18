@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "magical_addons:particle/spell",
+    "tints": [
+      {
+        "type": "minecraft:custom_model_data",
+        "default": 0
+      }
+    ]
+  }
+}

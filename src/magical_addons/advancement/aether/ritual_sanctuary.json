@@ -1,0 +1,32 @@
+{
+  "parent": "magical_addons:aether/root",
+  "criteria": {
+    "find_ritual_sanctuary": {
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "magical_addons:ritual_sanctuary"
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.magical_addons.aether.ritual_sanctuary.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "translate": "advancements.magical_addons.aether.ritual_sanctuary.title"
+    }
+  },
+  "requirements": [
+    [
+      "find_ritual_sanctuary"
+    ]
+  ]
+}

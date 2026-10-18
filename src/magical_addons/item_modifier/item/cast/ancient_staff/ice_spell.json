@@ -1,0 +1,11 @@
+[
+  {
+    "function": "minecraft:set_custom_model_data",
+    "strings": {
+      "values": [
+        "ice"
+      ],
+      "mode": "replace_all"
+    }
+  }
+]
