@@ -1,9 +1,25 @@
-import os
-from src.main import Config
+import os, shutil, math, json
 from itertools import product
-import math
+from urllib import request
 
 class Generator:
+	'''
+	Converts requests into JSON
+	'''
+	def json_from_url(url):
+		return json.loads(request.urlopen(url).read())
+	'''
+	Generate Named Binary Tag (NBT) files from Stringified Named Binary Tags (SNBT) files
+	'''
+	def snbtToNbt(root: str, input: str):
+		path = os.path.join(root, input)
+		os.system(f'java -DbundlerMainClass="net.minecraft.data.Main" -jar server.jar --server --input {path} --output {path}')
+	'''
+	Generate Named Binary Tag (NBT) files from Stringified Named Binary Tags (SNBT) files
+	'''
+	def nbtToSnbt(root: str, input: str):
+		path = os.path.join(root, input)
+		os.system(f'java -DbundlerMainClass="net.minecraft.data.Main" -jar server.jar --dev --input {path} --output {path}')
 	'''
 	Generate a square radius from origin => Useful for custom block updates 
 	code: Input code => add placeholders: {x}, {y}, {z}

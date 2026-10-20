@@ -1,5 +1,10 @@
-dist/
-docs/res/
-src/__pycache__
+docs/res
+
+dist
 __pycache__
-src/magical_addons/__pycache__
+libraries
+versions
+logs
+
+server.jar
+*.nbt

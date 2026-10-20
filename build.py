@@ -1,6 +1,5 @@
-import json
-import os
-import shutil
+import json, os, shutil
+
 from src.main import Config
 
 with open(os.path.join('config.json'), 'r') as cfile:
@@ -12,7 +11,9 @@ config_data = Config(
 	config["output_datapack_name"],
 	config["datapack_min_format"],
 	config["datapack_max_format"],
-	config["release_version"]
+	config["release_version"],
+	config["minecraft_version"],
+	config["snbt_source_paths"]
 )
 
 config_resources = Config(
@@ -21,7 +22,9 @@ config_resources = Config(
 	config["output_resourcepack_name"],
 	config["resourcepack_min_format"],
 	config["resourcepack_max_format"],
-	config["release_version"]
+	config["release_version"],
+	"",
+	[]
 )
 
 if __name__ == '__main__':

@@ -7,5 +7,9 @@
 	"datapack_min_format": 107.1,
 	"datapack_max_format": 107.1,
 	"resourcepack_min_format": 88.0,
-	"resourcepack_max_format": 88.0
+	"resourcepack_max_format": 88.0,
+	"minecraft_version": "26.2",
+	"snbt_source_paths": [
+		"data\\magical_addons\\structure"
+	]
 }

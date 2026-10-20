@@ -1,0 +1,16 @@
+{
+    DataVersion: 4189,
+    size: [1, 3, 1],
+    data: [
+        {pos: [0, 0, 0], state: "minecraft:jigsaw{orientation:down_south}", nbt: {final_state: "minecraft:structure_void", id: "minecraft:jigsaw", joint: "rollable", name: "magical_addons:entity", placement_priority: 0, pool: "minecraft:empty", selection_priority: 0, target: "magical_addons:entity"}},
+        {pos: [0, 1, 0], state: "minecraft:air"},
+        {pos: [0, 2, 0], state: "minecraft:air"}
+    ],
+    entities: [
+        {blockPos: [0, 1, 0], pos: [0.5752648210818734d, 1.0d, 0.46366410441169137d], nbt: {AbsorptionAmount: 0.0f, Air: 300s, ArmorDropChances: [0.0f, 0.0f, 0.0f, 0.0f], ArmorItems: [{}, {}, {}, {}], Brain: {memories: {}}, CanJoinRaid: 1b, CanPickUpLoot: 0b, DeathTime: 0s, FallDistance: 0.0f, FallFlying: 0b, Fire: -1s, HandDropChances: [0.0f, 0.0f], HandItems: [{}, {}], Health: 24.0f, HurtByTimestamp: 0, HurtTime: 0s, Invulnerable: 0b, LeftHanded: 0b, Motion: [0.0d, -0.0784000015258789d, 0.0d], OnGround: 1b, PatrolLeader: 0b, Patrolling: 0b, PersistenceRequired: 0b, PortalCooldown: 0, Pos: [16046.575264821082d, 152.0d, 5307.463664104412d], Rotation: [0.0f, -9.769243f], SpellTicks: 0, UUID: [I; 71486726, 1608402032, -1915704040, -304100725], Wave: 0, attributes: [{base: 0.5d, id: "minecraft:movement_speed"}, {base: 12.0d, id: "minecraft:follow_range", modifiers: [{amount: -0.047744594585313875d, id: "minecraft:random_spawn_bonus", operation: "add_multiplied_base"}]}], id: "minecraft:evoker"}}
+    ],
+    palette: [
+        "minecraft:air",
+        "minecraft:jigsaw{orientation:down_south}"
+    ]
+}
