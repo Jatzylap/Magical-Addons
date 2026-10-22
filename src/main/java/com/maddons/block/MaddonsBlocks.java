@@ -1,71 +1,51 @@
 package com.maddons.block;
 
 import java.util.function.Function;
-import com.maddons.Maddons;
-import com.maddons.client.particle.MaddonsParticleTypes;
 
-import net.minecraft.world.item.CreativeModeTabs;
+import com.maddons.client.particle.MaddonsParticleTypes;
+import com.maddons.fluid.MaddonsFluids;
+
 import net.minecraft.core.Registry;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.references.BlockItemId;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.Identifier;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.UntintedParticleLeavesBlock;
-import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 
 public class MaddonsBlocks {
-	private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties, boolean shouldRegisterItem) {
-		
-		ResourceKey<Block> blockKey = keyOfBlock(name);
-		Block block = blockFactory.apply(properties.setId(blockKey));
-
-		if (shouldRegisterItem) {
-			ResourceKey<Item> itemKey = keyOfItem(name);
-
-			BlockItem blockItem = new BlockItem(block, new Item.Properties().setId(itemKey).useBlockDescriptionPrefix());
-			Registry.register(BuiltInRegistries.ITEM, itemKey, blockItem);
-		}
-
-		return Registry.register(BuiltInRegistries.BLOCK, blockKey, block);
-	}
-
-	private static ResourceKey<Block> keyOfBlock(String name) {
-		return ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(Maddons.MOD_ID, name));
-	}
-
-	private static ResourceKey<Item> keyOfItem(String name) {
-		return ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(Maddons.MOD_ID, name));
-	}
-	public static void initialise()
+	private static Block register(BlockItemId id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties)
 	{
-		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register((creativeTab) -> {
-			creativeTab.accept(MaddonsBlocks.SPARKSTONE_BLOCK);
-		});
-		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.NATURAL_BLOCKS).register((creativeTab) -> {
-			creativeTab.accept(MaddonsBlocks.GOLDEN_OAK_LEAVES);
-		});
+		Block block = register(id.block(), blockFactory, properties);
+		BlockItem blockItem = new BlockItem(block, new Item.Properties().useBlockDescriptionPrefix().setId(id.item()));
+		Registry.register(BuiltInRegistries.ITEM, id.item(), blockItem);
+		return block;
+	}
+	
+	private static Block register(ResourceKey<Block> id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties)
+	{
+		Block block = blockFactory.apply(properties.setId(id));
+		return Registry.register(BuiltInRegistries.BLOCK, id, block);
 	}
 
-	public static final Block SPARKSTONE_BLOCK = register(
-		"sparkstone_block",
+	public static final Block CRYSTALISED_SPARKSTONE = register(
+		MaddonsBlockItemIds.CRYSTALISED_SPARKSTONE,
 		Block::new,
 		BlockBehaviour.Properties.of()
 		.strength(1.5F)
 		.sound(SoundType.AMETHYST)
-		.requiresCorrectToolForDrops(),
-		true
+		.requiresCorrectToolForDrops()
 	);
 	
 	public static final Block GOLDEN_OAK_LEAVES = register(
-		"golden_oak_leaves",
+		MaddonsBlockItemIds.GOLDEN_OAK_LEAVES,
 		p -> new UntintedParticleLeavesBlock(0.1F, MaddonsParticleTypes.GOLDEN_OAK_LEAVES, p),
 		BlockBehaviour.Properties.of()
 			.mapColor(MapColor.GOLD)
@@ -77,7 +57,15 @@ public class MaddonsBlocks {
 			.isViewBlocking(Blocks::never)
 			.ignitedByLava()
 			.pushReaction(PushReaction.DESTROY)
-			.isRedstoneConductor(Blocks::never),
-		true
+			.isRedstoneConductor(Blocks::never)
 	);
+
+	public static final Block SPARKSTONE = register(
+		MaddonsBlockIds.SPARKSTONE,
+		(props) -> new LiquidBlock(MaddonsFluids.SPARKSTONE, props),
+		BlockBehaviour.Properties.ofFullCopy(Blocks.LAVA)
+	);
+	
+	public static void initialise() {
+	}
 }

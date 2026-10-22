@@ -26,20 +26,14 @@ public abstract class LivingRendererMixin<T extends LivingEntity, S extends Livi
       super(context);
    }
 
-   @Inject(
-      method = "submit",
-      at = @At("HEAD")
-   )
+   @Inject(method = "submit", at = @At("HEAD"))
    private void livingRenderPre(S state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera, CallbackInfo ci) {
       if (state instanceof IAdvancedClimberRenderState climberState) {
          ClientClimberHelper.preRenderClimber(climberState, poseStack);
       }
    }
 
-   @Inject(
-      method = "submit",
-      at = @At("RETURN")
-   )
+   @Inject(method = "submit", at = @At("RETURN"))
    private void livingRenderPost(S state, PoseStack poseStack, SubmitNodeCollector submitNodeCollector, CameraRenderState camera, CallbackInfo ci) {
       if (state instanceof IAdvancedClimberRenderState climberState) {
          ClientClimberHelper.postRenderClimber(climberState, poseStack);

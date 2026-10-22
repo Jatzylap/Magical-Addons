@@ -8,7 +8,7 @@ import com.maddons.api.awcapi.entity.movement.ClimberJumpController;
 import com.maddons.api.awcapi.entity.movement.ClimberLookController;
 import com.maddons.api.awcapi.entity.movement.ClimberMoveController;
 import com.maddons.api.awcapi.entity.movement.ClimberPathNavigator;
-import com.maddons.tags.MaddonsBlockTags;
+import com.maddons.MaddonsTags;
 import com.maddons.entity.MaddonsEntityTypes;
 import com.maddons.entity.ai.sensing.MaddonsSensorTypes;
 import com.maddons.entity.goal.BetterLeapAtTargetGoal;
@@ -39,6 +39,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Unit;
 import net.minecraft.util.profiling.Profiler;
 import net.minecraft.util.profiling.ProfilerFiller;
+import net.minecraft.world.Difficulty;
 import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -79,7 +80,9 @@ import net.minecraft.world.entity.monster.warden.AngerLevel;
 import net.minecraft.world.entity.monster.warden.AngerManagement;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.ServerLevelAccessor;
+import net.minecraft.world.level.biome.Biomes;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.gameevent.DynamicGameEventListener;
 import net.minecraft.world.level.gameevent.EntityPositionSource;
@@ -105,17 +108,17 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
    	private static final EntityDataAccessor<Integer> CLIENT_ANGER_LEVEL = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.INT);
    	private static final EntityDataAccessor<Byte> DATA_FLAGS_ID = SynchedEntityData.defineId(SculkSpider.class, EntityDataSerializers.BYTE);
    	private static final EntityDimensions BABY_DIMENSIONS = EntityDimensions
-      .scalable(0.56F, 0.36F)
-	   .withEyeHeight(0.33F)
-      .withAttachments(EntityAttachments.builder().attach(EntityAttachment.VEHICLE, 0.0F, 0.1875F, 0.0F));
+    	.scalable(0.56F, 0.36F)
+		.withEyeHeight(0.33F)
+    	.withAttachments(EntityAttachments.builder().attach(EntityAttachment.VEHICLE, 0.0F, 0.1875F, 0.0F));
 	private DynamicGameEventListener<VibrationSystem.Listener> dynamicGameEventListener;
    	private VibrationSystem.Data vibrationData;
    	private VibrationSystem.User vibrationUser;
    	private AngerManagement angerManagement = new AngerManagement(this::canTargetEntity, Collections.emptyList());
    	private static final Brain.Provider<SculkSpider> BRAIN_PROVIDER = Brain.provider(
-      List.of(MemoryModuleType.NEAREST_VISIBLE_NEMESIS, MemoryModuleType.RECENT_PROJECTILE, MemoryModuleType.TOUCH_COOLDOWN, MemoryModuleType.VIBRATION_COOLDOWN),
-      List.of(SensorType.NEAREST_PLAYERS, MaddonsSensorTypes.SCULK_SPIDER_SENSOR),
-      SculkSpiderAi::getActivities
+    	List.of(MemoryModuleType.NEAREST_VISIBLE_NEMESIS, MemoryModuleType.RECENT_PROJECTILE, MemoryModuleType.TOUCH_COOLDOWN, MemoryModuleType.VIBRATION_COOLDOWN),
+    	List.of(SensorType.NEAREST_PLAYERS, MaddonsSensorTypes.SCULK_SPIDER_SENSOR),
+    	SculkSpiderAi::getActivities
    );
    
 
@@ -135,6 +138,7 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
    {
 		return Monster.createMonsterAttributes()
          .add(Attributes.MAX_HEALTH, 80.0F)
+		 .add(Attributes.BURNING_TIME, 0.0F)
          .add(Attributes.MOVEMENT_SPEED, 0.31F)
          .add(Attributes.KNOCKBACK_RESISTANCE, 16.0F)
          .add(Attributes.FOLLOW_RANGE, 16.0F);
@@ -145,13 +149,13 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 		return this.isBaby() ? BABY_DIMENSIONS : super.getDefaultDimensions(pose);
 	}
 
-   @Override
-   protected PathNavigation createNavigation(Level level)
-   {
-      ClimberPathNavigator<SculkSpider> navigator = new ClimberPathNavigator<>(this, level, true);
-      navigator.setCanFloat(true);
-      return navigator;
-   }
+	@Override
+	protected PathNavigation createNavigation(Level level)
+	{
+		ClimberPathNavigator<SculkSpider> navigator = new ClimberPathNavigator<>(this, level, true);
+		navigator.setCanFloat(true);
+		return navigator;
+	}
 
 	public AngerManagement getAngerManagement() {
 		return this.angerManagement;
@@ -186,17 +190,17 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 		return this.canTargetEntity(target);
 	}
 
-   public ClimberComponent getClimberComponent() {
-      return this.climberComponent;
-   }
+	public ClimberComponent getClimberComponent() {
+		return this.climberComponent;
+	}
 
-   public Mob asMob() {
-      return this;
-   }
+	public Mob asMob() {
+		return this;
+	}
 
-   public float getMovementSpeed() {
-      return (float)this.getAttributeValue(Attributes.MOVEMENT_SPEED);
-   }
+	public float getMovementSpeed() {
+		return (float)this.getAttributeValue(Attributes.MOVEMENT_SPEED);
+	}
 
 	private int getActiveAnger() {
 		return this.angerManagement.getActiveAnger(this.getTarget());
@@ -214,90 +218,94 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 		return this.getAngerLevel().isAngry() ? this.angerManagement.getActiveEntity() : Optional.empty();
 	}
 
-   public void clearAnger(final Entity entity) {
+	public void clearAnger(final Entity entity) {
 		this.angerManagement.clearAnger(entity);
 	}
 
-   public float getBlockSlipperiness(BlockPos pos) {
-      BlockState state = this.level().getBlockState(pos);
-      float slipperiness = state.getBlock().getFriction() * 0.91F;
-      if (state.is(MaddonsBlockTags.NON_CLIMBABLE)) {
-         slipperiness = 1.0F - (1.0F - slipperiness) * 0.25F;
-      }
+	@Override
+	public float getBlockSlipperiness(BlockPos pos) {
+		BlockState state = this.level().getBlockState(pos);
+		float slipperiness = state.getBlock().getFriction() * 0.91F;
+		if (state.is(MaddonsTags.Blocks.NON_CLIMBABLE)) {
+			slipperiness = 1.0F - (1.0F - slipperiness) * 0.25F;
+		}
 
-      return slipperiness;
-   }
+		return slipperiness;
+	}
+   
+	@Override
+	public boolean canClimbOnBlock(BlockState state, BlockPos pos) {
+		return !state.is(MaddonsTags.Blocks.NON_CLIMBABLE);
+	}
 
-   public boolean canClimbOnBlock(BlockState state, BlockPos pos) {
-      return !state.is(MaddonsBlockTags.NON_CLIMBABLE);
-   }
+	public void setLerpYRot(Float yRot) {
+		this.lerpYRot = yRot != null ? yRot.doubleValue() : 0.0;
+	}
 
-   public void setLerpYRot(Float yRot) {
-      this.lerpYRot = yRot != null ? yRot.doubleValue() : 0.0;
-   }
+	public void setLerpXRot(Float xRot) {
+		this.lerpXRot = xRot != null ? xRot.doubleValue() : 0.0;
+	}
 
-   public void setLerpXRot(Float xRot) {
-      this.lerpXRot = xRot != null ? xRot.doubleValue() : 0.0;
-   }
+	public void setLerpYHeadRot(Float yHeadRot) {
+		this.lerpYHeadRot = yHeadRot != null ? yHeadRot.doubleValue() : 0.0;
+	}
 
-   public void setLerpYHeadRot(Float yHeadRot) {
-      this.lerpYHeadRot = yHeadRot != null ? yHeadRot.doubleValue() : 0.0;
-   }
+	public void setLerpHeadSteps(int steps) {
+		this.lerpHeadSteps = steps;
+	}
 
-   public void setLerpHeadSteps(int steps) {
-      this.lerpHeadSteps = steps;
-   }
+	public Direction getGroundSide() {
+		return this.getClimberComponent().getGroundSide();
+	}
 
-   public Direction getGroundSide() {
-      return this.getClimberComponent().getGroundSide();
-   }
+	public void onPathingObstructed(Direction facing) {
+	}
 
-   public void onPathingObstructed(Direction facing) {
-   }
+	public int getMaxStuckCheckTicks() {
+		return 40;
+	}
 
-   public int getMaxStuckCheckTicks() {
-      return 40;
-   }
+	public float getBridgePathingMalus(Mob entity, BlockPos pos, @Nullable Node fallPathPoint) {
+		return -1.0F;
+	}
 
-   public float getBridgePathingMalus(Mob entity, BlockPos pos, @Nullable Node fallPathPoint) {
-      return -1.0F;
-   }
+	public float getPathingMalus(BlockGetter cache, Mob entity, PathType nodeType, BlockPos pos, Vec3i direction, Predicate<Direction> sides) {
+		if (direction.getY() != 0) {
+			boolean hasClimbableNeighbor = false;
+			MutableBlockPos offsetPos = new MutableBlockPos();
 
-   public float getPathingMalus(BlockGetter cache, Mob entity, PathType nodeType, BlockPos pos, Vec3i direction, Predicate<Direction> sides) {
-      if (direction.getY() != 0) {
-         boolean hasClimbableNeighbor = false;
-         MutableBlockPos offsetPos = new MutableBlockPos();
+			for (Direction offset : Direction.values())
+			{
+				if (sides.test(offset)) {
+					offsetPos.set(pos.getX() + offset.getStepX(), pos.getY() + offset.getStepY(), pos.getZ() + offset.getStepZ());
+					BlockState state = cache.getBlockState(offsetPos);
+					if (this.canClimbOnBlock(state, offsetPos))
+					{
+						hasClimbableNeighbor = true;
+						break;
+					}
+				}
+			}
 
-         for (Direction offset : Direction.values()) {
-            if (sides.test(offset)) {
-               offsetPos.set(pos.getX() + offset.getStepX(), pos.getY() + offset.getStepY(), pos.getZ() + offset.getStepZ());
-               BlockState state = cache.getBlockState(offsetPos);
-               if (this.canClimbOnBlock(state, offsetPos)) {
-                  hasClimbableNeighbor = true;
-                  break;
-               }
-            }
-         }
+			if (!hasClimbableNeighbor) {
+				return -1.0F;
+			}
+		}
 
-         if (!hasClimbableNeighbor) {
-            return -1.0F;
-         }
-      }
+		return entity.getPathfindingMalus(nodeType);
+	}
 
-      return entity.getPathfindingMalus(nodeType);
-   }
+	public void pathFinderCleanup() {
+	}
 
-   public void pathFinderCleanup() {
-   }
+	public boolean onClimbable() {
+		return false;
+	}
 
-   // Jump when stuck in water against a block (as opposed to doing nothing when false)
-   public boolean onClimbable() {
-      return true;
-   }
-
-   public boolean shouldTrackPathingTargets() {
-      return false;
-   }
+	@Override
+	public boolean shouldTrackPathingTargets() {
+		return false;
+	}
 
 	public void setClimbing(final boolean value) {
 		byte flags = this.entityData.get(DATA_FLAGS_ID);
@@ -310,25 +318,24 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 		this.entityData.set(DATA_FLAGS_ID, flags);
 	}
 
-   @Override
-   public void tick()
-   {
-      if (this.level() instanceof ServerLevel serverLevel) {
-         VibrationSystem.Ticker.tick(serverLevel, this.vibrationData, this.vibrationUser);
-      }
-      super.tick();
-      if (!this.level().isClientSide())
+	@Override
+	public void tick()
 	{
-		this.setClimbing(this.horizontalCollision);
-		AttributeInstance speed = this.getAttribute(Attributes.MOVEMENT_SPEED);
-		speed.removeModifier(SPEED_MODIFIER_BABY_ID);
-		if (this.isBaby())
-         {
-			speed.addTransientModifier(SPEED_MODIFIER_BABY);
+		if (this.level() instanceof ServerLevel serverLevel) {
+			VibrationSystem.Ticker.tick(serverLevel, this.vibrationData, this.vibrationUser);
 		}
-      }
-      ClimberHelper.tickClimber(this);
-   }
+		super.tick();
+		if (!this.level().isClientSide())
+		{
+			this.setClimbing(this.horizontalCollision);
+			AttributeInstance speed = this.getAttribute(Attributes.MOVEMENT_SPEED);
+			speed.removeModifier(SPEED_MODIFIER_BABY_ID);
+			if (this.isBaby()) {
+				speed.addTransientModifier(SPEED_MODIFIER_BABY);
+			}
+		}
+		ClimberHelper.tickClimber(this);
+	}
 
 	@Override
 	protected void customServerAiStep(final ServerLevel level)
@@ -374,9 +381,14 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 	@Override
 	public boolean hurtServer(final ServerLevel level, final DamageSource source, final float damage) {
 		boolean wasHurt = super.hurtServer(level, source, damage);
-		if (!this.isNoAi() 
-         // && !this.isDiggingOrEmerging()
-         ) {
+		if (!this.isNoAi() /* && !this.isDiggingOrEmerging()*/)
+		{
+			if (wasHurt && this.isClimbing()) {
+				this.setClimbing(false);
+				Vec3 hit = this.getGroundDirection().getRight().scale(-0.5);
+				this.setDeltaMovement(this.getDeltaMovement().add(hit));
+				Maddons.LOGGER.info("hit");
+			}
 			Entity attacker = source.getEntity();
 			this.increaseAngerAt(attacker, AngerLevel.ANGRY.getMinimumAnger() + 20);
 			if (this.brain.getMemory(MemoryModuleType.ATTACK_TARGET).isEmpty()
@@ -392,7 +404,6 @@ public class SculkSpider extends AgeableMob implements IAdvancedClimber, Vibrati
 	@Override
 	public boolean isPushable() {
 		return super.isPushable();
-      // && !this.isDiggingOrEmerging();
 	}
 
 	@Override

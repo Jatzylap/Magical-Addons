@@ -31,7 +31,7 @@ public abstract class EntityMixin implements IPayloadContext
 
     // method executes on entity NBT updates, world save, auto save
     @Inject(method = "saveWithoutId", at = @At("HEAD"))
-    protected void injectSaveMethod(ValueOutput output, CallbackInfo info)
+    void injectSaveMethod(ValueOutput output, CallbackInfo info)
     {
         if (persistentData != null)
         {
@@ -41,7 +41,7 @@ public abstract class EntityMixin implements IPayloadContext
 
     // method executes on world load
     @Inject(method = "load", at = @At("HEAD"))
-    protected void injectLoadMethod(ValueInput input, CallbackInfo info)
+    void injectLoadMethod(ValueInput input, CallbackInfo info)
     {
         if (input.contains("MaddonsData"))
         {

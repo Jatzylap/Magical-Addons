@@ -7,6 +7,7 @@ import com.maddons.entity.MaddonsEntityTypes;
 import com.maddons.event.MaddonsEvents;
 import com.maddons.network.MaddonsPayloads;
 import com.maddons.command.MaddonsCommands;
+import com.maddons.effect.MaddonsEffects;
 import com.maddons.entity.ai.sensing.MaddonsSensorTypes; 
 
 import org.slf4j.Logger;
@@ -24,6 +25,7 @@ public class Maddons implements ModInitializer {
 		MaddonsItems.initialise();
 		MaddonsBlocks.initialise();
 		MaddonsEntityTypes.initialise();
+		MaddonsEntityTypes.registerSpawnPlacements();
 		MaddonsEntityTypes.registerAttributes();
 		MaddonsCommands.registerCommands();
 		MaddonsEvents.registerEvents();
@@ -31,5 +33,6 @@ public class Maddons implements ModInitializer {
 		MaddonsPayloads.registerServerBound();
 		MaddonsSensorTypes.initialise();
 		MaddonsParticleTypes.register();
+		MaddonsEffects.initialise();
 	}
 }

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "maddons:sparkstone_block"
+          "name": "maddons:crystalised_sparkstone"
         }
       ],
       "conditions": [

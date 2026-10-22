@@ -22,6 +22,9 @@
 		],
 		"client": [
 			"com.maddons.client.MaddonsClient"
+		],
+		"fabric-datagen": [
+			"com.maddons.data.MaddonsDataGen"
 		]
 	},
 	"mixins": [

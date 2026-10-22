@@ -12,7 +12,14 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraft.world.entity.SpawnPlacementTypes;
+import net.minecraft.world.entity.SpawnPlacements;
+import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.level.biome.Biomes;
+import net.minecraft.world.level.levelgen.Heightmap;
 
+import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
+import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 
 public class MaddonsEntityTypes
@@ -22,10 +29,10 @@ public class MaddonsEntityTypes
 			EntityType.Builder.<SparkstoneGolem>of(SparkstoneGolem::new, MobCategory.MONSTER)
 					.sized(0.75f, 1.75f)
 	);
-		public static final EntityType<SculkSpider> SCULK_SPIDER = register(
-			"sculk_spider",
-			EntityType.Builder.<SculkSpider>of(SculkSpider::new, MobCategory.MONSTER)
-					.sized(1.4F, 0.9F) // very specific to its custom ai pathfinding and collision
+	public static final EntityType<SculkSpider> SCULK_SPIDER = register(
+		"sculk_spider",
+		EntityType.Builder.<SculkSpider>of(SculkSpider::new, MobCategory.MONSTER)
+			.sized(1.4F, 0.9F) // very specific to its custom ai pathfinding and collision
 	);
 
 	private static <T extends Entity> EntityType<T> register(String name, EntityType.Builder<T> builder)
@@ -38,6 +45,12 @@ public class MaddonsEntityTypes
 	{
 		FabricDefaultAttributeRegistry.register(SPARKSTONE_GOLEM, SparkstoneGolem.createAttributes());
 		FabricDefaultAttributeRegistry.register(SCULK_SPIDER, SculkSpider.createAttributes());
+	}
+
+	public static void registerSpawnPlacements()
+	{
+		BiomeModifications.addSpawn(BiomeSelectors.includeByKey(Biomes.DEEP_DARK), MobCategory.MONSTER, SCULK_SPIDER, 30, 3, 6);
+		SpawnPlacements.register(SCULK_SPIDER, SpawnPlacementTypes.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Monster::checkMonsterSpawnRules);
 	}
 
 	public static void initialise()

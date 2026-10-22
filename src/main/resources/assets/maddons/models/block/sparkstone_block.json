@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "maddons:block/sparkstone_block"
-  }
-}
